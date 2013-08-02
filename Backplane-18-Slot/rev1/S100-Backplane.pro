@@ -1,40 +1,7 @@
-update=8/3/2013 2:25:22 AM
-last_client=cvpcb
+update=8/3/2013 5:14:18 AM
+last_client=pcbnew
 [common]
 NetDir=
-[pcbnew]
-version=1
-PadDrlX=1200
-PadDimH=3500
-PadDimV=3500
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
-LastNetListRead=S100-Backplane.net
-[pcbnew/libraries]
-LibName1=connect
-LibName2=discret
-LibName3=pin_array
-LibName4=divers
-LibName5=libcms
-LibName6=display
-LibName7=valves
-LibName8=ALL other libs apart from ANTS_MOD1/S100connector
-LibName9=ALL other libs apart from ANTS_MOD1/supports
-LibName10=ALL other libs apart from ANTS_MOD1/XILINX
-LibName11=ALL other libs apart from ANTS_MOD1/xilinx_spartan3_virtex4_and_5
-LibName12=ALL other libs apart from ANTS_MOD1/xilinx_xc9572xl-tq100
-LibName13=ALL other libs apart from ANTS_MOD1/ref-packages
-LibName14=ANTS1/ANTS1
-LibDir=H:/S6_BOARD2/Ants Librarys
 [eeschema]
 version=1
 LibDir=H:/S6_BOARD2/Ants Librarys
@@ -152,3 +119,37 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[pcbnew]
+version=1
+PadDrlX=1200
+PadDimH=3500
+PadDimV=3500
+BoardThickness=630
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=S100-Backplane.net
+[pcbnew/libraries]
+LibDir=H:/S6_BOARD2/Ants Librarys
+LibName1=connect
+LibName2=discret
+LibName3=pin_array
+LibName4=divers
+LibName5=libcms
+LibName6=display
+LibName7=valves
+LibName8=ALL other libs apart from ANTS_MOD1/S100connector
+LibName9=ALL other libs apart from ANTS_MOD1/supports
+LibName10=ALL other libs apart from ANTS_MOD1/XILINX
+LibName11=ALL other libs apart from ANTS_MOD1/xilinx_spartan3_virtex4_and_5
+LibName12=ALL other libs apart from ANTS_MOD1/xilinx_xc9572xl-tq100
+LibName13=ALL other libs apart from ANTS_MOD1/ref-packages
+LibName14=ANTS1/ANTS1
+LibName15=C:/Users/user/Documents/S100 Backplane ANTS_MOD/LIB1

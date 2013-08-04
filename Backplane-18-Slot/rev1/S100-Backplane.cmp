@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/4/2013 4:48:53 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/4/2013 11:25:44 PM
 
 BeginCmp
 TimeStamp = /49D8F77C;
@@ -354,14 +354,14 @@ BeginCmp
 TimeStamp = /49D900F5;
 Reference = Q1;
 ValeurCmp = 2N3906;
-IdModule  = TO92;
+IdModule  = ^^TO92-inline;
 EndCmp
 
 BeginCmp
 TimeStamp = /49D9000D;
 Reference = Q2;
 ValeurCmp = 2N3904;
-IdModule  = TO92-INVERT;
+IdModule  = ^^TO92-inline;
 EndCmp
 
 BeginCmp
@@ -992,6 +992,13 @@ TimeStamp = /51FE341C;
 Reference = U1000;
 ValeurCmp = ^^LOGO1;
 IdModule  = ^^LOGO2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FEAF52;
+Reference = U1001;
+ValeurCmp = LOGO2;
+IdModule  = ^^LOGO5;
 EndCmp
 
 EndListe

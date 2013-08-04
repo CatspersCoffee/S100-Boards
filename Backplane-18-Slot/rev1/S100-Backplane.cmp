@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 8/3/2013 3:06:14 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/4/2013 4:48:53 PM
 
 BeginCmp
 TimeStamp = /49D8F77C;
@@ -652,6 +652,104 @@ IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /51FDDF22;
+Reference = R32;
+ValeurCmp = 10k;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF28;
+Reference = R33;
+ValeurCmp = 100;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF36;
+Reference = R34;
+ValeurCmp = 10k;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF3C;
+Reference = R35;
+ValeurCmp = 100;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF4C;
+Reference = R36;
+ValeurCmp = 10k;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF52;
+Reference = R37;
+ValeurCmp = 100;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF74;
+Reference = R38;
+ValeurCmp = 10k;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF6E;
+Reference = R39;
+ValeurCmp = 100;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF62;
+Reference = R40;
+ValeurCmp = 10k;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF5C;
+Reference = R41;
+ValeurCmp = 100;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF88;
+Reference = R42;
+ValeurCmp = 10k;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF82;
+Reference = R43;
+ValeurCmp = 100;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF10;
+Reference = R44;
+ValeurCmp = 10k;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FDDF16;
+Reference = R45;
+ValeurCmp = 100;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /49DA8DDD;
 Reference = RR1;
 ValeurCmp = 270;
@@ -887,6 +985,13 @@ TimeStamp = /51FB7C3A;
 Reference = U100;
 ValeurCmp = S100-EX;
 IdModule  = ^^S100_FEMALE;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FE341C;
+Reference = U1000;
+ValeurCmp = ^^LOGO1;
+IdModule  = ^^LOGO2;
 EndCmp
 
 EndListe

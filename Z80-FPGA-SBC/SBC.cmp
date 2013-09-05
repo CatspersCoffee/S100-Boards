@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/26/2013 10:51:27 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/5/2013 8:15:21 PM
 
 BeginCmp
 TimeStamp = /47E88034;
@@ -435,13 +435,6 @@ IdModule  = ^^LED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51D8F2A1;
-Reference = D7;
-ValeurCmp = LED;
-IdModule  = ^^LED-0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /51D8F2C5;
 Reference = D8;
 ValeurCmp = LED;
@@ -547,6 +540,13 @@ IdModule  = DIP-14__300;
 EndCmp
 
 BeginCmp
+TimeStamp = /5223CF89;
+Reference = P3;
+ValeurCmp = CLK_SEL;
+IdModule  = PIN_ARRAY_3X2;
+EndCmp
+
+BeginCmp
 TimeStamp = /51D63B4C;
 Reference = P4;
 ValeurCmp = XILINX CABLE;
@@ -617,20 +617,6 @@ IdModule  = ^^1pin;
 EndCmp
 
 BeginCmp
-TimeStamp = /51DE8648;
-Reference = P19;
-ValeurCmp = CONN_1;
-IdModule  = ^^1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /51DE8647;
-Reference = P20;
-ValeurCmp = CONN_1;
-IdModule  = ^^1pin;
-EndCmp
-
-BeginCmp
 TimeStamp = /51E60F9F;
 Reference = P21;
 ValeurCmp = S100_MALE;
@@ -641,7 +627,7 @@ BeginCmp
 TimeStamp = /51DF3F23;
 Reference = Q1;
 ValeurCmp = ^^NPN-BC817-SOT323;
-IdModule  = -SOT323R;
+IdModule  = ^^SOT23-3;
 EndCmp
 
 BeginCmp
@@ -669,7 +655,7 @@ BeginCmp
 TimeStamp = /5220CDD2;
 Reference = R4;
 ValeurCmp = 1K;
-IdModule  = ^^SMD_Resistor-0805;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
@@ -683,7 +669,7 @@ BeginCmp
 TimeStamp = /4C1EADA7;
 Reference = R12;
 ValeurCmp = 4700;
-IdModule  = R3;
+IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
@@ -731,13 +717,6 @@ EndCmp
 BeginCmp
 TimeStamp = /51D143F8;
 Reference = R27;
-ValeurCmp = 330;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51D8F2A2;
-Reference = R28;
 ValeurCmp = 330;
 IdModule  = ^^SMD_Resistor-0805;
 EndCmp

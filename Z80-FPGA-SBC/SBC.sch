@@ -82,9 +82,6 @@ LIBS:xilinx_xc9572xl-tq100
 LIBS:xilinxMOD1
 LIBS:Z8S180
 LIBS:z53c80
-LIBS:ANTS_MOD1
-LIBS:74xgxx
-LIBS:ac-dc
 LIBS:adc-dac
 LIBS:analog_switches
 LIBS:atmel
@@ -94,37 +91,21 @@ LIBS:cmos_ieee
 LIBS:cmos4000
 LIBS:contrib
 LIBS:cypress
-LIBS:dc-dc
 LIBS:device
 LIBS:digital-audio
 LIBS:display
 LIBS:dsp
-LIBS:elec-unifil
-LIBS:ftdi
 LIBS:gennum
 LIBS:graphic
 LIBS:interface
 LIBS:linear
-LIBS:logo
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
 LIBS:microcontrollers
-LIBS:msp430
-LIBS:nxp_armmcu
 LIBS:opto
 LIBS:philips
 LIBS:power
-LIBS:powerint
 LIBS:pspice
-LIBS:references
 LIBS:regul
-LIBS:relays
-LIBS:sensors
 LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
 LIBS:SymbolsSimilarEN60617+oldDIN617
 LIBS:texas
 LIBS:transf
@@ -133,6 +114,7 @@ LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
 LIBS:xxx
+LIBS:ANTS_MOD1
 LIBS:SBC-cache
 EELAYER 27 0
 EELAYER END
@@ -140,7 +122,7 @@ $Descr A0 46811 33110
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "25 aug 2013"
+Date "12 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -954,8 +936,6 @@ Wire Wire Line
 Wire Wire Line
 	17850 7850 17300 7850
 Wire Wire Line
-	2350 3400 1800 3400
-Wire Wire Line
 	3850 1900 3350 1900
 Wire Wire Line
 	3850 1600 3350 1600
@@ -1315,7 +1295,6 @@ Connection ~ 20550 11050
 Connection ~ 20950 10550
 Wire Wire Line
 	16350 3700 15750 3700
-Connection ~ 1800 3400
 Wire Wire Line
 	5750 6600 5750 6300
 Connection ~ 5750 6300
@@ -2591,7 +2570,7 @@ Wire Wire Line
 Wire Wire Line
 	22700 22250 23300 22250
 Wire Wire Line
-	24650 22650 25250 22650
+	22700 22650 23300 22650
 Wire Wire Line
 	22700 22750 23300 22750
 Wire Wire Line
@@ -2701,7 +2680,6 @@ NoConn ~ 18400 17950
 NoConn ~ 17000 18150
 NoConn ~ 17000 18050
 NoConn ~ 17000 17950
-NoConn ~ 23300 23150
 NoConn ~ 23300 22950
 NoConn ~ 23300 22850
 Text Label 4600 28050 0    60   ~ 0
@@ -3035,7 +3013,7 @@ Text Label 22750 22450 0    60   ~ 0
 TMA2*
 Text Label 22750 22550 0    60   ~ 0
 sXTRQ*
-Text Label 24700 22650 0    60   ~ 0
+Text Label 22750 22650 0    60   ~ 0
 A19
 Text Label 22750 22750 0    60   ~ 0
 SIXTN*
@@ -6337,7 +6315,7 @@ Text Label 24250 11050 0    60   ~ 0
 RESET
 Text Label 1250 8000 0    60   ~ 0
 /CS_UART
-Text Label 1900 3400 0    60   ~ 0
+Text Label 2900 4350 0    60   ~ 0
 CLK_CPU
 Text Label 3400 3700 0    60   ~ 0
 CLK_CPU
@@ -8181,24 +8159,14 @@ F 3 "" H 4650 14800 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4900 14800 5650 14800
-Wire Wire Line
-	3850 14700 4500 14700
-Wire Wire Line
-	4500 15800 3850 15800
 Text Label 4500 16300 0    60   ~ 0
 -16V
 Text Label 4500 15200 0    60   ~ 0
 +16V
 Wire Wire Line
-	4400 16000 4500 16000
-Wire Wire Line
-	4400 16000 4400 16300
-Wire Wire Line
 	4400 16300 4500 16300
 Wire Wire Line
-	4500 14900 4400 14900
-Wire Wire Line
-	4400 14900 4400 15200
+	4400 14700 4400 15200
 Wire Wire Line
 	4400 15200 4500 15200
 Text Notes 4850 15200 0    60   ~ 0
@@ -8452,8 +8420,8 @@ Pin 24 (Primary Processor clock line - USUALLY Output but Input into this board)
 Text Label 15100 29700 2    60   ~ 0
 PHI_CLOCK
 Wire Wire Line
-	22400 22650 23300 22650
-Text Label 22400 22650 0    60   ~ 0
+	22400 23150 23300 23150
+Text Label 22400 23150 0    60   ~ 0
 CLOCK2
 Text Label 17150 29600 0    60   ~ 0
 CLOCK2
@@ -9194,9 +9162,9 @@ Wire Notes Line
 	32400 28750 32400 28850
 Text Notes 32450 29250 1    60   ~ 0
 to FPGA
-Text Label 31700 31100 2    60   ~ 0
+Text Label 1450 4550 2    60   ~ 0
 PHI_CLOCK
-Text Label 31700 31000 2    60   ~ 0
+Text Label 1450 4450 2    60   ~ 0
 CLK_CPU2
 Wire Wire Line
 	34050 28050 34050 28300
@@ -9298,4 +9266,57 @@ Wire Notes Line
 	32800 21050 32800 20950
 Text Notes 32850 20900 1    60   ~ 0
 to LED's
+Wire Wire Line
+	4400 14700 4500 14700
+Wire Wire Line
+	3850 14700 4300 14700
+Wire Wire Line
+	4300 14700 4300 14900
+Wire Wire Line
+	4300 14900 4500 14900
+Wire Wire Line
+	3850 15800 4300 15800
+Wire Wire Line
+	4300 15800 4300 16000
+Wire Wire Line
+	4300 16000 4500 16000
+Wire Wire Line
+	4500 15800 4400 15800
+Wire Wire Line
+	4400 15800 4400 16300
+$Comp
+L CONN_3X2 P3
+U 1 1 5223CF89
+P 2300 4500
+F 0 "P3" H 2300 4750 50  0000 C CNN
+F 1 "CLK_SEL" V 2300 4550 40  0000 C CNN
+F 2 "~" H 2300 4500 60  0000 C CNN
+F 3 "~" H 2300 4500 60  0000 C CNN
+	1    2300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4350 2700 4350
+Wire Wire Line
+	2700 4550 2800 4550
+Wire Wire Line
+	2800 4550 2800 4350
+Connection ~ 2800 4350
+Wire Wire Line
+	2700 4450 2800 4450
+Connection ~ 2800 4450
+Wire Wire Line
+	1800 3400 1950 3400
+Wire Wire Line
+	1950 3400 1950 4050
+Wire Wire Line
+	1950 4050 1650 4050
+Wire Wire Line
+	1650 4050 1650 4350
+Wire Wire Line
+	1650 4350 1900 4350
+Wire Wire Line
+	1900 4450 1450 4450
+Wire Wire Line
+	1450 4550 1900 4550
 $EndSCHEMATC

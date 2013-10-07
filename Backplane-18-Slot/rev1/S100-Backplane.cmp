@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/7/2013 9:59:54 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/8/2013 12:30:30 AM
 
 BeginCmp
 TimeStamp = /49D8F77C;
@@ -57,13 +57,6 @@ IdModule  = C1V7;
 EndCmp
 
 BeginCmp
-TimeStamp = /5252456B;
-Reference = C9;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /5252459B;
 Reference = C10;
 ValeurCmp = 0.1 uF;
@@ -73,13 +66,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5252455F;
 Reference = C11;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524559;
-Reference = C12;
 ValeurCmp = 0.1 uF;
 IdModule  = ^^SMD_Resistor-0805;
 EndCmp
@@ -106,13 +92,6 @@ IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52524571;
-Reference = C16;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /52524595;
 Reference = C17;
 ValeurCmp = 0.1 uF;
@@ -120,29 +99,8 @@ IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52524565;
-Reference = C18;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /52524553;
 Reference = C19;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252454D;
-Reference = C20;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252453B;
-Reference = C21;
 ValeurCmp = 0.1 uF;
 IdModule  = ^^SMD_Resistor-0805;
 EndCmp
@@ -159,13 +117,6 @@ TimeStamp = /5252488D;
 Reference = C23;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524577;
-Reference = C24;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
@@ -1194,7 +1145,7 @@ BeginCmp
 TimeStamp = /52525461;
 Reference = U18;
 ValeurCmp = 74LS541;
-IdModule  = DIP-20__300;
+IdModule  = ^^-SO20W;
 EndCmp
 
 BeginCmp
@@ -1236,7 +1187,7 @@ BeginCmp
 TimeStamp = /5252534B;
 Reference = U25;
 ValeurCmp = 74HC245;
-IdModule  = DIP-20__300;
+IdModule  = ^^-SO20W;
 EndCmp
 
 BeginCmp
@@ -1331,38 +1282,10 @@ IdModule  = ^^LOGO11;
 EndCmp
 
 BeginCmp
-TimeStamp = /5229EB90;
-Reference = U3000;
-ValeurCmp = SRAM_512KB;
-IdModule  = DIP-32__600;
-EndCmp
-
-BeginCmp
-TimeStamp = /5229EB81;
-Reference = U3001;
-ValeurCmp = K6R4008C1D-SRAM_512KX8;
-IdModule  = -SOJ36-4;
-EndCmp
-
-BeginCmp
 TimeStamp = /522A20A5;
 Reference = U4000;
 ValeurCmp = FT232R;
 IdModule  = -SSOP28;
-EndCmp
-
-BeginCmp
-TimeStamp = /522FC715;
-Reference = U6000;
-ValeurCmp = IS61LV5128AL-SOJ32;
-IdModule  = ^^-SOP32;
-EndCmp
-
-BeginCmp
-TimeStamp = /522FCC81;
-Reference = U6001;
-ValeurCmp = SRAM_512KB;
-IdModule  = DIP-32__600;
 EndCmp
 
 BeginCmp

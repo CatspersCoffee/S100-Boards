@@ -10119,13 +10119,13 @@ Wire Wire Line
 Wire Wire Line
 	-34900 6550 -32750 6550
 Wire Wire Line
-	-14850 20200 -14750 20200
-Connection ~ -14250 20200
+	-22150 9650 -22050 9650
+Connection ~ -21550 9650
 Wire Wire Line
-	-14250 20200 -14350 20200
-Connection ~ -14250 19900
+	-21550 9650 -21650 9650
+Connection ~ -21550 9350
 Wire Wire Line
-	-14250 19900 -14350 19900
+	-21550 9350 -21650 9350
 Wire Wire Line
 	-25650 8900 -25850 8900
 Wire Wire Line
@@ -10191,11 +10191,11 @@ Wire Wire Line
 Wire Wire Line
 	-20550 3300 -19450 3300
 Wire Wire Line
-	-16550 13300 -15850 13300
+	-16200 16600 -15500 16600
 Wire Wire Line
-	-16550 13200 -15850 13200
+	-16200 16500 -15500 16500
 Wire Wire Line
-	-16550 13000 -15850 13000
+	-16200 16300 -15500 16300
 Wire Wire Line
 	-16550 12800 -15850 12800
 Wire Wire Line
@@ -10823,7 +10823,7 @@ Wire Wire Line
 Wire Wire Line
 	-15850 12900 -16550 12900
 Wire Wire Line
-	-15850 13100 -16550 13100
+	-15500 16400 -16200 16400
 Wire Wire Line
 	-25750 6000 -25550 6000
 Wire Wire Line
@@ -10881,18 +10881,18 @@ Wire Wire Line
 Wire Wire Line
 	-25850 8800 -25650 8800
 Wire Wire Line
-	-14250 20800 -14350 20800
+	-21550 10250 -21650 10250
 Wire Wire Line
-	-14250 19650 -14250 20800
+	-21550 9100 -21550 10250
 Wire Wire Line
-	-14250 19650 -14200 19650
+	-21550 9100 -21500 9100
 Wire Wire Line
-	-14250 20500 -14350 20500
-Connection ~ -14250 20500
+	-21550 9950 -21650 9950
+Connection ~ -21550 9950
 Wire Wire Line
-	-14850 20500 -14750 20500
+	-22150 9950 -22050 9950
 Wire Wire Line
-	-14850 19900 -14750 19900
+	-22150 9350 -22050 9350
 Wire Wire Line
 	-32700 6650 -33650 6650
 Connection ~ -44700 17300
@@ -11051,72 +11051,72 @@ F 4 "??" H -46300 17100 60  0000 R BIN "Digikey"
 	1    -46250 16900
 	-1   0    0    1   
 $EndComp
-Text Label -14200 19650 0    60   ~ 0
+Text Label -21500 9100 0    60   ~ 0
 GND
 $Comp
 L LED D5
 U 1 1 525243E2
-P -14550 20200
-F 0 "D5" H -14550 20300 50  0000 C CNN
-F 1 "LED" H -14550 20100 50  0000 C CNN
-F 2 "" H -14550 20200 60  0001 C CNN
-F 3 "" H -14550 20200 60  0001 C CNN
-	1    -14550 20200
+P -21850 9650
+F 0 "D5" H -21850 9750 50  0000 C CNN
+F 1 "LED" H -21850 9550 50  0000 C CNN
+F 2 "" H -21850 9650 60  0001 C CNN
+F 3 "" H -21850 9650 60  0001 C CNN
+	1    -21850 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R25
 U 1 1 525243E8
-P -15100 20200
-F 0 "R25" V -15020 20200 50  0000 C CNN
-F 1 "330" V -15100 20200 50  0000 C CNN
-F 2 "" H -15100 20200 60  0001 C CNN
-F 3 "" H -15100 20200 60  0001 C CNN
-	1    -15100 20200
+P -22400 9650
+F 0 "R25" V -22320 9650 50  0000 C CNN
+F 1 "330" V -22400 9650 50  0000 C CNN
+F 2 "" H -22400 9650 60  0001 C CNN
+F 3 "" H -22400 9650 60  0001 C CNN
+	1    -22400 9650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R24
 U 1 1 525243EE
-P -15100 19900
-F 0 "R24" V -15020 19900 50  0000 C CNN
-F 1 "330" V -15100 19900 50  0000 C CNN
-F 2 "" H -15100 19900 60  0001 C CNN
-F 3 "" H -15100 19900 60  0001 C CNN
-	1    -15100 19900
+P -22400 9350
+F 0 "R24" V -22320 9350 50  0000 C CNN
+F 1 "330" V -22400 9350 50  0000 C CNN
+F 2 "" H -22400 9350 60  0001 C CNN
+F 3 "" H -22400 9350 60  0001 C CNN
+	1    -22400 9350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D4
 U 1 1 525243F4
-P -14550 19900
-F 0 "D4" H -14550 20000 50  0000 C CNN
-F 1 "LED" H -14550 19800 50  0000 C CNN
-F 2 "" H -14550 19900 60  0001 C CNN
-F 3 "" H -14550 19900 60  0001 C CNN
-	1    -14550 19900
+P -21850 9350
+F 0 "D4" H -21850 9450 50  0000 C CNN
+F 1 "LED" H -21850 9250 50  0000 C CNN
+F 2 "" H -21850 9350 60  0001 C CNN
+F 3 "" H -21850 9350 60  0001 C CNN
+	1    -21850 9350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D6
 U 1 1 525243FA
-P -14550 20500
-F 0 "D6" H -14550 20600 50  0000 C CNN
-F 1 "LED" H -14550 20400 50  0000 C CNN
-F 2 "" H -14550 20500 60  0001 C CNN
-F 3 "" H -14550 20500 60  0001 C CNN
-	1    -14550 20500
+P -21850 9950
+F 0 "D6" H -21850 10050 50  0000 C CNN
+F 1 "LED" H -21850 9850 50  0000 C CNN
+F 2 "" H -21850 9950 60  0001 C CNN
+F 3 "" H -21850 9950 60  0001 C CNN
+	1    -21850 9950
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R26
 U 1 1 52524400
-P -15100 20500
-F 0 "R26" V -15020 20500 50  0000 C CNN
-F 1 "330" V -15100 20500 50  0000 C CNN
-F 2 "" H -15100 20500 60  0001 C CNN
-F 3 "" H -15100 20500 60  0001 C CNN
-	1    -15100 20500
+P -22400 9950
+F 0 "R26" V -22320 9950 50  0000 C CNN
+F 1 "330" V -22400 9950 50  0000 C CNN
+F 2 "" H -22400 9950 60  0001 C CNN
+F 3 "" H -22400 9950 60  0001 C CNN
+	1    -22400 9950
 	0    -1   -1   0   
 $EndComp
 Text Notes -28800 21850 0    60   ~ 0
@@ -11127,13 +11127,13 @@ Text Label -24800 10500 0    60   ~ 0
 FPGA_11
 Text Label -24800 10600 0    60   ~ 0
 FPGA_10
-Text Label -24800 10700 0    60   ~ 0
+Text Label -15750 16100 2    60   ~ 0
 FPGA_9
-Text Label -24800 10800 0    60   ~ 0
+Text Label -22800 9950 2    60   ~ 0
 FPGA_8
-Text Label -24800 10900 0    60   ~ 0
+Text Label -22800 9650 2    60   ~ 0
 FPGA_7
-Text Label -24800 11000 0    60   ~ 0
+Text Label -22800 9350 2    60   ~ 0
 FPGA_6
 Text Label -23050 11000 2    60   ~ 0
 FPGA_5
@@ -11251,13 +11251,13 @@ Text Label -16550 12800 0    60   ~ 0
 FPGA_94
 Text Label -16550 12900 0    60   ~ 0
 FPGA_93
-Text Label -16550 13000 0    60   ~ 0
+Text Label -16200 16300 0    60   ~ 0
 FPGA_92
-Text Label -16550 13100 0    60   ~ 0
+Text Label -16200 16400 0    60   ~ 0
 FPGA_88
-Text Label -16550 13200 0    60   ~ 0
+Text Label -16200 16500 0    60   ~ 0
 FPGA_87
-Text Label -16550 13300 0    60   ~ 0
+Text Label -16200 16600 0    60   ~ 0
 FPGA_84
 Text Label -16550 10550 0    60   ~ 0
 FPGA_105
@@ -11473,17 +11473,6 @@ F 3 "" H -32950 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
-U 1 1 52524559
-P -33250 3900
-F 0 "C12" H -33200 4000 50  0000 L CNN
-F 1 "0.1 uF" H -33200 3800 50  0000 L CNN
-F 2 "" H -33250 3900 60  0001 C CNN
-F 3 "" H -33250 3900 60  0001 C CNN
-	1    -33250 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C11
 U 1 1 5252455F
 P -33250 3300
@@ -11674,12 +11663,10 @@ Text Label -30300 12000 0    60   ~ 0
 V3.3
 NoConn ~ -31950 -3850
 NoConn ~ -31950 -3750
-NoConn ~ -31950 -3650
 NoConn ~ -31950 -3550
 NoConn ~ -31950 -3450
 NoConn ~ -31250 -3450
 NoConn ~ -31250 -3550
-NoConn ~ -31250 -3650
 NoConn ~ -31250 -3750
 NoConn ~ -31250 -3850
 $Comp
@@ -11927,8 +11914,6 @@ Text Label -32250 7850 0    60   ~ 0
 V2.5
 Text Label -29500 7850 0    60   ~ 0
 V3.3
-Text Label -30150 -2400 0    60   ~ 0
-CLK_CPU
 $Comp
 L GND #PWR022
 U 1 1 52524887
@@ -12315,7 +12300,7 @@ Wire Wire Line
 	-23450 -700 -23450 -800
 Wire Wire Line
 	-23450 -2000 -23450 -2100
-Text Label -29000 13050 0    60   ~ 0
+Text Label -29700 13600 0    60   ~ 0
 FPGA_CLK_0
 Text Label -32450 13400 0    60   ~ 0
 FPGA_CLK_2
@@ -12327,14 +12312,12 @@ Wire Wire Line
 	-15850 13400 -16500 13400
 Text Label -31600 -2200 2    60   ~ 0
 PHI_CLOCK
-Text Label -31600 -2300 2    60   ~ 0
-CLK_CPU2
 Wire Wire Line
-	-15350 20500 -15500 20500
+	-22650 9950 -22800 9950
 Wire Wire Line
-	-15350 20200 -15500 20200
+	-22650 9650 -22800 9650
 Wire Wire Line
-	-15350 19900 -15500 19900
+	-22650 9350 -22800 9350
 Wire Wire Line
 	-24600 -4450 -23550 -4450
 Wire Wire Line
@@ -12363,7 +12346,7 @@ Connection ~ -30250 -2300
 Wire Wire Line
 	-31250 -3350 -31100 -3350
 Wire Wire Line
-	-31100 -3350 -31100 -2700
+	-31100 -3650 -31100 -2700
 Wire Wire Line
 	-31100 -2700 -31400 -2700
 Wire Wire Line
@@ -12371,71 +12354,13 @@ Wire Wire Line
 Wire Wire Line
 	-31400 -2400 -31150 -2400
 Wire Wire Line
-	-31150 -2300 -31600 -2300
-Wire Wire Line
 	-31600 -2200 -31150 -2200
-Text Label -12850 6000 0    60   ~ 0
-A10
-Text Label -12850 5500 0    60   ~ 0
-A5
-Text Label -12850 5400 0    60   ~ 0
-A4
-Text Label -12850 5300 0    60   ~ 0
-A3
-Text Label -12850 6500 0    60   ~ 0
-A15
-Text Label -12850 6200 0    60   ~ 0
-A12
-Text Label -12850 5900 0    60   ~ 0
-A9
-Text Label -12850 5000 0    60   ~ 0
-A0
-Text Label -12850 5100 0    60   ~ 0
-A1
-Text Label -12850 5200 0    60   ~ 0
-A2
-Text Label -12850 5600 0    60   ~ 0
-A6
-Text Label -12850 5700 0    60   ~ 0
-A7
-Text Label -12850 5800 0    60   ~ 0
-A8
-Text Label -12850 6300 0    60   ~ 0
-A13
-Text Label -12850 6400 0    60   ~ 0
-A14
-Text Label -12850 6100 0    60   ~ 0
-A11
-Text Label -12850 6800 0    60   ~ 0
-A18
-Text Label -12850 6700 0    60   ~ 0
-A17
-Text Label -12850 6600 0    60   ~ 0
-A16
-Text Label -12850 6900 0    60   ~ 0
-A19
 Text Notes -14150 4100 0    60   ~ 0
 B -> A
 Text Notes -15150 6550 0    60   ~ 0
 B -> A
 Text Notes -15150 8950 0    60   ~ 0
 B -> A
-Text Label -12850 3100 0    60   ~ 0
-D0
-Text Label -12850 3200 0    60   ~ 0
-D1
-Text Label -12850 3300 0    60   ~ 0
-D2
-Text Label -12850 3400 0    60   ~ 0
-D3
-Text Label -12850 3500 0    60   ~ 0
-D4
-Text Label -12850 3600 0    60   ~ 0
-D5
-Text Label -12850 3700 0    60   ~ 0
-D6
-Text Label -12850 3800 0    60   ~ 0
-D7
 Text Label -14050 3400 0    60   ~ 0
 A5y
 Text Label -14050 3300 0    60   ~ 0
@@ -12908,10 +12833,6 @@ Text Notes -14300 15900 2    60   ~ 0
 OUTPUT to S100 BUS
 Text Label -13900 17100 0    60   ~ 0
 GND
-Text Label -15850 16800 2    60   ~ 0
-DATA_DIR
-Text Notes -16300 16800 2    40   ~ 0
-CPLD Pin 14
 Text Notes -11600 12700 2    60   ~ 0
 ~WR
 Text Notes -11600 12800 2    60   ~ 0
@@ -13366,8 +13287,6 @@ Connection ~ -14000 17100
 Wire Wire Line
 	-14200 13300 -14450 13300
 Wire Wire Line
-	-15500 16800 -15850 16800
-Wire Wire Line
 	-5400 10000 -5800 10000
 Wire Wire Line
 	-5800 10100 -5400 10100
@@ -13431,14 +13350,6 @@ Wire Wire Line
 	-14050 8250 -14300 8250
 Wire Wire Line
 	-14300 8350 -14050 8350
-Text Label -12850 7000 0    60   ~ 0
-A20
-Text Label -12850 7100 0    60   ~ 0
-A21
-Text Label -12850 7200 0    60   ~ 0
-A22
-Text Label -12850 7300 0    60   ~ 0
-A23
 Text Label -14850 4900 0    60   ~ 0
 V3.3
 Wire Wire Line
@@ -13731,4 +13642,25 @@ Text Label -19450 3800 0    60   ~ 0
 A6y
 Text Label -19450 3900 0    60   ~ 0
 A7y
+Wire Wire Line
+	-15500 16100 -15750 16100
+Wire Wire Line
+	-31250 -3650 -31100 -3650
+Connection ~ -31100 -3350
+Wire Wire Line
+	-31950 -3650 -32100 -3650
+Wire Wire Line
+	-32100 -3650 -32100 -3350
+Wire Wire Line
+	-32100 -3350 -31950 -3350
+Text Label -16150 13300 2    60   ~ 0
+PHI_CLOCK
+Wire Wire Line
+	-15850 13300 -16150 13300
+Text Label -30150 -2400 0    60   ~ 0
+CLK_TIMER
+Text Label -29850 13600 2    60   ~ 0
+CLK_TIMER
+Wire Wire Line
+	-29700 13600 -29850 13600
 $EndSCHEMATC

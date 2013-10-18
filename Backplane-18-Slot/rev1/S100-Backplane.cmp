@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/8/2013 12:30:30 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/18/2013 9:39:41 AM
 
 BeginCmp
 TimeStamp = /49D8F77C;
@@ -57,143 +57,10 @@ IdModule  = C1V7;
 EndCmp
 
 BeginCmp
-TimeStamp = /5252459B;
-Reference = C10;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252455F;
-Reference = C11;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /5201EF47;
 Reference = C13;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524547;
-Reference = C14;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524541;
-Reference = C15;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524595;
-Reference = C17;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524553;
-Reference = C19;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524589;
-Reference = C22;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252488D;
-Reference = C23;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252458F;
-Reference = C25;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252457D;
-Reference = C26;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524583;
-Reference = C27;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /525249CE;
-Reference = C28;
-ValeurCmp = 10 uF;
-IdModule  = C1V7;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524AB6;
-Reference = C29;
-ValeurCmp = 10 uF;
-IdModule  = C1V7;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524BAB;
-Reference = C30;
-ValeurCmp = 10 uF;
-IdModule  = C1V7;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524BC8;
-Reference = C31;
-ValeurCmp = 10 uF;
-IdModule  = C1V7;
-EndCmp
-
-BeginCmp
-TimeStamp = /525249D4;
-Reference = C32;
-ValeurCmp = 10 uF;
-IdModule  = C1V7;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524ABC;
-Reference = C33;
-ValeurCmp = 10 uF;
-IdModule  = C1V7;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524BB7;
-Reference = C34;
-ValeurCmp = 10 uF;
-IdModule  = C1V7;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524BDA;
-Reference = C35;
-ValeurCmp = 10 uF;
-IdModule  = C1V7;
 EndCmp
 
 BeginCmp
@@ -211,6 +78,13 @@ IdModule  = C2;
 EndCmp
 
 BeginCmp
+TimeStamp = /525FE75D;
+Reference = C9005;
+ValeurCmp = 0.47 UF;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
 TimeStamp = /52019DC1;
 Reference = D1;
 ValeurCmp = DIODE;
@@ -218,59 +92,10 @@ IdModule  = D3;
 EndCmp
 
 BeginCmp
-TimeStamp = /52524651;
-Reference = D2;
-ValeurCmp = LED;
-IdModule  = ^^LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /525246F4;
-Reference = D3;
-ValeurCmp = LED;
-IdModule  = ^^LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /525243F4;
-Reference = D4;
-ValeurCmp = LED;
-IdModule  = ^^LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /525243E2;
-Reference = D5;
-ValeurCmp = LED;
-IdModule  = ^^LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /525243FA;
-Reference = D6;
-ValeurCmp = LED;
-IdModule  = ^^LED-0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /5200D006;
 Reference = D12;
 ValeurCmp = LED;
 IdModule  = ^^LED-5MM;
-EndCmp
-
-BeginCmp
-TimeStamp = /522A20AE;
-Reference = D4000;
-ValeurCmp = TX;
-IdModule  = ^^LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /522A20C0;
-Reference = D4001;
-ValeurCmp = RX;
-IdModule  = ^^LED-0805;
 EndCmp
 
 BeginCmp
@@ -302,20 +127,6 @@ IdModule  = 8dip300;
 EndCmp
 
 BeginCmp
-TimeStamp = /522A209F;
-Reference = J4000;
-ValeurCmp = USB_2;
-IdModule  = USB_A;
-EndCmp
-
-BeginCmp
-TimeStamp = /52429533;
-Reference = J9002;
-ValeurCmp = ISP_M2;
-IdModule  = RJ12_E;
-EndCmp
-
-BeginCmp
 TimeStamp = /4C3CFE3F;
 Reference = JP1;
 ValeurCmp = JUMPER;
@@ -337,66 +148,10 @@ IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5252EB64;
-Reference = JP4;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252F830;
-Reference = JP5;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252F836;
-Reference = JP6;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252F83C;
-Reference = JP7;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252F842;
-Reference = JP8;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252F848;
-Reference = JP9;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252C51E;
-Reference = JP10;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
 TimeStamp = /4C3A06B5;
 Reference = K1;
 ValeurCmp = RESET(s);
 IdModule  = PIN_ARRAY_3X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /522A361E;
-Reference = K4000;
-ValeurCmp = I/O V?;
-IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
@@ -512,41 +267,6 @@ IdModule  = 1pin;
 EndCmp
 
 BeginCmp
-TimeStamp = /52525254;
-Reference = P19;
-ValeurCmp = S100_MALE;
-IdModule  = S100_MALE;
-EndCmp
-
-BeginCmp
-TimeStamp = /525245A1;
-Reference = P20;
-ValeurCmp = XILINX CABLE;
-IdModule  = PIN_ARRAY_5X2;
-EndCmp
-
-BeginCmp
-TimeStamp = /525246E7;
-Reference = P21;
-ValeurCmp = CLK_CPU;
-IdModule  = DIP-14__300_ELL;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524D1F;
-Reference = P25;
-ValeurCmp = CLK_SEL;
-IdModule  = PIN_ARRAY_3X2;
-EndCmp
-
-BeginCmp
-TimeStamp = /522A2B63;
-Reference = P4000;
-ValeurCmp = FT232R I/O;
-IdModule  = SIL-10;
-EndCmp
-
-BeginCmp
 TimeStamp = /52103C36;
 Reference = P9000;
 ValeurCmp = ATX_POWER_24;
@@ -563,7 +283,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52102F94;
 Reference = P9002;
-ValeurCmp = POWER_SW;
+ValeurCmp = EX_POWER_BUTTON;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
@@ -596,10 +316,17 @@ IdModule  = 1pin;
 EndCmp
 
 BeginCmp
+TimeStamp = /525FD5A9;
+Reference = P9007;
+ValeurCmp = PIC_ISP;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
 TimeStamp = /49D900F5;
 Reference = Q1;
 ValeurCmp = 2N3906;
-IdModule  = ^^TO92-inline;
+IdModule  = ^^TO92-INV-inline;
 EndCmp
 
 BeginCmp
@@ -610,24 +337,17 @@ IdModule  = ^^TO92-inline;
 EndCmp
 
 BeginCmp
-TimeStamp = /49D96231;
+TimeStamp = /52603BDD;
 Reference = Q3;
-ValeurCmp = TIP29;
-IdModule  = TO220;
+ValeurCmp = TIP29-D44C-NPN-TO220;
+IdModule  = ^^TO220;
 EndCmp
 
 BeginCmp
-TimeStamp = /49D96274;
+TimeStamp = /52603BEC;
 Reference = Q4;
-ValeurCmp = TIP30;
-IdModule  = TO220;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252436B;
-Reference = Q5;
-ValeurCmp = ^^NPN-BC817-SOT323;
-IdModule  = ^^-SOT23;
+ValeurCmp = TIP30/D45C-PNP-TO220;
+IdModule  = ^^TO220;
 EndCmp
 
 BeginCmp
@@ -764,104 +484,6 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /5252464A;
-Reference = R18;
-ValeurCmp = 330;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /525246FB;
-Reference = R19;
-ValeurCmp = 330;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524702;
-Reference = R20;
-ValeurCmp = 330;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524761;
-Reference = R21;
-ValeurCmp = 100;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524767;
-Reference = R22;
-ValeurCmp = 100;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252475B;
-Reference = R23;
-ValeurCmp = 100;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /525243EE;
-Reference = R24;
-ValeurCmp = 330;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /525243E8;
-Reference = R25;
-ValeurCmp = 330;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524400;
-Reference = R26;
-ValeurCmp = 330;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /525243DB;
-Reference = R27;
-ValeurCmp = 10K;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252472C;
-Reference = R28;
-ValeurCmp = 4K7;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524726;
-Reference = R29;
-ValeurCmp = 330;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524746;
-Reference = R30;
-ValeurCmp = 4K7;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252447F;
-Reference = R31;
-ValeurCmp = 1K;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /5200D031;
 Reference = R46;
 ValeurCmp = 1K;
@@ -873,20 +495,6 @@ TimeStamp = /5200D046;
 Reference = R47;
 ValeurCmp = 330;
 IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /522A20B4;
-Reference = R4000;
-ValeurCmp = 330;
-IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /522A20BA;
-Reference = R4001;
-ValeurCmp = 330;
-IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
@@ -918,7 +526,7 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /5242CE0B;
+TimeStamp = /525FD563;
 Reference = R9008;
 ValeurCmp = 10k;
 IdModule  = R3;
@@ -1005,13 +613,6 @@ BeginCmp
 TimeStamp = /4C3A0619;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = SW_PUSH_SMALL;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524739;
-Reference = SW2;
-ValeurCmp = PROG_B;
 IdModule  = SW_PUSH_SMALL;
 EndCmp
 
@@ -1142,122 +743,10 @@ IdModule  = ^^S100_FEMALE;
 EndCmp
 
 BeginCmp
-TimeStamp = /52525461;
-Reference = U18;
-ValeurCmp = 74LS541;
-IdModule  = ^^-SO20W;
-EndCmp
-
-BeginCmp
-TimeStamp = /52526836;
-Reference = U20;
-ValeurCmp = 74LVC245;
-IdModule  = ^^-SO20W;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252683D;
-Reference = U21;
-ValeurCmp = 74LVC245;
-IdModule  = ^^-SO20W;
-EndCmp
-
-BeginCmp
-TimeStamp = /52526802;
-Reference = U22;
-ValeurCmp = 74LVC245;
-IdModule  = ^^-SO20W;
-EndCmp
-
-BeginCmp
 TimeStamp = /52012171;
 Reference = U23;
 ValeurCmp = 74LS14;
 IdModule  = 14dip300;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252681E;
-Reference = U24;
-ValeurCmp = 74LVC245;
-IdModule  = ^^-SO20W;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252534B;
-Reference = U25;
-ValeurCmp = 74HC245;
-IdModule  = ^^-SO20W;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252682A;
-Reference = U27;
-ValeurCmp = 74LVC245;
-IdModule  = ^^-SO20W;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524658;
-Reference = U30;
-ValeurCmp = XC6SLX9-TQ144;
-IdModule  = XILINX-TQ144;
-EndCmp
-
-BeginCmp
-TimeStamp = /525243D4;
-Reference = U31;
-ValeurCmp = 23LC1024;
-IdModule  = DIP-8__300;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524718;
-Reference = U32;
-ValeurCmp = XCF02S;
-IdModule  = SSOP20;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524476;
-Reference = U33;
-ValeurCmp = CLK_FPGA1;
-IdModule  = ^^SMD_HCMOS/TTL_Clock_Oscillator;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524AAF;
-Reference = U34;
-ValeurCmp = LDO_REG_7805;
-IdModule  = ^^L7805C-TO252-2pin+tab;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524AA9;
-Reference = U35;
-ValeurCmp = LM1086CS;
-IdModule  = ^^LM1086CS-TO263-3pin+tab;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524B9A;
-Reference = U36;
-ValeurCmp = LF25CDT;
-IdModule  = ^^DPAK_TO252-2pin+tab;
-EndCmp
-
-BeginCmp
-TimeStamp = /52524BA0;
-Reference = U37;
-ValeurCmp = LD1117DT12;
-IdModule  = ^^DPAK_TO252-2pin+tab;
-EndCmp
-
-BeginCmp
-TimeStamp = /525249EE;
-Reference = U45;
-ValeurCmp = 74LVC245;
-IdModule  = ^^-SO20W;
 EndCmp
 
 BeginCmp
@@ -1282,17 +771,10 @@ IdModule  = ^^LOGO11;
 EndCmp
 
 BeginCmp
-TimeStamp = /522A20A5;
-Reference = U4000;
-ValeurCmp = FT232R;
-IdModule  = -SSOP28;
-EndCmp
-
-BeginCmp
-TimeStamp = /52426C75;
+TimeStamp = /525FD576;
 Reference = U9000;
-ValeurCmp = PIC18F2550;
-IdModule  = DIP-28__300;
+ValeurCmp = PIC18F1330;
+IdModule  = DIP-18__300_ELL;
 EndCmp
 
 EndListe

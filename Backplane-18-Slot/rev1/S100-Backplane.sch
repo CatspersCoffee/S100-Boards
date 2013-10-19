@@ -2761,15 +2761,15 @@ Text Label 32350 16750 0    60   ~ 0
 DI5
 Text Label 32350 16650 0    60   ~ 0
 DI4
-Text Label 32350 17800 0    60   ~ 0
+Text Label 32350 16550 0    60   ~ 0
 DO7
-Text Label 32350 17700 0    60   ~ 0
+Text Label 32350 16450 0    60   ~ 0
 DO3
 Text Label 30750 17250 0    60   ~ 0
 DO2
 Text Label 30750 17150 0    60   ~ 0
 A11
-Text Label 30850 18300 0    60   ~ 0
+Text Label 30800 17050 0    60   ~ 0
 A14
 Text Label 30850 18200 0    60   ~ 0
 A13
@@ -2870,15 +2870,15 @@ Text Label 32350 18000 0    60   ~ 0
 DI3
 Text Label 32350 17900 0    60   ~ 0
 DI2
-Text Label 32350 16550 0    60   ~ 0
+Text Label 32350 17800 0    60   ~ 0
 DO6
-Text Label 32350 16450 0    60   ~ 0
+Text Label 32350 17700 0    60   ~ 0
 DO5
 Text Label 30800 18500 0    60   ~ 0
 DO4
 Text Label 30800 18400 0    60   ~ 0
 A10
-Text Label 30800 17050 0    60   ~ 0
+Text Label 30850 18300 0    60   ~ 0
 DO0
 Text Label 30800 16950 0    60   ~ 0
 DO1
@@ -8228,15 +8228,15 @@ Wire Wire Line
 Wire Wire Line
 	32300 17900 33050 17900
 Wire Wire Line
-	32300 16550 33050 16550
+	32300 17800 33050 17800
 Wire Wire Line
-	32300 16450 33050 16450
+	32300 17700 33050 17700
 Wire Wire Line
 	30750 17250 31500 17250
 Wire Wire Line
 	30750 17150 31500 17150
 Wire Wire Line
-	30750 17050 31500 17050
+	30800 18300 31550 18300
 Wire Wire Line
 	30750 16950 31500 16950
 Wire Wire Line
@@ -8266,15 +8266,15 @@ Wire Wire Line
 Wire Wire Line
 	32300 16650 33050 16650
 Wire Wire Line
-	32300 17800 33050 17800
+	32300 16550 33050 16550
 Wire Wire Line
-	32300 17700 33050 17700
+	32300 16450 33050 16450
 Wire Wire Line
 	30800 18500 31550 18500
 Wire Wire Line
 	30800 18400 31550 18400
 Wire Wire Line
-	30800 18300 31550 18300
+	30750 17050 31500 17050
 Wire Wire Line
 	30800 18200 31550 18200
 Wire Wire Line

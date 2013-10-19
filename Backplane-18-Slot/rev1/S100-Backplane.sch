@@ -2613,7 +2613,7 @@ F 3 "" H 1750 3500 60  0001 C CNN
 	1    1750 3500
 	1    0    0    -1  
 $EndComp
-Text Label 26300 16450 0    60   ~ 0
+Text Label 26300 17700 0    60   ~ 0
 XRDY
 Text Label 30800 16350 0    60   ~ 0
 Vacc
@@ -2669,17 +2669,17 @@ Text Label 30850 17600 0    60   ~ 0
 Vacc
 Text Label 29300 17600 0    60   ~ 0
 Vacc
-Text Label 27800 17600 0    60   ~ 0
+Text Label 27800 16350 0    60   ~ 0
 Vacc
-Text Label 26300 17600 0    60   ~ 0
+Text Label 26300 16350 0    60   ~ 0
 Vacc
 Text Label 32350 16350 0    60   ~ 0
 Vacc
 Text Label 29300 16350 0    60   ~ 0
 Vacc
-Text Label 27800 16350 0    60   ~ 0
+Text Label 27800 17600 0    60   ~ 0
 Vacc
-Text Label 26300 16350 0    60   ~ 0
+Text Label 26300 17600 0    60   ~ 0
 Vacc
 $Comp
 L RR9 RR10
@@ -2747,19 +2747,19 @@ Text Label 24950 17750 0    60   ~ 0
 /POC
 Text Label 24950 17550 0    60   ~ 0
 SSTACK
-Text Label 32350 18500 0    60   ~ 0
+Text Label 32350 17250 0    60   ~ 0
 /SWO
 Text Label 32350 17150 0    60   ~ 0
 SINTA
-Text Label 32350 18300 0    60   ~ 0
+Text Label 32350 17050 0    60   ~ 0
 DI0
 Text Label 32350 16950 0    60   ~ 0
 DI1
-Text Label 32350 18100 0    60   ~ 0
+Text Label 32350 16850 0    60   ~ 0
 DI6
 Text Label 32350 16750 0    60   ~ 0
 DI5
-Text Label 32350 17900 0    60   ~ 0
+Text Label 32350 16650 0    60   ~ 0
 DI4
 Text Label 32350 17800 0    60   ~ 0
 DO7
@@ -2785,13 +2785,13 @@ Text Label 30850 17700 0    60   ~ 0
 A1
 Text Label 27800 18500 0    60   ~ 0
 PROT(GND)
-Text Label 27750 17150 0    60   ~ 0
+Text Label 27750 18400 0    60   ~ 0
 /PS(---)
 Text Label 27800 18300 0    60   ~ 0
 MWRT
-Text Label 27750 16950 0    60   ~ 0
+Text Label 27750 18200 0    60   ~ 0
 ---(/PHANT)
-Text Label 27750 16850 0    60   ~ 0
+Text Label 27750 18100 0    60   ~ 0
 pin_66
 Text Label 27800 18000 0    60   ~ 0
 pin_65
@@ -2801,23 +2801,23 @@ Text Label 27800 17800 0    60   ~ 0
 pin_63
 Text Label 27800 17700 0    60   ~ 0
 pin_62
-Text Label 26300 18500 0    60   ~ 0
+Text Label 26300 17250 0    60   ~ 0
 pin_61
-Text Label 26300 18400 0    60   ~ 0
+Text Label 26300 17150 0    60   ~ 0
 pin_60
-Text Label 26300 18300 0    60   ~ 0
+Text Label 26300 17050 0    60   ~ 0
 pin_59
-Text Label 26300 18200 0    60   ~ 0
+Text Label 26300 16950 0    60   ~ 0
 FRDY(---)
-Text Label 26300 18100 0    60   ~ 0
+Text Label 26300 16850 0    60   ~ 0
 DIG1(---)
-Text Label 26300 18000 0    60   ~ 0
+Text Label 26300 16750 0    60   ~ 0
 /STSTB(---)
-Text Label 26300 17900 0    60   ~ 0
+Text Label 26300 16650 0    60   ~ 0
 RTC(---)
-Text Label 26300 17800 0    60   ~ 0
+Text Label 26300 16550 0    60   ~ 0
 /EXTCLR
-Text Label 26300 17700 0    60   ~ 0
+Text Label 26300 16450 0    60   ~ 0
 /SSW_DSBL
 $Comp
 L RR9 RR6
@@ -2856,19 +2856,19 @@ Text Label 24950 17350 0    60   ~ 0
 /CLOCK
 Text Label 24950 17150 0    60   ~ 0
 SHLTA
-Text Label 32350 17250 0    60   ~ 0
+Text Label 32350 18500 0    60   ~ 0
 SMEMR
 Text Label 32350 18400 0    60   ~ 0
 SINP
-Text Label 32350 17050 0    60   ~ 0
+Text Label 32350 18300 0    60   ~ 0
 SOUT
 Text Label 32350 18200 0    60   ~ 0
 SM1
-Text Label 32350 16850 0    60   ~ 0
+Text Label 32350 18100 0    60   ~ 0
 DI7
 Text Label 32350 18000 0    60   ~ 0
 DI3
-Text Label 32350 16650 0    60   ~ 0
+Text Label 32350 17900 0    60   ~ 0
 DI2
 Text Label 32350 16550 0    60   ~ 0
 DO6
@@ -2912,13 +2912,13 @@ Text Label 29300 16450 0    60   ~ 0
 SS
 Text Label 27800 17250 0    60   ~ 0
 UNPROT(T5)
-Text Label 27750 18400 0    60   ~ 0
+Text Label 27750 17150 0    60   ~ 0
 /CCDSB
 Text Label 27800 17050 0    60   ~ 0
 /STADSB
-Text Label 27750 18200 0    60   ~ 0
+Text Label 27750 16950 0    60   ~ 0
 pin_17
-Text Label 27750 18100 0    60   ~ 0
+Text Label 27750 16850 0    60   ~ 0
 pin_16
 Text Label 27800 16750 0    60   ~ 0
 pin_15
@@ -2928,21 +2928,21 @@ Text Label 27800 16550 0    60   ~ 0
 pin_13
 Text Label 27800 16450 0    60   ~ 0
 pin_12
-Text Label 26300 17250 0    60   ~ 0
+Text Label 26300 18500 0    60   ~ 0
 VI_7
-Text Label 26300 17150 0    60   ~ 0
+Text Label 26300 18400 0    60   ~ 0
 VI_6
-Text Label 26300 17050 0    60   ~ 0
+Text Label 26300 18300 0    60   ~ 0
 VI_5
-Text Label 26300 16950 0    60   ~ 0
+Text Label 26300 18200 0    60   ~ 0
 VI_4
-Text Label 26300 16850 0    60   ~ 0
+Text Label 26300 18100 0    60   ~ 0
 VI_3
-Text Label 26300 16750 0    60   ~ 0
+Text Label 26300 18000 0    60   ~ 0
 VI_2
-Text Label 26300 16650 0    60   ~ 0
+Text Label 26300 17900 0    60   ~ 0
 VI_1
-Text Label 26300 16550 0    60   ~ 0
+Text Label 26300 17800 0    60   ~ 0
 VI_0
 $Comp
 L RR9 RR3
@@ -6920,7 +6920,7 @@ Wire Wire Line
 Wire Wire Line
 	17600 16300 17300 16300
 Wire Wire Line
-	26250 16450 27000 16450
+	26250 17700 27000 17700
 Wire Wire Line
 	30750 16350 31500 16350
 Wire Wire Line
@@ -8182,13 +8182,13 @@ Wire Wire Line
 Wire Wire Line
 	27750 17250 28500 17250
 Wire Wire Line
-	27750 17150 28500 17150
+	27750 18400 28500 18400
 Wire Wire Line
 	27750 17050 28500 17050
 Wire Wire Line
-	27750 16950 28500 16950
+	27750 18200 28500 18200
 Wire Wire Line
-	27750 16850 28500 16850
+	27750 18100 28500 18100
 Wire Wire Line
 	27750 16750 28500 16750
 Wire Wire Line
@@ -8198,35 +8198,35 @@ Wire Wire Line
 Wire Wire Line
 	27750 16450 28500 16450
 Wire Wire Line
-	26250 17250 27000 17250
+	26250 18500 27000 18500
 Wire Wire Line
-	26250 17150 27000 17150
+	26250 18400 27000 18400
 Wire Wire Line
-	26250 17050 27000 17050
+	26250 18300 27000 18300
 Wire Wire Line
-	26250 16950 27000 16950
+	26250 18200 27000 18200
 Wire Wire Line
-	26250 16850 27000 16850
+	26250 18100 27000 18100
 Wire Wire Line
-	26250 16750 27000 16750
+	26250 18000 27000 18000
 Wire Wire Line
-	26250 16650 27000 16650
+	26250 17900 27000 17900
 Wire Wire Line
-	26250 16550 27000 16550
+	26250 17800 27000 17800
 Wire Wire Line
-	32300 17250 33050 17250
+	32300 18500 33050 18500
 Wire Wire Line
 	32300 18400 33050 18400
 Wire Wire Line
-	32300 17050 33050 17050
+	32300 18300 33050 18300
 Wire Wire Line
 	32300 18200 33050 18200
 Wire Wire Line
-	32300 16850 33050 16850
+	32300 18100 33050 18100
 Wire Wire Line
 	32300 18000 33050 18000
 Wire Wire Line
-	32300 16650 33050 16650
+	32300 17900 33050 17900
 Wire Wire Line
 	32300 16550 33050 16550
 Wire Wire Line
@@ -8252,19 +8252,19 @@ Wire Wire Line
 Wire Wire Line
 	29250 18500 30000 18500
 Wire Wire Line
-	32300 18500 33050 18500
+	32300 17250 33050 17250
 Wire Wire Line
 	32300 17150 33050 17150
 Wire Wire Line
-	32300 18300 33050 18300
+	32300 17050 33050 17050
 Wire Wire Line
 	32300 16950 33050 16950
 Wire Wire Line
-	32300 18100 33050 18100
+	32300 16850 33050 16850
 Wire Wire Line
 	32300 16750 33050 16750
 Wire Wire Line
-	32300 17900 33050 17900
+	32300 16650 33050 16650
 Wire Wire Line
 	32300 17800 33050 17800
 Wire Wire Line
@@ -8290,13 +8290,13 @@ Wire Wire Line
 Wire Wire Line
 	27750 18500 28500 18500
 Wire Wire Line
-	27750 18400 28500 18400
+	27750 17150 28500 17150
 Wire Wire Line
 	27750 18300 28500 18300
 Wire Wire Line
-	27750 18200 28500 18200
+	27750 16950 28500 16950
 Wire Wire Line
-	27750 18100 28500 18100
+	27750 16850 28500 16850
 Wire Wire Line
 	27750 18000 28500 18000
 Wire Wire Line
@@ -8306,23 +8306,23 @@ Wire Wire Line
 Wire Wire Line
 	27750 17700 28500 17700
 Wire Wire Line
-	26250 18500 27000 18500
+	26250 17250 27000 17250
 Wire Wire Line
-	26250 18400 27000 18400
+	26250 17150 27000 17150
 Wire Wire Line
-	26250 18300 27000 18300
+	26250 17050 27000 17050
 Wire Wire Line
-	26250 18200 27000 18200
+	26250 16950 27000 16950
 Wire Wire Line
-	26250 18100 27000 18100
+	26250 16850 27000 16850
 Wire Wire Line
-	26250 18000 27000 18000
+	26250 16750 27000 16750
 Wire Wire Line
-	26250 17900 27000 17900
+	26250 16650 27000 16650
 Wire Wire Line
-	26250 17800 27000 17800
+	26250 16550 27000 16550
 Wire Wire Line
-	26250 17700 27000 17700
+	26250 16450 27000 16450
 Wire Wire Line
 	29250 17250 30000 17250
 Wire Wire Line
@@ -8342,17 +8342,17 @@ Wire Wire Line
 Wire Wire Line
 	29250 17700 30000 17700
 Wire Wire Line
-	26250 16350 27000 16350
+	26250 17600 27000 17600
 Wire Wire Line
-	27750 16350 28500 16350
+	27750 17600 28500 17600
 Wire Wire Line
 	29250 16350 30000 16350
 Wire Wire Line
 	32300 16350 33050 16350
 Wire Wire Line
-	26250 17600 27000 17600
+	26250 16350 27000 16350
 Wire Wire Line
-	27750 17600 28500 17600
+	27750 16350 28500 16350
 Wire Wire Line
 	29250 17600 30000 17600
 Wire Wire Line

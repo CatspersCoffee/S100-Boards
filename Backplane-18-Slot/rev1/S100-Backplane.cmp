@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/18/2013 9:39:41 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/19/2013 1:21:19 PM
 
 BeginCmp
 TimeStamp = /49D8F77C;
@@ -57,10 +57,17 @@ IdModule  = C1V7;
 EndCmp
 
 BeginCmp
-TimeStamp = /5201EF47;
-Reference = C13;
+TimeStamp = /5263B42A;
+Reference = C9;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263B0D4;
+Reference = C13;
+ValeurCmp = 10uF;
+IdModule  = C1V5;
 EndCmp
 
 BeginCmp
@@ -157,8 +164,15 @@ EndCmp
 BeginCmp
 TimeStamp = /52075624;
 Reference = P1;
-ValeurCmp = CONN_4;
+ValeurCmp = POWER BLOCK;
 IdModule  = ^^BarrierStrip4pos;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263E623;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
 EndCmp
 
 BeginCmp
@@ -171,6 +185,13 @@ EndCmp
 BeginCmp
 TimeStamp = /51FBCABA;
 Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263E60B;
+Reference = P5;
 ValeurCmp = CONN_1;
 IdModule  = 1pin;
 EndCmp
@@ -267,6 +288,48 @@ IdModule  = 1pin;
 EndCmp
 
 BeginCmp
+TimeStamp = /5263E629;
+Reference = P19;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263E61D;
+Reference = P20;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263E605;
+Reference = P21;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263E62F;
+Reference = P22;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263FDC2;
+Reference = P23;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5263FDC8;
+Reference = P24;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
 TimeStamp = /52103C36;
 Reference = P9000;
 ValeurCmp = ATX_POWER_24;
@@ -339,14 +402,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52603BDD;
 Reference = Q3;
-ValeurCmp = TIP29-D44C-NPN-TO220;
+ValeurCmp = TIP29-D44C;
 IdModule  = ^^TO220;
 EndCmp
 
 BeginCmp
 TimeStamp = /52603BEC;
 Reference = Q4;
-ValeurCmp = TIP30/D45C-PNP-TO220;
+ValeurCmp = TIP30/D45C;
 IdModule  = ^^TO220;
 EndCmp
 
@@ -374,7 +437,7 @@ EndCmp
 BeginCmp
 TimeStamp = /49D8F884;
 Reference = R1;
-ValeurCmp = 2000;
+ValeurCmp = TRIMPOT;
 IdModule  = ^^VR2;
 EndCmp
 
@@ -472,7 +535,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5201DD1D;
 Reference = R15;
-ValeurCmp = 1K;
+ValeurCmp = 10;
 IdModule  = R3;
 EndCmp
 
@@ -743,9 +806,9 @@ IdModule  = ^^S100_FEMALE;
 EndCmp
 
 BeginCmp
-TimeStamp = /52012171;
+TimeStamp = /52630265;
 Reference = U23;
-ValeurCmp = 74LS14;
+ValeurCmp = 74LS04;
 IdModule  = 14dip300;
 EndCmp
 

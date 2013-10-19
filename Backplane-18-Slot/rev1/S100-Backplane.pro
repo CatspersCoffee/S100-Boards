@@ -1,5 +1,5 @@
-update=10/19/2013 1:28:10 PM
-last_client=eeschema
+update=10/20/2013 11:21:28 AM
+last_client=kicad
 [common]
 NetDir=
 [cvpcb]
@@ -193,3 +193,5 @@ LibName80=ALL other libs apart from ANTS_MOD1/74ls-sergey
 LibName81=ALL other libs apart from ANTS_MOD1/devices-sergey
 LibName82=C:/Users/user/Documents/ISA Backplane/isa_backplane-KiCad-1.1/isa_backplane-cache
 LibName83=ALL other libs apart from ANTS_MOD1/74xx
+[general]
+version=1

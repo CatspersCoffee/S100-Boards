@@ -236,22 +236,6 @@ Wire Wire Line
 Wire Wire Line
 	23300 8900 24400 8900
 Wire Wire Line
-	24250 14650 25350 14650
-Wire Wire Line
-	24250 14450 25350 14450
-Wire Wire Line
-	24250 14250 25350 14250
-Wire Wire Line
-	24250 14050 25350 14050
-Wire Wire Line
-	24250 13750 25350 13750
-Wire Wire Line
-	24250 13550 25350 13550
-Wire Wire Line
-	24250 13350 25350 13350
-Wire Wire Line
-	24250 13150 25350 13150
-Wire Wire Line
 	27400 22950 28100 22950
 Wire Wire Line
 	27400 20700 28100 20700
@@ -801,14 +785,6 @@ Wire Wire Line
 	6400 10050 6300 10050
 Connection ~ 6400 10050
 Wire Wire Line
-	24250 13050 25350 13050
-Wire Wire Line
-	24250 13250 25350 13250
-Wire Wire Line
-	24250 13450 25350 13450
-Wire Wire Line
-	24250 13650 25350 13650
-Wire Wire Line
 	18600 12450 18400 12450
 Wire Wire Line
 	18600 12650 18400 12650
@@ -820,14 +796,6 @@ Wire Wire Line
 	18600 13250 18400 13250
 Wire Wire Line
 	18400 13450 18600 13450
-Wire Wire Line
-	24250 13950 25350 13950
-Wire Wire Line
-	24250 14150 25350 14150
-Wire Wire Line
-	24250 14350 25350 14350
-Wire Wire Line
-	24250 14550 25350 14550
 Wire Wire Line
 	23300 8800 24400 8800
 Wire Wire Line
@@ -1352,21 +1320,21 @@ Text Label 18600 14250 0    60   ~ 0
 FPGA_117
 Text Label 18600 14150 0    60   ~ 0
 FPGA_118
-Text Label 24250 13950 0    60   ~ 0
+Text Label 25100 14650 2    60   ~ 0
 FPGA_132
-Text Label 24250 14050 0    60   ~ 0
+Text Label 25100 14550 2    60   ~ 0
 FPGA_131
-Text Label 24250 14150 0    60   ~ 0
+Text Label 25100 14450 2    60   ~ 0
 FPGA_127
-Text Label 24250 14250 0    60   ~ 0
+Text Label 25100 14350 2    60   ~ 0
 FPGA_126
-Text Label 24250 14350 0    60   ~ 0
+Text Label 25100 14250 2    60   ~ 0
 FPGA_124
-Text Label 24250 14450 0    60   ~ 0
+Text Label 25100 14150 2    60   ~ 0
 FPGA_123
-Text Label 24250 14550 0    60   ~ 0
+Text Label 25100 14050 2    60   ~ 0
 FPGA_121
-Text Label 24250 14650 0    60   ~ 0
+Text Label 25100 13950 2    60   ~ 0
 FPGA_120
 Text Label 18600 14050 0    60   ~ 0
 FPGA_119
@@ -1402,21 +1370,21 @@ Text Label 18600 13350 0    60   ~ 0
 FPGA_131
 Text Label 18600 13250 0    60   ~ 0
 FPGA_132
-Text Label 24250 13750 0    60   ~ 0
+Text Label 25100 13050 2    60   ~ 0
 FPGA_133
-Text Label 24250 13650 0    60   ~ 0
+Text Label 25100 13150 2    60   ~ 0
 FPGA_134
-Text Label 24250 13550 0    60   ~ 0
+Text Label 25100 13250 2    60   ~ 0
 FPGA_137
-Text Label 24250 13450 0    60   ~ 0
+Text Label 25100 13350 2    60   ~ 0
 FPGA_138
-Text Label 24250 13350 0    60   ~ 0
+Text Label 25100 13450 2    60   ~ 0
 FPGA_139
-Text Label 24250 13250 0    60   ~ 0
+Text Label 25100 13550 2    60   ~ 0
 FPGA_140
-Text Label 24250 13150 0    60   ~ 0
+Text Label 25100 13650 2    60   ~ 0
 FPGA_141
-Text Label 24250 13050 0    60   ~ 0
+Text Label 25100 13750 2    60   ~ 0
 FPGA_142
 Text Label 10650 12600 0    60   ~ 0
 V1.2
@@ -3571,7 +3539,7 @@ L R R1
 U 1 1 526F7F3D
 P 8400 3550
 F 0 "R1" V 8480 3550 50  0000 C CNN
-F 1 "4K8" V 8400 3550 50  0000 C CNN
+F 1 "6K8" V 8400 3550 50  0000 C CNN
 F 2 "" H 8400 3550 60  0001 C CNN
 F 3 "" H 8400 3550 60  0001 C CNN
 	1    8400 3550
@@ -3718,7 +3686,7 @@ Wire Notes Line
 Text Notes 39700 1550 0    118  ~ 0
 CLOCKS & OSCILLATORS
 Text Label 7350 2650 0    60   ~ 0
-V2.5
+3.3b
 Text Notes 8300 3700 0    59   ~ 0
 "R2"
 Text Notes 8450 4000 0    59   ~ 0
@@ -3726,7 +3694,7 @@ Text Notes 8450 4000 0    59   ~ 0
 Text Notes 7750 4700 0    59   ~ 0
 Vout = 0.6*( 1+ (R2/R1) )\n\nR2 = R1*( (Vout/0.6) -  1) 
 Text Notes 7100 3850 0    39   ~ 0
-R2 should equal 4750 ohm for 2.5V output\nwith 1K5 ohm for R1
+R2 should equal 6750 ohm for 3.3V output\nwith 1K5 ohm for R1
 Text Label 36900 31050 0    60   ~ 0
 VI0*i
 Text Label 36800 28250 0    60   ~ 0
@@ -3907,7 +3875,7 @@ Wire Wire Line
 Wire Wire Line
 	40850 3100 41000 3100
 Wire Wire Line
-	41850 3750 41150 3750
+	41150 3750 42000 3750
 Wire Wire Line
 	41150 3750 41150 4850
 Wire Wire Line
@@ -4107,8 +4075,6 @@ F 3 "~" H 30500 30350 60  0000 C CNN
 	1    30500 30350
 	1    0    0    -1  
 $EndComp
-Text Label 30550 29950 0    60   ~ 0
-V5.0
 Text Label 30550 30750 0    60   ~ 0
 GND
 Wire Wire Line
@@ -5078,4 +5044,46 @@ Connection ~ 19800 3350
 Wire Wire Line
 	19550 3850 19550 3950
 Connection ~ 19800 3950
+Text Label 30550 29950 0    60   ~ 0
+3.3b
+Text Label 42000 3750 0    60   ~ 0
+POT CLK 2
+Text Label 40200 4150 2    60   ~ 0
+POT CLK 1
+Wire Wire Line
+	40200 4150 40450 4150
+Connection ~ 40450 4150
+Connection ~ 41850 3750
+Wire Wire Line
+	25350 13050 25100 13050
+Wire Wire Line
+	25100 13150 25350 13150
+Wire Wire Line
+	25350 13250 25100 13250
+Wire Wire Line
+	25100 13350 25350 13350
+Wire Wire Line
+	25100 13450 25350 13450
+Wire Wire Line
+	25350 13550 25100 13550
+Wire Wire Line
+	25100 13650 25350 13650
+Wire Wire Line
+	25350 13750 25100 13750
+Wire Wire Line
+	25100 13950 25350 13950
+Wire Wire Line
+	25350 14050 25100 14050
+Wire Wire Line
+	25350 14150 25100 14150
+Wire Wire Line
+	25100 14250 25350 14250
+Wire Wire Line
+	25350 14350 25100 14350
+Wire Wire Line
+	25100 14450 25350 14450
+Wire Wire Line
+	25350 14550 25100 14550
+Wire Wire Line
+	25100 14650 25350 14650
 $EndSCHEMATC

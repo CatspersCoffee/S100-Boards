@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 11/3/2013 7:51:20 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 16/11/2013 12:44:03 p.m.
 
 BeginCmp
 TimeStamp = /527130B4;
@@ -68,13 +68,6 @@ TimeStamp = /52763EF2;
 Reference = C9;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /5252459B;
-Reference = C10;
-ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
@@ -626,6 +619,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5274DC60;
 Reference = U7;
+ValeurCmp = 74LVC245;
+IdModule  = ^^-SO20W;
+EndCmp
+
+BeginCmp
+TimeStamp = /5286AB7C;
+Reference = U8;
 ValeurCmp = 74LVC245;
 IdModule  = ^^-SO20W;
 EndCmp

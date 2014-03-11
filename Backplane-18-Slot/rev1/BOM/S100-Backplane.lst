@@ -1,0 +1,213 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 12/3/2014 1:30:41 AM
+#Cmp ( order = Reference )
+| C1         39 UF       
+| C2         0.47 UF     
+| C3         39 UF       
+| C4         39 UF       
+| C5         39 UF       
+| C6         39 UF       
+| C7         39 UF       
+| C8         39 UF       
+| C9         0.1 uF      
+| C13        10uF        
+| D1         DIODE       
+| D12        LED         
+| IC1        7805        
+| IC2        LM4250      
+| JP1        JUMPER      
+| JP2        JUMPER      
+| JP3        JUMPER      
+| K1         RESET(s)    
+| P1         POWER BLOCK 
+| P2         CONN_1      
+| P3         CONN_1      
+| P4         CONN_1      
+| P5         CONN_1      
+| P6         CONN_1      
+| P7         CONN_1      
+| P8         CONN_1      
+| P9         CONN_1      
+| P10        CONN_1      
+| P11        CONN_1      
+| P12        CONN_2      
+| P13        CONN_1      
+| P14        CONN_1      
+| P15        CONN_1      
+| P16        CONN_1      
+| P17        CONN_1      
+| P18        CONN_1      
+| P19        CONN_1      
+| P20        CONN_1      
+| P21        CONN_1      
+| P22        CONN_1      
+| P23        CONN_1      
+| P24        CONN_1      
+| P25        CONN_13X2   
+| P26        CONN_13X2   
+| P27        CONN_13X2   
+| P28        CONN_13X2   
+| Q1         2N3906      
+| Q2         2N3904      
+| Q3         TIP29-D44C  
+| Q4         TIP30/D45C  
+| Q13        2N3904      
+| R1         TRIMPOT     
+| R2         150K        
+| R3         560         
+| R4         1000        
+| R5         560         
+| R6         910         
+| R7         910         
+| R8         1000        
+| R9         1800        
+| R10        1800        
+| R11        270         
+| R12        270         
+| R13        270         
+| R14        270         
+| R15        10          
+| R16        10K         
+| R46        1K          
+| R47        330         
+| RR1        270         
+| RR2        270         
+| RR3        270         
+| RR4        270         
+| RR5        270         
+| RR6        270         
+| RR7        270         
+| RR8        270         
+| RR9        270         
+| RR10       270         
+| SW1        SW_PUSH     
+| U1         S100        
+| U2         S100        
+| U3         S100        
+| U4         S100        
+| U5         S100        
+| U6         S100        
+| U7         S100        
+| U8         S100        
+| U9         S100        
+| U10        S100        
+| U11        S100        
+| U12        S100        
+| U13        S100        
+| U14        S100        
+| U15        S100        
+| U16        S100        
+| U17        S100        
+| U23        74LS04      
+| U100       S100-EX     
+| U1000      ^^LOGO1     
+| U1001      LOGO2       
+#End Cmp
+
+#Cmp ( order = Value )
+| 10uF         C13       
+| 0.1 uF       C9        
+| 0.47 UF      C2        
+| 39 UF        C1        
+| 39 UF        C3        
+| 39 UF        C4        
+| 39 UF        C5        
+| 39 UF        C6        
+| 39 UF        C7        
+| 39 UF        C8        
+| DIODE        D1        
+| LED          D12       
+| 7805         IC1       
+| LM4250       IC2       
+| JUMPER       JP1       
+| JUMPER       JP2       
+| JUMPER       JP3       
+| RESET(s)     K1        
+| POWER BLOCK  P1        
+| CONN_1       P2        
+| CONN_1       P3        
+| CONN_1       P4        
+| CONN_1       P5        
+| CONN_1       P6        
+| CONN_1       P7        
+| CONN_1       P8        
+| CONN_1       P9        
+| CONN_1       P10       
+| CONN_1       P11       
+| CONN_2       P12       
+| CONN_1       P13       
+| CONN_1       P14       
+| CONN_1       P15       
+| CONN_1       P16       
+| CONN_1       P17       
+| CONN_1       P18       
+| CONN_1       P19       
+| CONN_1       P20       
+| CONN_1       P21       
+| CONN_1       P22       
+| CONN_1       P23       
+| CONN_1       P24       
+| CONN_13X2    P25       
+| CONN_13X2    P26       
+| CONN_13X2    P27       
+| CONN_13X2    P28       
+| 2N3906       Q1        
+| 2N3904       Q2        
+| 2N3904       Q13       
+| TIP29-D44C   Q3        
+| TIP30/D45C   Q4        
+| 10           R15       
+| 270          R11       
+| 270          R12       
+| 270          R13       
+| 270          R14       
+| 330          R47       
+| 560          R3        
+| 560          R5        
+| 910          R6        
+| 910          R7        
+| 1000         R4        
+| 1000         R8        
+| 1K           R46       
+| 1800         R9        
+| 1800         R10       
+| 10K          R16       
+| 150K         R2        
+| TRIMPOT      R1        
+| 270          RR1       
+| 270          RR2       
+| 270          RR3       
+| 270          RR4       
+| 270          RR5       
+| 270          RR6       
+| 270          RR7       
+| 270          RR8       
+| 270          RR9       
+| 270          RR10      
+| SW_PUSH      SW1       
+| S100         U1        
+| S100         U2        
+| S100         U3        
+| S100         U4        
+| S100         U5        
+| S100         U6        
+| S100         U7        
+| S100         U8        
+| S100         U9        
+| S100         U10       
+| S100         U11       
+| S100         U12       
+| S100         U13       
+| S100         U14       
+| S100         U15       
+| S100         U16       
+| S100         U17       
+| S100-EX      U100      
+| ^^LOGO1      U1000     
+| LOGO2        U1001     
+| 74LS04       U23       
+#End Cmp
+
+#Global, Hierarchical Labels and PinSheets ( order = Sheet Number ) count = 0
+#End labels
+
+#End List

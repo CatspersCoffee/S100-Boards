@@ -369,8 +369,6 @@ Wire Wire Line
 	15600 3550 15950 3550
 Connection ~ 29400 13900
 Wire Wire Line
-	-3700 5100 -750 5100
-Wire Wire Line
 	-4900 5200 -5500 5200
 Wire Wire Line
 	3650 4750 3200 4750
@@ -2679,60 +2677,6 @@ F 1 "0.1 uF" H 23150 3000 50  0000 L CNN
 F 2 "C2" H 23100 3100 60  0000 C CNN
 F 3 "" H 23100 3100 60  0001 C CNN
 	1    23100 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C38
-U 1 1 4B37DA08
-P 23550 3100
-AR Path="/FFFFFFFF4B37DA08" Ref="C38"  Part="1" 
-AR Path="/4B37DA08" Ref="C38"  Part="1" 
-AR Path="/94B37DA08" Ref="C38"  Part="1" 
-AR Path="/A4B37DA08" Ref="C38"  Part="1" 
-AR Path="/6FE901F74B37DA08" Ref="C38"  Part="1" 
-AR Path="/402755814B37DA08" Ref="C38"  Part="1" 
-AR Path="/3FEFFFFF4B37DA08" Ref="C38"  Part="1" 
-AR Path="/4030AAC04B37DA08" Ref="C38"  Part="1" 
-AR Path="/FFFFFFF04B37DA08" Ref="C38"  Part="1" 
-AR Path="/5AD7153D4B37DA08" Ref="C38"  Part="1" 
-AR Path="/A84B37DA08" Ref="C38"  Part="1" 
-AR Path="/14B37DA08" Ref="C38"  Part="1" 
-AR Path="/6FF0DD404B37DA08" Ref="C38"  Part="1" 
-AR Path="/23D9304B37DA08" Ref="C38"  Part="1" 
-AR Path="/23D8D44B37DA08" Ref="C38"  Part="1" 
-AR Path="/4031DDF34B37DA08" Ref="C38"  Part="1" 
-AR Path="/3FE88B434B37DA08" Ref="C38"  Part="1" 
-AR Path="/4032778D4B37DA08" Ref="C38"  Part="1" 
-AR Path="/403091264B37DA08" Ref="C38"  Part="1" 
-AR Path="/403051264B37DA08" Ref="C38"  Part="1" 
-AR Path="/4032F78D4B37DA08" Ref="C38"  Part="1" 
-AR Path="/403251264B37DA08" Ref="C38"  Part="1" 
-AR Path="/4032AAC04B37DA08" Ref="C38"  Part="1" 
-AR Path="/4030D1264B37DA08" Ref="C38"  Part="1" 
-AR Path="/4031778D4B37DA08" Ref="C38"  Part="1" 
-AR Path="/3FEA24DD4B37DA08" Ref="C38"  Part="1" 
-AR Path="/2600004B37DA08" Ref="C38"  Part="1" 
-AR Path="/6FE934E34B37DA08" Ref="C38"  Part="1" 
-AR Path="/773F65F14B37DA08" Ref="C38"  Part="1" 
-AR Path="/773F8EB44B37DA08" Ref="C38"  Part="1" 
-AR Path="/23C9F04B37DA08" Ref="C38"  Part="1" 
-AR Path="/24B37DA08" Ref="C38"  Part="1" 
-AR Path="/23BC884B37DA08" Ref="C38"  Part="1" 
-AR Path="/DC0C124B37DA08" Ref="C38"  Part="1" 
-AR Path="/23C34C4B37DA08" Ref="C38"  Part="1" 
-AR Path="/23CBC44B37DA08" Ref="C38"  Part="1" 
-AR Path="/23C6504B37DA08" Ref="C38"  Part="1" 
-AR Path="/39803EA4B37DA08" Ref="C38"  Part="1" 
-AR Path="/D058A04B37DA08" Ref="C38"  Part="1" 
-AR Path="/1607D44B37DA08" Ref="C38"  Part="1" 
-AR Path="/D1C3804B37DA08" Ref="C38"  Part="1" 
-AR Path="/23D70C4B37DA08" Ref="C38"  Part="1" 
-AR Path="/2104B37DA08" Ref="C38"  Part="1" 
-F 0 "C38" H 23600 3200 50  0000 L CNN
-F 1 "0.1 uF" H 23600 3000 50  0000 L CNN
-F 2 "C2" H 23550 3100 60  0000 C CNN
-F 3 "" H 23550 3100 60  0001 C CNN
-	1    23550 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -10668,8 +10612,6 @@ Wire Wire Line
 Wire Wire Line
 	18600 -8900 18050 -8900
 Wire Wire Line
-	18050 -10600 18050 -6850
-Wire Wire Line
 	18050 -10600 19750 -10600
 $Comp
 L GND #PWR018
@@ -10719,9 +10661,6 @@ Connection ~ 18250 -8700
 Wire Wire Line
 	18150 -6750 17250 -6750
 Connection ~ 18150 -8800
-Wire Wire Line
-	18050 -6850 17250 -6850
-Connection ~ 18050 -8900
 Text Notes 16550 -6800 0    60   ~ 0
 xx\nA23\nA22\nA21
 Text Notes 16550 -6000 0    60   ~ 0
@@ -10983,7 +10922,7 @@ Wire Wire Line
 Wire Wire Line
 	18150 -17250 18150 -13500
 Wire Wire Line
-	17950 -17350 17950 -9400
+	17950 -17350 17950 -9300
 Wire Wire Line
 	17950 -17350 19750 -17350
 Connection ~ 19200 -12150
@@ -11201,8 +11140,6 @@ Connection ~ 1350 4000
 Wire Wire Line
 	1350 5250 2000 5250
 Connection ~ 1350 5150
-Wire Wire Line
-	17950 -9400 18600 -9400
 Wire Wire Line
 	18150 -13500 17500 -13500
 Wire Wire Line
@@ -11482,4 +11419,8 @@ Text Label 50350 9450 0    60   ~ 0
 ~RAMCS5
 Text Label 47750 9450 0    60   ~ 0
 ~RAMCS4
+Wire Wire Line
+	18050 -8900 18050 -10600
+Wire Wire Line
+	17950 -9300 18600 -9300
 $EndSCHEMATC

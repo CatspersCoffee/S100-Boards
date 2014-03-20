@@ -11423,4 +11423,11 @@ Wire Wire Line
 	18050 -8900 18050 -10600
 Wire Wire Line
 	17950 -9300 18600 -9300
+Text Label 28400 6100 0    60   ~ 0
+0V
+Wire Wire Line
+	28400 6100 28300 6100
+Wire Wire Line
+	28300 6100 28300 5900
+Connection ~ 28300 5900
 $EndSCHEMATC

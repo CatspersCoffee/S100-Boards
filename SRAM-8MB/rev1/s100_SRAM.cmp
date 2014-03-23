@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 20/3/2014 5:32:21 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 24/3/2014 12:59:08 AM
 
 BeginCmp
 TimeStamp = /532E825D;
@@ -220,13 +220,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4B37DA0C;
 Reference = C37;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4B37DA08;
-Reference = C38;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
 EndCmp
@@ -845,6 +838,13 @@ TimeStamp = /532BBC24;
 Reference = U44;
 ValeurCmp = SRAM_512KB;
 IdModule  = ^^-SOP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /532FEC83;
+Reference = U45;
+ValeurCmp = LOGO_S100_SRAM_8MB;
+IdModule  = ^^LOGO8MBSRAM3;
 EndCmp
 
 EndListe

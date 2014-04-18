@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/14/2014 8:27:22 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/16/2014 11:22:18 AM
 
 BeginCmp
 TimeStamp = /523680F3;
@@ -12,6 +12,13 @@ TimeStamp = /523680F9;
 Reference = C2;
 ValeurCmp = 10 uF;
 IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /534BCA00;
+Reference = C3;
+ValeurCmp = 0.1 uF;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
@@ -449,6 +456,13 @@ IdModule  = SIL-5;
 EndCmp
 
 BeginCmp
+TimeStamp = /534DBECF;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
 TimeStamp = /532A3C67;
 Reference = P3;
 ValeurCmp = CONN_2;
@@ -495,6 +509,13 @@ TimeStamp = /5329104E;
 Reference = P9;
 ValeurCmp = CONN_2;
 IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /534DBEDC;
+Reference = P10;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
 EndCmp
 
 BeginCmp

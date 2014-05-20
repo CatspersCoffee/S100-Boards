@@ -3,14 +3,92 @@
 
 #------ OUTPUTS ------------------------------------------------------
 
+NET "BUSOUTEN"    LOC =  "P21"; 	# Data Bus INPUT enable U3dout1
+NET "BUSINEN"    	LOC =  "P22"; 	# Data Bus INPUT enable U3din1
+
+NET "IOREQtoUx17"    LOC =  "P39"; 	#active high IOREQbb signal going to Ux17 pin 13 for UART CS
+NET "RESET"    		LOC =  "P115"; 	# Reset to UART active high
+NET "RD"    			LOC =  "P113"; 	# Read strobe to UART active low
+NET "WR"    			LOC =  "P116"; 	# Write strobe to UART active low
+
 NET "D2"    		LOC =  "P7"; 	# LED D2
 NET "D3"    		LOC =  "P6"; 	# LED D3
+#NET "DONELED"    	LOC =  "P30"; 	# DONE LED
+NET "BSLED"    	LOC =  "P31"; 	# Board Select LED
+
+#NET "RESTTOS100"    		LOC =  "P3"; 	# reset to system S100 bus pin 75
+#NET "WAITTOS100"    		LOC =  "P2"; 	# wait to processor S100 bus pin 72 (RDY)
+
+#NET "FLASH0"    	LOC =  "P71"; 	# LED to indicate Flash 0 selected
+#NET "FLASH1"    	LOC =  "P74"; 	# LED to indicate Flash 1 selected
+#NET "FLASH2"    	LOC =  "P75"; 	# LED to indicate Flash 2 selected
+#NET "FLASH3"    	LOC =  "P76"; 	# LED to indicate Flash 3 selected
+
+#NET "TMA0"    		LOC =  "P117"; 	# to U11 TMA0 line 
+#NET "TMA1"    		LOC =  "P118"; 	# to U11 TMA1 line 
+#NET "TMA2"    		LOC =  "P119"; 	# to U11 TMA2 line 
+#NET "TMA3"    		LOC =  "P120"; 	# to U11 TMA3 line 
 
 
 #------ INPUTS -------------------------------------------------------
 
 
+NET "SOUTb"    	LOC =  "P34";   #active high - I/O WR (s100 Pin 45)
+NET "SINPb"    	LOC =  "P35";   #active high - I/O RD (s100 Pin 46)
+NET "pDBINb"    	LOC =  "P51";   #active high - when processor Reads from I/O or MEM (s100 Pin 78)
+NET "pWRb"    		LOC =  "P50";   #active low - when processor Writes to I/O or MEM (s100 Pin 77)
+NET "sMEMRb"    	LOC =  "P38";   #active high - MEM RD (s100 Pin 47)
+NET "MWRTb"    	LOC =  "P40";   #active high - MEM WR (s100 Pin 68)
+
+NET "SLAVECLR"    LOC =  "P33";   #active low - input reset from another board (s100 Pin 54)
+NET "PHIb"    		LOC =  "P54";   #primary processor clock line (s100 Pin 24)
+NET "CLOCKb"    	LOC =  "P53";   #clock line from another board (s100 Pin 49)
 
 
 
+#-- INPUTs into this board but not used in the interest of S100 compatability --
+#NET "M1"    		LOC =  "P20";   #NOT USED - M1 shows processor instruction fetch cycle (s100 Pin 44)
+#NET "IOREQbb"    	LOC =  "P39";   #NOT USED - IOREQUEST (s100 Pin 69)
+#NET "NDEF2b"    	LOC =  "P41";   # NOT USED -active low - MREQ Memory Reguest Signal (s100 Pin 65)
+#NET "sWOb"    		LOC =  "P52";   #NOT USED - active low when processor is in Write status (s100 Pin 97)
+#-------------------------------------------------------------------------------
 
+NET "A0"    	LOC =  "P100";   #Address Line 
+NET "A1"    	LOC =  "P101";   #Address Line 
+NET "A2"    	LOC =  "P102";   #Address Line 
+NET "A3"    	LOC =  "P103";   #Address Line 
+NET "A4"    	LOC =  "P104";   #Address Line 
+NET "A5"    	LOC =  "P105";   #Address Line 
+NET "A6"    	LOC =  "P106";   #Address Line 
+NET "A7"    	LOC =  "P107";   #Address Line 
+#NET "A8"    	LOC =  "P79";   #Address Line 
+#NET "A9"    	LOC =  "P80";   #Address Line 
+#NET "A10"    	LOC =  "P81";   #Address Line 
+#NET "A11"    	LOC =  "P82";   #Address Line 
+#NET "A12"    	LOC =  "P83";   #Address Line 
+#NET "A13"    	LOC =  "P85";   #Address Line 
+#NET "A14"    	LOC =  "P86";   #Address Line 
+#NET "A15"    	LOC =  "P87";   #Address Line 
+#NET "A16"    	LOC =  "P88";   #Address Line 
+#NET "A17"    	LOC =  "P91";   #Address Line 
+#NET "A18"    	LOC =  "P92";   #Address Line 
+#NET "A19"    	LOC =  "P93";   #Address Line 
+#NET "A20"    	LOC =  "P94";   #Address Line 
+#NET "A21"    	LOC =  "P95";   #Address Line 
+#NET "A22"    	LOC =  "P96";   #Address Line 
+#NET "A23"    	LOC =  "P97";   #Address Line 
+
+#NET "D0"    	LOC =  "P9";   #Data Line 
+#NET "D1"    	LOC =  "P10";   #Data Line 
+#NET "D2"    	LOC =  "P11";   #Data Line 
+#NET "D3"    	LOC =  "P12";   #Data Line 
+#NET "D4"    	LOC =  "P13";   #Data Line 
+#NET "D5"    	LOC =  "P14";   #Data Line 
+#NET "D6"    	LOC =  "P15";   #Data Line 
+#NET "D7"    	LOC =  "P16";   #Data Line 
+
+#NET "D0b"    	LOC =  "P17";   #Data Line 
+#NET "D1b"    	LOC =  "P19";   #Data Line 
+
+
+NET "CSUART"    	LOC =  "P25";   #CS UART line (input to CPLD to be able to select Data buffers WR/RD)

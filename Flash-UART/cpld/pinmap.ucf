@@ -23,6 +23,10 @@ NET "FLASH0"    	LOC =  "P71"; 	# LED to indicate Flash 0 selected
 NET "FLASH1"    	LOC =  "P74"; 	# LED to indicate Flash 1 selected
 NET "FLASH2"    	LOC =  "P75"; 	# LED to indicate Flash 2 selected
 NET "FLASH3"    	LOC =  "P76"; 	# LED to indicate Flash 3 selected
+NET "FLASHSEL0"    	LOC =  "P66"; 	# CS line to Flash 0
+NET "FLASHSEL1"    	LOC =  "P64"; 	# CS line to Flash 1
+NET "FLASHSEL2"    	LOC =  "P61"; 	# CS line to Flash 2
+NET "FLASHSEL3"    	LOC =  "P60"; 	# CS line to Flash 3
 
 NET "TMA0"    		LOC =  "P117"; 	# to U11 TMA0 line 
 NET "TMA1"    		LOC =  "P118"; 	# to U11 TMA1 line 
@@ -94,3 +98,9 @@ NET "D1b"    	LOC =  "P19";   #Data Line
 
 NET "CSUART"    	LOC =  "P25";   #CS UART line (input to CPLD to be able to select Data buffers WR/RD)
 NET "MASTERRESET"    	LOC =  "P24";   #Board Maset Reset button
+
+NET "PIC18F0"    	LOC =  "P68";   #from 18F1330 for Flash Select 
+NET "PIC18F1"    	LOC =  "P69";   #from 18F1330 for Flash Select 
+NET "PIC18F2"    	LOC =  "P70";   #from 18F1330 for Flash Select  
+
+NET "FLASHCS"    	LOC =  "P57";   #Master Flash CS from either RUN or PROG

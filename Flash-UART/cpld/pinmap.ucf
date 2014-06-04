@@ -13,7 +13,7 @@ NET "WR"    			LOC =  "P116"; 	# Write strobe to UART active low
 
 NET "Diode2"    		LOC =  "P7"; 	# LED D2
 NET "Diode3"    		LOC =  "P6"; 	# LED D3
-#NET "DONELED"    	LOC =  "P30"; 	# DONE LED
+NET "DONELED"    	LOC =  "P30"; 	# DONE LED
 NET "BSLED"    	LOC =  "P31"; 	# Board Select LED
 
 NET "RESTTOS100"    		LOC =  "P3"; 	# reset to system S100 bus pin 75
@@ -34,6 +34,14 @@ NET "TMA2"    		LOC =  "P119"; 	# to U11 TMA2 line
 NET "TMA3"    		LOC =  "P120"; 	# to U11 TMA3 line 
 
 NET "Pin112"    		LOC =  "P112"; 	#
+NET "Pin110"    		LOC =  "P110"; 	#
+
+NET "FLASHCLK"    	LOC =  "P135"; 	#Flash CLK line (output to FLASH)
+NET "FLASHDin"    	LOC =  "P136"; 	#Flash Din line (output to FLASH) Data from System to FLASH
+NET "FLASHCSsys"    	LOC =  "P137"; 	#Flash CS line (output to FLASH)
+
+NET "CPLD134"    		LOC =  "P134"; 	#to enable buffer U19 (connected to Data Bus)
+NET "CPLD45"    		LOC =  "P45"; 		#to buffer U19 i.e. D0 (connected to Data Bus)
 
 #------ INPUTS -------------------------------------------------------
 
@@ -104,3 +112,5 @@ NET "PIC18F1"    	LOC =  "P69";   #from 18F1330 for Flash Select
 NET "PIC18F2"    	LOC =  "P70";   #from 18F1330 for Flash Select  
 
 NET "FLASHCS"    	LOC =  "P57";   #Master Flash CS from either RUN or PROG
+
+NET "FLASHDout"    LOC =  "P138"; 	#Flash Dout line (input, from FLASH) Data from FLASH to System.

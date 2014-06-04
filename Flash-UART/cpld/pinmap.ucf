@@ -3,7 +3,7 @@
 
 #------ OUTPUTS ------------------------------------------------------
 
-NET "BUSOUTEN"    LOC =  "P21"; 	# Data Bus INPUT enable U3dout1
+NET "BUSOUTEN"    LOC =  "P21"; 	# Data Bus OUTPUT enable U3dout1
 NET "BUSINEN"    	LOC =  "P22"; 	# Data Bus INPUT enable U3din1
 
 NET "IOREQtoUx17"    LOC =  "P39"; 	#active high IOREQbb signal going to Ux17 pin 13 for UART CS
@@ -11,24 +11,25 @@ NET "RESET"    		LOC =  "P115"; 	# Reset to UART active high
 NET "RD"    			LOC =  "P113"; 	# Read strobe to UART active low
 NET "WR"    			LOC =  "P116"; 	# Write strobe to UART active low
 
-NET "D2"    		LOC =  "P7"; 	# LED D2
-NET "D3"    		LOC =  "P6"; 	# LED D3
+NET "Diode2"    		LOC =  "P7"; 	# LED D2
+NET "Diode3"    		LOC =  "P6"; 	# LED D3
 #NET "DONELED"    	LOC =  "P30"; 	# DONE LED
 NET "BSLED"    	LOC =  "P31"; 	# Board Select LED
 
-#NET "RESTTOS100"    		LOC =  "P3"; 	# reset to system S100 bus pin 75
+NET "RESTTOS100"    		LOC =  "P3"; 	# reset to system S100 bus pin 75
 #NET "WAITTOS100"    		LOC =  "P2"; 	# wait to processor S100 bus pin 72 (RDY)
 
-#NET "FLASH0"    	LOC =  "P71"; 	# LED to indicate Flash 0 selected
-#NET "FLASH1"    	LOC =  "P74"; 	# LED to indicate Flash 1 selected
-#NET "FLASH2"    	LOC =  "P75"; 	# LED to indicate Flash 2 selected
-#NET "FLASH3"    	LOC =  "P76"; 	# LED to indicate Flash 3 selected
+NET "FLASH0"    	LOC =  "P71"; 	# LED to indicate Flash 0 selected
+NET "FLASH1"    	LOC =  "P74"; 	# LED to indicate Flash 1 selected
+NET "FLASH2"    	LOC =  "P75"; 	# LED to indicate Flash 2 selected
+NET "FLASH3"    	LOC =  "P76"; 	# LED to indicate Flash 3 selected
 
-#NET "TMA0"    		LOC =  "P117"; 	# to U11 TMA0 line 
-#NET "TMA1"    		LOC =  "P118"; 	# to U11 TMA1 line 
-#NET "TMA2"    		LOC =  "P119"; 	# to U11 TMA2 line 
-#NET "TMA3"    		LOC =  "P120"; 	# to U11 TMA3 line 
+NET "TMA0"    		LOC =  "P117"; 	# to U11 TMA0 line 
+NET "TMA1"    		LOC =  "P118"; 	# to U11 TMA1 line 
+NET "TMA2"    		LOC =  "P119"; 	# to U11 TMA2 line 
+NET "TMA3"    		LOC =  "P120"; 	# to U11 TMA3 line 
 
+NET "Pin112"    		LOC =  "P112"; 	#
 
 #------ INPUTS -------------------------------------------------------
 
@@ -78,17 +79,18 @@ NET "A7"    	LOC =  "P107";   #Address Line
 #NET "A22"    	LOC =  "P96";   #Address Line 
 #NET "A23"    	LOC =  "P97";   #Address Line 
 
-#NET "D0"    	LOC =  "P9";   #Data Line 
-#NET "D1"    	LOC =  "P10";   #Data Line 
-#NET "D2"    	LOC =  "P11";   #Data Line 
-#NET "D3"    	LOC =  "P12";   #Data Line 
+NET "D0"    	LOC =  "P9";   #Data Line 
+NET "D1"    	LOC =  "P10";   #Data Line 
+NET "D2"    	LOC =  "P11";   #Data Line 
+NET "D3"    	LOC =  "P12";   #Data Line 
 #NET "D4"    	LOC =  "P13";   #Data Line 
 #NET "D5"    	LOC =  "P14";   #Data Line 
 #NET "D6"    	LOC =  "P15";   #Data Line 
 #NET "D7"    	LOC =  "P16";   #Data Line 
 
-#NET "D0b"    	LOC =  "P17";   #Data Line 
-#NET "D1b"    	LOC =  "P19";   #Data Line 
+NET "D0b"    	LOC =  "P17";   #Data Line 
+NET "D1b"    	LOC =  "P19";   #Data Line 
 
 
 NET "CSUART"    	LOC =  "P25";   #CS UART line (input to CPLD to be able to select Data buffers WR/RD)
+NET "MASTERRESET"    	LOC =  "P24";   #Board Maset Reset button

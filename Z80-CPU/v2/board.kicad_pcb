@@ -39,7 +39,7 @@
     (trace_min 0.2032)
     (segment_width 0.381)
     (edge_width 0.381)
-    (via_size 0.5)
+    (via_size 0.6)
     (via_drill 0.35)
     (via_min_size 0.4)
     (via_min_drill 0.2)
@@ -388,7 +388,7 @@
   (net_class Default "This is the default net class."
     (clearance 0.2032)
     (trace_width 0.2032)
-    (via_dia 0.5)
+    (via_dia 0.6)
     (via_drill 0.35)
     (uvia_dia 0.508)
     (uvia_drill 0.2032)
@@ -696,8 +696,17 @@
     (via_drill 0.5842)
     (uvia_dia 0.508)
     (uvia_drill 0.2032)
-    (add_net GND)
     (add_net VCC)
+  )
+
+  (net_class gnd ""
+    (clearance 0.2032)
+    (trace_width 0.4)
+    (via_dia 0.6)
+    (via_drill 0.35)
+    (uvia_dia 0.508)
+    (uvia_drill 0.2032)
+    (add_net GND)
   )
 
   (net_class power8v ""
@@ -8219,7 +8228,7 @@
   )
 
   (module DIP-40__600_ELL (layer Component) (tedit 200000) (tstamp 4BB76D45)
-    (at 194.31 56.896)
+    (at 194.31 55.88)
     (descr "Module Dil 40 pins, pads elliptiques, e=600 mils")
     (tags DIL)
     (path /4BB3D210)

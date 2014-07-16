@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12-07-14 2:52 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/17/2014 12:01:01 AM
 
 BeginCmp
 TimeStamp = /4A074934;
@@ -26,13 +26,6 @@ TimeStamp = /53920679;
 Reference = C4;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C03AFE;
-Reference = C5;
-ValeurCmp = 100pF;
-IdModule  = C1V5;
 EndCmp
 
 BeginCmp
@@ -113,6 +106,13 @@ IdModule  = C2;
 EndCmp
 
 BeginCmp
+TimeStamp = /53C2DB3C;
+Reference = C17;
+ValeurCmp = 0.1 uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
 TimeStamp = /4B2EC5DA;
 Reference = C18;
 ValeurCmp = 0.1 uF;
@@ -130,6 +130,13 @@ BeginCmp
 TimeStamp = /4B36625D;
 Reference = C20;
 ValeurCmp = 0.1 uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C2DB31;
+Reference = C21;
+ValeurCmp = 100nF;
 IdModule  = C2;
 EndCmp
 
@@ -229,20 +236,6 @@ TimeStamp = /4B3D33B5;
 Reference = C41;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4BB28E9E;
-Reference = C42;
-ValeurCmp = 22 uF;
-IdModule  = C1V7;
-EndCmp
-
-BeginCmp
-TimeStamp = /4BB28FBA;
-Reference = C43;
-ValeurCmp = 33 uF;
-IdModule  = C1V7;
 EndCmp
 
 BeginCmp
@@ -379,13 +372,6 @@ IdModule  = ^^LED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BB28F83;
-Reference = D6;
-ValeurCmp = 1N4148;
-IdModule  = D3;
-EndCmp
-
-BeginCmp
 TimeStamp = /5392C3B2;
 Reference = D7;
 ValeurCmp = DONE;
@@ -397,34 +383,6 @@ TimeStamp = /53C2BA00;
 Reference = D8;
 ValeurCmp = POWER;
 IdModule  = ^^LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4BB28DF7;
-Reference = JP4;
-ValeurCmp = JUMPER;
-IdModule  = SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4BB28F56;
-Reference = JP5;
-ValeurCmp = JUMPER;
-IdModule  = SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C6829B4;
-Reference = JP6;
-ValeurCmp = JUMPER;
-IdModule  = SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4C682A0C;
-Reference = JP7;
-ValeurCmp = JUMPER;
-IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
@@ -463,16 +421,16 @@ IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /53BFB030;
+TimeStamp = /53C92464;
 Reference = K6;
-ValeurCmp = U35p12;
+ValeurCmp = bA15;
 IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /53BFD850;
+TimeStamp = /53C9246A;
 Reference = K7;
-ValeurCmp = U40p8;
+ValeurCmp = bA14;
 IdModule  = SIL-3;
 EndCmp
 
@@ -480,6 +438,62 @@ BeginCmp
 TimeStamp = /53C27C09;
 Reference = K8;
 ValeurCmp = WRstrobe;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C2FDD5;
+Reference = K9;
+ValeurCmp = U29B Q;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C315A5;
+Reference = K10;
+ValeurCmp = U15 Clock;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C92470;
+Reference = K11;
+ValeurCmp = bA13;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C92476;
+Reference = K12;
+ValeurCmp = bA12;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C8D663;
+Reference = K13;
+ValeurCmp = bA19;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C8D66E;
+Reference = K14;
+ValeurCmp = bA18;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C8D674;
+Reference = K15;
+ValeurCmp = bA16;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C8D67A;
+Reference = K16;
+ValeurCmp = bA17;
 IdModule  = SIL-3;
 EndCmp
 
@@ -551,13 +565,6 @@ TimeStamp = /4C681EBF;
 Reference = P36;
 ValeurCmp = CONN_3X2;
 IdModule  = pin_array_3x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4BB28E5E;
-Reference = Q1;
-ValeurCmp = 2N3904;
-IdModule  = TO92-INVERT;
 EndCmp
 
 BeginCmp
@@ -673,13 +680,6 @@ IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BB28E8C;
-Reference = R11;
-ValeurCmp = 4700;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
 TimeStamp = /5392C387;
 Reference = R12;
 ValeurCmp = 330;
@@ -705,13 +705,6 @@ TimeStamp = /5392C3B8;
 Reference = R15;
 ValeurCmp = 470;
 IdModule  = ^^SMD_Resistor-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C040F3;
-Reference = R16;
-ValeurCmp = 10K;
-IdModule  = R3;
 EndCmp
 
 BeginCmp
@@ -747,6 +740,13 @@ TimeStamp = /52765B5B;
 Reference = R41;
 ValeurCmp = 4700;
 IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C31557;
+Reference = RR1;
+ValeurCmp = 1000;
+IdModule  = r_pack9;
 EndCmp
 
 BeginCmp
@@ -792,17 +792,10 @@ IdModule  = r_pack9;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BBA7AF9;
-Reference = RR8;
-ValeurCmp = 1000;
-IdModule  = r_pack9;
-EndCmp
-
-BeginCmp
-TimeStamp = /4BBBC67C;
-Reference = RR9;
-ValeurCmp = 1000;
-IdModule  = r_pack9;
+TimeStamp = /53C3153E;
+Reference = SW1;
+ValeurCmp = DIPS_08;
+IdModule  = SWDIP8;
 EndCmp
 
 BeginCmp
@@ -925,9 +918,9 @@ IdModule  = DIP-20__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C017DA;
+TimeStamp = /53C31551;
 Reference = U15;
-ValeurCmp = 74LS123;
+ValeurCmp = 74LS165;
 IdModule  = DIP-16__300_ELL;
 EndCmp
 
@@ -1079,9 +1072,9 @@ IdModule  = DIP-14__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BB6687D;
+TimeStamp = /53C7014F;
 Reference = U39;
-ValeurCmp = 74S08;
+ValeurCmp = 74LS02;
 IdModule  = DIP-14__300_ELL;
 EndCmp
 

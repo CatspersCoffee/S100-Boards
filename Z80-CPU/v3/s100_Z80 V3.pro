@@ -1,10 +1,5 @@
-update=12-07-14 11:26 AM
-last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+update=7/17/2014 5:51:10 PM
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=../Ants Librarys
@@ -246,7 +241,6 @@ DrawSegmentWidth=0.381000000000
 BoardOutlineThickness=0.381000000000
 ModuleOutlineThickness=0.381000000000
 [pcbnew/libraries]
-LibDir=../Ants Librarys
 LibName1=ALL other libs apart from ANTS_MOD1/65xxx
 LibName2=ALL other libs apart from ANTS_MOD1/connecteurs
 LibName3=ALL other libs apart from ANTS_MOD1/con-vg
@@ -370,3 +364,10 @@ LibName120=N8VEM-KiCAD-005/N8VEM-KiCAD/stereo_jack
 LibName121=N8VEM-KiCAD-005/N8VEM-KiCAD/supports
 LibName122=N8VEM-KiCAD-005/N8VEM-KiCAD/transistor-power
 LibName123=N8VEM-KiCAD-005/N8VEM-KiCAD/Vocanson_display
+LibName124=Q:/New folder/LOGOs
+LibDir=../Ants Librarys
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

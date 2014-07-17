@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "M:/New folder (2)/Documents/S100 Z80 version3/s100_Z80 V3.sch")
-    (date "7/17/2014 3:59:47 AM")
+    (source "M:\\New folder (2)\\Documents\\S100 Z80 version3\\s100_Z80 V3.sch")
+    (date "7/17/2014 5:50:24 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref P36)
@@ -906,7 +906,12 @@
       (value 330)
       (libsource (lib 4MEM-cache) (part R))
       (sheetpath (names /) (tstamps /))
-      (tstamp 53C70DB3)))
+      (tstamp 53C70DB3))
+    (comp (ref U26)
+      (value ^^LOGO1)
+      (libsource (lib ANTS_MOD1) (part ^^LOGO1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53C7641C)))
   (libparts
     (libpart (lib 00N8VEM) (part 74LS161)
       (fields
@@ -1560,6 +1565,12 @@
         (pin (num 18) (name Y0) (type 3state))
         (pin (num 19) (name G2) (type input))
         (pin (num 20) (name VCC) (type power_in))))
+    (libpart (lib ANTS_MOD1) (part ^^LOGO1)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) ^^LOGO1)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~)))
     (libpart (lib ANTS_MOD1) (part ^^NPN-SOT23)
       (fields
         (field (name Reference) Q)

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/17/2014 4:00:42 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/18/2014 12:16:47 AM
 
 BeginCmp
 TimeStamp = /4A074934;
@@ -992,6 +992,13 @@ TimeStamp = /4BB754AA;
 Reference = U25;
 ValeurCmp = 74LS04;
 IdModule  = DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C7641C;
+Reference = U26;
+ValeurCmp = ^^LOGO1;
+IdModule  = ***Z80cpuV32;
 EndCmp
 
 BeginCmp

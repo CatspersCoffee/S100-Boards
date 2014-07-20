@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/18/2014 12:16:47 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 20-07-14 12:00 PM
 
 BeginCmp
 TimeStamp = /4A074934;
@@ -24,6 +24,13 @@ EndCmp
 BeginCmp
 TimeStamp = /53920679;
 Reference = C4;
+ValeurCmp = 0.1 uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CBD196;
+Reference = C5;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
 EndCmp
@@ -491,6 +498,13 @@ IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
+TimeStamp = /53CB1D92;
+Reference = K18;
+ValeurCmp = ROM_E-;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
 TimeStamp = /4A06E881;
 Reference = P1;
 ValeurCmp = S100_MALE;
@@ -673,6 +687,13 @@ IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /53CB1998;
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
 TimeStamp = /5392C387;
 Reference = R12;
 ValeurCmp = 330;
@@ -698,6 +719,13 @@ TimeStamp = /5392C3B8;
 Reference = R15;
 ValeurCmp = 470;
 IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB61D1;
+Reference = R16;
+ValeurCmp = 10K;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
@@ -1023,10 +1051,24 @@ IdModule  = DIP-14__300_ELL;
 EndCmp
 
 BeginCmp
+TimeStamp = /53CAFAF7;
+Reference = U30;
+ValeurCmp = ^^74LS541;
+IdModule  = DIP-20__300_ELL;
+EndCmp
+
+BeginCmp
 TimeStamp = /4BB68997;
 Reference = U31;
 ValeurCmp = 74LS00;
 IdModule  = DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB4180;
+Reference = U32;
+ValeurCmp = ^^74LS541;
+IdModule  = DIP-20__300_ELL;
 EndCmp
 
 BeginCmp
@@ -1086,23 +1128,16 @@ IdModule  = DIP-14__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BB67751;
-Reference = U43;
-ValeurCmp = 74LS11;
-IdModule  = DIP-14__300_ELL;
+TimeStamp = /53CB4186;
+Reference = U41;
+ValeurCmp = ^^74LS541;
+IdModule  = DIP-20__300_ELL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4BB75778;
 Reference = U45;
 ValeurCmp = 74LS02;
-IdModule  = DIP-14__300_ELL;
-EndCmp
-
-BeginCmp
-TimeStamp = /539007DA;
-Reference = U47;
-ValeurCmp = 74LS04;
 IdModule  = DIP-14__300_ELL;
 EndCmp
 

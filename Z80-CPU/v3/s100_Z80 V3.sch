@@ -1,91 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:00N8VEM
-LIBS:4MEM-cache
-LIBS:65xxx
 LIBS:74xx
-LIBS:82C55A-PLCC
-LIBS:8563
-LIBS:am29-memory
-LIBS:analog-sergey
-LIBS:AS6C3216
-LIBS:AT29C1024-PLCC
-LIBS:AY-5-8116
-LIBS:babyM68K-cache
-LIBS:con-amp
-LIBS:conn
-LIBS:controllers-sergey
-LIBS:con-vg
-LIBS:CY62167DV30
-LIBS:dallas-rtc
-LIBS:devices-sergey
-LIBS:dips-s
-LIBS:display-hp
-LIBS:diy_connectors
-LIBS:diy_rcl
-LIBS:diy_switches
-LIBS:dp_devices
-LIBS:ds12885
-LIBS:ds12887a
-LIBS:ECB-4PIO-cache
-LIBS:ECB-RAF2011-R08-cache
-LIBS:gd5420
-LIBS:HD15_B
-LIBS:ic-package
-LIBS:intel
-LIBS:intel-8xxx
-LIBS:interconnects_sergey
-LIBS:led
-LIBS:lm317-to92-invert
-LIBS:lm334z
-LIBS:lm1881
-LIBS:lumiled
-LIBS:maxim
-LIBS:mc6802-6502-n8vem
-LIBS:mc68360
-LIBS:mcm414256-dip20
-LIBS:memory
-LIBS:memory-nec
-LIBS:memory-sergey
-LIBS:micro-68x_db
-LIBS:microchip
-LIBS:microchip-2
-LIBS:micro-intel
-LIBS:micro-mc68000 - Copy
-LIBS:micro-mc68000
-LIBS:mini_din
-LIBS:motorola
-LIBS:m-pad-2.1
-LIBS:msx_cart_slot
-LIBS:N8VEM-KiCAD
-LIBS:o_analog
-LIBS:o_intel
-LIBS:o_memory
-LIBS:o_moto
-LIBS:o_ttl
-LIBS:o_zilog
-LIBS:oldchips
-LIBS:opendous
-LIBS:P112-parts
-LIBS:pc8477b
-LIBS:PIC-004-cache
-LIBS:propeller
-LIBS:r_BUS_ISA
-LIBS:relay
-LIBS:relay-pickering
-LIBS:renesas21
-LIBS:rp5c01
-LIBS:SBC-188
-LIBS:sdcard-mini_03
-LIBS:sn2032
-LIBS:special
-LIBS:st78c34
-LIBS:tms9918-AY38910
-LIBS:transistor-power
-LIBS:upd7220
-LIBS:Vocanson_display
-LIBS:wildcard88
-LIBS:Z8S180
-LIBS:z53c80
 LIBS:adc-dac
 LIBS:analog_switches
 LIBS:atmel
@@ -93,6 +7,7 @@ LIBS:audio
 LIBS:brooktre
 LIBS:cmos_ieee
 LIBS:cmos4000
+LIBS:conn
 LIBS:contrib
 LIBS:cypress
 LIBS:device
@@ -101,16 +16,21 @@ LIBS:display
 LIBS:dsp
 LIBS:gennum
 LIBS:graphic
+LIBS:intel
 LIBS:interface
 LIBS:linear
+LIBS:memory
+LIBS:microchip
 LIBS:microchip1
 LIBS:microcontrollers
+LIBS:motorola
 LIBS:opto
 LIBS:philips
 LIBS:power
 LIBS:pspice
 LIBS:regul
 LIBS:siliconi
+LIBS:special
 LIBS:SymbolsSimilarEN60617+oldDIN617
 LIBS:texas
 LIBS:transf
@@ -120,34 +40,15 @@ LIBS:valves
 LIBS:video
 LIBS:xilinx
 LIBS:xxx
-LIBS:74ls-sergey
-LIBS:con-headers-jp
-LIBS:hirose-fx2-100
-LIBS:hirose-fx2-100-2
-LIBS:microchip_can
-LIBS:microchip_enet
-LIBS:microchip_mcp2120
-LIBS:microchip_pic16f716
-LIBS:microchip16c7xx
-LIBS:microchip-16f688
-LIBS:microchip-18f258
-LIBS:microchip-dspic
-LIBS:microchip-enc28j60
-LIBS:microchip-mcp125x-xxx
-LIBS:microchip-pic18fxx5x
-LIBS:micro-pic18xxx
-LIBS:pic18f67j60
-LIBS:ref-packages
-LIBS:s100_Z80-cache
-LIBS:silabs
-LIBS:silabs-2
-LIBS:silabs-eth
-LIBS:transistor
-LIBS:XC9572XL_44Pin-cache
-LIBS:xilinx_spartan3_virtex4_and_5
-LIBS:xilinx_xc9572xl-tq100
-LIBS:xilinxMOD1
 LIBS:ANTS_MOD1
+LIBS:intel-8xxx
+LIBS:N8VEM-KiCAD
+LIBS:o_analog
+LIBS:o_intel
+LIBS:o_memory
+LIBS:o_moto
+LIBS:o_zilog
+LIBS:oldchips
 LIBS:s100_Z80 V3-cache
 EELAYER 27 0
 EELAYER END
@@ -155,7 +56,7 @@ $Descr E 44000 34000
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "17 jul 2014"
+Date "20 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -198,7 +99,6 @@ NoConn ~ 15950 29050
 NoConn ~ 12350 29050
 NoConn ~ 8750 29050
 NoConn ~ 10700 30100
-NoConn ~ 7100 30100
 Text Label 14650 21200 0    60   ~ 0
 READ_STROBE
 Text Label 28800 26100 0    60   ~ 0
@@ -830,7 +730,7 @@ $EndComp
 $Comp
 L 74LS04 U?
 U 6 1 4BB754AA
-P -3150 16600
+P 12200 15100
 AR Path="/2300384BB754AA" Ref="U?"  Part="1" 
 AR Path="/4BB754AA" Ref="U25"  Part="6" 
 AR Path="/350031324BB754AA" Ref="U?"  Part="1" 
@@ -865,12 +765,12 @@ AR Path="/6FE934344BB754AA" Ref="U25"  Part="6"
 AR Path="/6FE934E34BB754AA" Ref="U25"  Part="6" 
 AR Path="/69549BC04BB754AA" Ref="U25"  Part="6" 
 AR Path="/D1C3384BB754AA" Ref="U25"  Part="6" 
-F 0 "U25" H -2955 16715 60  0000 C CNN
-F 1 "74LS04" H -2960 16475 60  0000 C CNN
-F 2 "14dip300" H -2960 16575 60  0001 C CNN
-F 3 "" H -3150 16600 60  0001 C CNN
-	6    -3150 16600
-	1    0    0    -1  
+F 0 "U25" H 12395 15215 60  0000 C CNN
+F 1 "74LS04" H 12390 14975 60  0000 C CNN
+F 2 "14dip300" H 12390 15075 60  0001 C CNN
+F 3 "" H 12200 15100 60  0001 C CNN
+	6    12200 15100
+	-1   0    0    1   
 $EndComp
 $Comp
 L 74LS139 U?
@@ -2711,7 +2611,7 @@ $EndComp
 $Comp
 L 74LS00 U?
 U 1 1 4BB684A5
-P -3100 24100
+P 13400 15100
 AR Path="/2300384BB684A5" Ref="U?"  Part="1" 
 AR Path="/4BB684A5" Ref="U31"  Part="1" 
 AR Path="/FFFFFFFF4BB684A5" Ref="U31"  Part="1" 
@@ -2746,12 +2646,12 @@ AR Path="/6FE934E34BB684A5" Ref="U31"  Part="1"
 AR Path="/2824BB684A5" Ref="U31"  Part="1" 
 AR Path="/69549BC04BB684A5" Ref="U31"  Part="1" 
 AR Path="/D1C3384BB684A5" Ref="U31"  Part="1" 
-F 0 "U31" H -3100 24150 60  0000 C CNN
-F 1 "74LS00" H -3100 24050 60  0000 C CNN
-F 2 "14dip300" H -3100 24150 60  0001 C CNN
-F 3 "" H -3100 24100 60  0001 C CNN
-	1    -3100 24100
-	1    0    0    -1  
+F 0 "U31" H 13400 15150 60  0000 C CNN
+F 1 "74LS00" H 13400 15050 60  0000 C CNN
+F 2 "14dip300" H 13400 15150 60  0001 C CNN
+F 3 "" H 13400 15100 60  0001 C CNN
+	1    13400 15100
+	-1   0    0    1   
 $EndComp
 Text Notes 33550 29550 0    60   ~ 0
 2 MHz TTL OSCILLATOR
@@ -3215,7 +3115,7 @@ INT*
 $Comp
 L 74LS04 U?
 U 3 1 4BB67D2D
-P -1950 26550
+P 18450 12550
 AR Path="/2300384BB67D2D" Ref="U?"  Part="1" 
 AR Path="/4BB67D2D" Ref="U36"  Part="3" 
 AR Path="/374432444BB67D2D" Ref="U?"  Part="1" 
@@ -3250,12 +3150,12 @@ AR Path="/6FE934E34BB67D2D" Ref="U36"  Part="3"
 AR Path="/2824BB67D2D" Ref="U36"  Part="3" 
 AR Path="/69549BC04BB67D2D" Ref="U36"  Part="3" 
 AR Path="/D1C3384BB67D2D" Ref="U36"  Part="3" 
-F 0 "U36" H -1755 26665 60  0000 C CNN
-F 1 "74LS04" H -1760 26425 60  0000 C CNN
-F 2 "14dip300" H -1760 26525 60  0001 C CNN
-F 3 "" H -1950 26550 60  0001 C CNN
-	3    -1950 26550
-	-1   0    0    1   
+F 0 "U36" H 18645 12665 60  0000 C CNN
+F 1 "74LS04" H 18640 12425 60  0000 C CNN
+F 2 "14dip300" H 18640 12525 60  0001 C CNN
+F 3 "" H 18450 12550 60  0001 C CNN
+	3    18450 12550
+	1    0    0    -1  
 $EndComp
 Text Label 12550 25250 0    60   ~ 0
 RESET*
@@ -3611,7 +3511,7 @@ $EndComp
 $Comp
 L 74LS04 U?
 U 1 1 4BB6788F
-P -1950 26950
+P 16350 12900
 AR Path="/2300384BB6788F" Ref="U?"  Part="1" 
 AR Path="/4BB6788F" Ref="U36"  Part="1" 
 AR Path="/FFFFFFFF4BB6788F" Ref="U36"  Part="1" 
@@ -3644,55 +3544,14 @@ AR Path="/6FE934E34BB6788F" Ref="U36"  Part="1"
 AR Path="/2824BB6788F" Ref="U36"  Part="1" 
 AR Path="/69549BC04BB6788F" Ref="U36"  Part="1" 
 AR Path="/D1C3384BB6788F" Ref="U36"  Part="1" 
-F 0 "U36" H -1755 27065 60  0000 C CNN
-F 1 "74LS04" H -1760 26825 60  0000 C CNN
-F 2 "14dip300" H -1760 26925 60  0001 C CNN
-F 3 "" H -1950 26950 60  0001 C CNN
-	1    -1950 26950
-	-1   0    0    1   
+F 0 "U36" H 16545 13015 60  0000 C CNN
+F 1 "74LS04" H 16540 12775 60  0000 C CNN
+F 2 "14dip300" H 16540 12875 60  0001 C CNN
+F 3 "" H 16350 12900 60  0001 C CNN
+	1    16350 12900
+	1    0    0    -1  
 $EndComp
 NoConn ~ 14850 17650
-$Comp
-L 74LS11 U?
-U 1 1 4BB67751
-P 16800 16050
-AR Path="/A200384BB67751" Ref="U?"  Part="1" 
-AR Path="/4BB67751" Ref="U43"  Part="1" 
-AR Path="/FFFFFFFF4BB67751" Ref="U43"  Part="1" 
-AR Path="/755D912A4BB67751" Ref="U?"  Part="1" 
-AR Path="/6FE934E34BB67751" Ref="U43"  Part="1" 
-AR Path="/2606084BB67751" Ref="U43"  Part="1" 
-AR Path="/23D83C4BB67751" Ref="U43"  Part="1" 
-AR Path="/47907FA4BB67751" Ref="U43"  Part="1" 
-AR Path="/23C34C4BB67751" Ref="U43"  Part="1" 
-AR Path="/14BB67751" Ref="U43"  Part="1" 
-AR Path="/23BC884BB67751" Ref="U43"  Part="1" 
-AR Path="/773F8EB44BB67751" Ref="U43"  Part="1" 
-AR Path="/94BB67751" Ref="U"  Part="1" 
-AR Path="/23C9F04BB67751" Ref="U43"  Part="1" 
-AR Path="/FFFFFFF04BB67751" Ref="U43"  Part="1" 
-AR Path="/7E4188DA4BB67751" Ref="U43"  Part="1" 
-AR Path="/8D384BB67751" Ref="U43"  Part="1" 
-AR Path="/773F65F14BB67751" Ref="U43"  Part="1" 
-AR Path="/24BB67751" Ref="U43"  Part="1" 
-AR Path="/23C6504BB67751" Ref="U43"  Part="1" 
-AR Path="/D058E04BB67751" Ref="U43"  Part="1" 
-AR Path="/3C64BB67751" Ref="U43"  Part="1" 
-AR Path="/23CBC44BB67751" Ref="U43"  Part="1" 
-AR Path="/2F4A4BB67751" Ref="U43"  Part="1" 
-AR Path="/23D9004BB67751" Ref="U43"  Part="1" 
-AR Path="/64BB67751" Ref="U43"  Part="1" 
-AR Path="/6FE934344BB67751" Ref="U43"  Part="1" 
-AR Path="/2824BB67751" Ref="U43"  Part="1" 
-AR Path="/69549BC04BB67751" Ref="U43"  Part="1" 
-AR Path="/D1C3384BB67751" Ref="U43"  Part="1" 
-F 0 "U43" H 16800 16100 60  0000 C CNN
-F 1 "74LS11" H 16800 16000 60  0000 C CNN
-F 2 "14dip300" H 16800 16100 60  0001 C CNN
-F 3 "" H 16800 16050 60  0001 C CNN
-	1    16800 16050
-	-1   0    0    1   
-$EndComp
 $Comp
 L 74LS02 U?
 U 1 1 4BB67737
@@ -4418,7 +4277,7 @@ Text Label 3700 22950 0    60   ~ 0
 REFSH*
 Text Label 9800 17200 0    60   ~ 0
 HALT*
-Text Label 13400 15550 0    60   ~ 0
+Text Label 11100 15100 0    60   ~ 0
 WAIT*
 Text Label 24850 16050 0    60   ~ 0
 NMI*
@@ -9227,28 +9086,6 @@ ROM_SELECT*
 Text Label 18950 12550 0    60   ~ 0
 ROM_SELECT
 $Comp
-L 74LS04 U47
-U 2 1 539007DA
-P 18450 12550
-F 0 "U47" H 18645 12665 60  0000 C CNN
-F 1 "74LS04" H 18640 12425 60  0000 C CNN
-F 2 "14dip300" H 18640 12525 60  0001 C CNN
-F 3 "" H 18450 12550 60  0001 C CNN
-	2    18450 12550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LS04 U47
-U 1 1 539007E7
-P 16350 12900
-F 0 "U47" H 16545 13015 60  0000 C CNN
-F 1 "74LS04" H 16540 12775 60  0000 C CNN
-F 2 "14dip300" H 16540 12875 60  0001 C CNN
-F 3 "" H 16350 12900 60  0001 C CNN
-	1    16350 12900
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74LS32 U7
 U 1 1 53915343
 P 12200 12150
@@ -9307,7 +9144,7 @@ Text Label 28550 2150 0    60   ~ 0
 GND
 Text Label 11650 13500 0    60   ~ 0
 GND
-Text Label 13750 3750 0    60   ~ 0
+Text Label 14950 4000 0    60   ~ 0
 GND
 $Comp
 L R R7
@@ -9458,29 +9295,29 @@ CLK_CPU
 $Comp
 L 2732 U13
 U 1 1 53923E9B
-P 14650 2900
-F 0 "U13" H 14800 2750 90  0000 C CNN
-F 1 "2732" H 14800 2550 90  0000 C CNN
-F 2 "" H 14650 2900 60  0000 C CNN
-F 3 "" H 14650 2900 60  0000 C CNN
-	1    14650 2900
+P 18100 1850
+F 0 "U13" H 18250 1700 90  0000 C CNN
+F 1 "2732" H 18250 1500 90  0000 C CNN
+F 2 "" H 18100 1850 60  0000 C CNN
+F 3 "" H 18100 1850 60  0000 C CNN
+	1    18100 1850
 	1    0    0    -1  
 $EndComp
-Text Label 13750 2900 2    60   ~ 0
+Text Label 15050 1850 2    60   ~ 0
 bA7
-Text Label 13750 2800 2    60   ~ 0
+Text Label 15050 1750 2    60   ~ 0
 bA6
-Text Label 13750 2700 2    60   ~ 0
+Text Label 15050 1650 2    60   ~ 0
 bA5
-Text Label 13750 2600 2    60   ~ 0
+Text Label 15050 1550 2    60   ~ 0
 bA4
-Text Label 13750 2500 2    60   ~ 0
+Text Label 15050 1450 2    60   ~ 0
 bA3
-Text Label 13750 2400 2    60   ~ 0
+Text Label 15050 1350 2    60   ~ 0
 bA2
-Text Label 13750 2300 2    60   ~ 0
+Text Label 15050 1250 2    60   ~ 0
 bA1
-Text Label 13750 2200 2    60   ~ 0
+Text Label 15050 1150 2    60   ~ 0
 bA0
 Text Label 14100 9800 0    60   ~ 0
 bA8
@@ -9498,17 +9335,17 @@ Text Label 14100 10400 0    60   ~ 0
 bA14
 Text Label 14100 10500 0    60   ~ 0
 bA15
-Text Label 13750 3300 2    60   ~ 0
+Text Label 15050 2700 2    60   ~ 0
 bA11
-Text Label 13750 3200 2    60   ~ 0
+Text Label 15050 2600 2    60   ~ 0
 bA10
-Text Label 13750 3100 2    60   ~ 0
+Text Label 15050 2500 2    60   ~ 0
 bA9
-Text Label 13750 3000 2    60   ~ 0
+Text Label 15050 2400 2    60   ~ 0
 bA8
 Text Notes 18300 13150 0    60   ~ 0
 Active LOW when addressing Onboard ROM
-Text Label 13750 3500 2    60   ~ 0
+Text Label 15050 3000 2    60   ~ 0
 27_ROM_OE
 Text Label 21100 13200 0    60   ~ 0
 27_ROM_OE
@@ -9990,7 +9827,7 @@ Wire Wire Line
 Wire Wire Line
 	19400 16200 21300 16200
 Wire Wire Line
-	17400 15900 21300 15900
+	17300 15900 21300 15900
 Wire Wire Line
 	21300 17800 20750 17800
 Wire Wire Line
@@ -10071,8 +9908,6 @@ Wire Wire Line
 	13250 17950 13800 17950
 Wire Wire Line
 	13250 17750 13800 17750
-Wire Wire Line
-	13350 15550 15600 15550
 Wire Wire Line
 	24800 16050 26600 16050
 Wire Wire Line
@@ -11109,11 +10944,11 @@ Wire Wire Line
 Wire Wire Line
 	17250 17800 19850 17800
 Wire Wire Line
-	17400 16050 21300 16050
+	17150 16050 21300 16050
 Wire Wire Line
 	29200 25700 28200 25700
 Wire Wire Line
-	17400 16200 18150 16200
+	17000 16200 18150 16200
 Wire Wire Line
 	18150 16200 18150 17500
 Wire Wire Line
@@ -11292,20 +11127,6 @@ Wire Wire Line
 Connection ~ 27250 1500
 Connection ~ 28050 1500
 Wire Wire Line
-	15750 2200 15750 8050
-Wire Wire Line
-	15850 2300 15850 7950
-Wire Wire Line
-	15950 2400 15950 7850
-Wire Wire Line
-	16050 2500 16050 7750
-Wire Wire Line
-	16150 2600 16150 7650
-Wire Wire Line
-	16250 2700 16250 7550
-Wire Wire Line
-	16350 2800 16350 7450
-Wire Wire Line
 	18900 12550 19600 12550
 Wire Wire Line
 	18000 13000 21950 13000
@@ -11483,55 +11304,29 @@ Wire Wire Line
 Wire Wire Line
 	2450 27100 3650 27100
 Wire Wire Line
-	13950 2200 13750 2200
+	15250 1150 15050 1150
 Wire Wire Line
-	13750 2300 13950 2300
+	15050 1250 15250 1250
 Wire Wire Line
-	13950 2400 13750 2400
+	15250 1350 15050 1350
 Wire Wire Line
-	13750 2500 13950 2500
+	15050 1450 15250 1450
 Wire Wire Line
-	13950 2600 13750 2600
+	15250 1550 15050 1550
 Wire Wire Line
-	13750 2700 13950 2700
+	15050 1650 15250 1650
 Wire Wire Line
-	13950 2800 13750 2800
+	15250 1750 15050 1750
 Wire Wire Line
-	13750 2900 13950 2900
+	15050 1850 15250 1850
 Wire Wire Line
-	13950 3000 13750 3000
+	15250 2400 15050 2400
 Wire Wire Line
-	13750 3100 13950 3100
+	15050 2500 15250 2500
 Wire Wire Line
-	13950 3200 13750 3200
+	15250 2600 15050 2600
 Wire Wire Line
-	13950 3300 13750 3300
-Wire Wire Line
-	13650 3600 13950 3600
-Wire Wire Line
-	13750 3500 13950 3500
-Wire Wire Line
-	15750 2200 15350 2200
-Wire Wire Line
-	15350 2300 15850 2300
-Wire Wire Line
-	15950 2400 15350 2400
-Wire Wire Line
-	15350 2500 16050 2500
-Wire Wire Line
-	16150 2600 15350 2600
-Wire Wire Line
-	15350 2700 16250 2700
-Wire Wire Line
-	16450 2900 16450 7350
-Wire Wire Line
-	16350 2800 15350 2800
-Wire Wire Line
-	15350 2900 16450 2900
-Wire Wire Line
-	13650 3600 13650 3750
-Wire Wire Line
-	13650 3750 13750 3750
+	15250 2700 15050 2700
 Wire Wire Line
 	21100 13200 20950 13200
 Wire Wire Line
@@ -12458,7 +12253,7 @@ Text Label 19450 7450 0    60   ~ 0
 WR+
 Wire Wire Line
 	19700 7450 19450 7450
-Text Label 14700 30650 0    60   ~ 0
+Text Label 7150 31200 0    60   ~ 0
 RR4p10
 Wire Wire Line
 	14300 30100 14400 30100
@@ -12870,10 +12665,6 @@ Wire Wire Line
 Wire Wire Line
 	4750 5600 5000 5600
 Connection ~ 5000 5600
-Wire Wire Line
-	16200 16050 15600 16050
-Wire Wire Line
-	15600 16050 15600 15550
 Connection ~ 25400 16050
 Text Label 4800 5500 0    60   ~ 0
 GND
@@ -13475,4 +13266,327 @@ F 3 "~" H 39350 27100 60  0000 C CNN
 	1    39350 27100
 	1    0    0    -1  
 $EndComp
+$Comp
+L ^^74LS541 U30
+U 1 1 53CAFAF7
+P 19750 1650
+F 0 "U30" H 19750 2225 60  0000 C BNN
+F 1 "^^74LS541" H 19750 1075 60  0000 C TNN
+F 2 "~" H 19750 1650 60  0000 C CNN
+F 3 "~" H 19750 1650 60  0000 C CNN
+	1    19750 1650
+	1    0    0    -1  
+$EndComp
+Text Label 20650 1150 0    60   ~ 0
+D0
+Text Label 20650 1250 0    60   ~ 0
+D1
+Text Label 20650 1350 0    60   ~ 0
+D2
+Text Label 20650 1450 0    60   ~ 0
+D3
+Text Label 20650 1550 0    60   ~ 0
+D4
+Text Label 20650 1650 0    60   ~ 0
+D5
+Text Label 20650 1750 0    60   ~ 0
+D6
+Text Label 20650 1850 0    60   ~ 0
+D7
+Wire Wire Line
+	16450 5450 16450 7350
+Wire Wire Line
+	16350 5550 16350 7450
+Wire Wire Line
+	16250 5650 16250 7550
+Wire Wire Line
+	16150 5750 16150 7650
+Wire Wire Line
+	16050 5850 16050 7750
+Wire Wire Line
+	15850 6050 15850 7950
+Wire Wire Line
+	15950 5950 15950 7850
+Wire Wire Line
+	15750 6150 15750 8050
+Wire Wire Line
+	17200 3250 19250 3250
+Wire Wire Line
+	19050 2050 18950 2050
+Wire Wire Line
+	18950 2050 18950 3250
+Wire Wire Line
+	18950 2150 19050 2150
+Connection ~ 18950 2150
+$Comp
+L R R11
+U 1 1 53CB1998
+P 19500 3250
+F 0 "R11" V 19580 3250 50  0000 C CNN
+F 1 "10K" V 19500 3250 50  0000 C CNN
+F 2 "" H 19500 3250 60  0001 C CNN
+F 3 "" H 19500 3250 60  0001 C CNN
+	1    19500 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_3 K18
+U 1 1 53CB1D92
+P 15800 4100
+F 0 "K18" V 15750 4100 50  0000 C CNN
+F 1 "ROM_E-" V 15850 4100 40  0000 C CNN
+F 2 "SIL-3" V 15950 4100 40  0001 C CNN
+F 3 "" H 15800 4100 60  0001 C CNN
+	1    15800 4100
+	1    0    0    -1  
+$EndComp
+Text Label 11750 11350 0    60   ~ 0
+ROM_E-
+Wire Wire Line
+	11650 11150 11650 11350
+Wire Wire Line
+	11650 11350 11750 11350
+Connection ~ 11650 11150
+Text Label 14950 4200 0    60   ~ 0
+ROM_E-
+Wire Wire Line
+	15450 4000 14950 4000
+Wire Wire Line
+	14950 4200 15450 4200
+Wire Wire Line
+	17150 3750 19250 3750
+$Comp
+L R R16
+U 1 1 53CB61D1
+P 19500 3750
+F 0 "R16" V 19580 3750 50  0000 C CNN
+F 1 "10K" V 19500 3750 50  0000 C CNN
+F 2 "" H 19500 3750 60  0001 C CNN
+F 3 "" H 19500 3750 60  0001 C CNN
+	1    19500 3750
+	0    1    1    0   
+$EndComp
+Connection ~ 18950 3250
+Text Label 20000 3250 0    60   ~ 0
+V5.0
+Wire Wire Line
+	19750 3250 20000 3250
+Wire Wire Line
+	19900 3250 19900 3750
+Wire Wire Line
+	19900 3750 19750 3750
+Connection ~ 19900 3250
+Wire Wire Line
+	19050 1150 18800 1150
+Wire Wire Line
+	18800 1250 19050 1250
+Wire Wire Line
+	19050 1350 18800 1350
+Wire Wire Line
+	18800 1450 19050 1450
+Wire Wire Line
+	19050 1550 18800 1550
+Wire Wire Line
+	18800 1650 19050 1650
+Wire Wire Line
+	19050 1750 18800 1750
+Wire Wire Line
+	18800 1850 19050 1850
+Wire Wire Line
+	20650 1150 20450 1150
+Wire Wire Line
+	20450 1250 20650 1250
+Wire Wire Line
+	20650 1350 20450 1350
+Wire Wire Line
+	20450 1450 20650 1450
+Wire Wire Line
+	20650 1550 20450 1550
+Wire Wire Line
+	20450 1650 20650 1650
+Wire Wire Line
+	20650 1750 20450 1750
+Wire Wire Line
+	20450 1850 20650 1850
+$Comp
+L 74LS00 U28
+U 2 1 53CC0769
+P 15900 15000
+F 0 "U28" H 15900 15050 60  0000 C CNN
+F 1 "74LS00" H 15900 14950 60  0000 C CNN
+F 2 "14dip300" H 15900 15050 60  0001 C CNN
+F 3 "" H 15900 15000 60  0001 C CNN
+	2    15900 15000
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74LS04 U24
+U 3 1 53CC0785
+P 14700 15000
+F 0 "U24" H 14895 15115 60  0000 C CNN
+F 1 "74LS04" H 14890 14875 60  0000 C CNN
+F 2 "14dip300" H 14890 14975 60  0001 C CNN
+F 3 "" H 14700 15000 60  0001 C CNN
+	3    14700 15000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15300 15000 15150 15000
+Wire Wire Line
+	14250 15000 14000 15000
+Wire Wire Line
+	12650 15100 12800 15100
+Wire Notes Line
+	11700 14500 11700 15600
+Wire Notes Line
+	11700 15600 16650 15600
+Wire Notes Line
+	16650 15600 16650 14500
+Wire Notes Line
+	16650 14500 11700 14500
+Text Notes 13100 14650 0    60   ~ 0
+3 input AND
+Wire Wire Line
+	11750 15100 11100 15100
+Wire Wire Line
+	16500 14900 17300 14900
+Wire Wire Line
+	17300 14900 17300 15900
+Wire Wire Line
+	16500 15100 17150 15100
+Wire Wire Line
+	17150 15100 17150 16050
+Wire Wire Line
+	14000 15200 14400 15200
+Wire Wire Line
+	14400 15200 14400 15400
+Wire Wire Line
+	14400 15400 17000 15400
+Wire Wire Line
+	17000 15400 17000 16200
+$Comp
+L ^^74LS541 U32
+U 1 1 53CB4180
+P 15950 1650
+F 0 "U32" H 15950 2225 60  0000 C BNN
+F 1 "^^74LS541" H 15950 1075 60  0000 C TNN
+F 2 "~" H 15950 1650 60  0000 C CNN
+F 3 "~" H 15950 1650 60  0000 C CNN
+	1    15950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ^^74LS541 U41
+U 1 1 53CB4186
+P 15950 2900
+F 0 "U41" H 15950 3475 60  0000 C BNN
+F 1 "^^74LS541" H 15950 2325 60  0000 C TNN
+F 2 "~" H 15950 2900 60  0000 C CNN
+F 3 "~" H 15950 2900 60  0000 C CNN
+	1    15950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17400 1150 16650 1150
+Wire Wire Line
+	16650 1250 17400 1250
+Wire Wire Line
+	17400 1350 16650 1350
+Wire Wire Line
+	16650 1450 17400 1450
+Wire Wire Line
+	17400 1550 16650 1550
+Wire Wire Line
+	16650 1650 17400 1650
+Wire Wire Line
+	17400 1750 16650 1750
+Wire Wire Line
+	16650 1850 17400 1850
+Wire Wire Line
+	17400 1950 16700 1950
+Wire Wire Line
+	16700 1950 16700 2400
+Wire Wire Line
+	16700 2400 16650 2400
+Wire Wire Line
+	16650 2500 16750 2500
+Wire Wire Line
+	16750 2500 16750 2050
+Wire Wire Line
+	16750 2050 17400 2050
+Wire Wire Line
+	17400 2150 16800 2150
+Wire Wire Line
+	16800 2150 16800 2600
+Wire Wire Line
+	16800 2600 16650 2600
+Wire Wire Line
+	16650 2700 16850 2700
+Wire Wire Line
+	16850 2700 16850 2250
+Wire Wire Line
+	16850 2250 17400 2250
+Wire Wire Line
+	17400 2450 17150 2450
+Wire Wire Line
+	17150 2450 17150 3750
+Wire Wire Line
+	17150 3000 16650 3000
+Wire Wire Line
+	16650 3100 17200 3100
+Wire Wire Line
+	17200 2550 17200 3250
+Wire Wire Line
+	17200 2550 17400 2550
+Connection ~ 17200 3100
+Connection ~ 17150 3000
+Wire Wire Line
+	15450 4100 14700 4100
+Wire Wire Line
+	14700 4100 14700 3100
+Wire Wire Line
+	14700 3100 15250 3100
+Wire Wire Line
+	15250 3000 15050 3000
+Text Label 14900 2050 0    60   ~ 0
+GND
+Wire Wire Line
+	14900 2050 15250 2050
+Wire Wire Line
+	15150 2050 15150 2150
+Wire Wire Line
+	15150 2150 15250 2150
+Connection ~ 15150 2050
+Text Label 15000 3300 0    60   ~ 0
+GND
+Wire Wire Line
+	15000 3300 15250 3300
+Wire Wire Line
+	15150 3300 15150 3400
+Wire Wire Line
+	15150 3400 15250 3400
+Connection ~ 15150 3300
+$Comp
+L C C5
+U 1 1 53CBD196
+P 29100 12300
+F 0 "C5" H 29150 12400 50  0000 L CNN
+F 1 "0.1 uF" H 29150 12200 50  0000 L CNN
+F 2 "C2" H 29100 12300 60  0001 C CNN
+F 3 "" H 29100 12300 60  0001 C CNN
+	1    29100 12300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 30100 7100 30050
+Wire Wire Line
+	7100 30050 7200 30050
+Wire Wire Line
+	7200 30050 7200 30700
+Wire Wire Line
+	7200 30700 7000 30700
+Wire Wire Line
+	7000 30700 7000 31200
+Wire Wire Line
+	7000 31200 7150 31200
 $EndSCHEMATC

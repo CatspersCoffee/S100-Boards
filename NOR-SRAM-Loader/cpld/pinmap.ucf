@@ -1,0 +1,88 @@
+#PIN MAP OF U11 on 8Mb Serial NOR to 1MB SRAM board
+
+
+#------ OUTPUTS ------------------------------------------------------
+
+NET "RESET"    LOC =  "P1";
+#NET "CPLD53WAIT"    LOC =  "P53";   #to S100 bus pin72 - WAIT* to MASTER board
+NET "BSELLED"    LOC =  "P8";   #Board Select LED output
+NET "BROMLED"    LOC =  "P54";   #Board ROM LED output
+NET "BMEMLED"    LOC =  "P55";   #Board MEM - SRAM selected LED
+NET "DONELED"    LOC =  "P6";   #Board load to Memory DONE LED
+
+NET "CPLDP12ROM1OE"    LOC =  "P12";   #to UVEPROM OE active low
+NET "CPLDP92ROM1CS"    LOC =  "P92";   #to UVEPROM CS active low
+
+NET "DBUSOUTEN"    	LOC =  "P13";   #active low - for slave Data OUTPUT
+NET "DBUSINEN"    	LOC =  "P18";   #active low - for slave Data INPUT
+
+
+NET "CPLD_59"    	LOC =  "P59";   #active low output to pin19 of U26, U25, U24 - RAM/ROM2 Buffers
+NET "U23DIR"    	LOC =  "P56";   #U23 Direction - Data Bus Buffer to RAM/ROM2
+NET "U23CE"    	LOC =  "P58";   #U23 Chip Enable  - active low -
+
+NET "ROM2_0_CS"   LOC =  "P9";   # ROM2 low bank CS
+NET "ROM2_1_CS"   LOC =  "P11";   #ROM2 high bank CS
+NET "ROM2_OE"    	LOC =  "P10";   #ROM2 OE
+NET "ROM2_WE"    	LOC =  "P78";   #ROM2 WE
+
+NET "PINCPLD79"    	LOC =  "P79";   #out pin header to pin 79 of cpld
+NET "PINCPLD90"    	LOC =  "P90";   #out pin header to pin 90 of cpld
+NET "PINCPLD89"    	LOC =  "P89";   #out pin header to pin 89 of cpld
+
+NET "NOR_CLK"    		LOC =  "P93";   	#
+NET "NOR_DIN"    		LOC =  "P95";   	#(Data from System to 25P80) at 0x81
+NET "NOR_CS"    		LOC =  "P96";   	#
+NET "NOR_DOUT"    	LOC =  "P97";   	#Dout (Data from 25P80 into System at 0x83
+
+
+#------ INPUTS -------------------------------------------------------
+
+
+NET "BOARDSELECT"    LOC =  "P41";   #board select from 74LS682
+
+NET "sM1"    			LOC =  "P16";   #sM1 active high when processor is in instruction fetch
+NET "sOUT"    			LOC =  "P65";   #active high - I/O WR
+NET "sINP"    			LOC =  "P67";   #active high - I/O RD
+NET "sMEMR"    		LOC =  "P71";   #active high - MEM RD
+NET "IOREQb"    		LOC =  "P72";   #active low - IORQ
+NET "MWRT"    			LOC =  "P68";   #active high - MEM WR
+NET "NDEF2"    		LOC =  "P76";   #active low - MREQ
+NET "SLAVECLRvv"    	LOC =  "P85";   #reset input from another board - from the MASTER
+
+NET "pWR"    			LOC =  "P70";   #active low - when processor Writes to I/O or MEM
+NET "pDBIN"    		LOC =  "P66";   #active high - when processor Reads from I/O or MEM
+NET "sWO"    			LOC =  "P81";   #
+NET "CLOCK"    		LOC =  "P23";   #clock line from another board - s100 pin49
+NET "PHI"    			LOC =  "P27";   #Primary Processor Clock line - S100 pin24
+
+NET "A0"    		LOC =  "P14";   #
+NET "A1"    		LOC =  "P15";   #
+NET "A2"    		LOC =  "P25";   #
+NET "A3"    		LOC =  "P17";   #
+NET "A4"    		LOC =  "P28";   #
+NET "A5"    		LOC =  "P33";   #
+NET "A6"    		LOC =  "P74";   #
+NET "A7"    		LOC =  "P82";   #
+NET "A8"    		LOC =  "P61";   #
+NET "A9"    		LOC =  "P50";   #
+NET "A10"    		LOC =  "P42";   #
+NET "A11"    		LOC =  "P60";   #
+NET "A12"    		LOC =  "P64";   #
+NET "A13"    		LOC =  "P77";   #
+NET "A14"    		LOC =  "P63";   #
+NET "A15"    		LOC =  "P86";   #
+
+NET "A20"    		LOC =  "P32";   #
+NET "A21"    		LOC =  "P49";   #
+NET "A22"    		LOC =  "P35";   #
+NET "A23"    		LOC =  "P37";   #
+
+NET "D0"    		LOC =  "P36";   #
+NET "D1"    		LOC =  "P29";   #
+NET "D2"    		LOC =  "P39";   #
+NET "D3"    		LOC =  "P30";   #
+NET "D4"    		LOC =  "P40";   #
+NET "D5"    		LOC =  "P87";   #
+NET "D6"    		LOC =  "P94";   #
+NET "D7"    		LOC =  "P91";   #

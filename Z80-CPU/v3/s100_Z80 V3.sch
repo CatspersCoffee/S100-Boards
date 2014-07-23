@@ -56,7 +56,7 @@ $Descr E 44000 34000
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "20 jul 2014"
+Date "23 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -64,21 +64,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 11800 5300 0    60   ~ 0
+Text Label 12650 5300 0    60   ~ 0
 D0
-Text Label 11800 5200 0    60   ~ 0
+Text Label 12650 5200 0    60   ~ 0
 D1
-Text Label 11800 5100 0    60   ~ 0
+Text Label 12650 5100 0    60   ~ 0
 D2
-Text Label 11800 5000 0    60   ~ 0
+Text Label 12650 5000 0    60   ~ 0
 D3
-Text Label 11800 4900 0    60   ~ 0
+Text Label 12650 4900 0    60   ~ 0
 D4
-Text Label 11800 4800 0    60   ~ 0
+Text Label 12650 4800 0    60   ~ 0
 D5
-Text Label 11800 4700 0    60   ~ 0
+Text Label 12650 4700 0    60   ~ 0
 D6
-Text Label 11800 4600 0    60   ~ 0
+Text Label 12650 4600 0    60   ~ 0
 D7
 Text Label 11500 24000 0    60   ~ 0
 pSYNCb
@@ -158,7 +158,7 @@ F 3 "" H 9600 13350 60  0001 C CNN
 $EndComp
 Text Label 16700 18450 0    60   ~ 0
 PU5K-D
-Text Label 10950 4000 0    60   ~ 0
+Text Label 13500 18550 0    60   ~ 0
 PU5K-C
 Text Label 15500 16500 0    60   ~ 0
 PU5K-B
@@ -547,8 +547,6 @@ F 3 "" H 29550 13500 60  0001 C CNN
 $EndComp
 NoConn ~ 31750 7050
 NoConn ~ 31750 3250
-NoConn ~ 9250 6900
-NoConn ~ 9250 6800
 $Comp
 L GND #PWR?
 U 1 1 4BB761C1
@@ -1645,95 +1643,6 @@ SDSB*
 Text Label 3400 4300 0    60   ~ 0
 ADSB
 $Comp
-L 74LS273 U?
-U 1 1 4BB730D4
-P 9950 6700
-AR Path="/384BB730D4" Ref="U?"  Part="1" 
-AR Path="/4BB730D4" Ref="U16"  Part="1" 
-AR Path="/2606084BB730D4" Ref="U16"  Part="1" 
-AR Path="/755D912A4BB730D4" Ref="U16"  Part="1" 
-AR Path="/FFFFFFFF4BB730D4" Ref="U16"  Part="1" 
-AR Path="/73254BB730D4" Ref="U16"  Part="1" 
-AR Path="/23D83C4BB730D4" Ref="U16"  Part="1" 
-AR Path="/47907FA4BB730D4" Ref="U16"  Part="1" 
-AR Path="/23C34C4BB730D4" Ref="U16"  Part="1" 
-AR Path="/14BB730D4" Ref="U16"  Part="1" 
-AR Path="/23BC884BB730D4" Ref="U16"  Part="1" 
-AR Path="/773F8EB44BB730D4" Ref="U16"  Part="1" 
-AR Path="/94BB730D4" Ref="U"  Part="1" 
-AR Path="/23C9F04BB730D4" Ref="U16"  Part="1" 
-AR Path="/FFFFFFF04BB730D4" Ref="U16"  Part="1" 
-AR Path="/2824BB730D4" Ref="U16"  Part="1" 
-AR Path="/7E4188DA4BB730D4" Ref="U16"  Part="1" 
-AR Path="/8D384BB730D4" Ref="U16"  Part="1" 
-AR Path="/24BB730D4" Ref="U16"  Part="1" 
-AR Path="/773F65F14BB730D4" Ref="U16"  Part="1" 
-AR Path="/23C6504BB730D4" Ref="U16"  Part="1" 
-AR Path="/D1C1E84BB730D4" Ref="U16"  Part="1" 
-AR Path="/D058E04BB730D4" Ref="U16"  Part="1" 
-AR Path="/3C64BB730D4" Ref="U16"  Part="1" 
-AR Path="/23CBC44BB730D4" Ref="U16"  Part="1" 
-AR Path="/2F4A4BB730D4" Ref="U16"  Part="1" 
-AR Path="/23D9004BB730D4" Ref="U16"  Part="1" 
-AR Path="/23CE584BB730D4" Ref="U16"  Part="1" 
-AR Path="/64BB730D4" Ref="U16"  Part="1" 
-AR Path="/6FE934344BB730D4" Ref="U16"  Part="1" 
-AR Path="/6FE934E34BB730D4" Ref="U16"  Part="1" 
-AR Path="/69549BC04BB730D4" Ref="U16"  Part="1" 
-AR Path="/D1C3384BB730D4" Ref="U16"  Part="1" 
-F 0 "U16" H 9950 6550 60  0000 C CNN
-F 1 "74LS273" H 9950 6350 60  0000 C CNN
-F 2 "20dip300" H 9950 6450 60  0001 C CNN
-F 3 "" H 9950 6700 60  0001 C CNN
-	1    9950 6700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 74LS273 U?
-U 1 1 4BB7308F
-P 9950 5100
-AR Path="/9700384BB7308F" Ref="U?"  Part="1" 
-AR Path="/4BB7308F" Ref="U17"  Part="1" 
-AR Path="/333038464BB7308F" Ref="U?"  Part="1" 
-AR Path="/2606084BB7308F" Ref="U17"  Part="1" 
-AR Path="/755D912A4BB7308F" Ref="U16"  Part="1" 
-AR Path="/FFFFFFFF4BB7308F" Ref="U17"  Part="1" 
-AR Path="/73254BB7308F" Ref="U16"  Part="1" 
-AR Path="/23D83C4BB7308F" Ref="U17"  Part="1" 
-AR Path="/47907FA4BB7308F" Ref="U16"  Part="1" 
-AR Path="/23C34C4BB7308F" Ref="U17"  Part="1" 
-AR Path="/14BB7308F" Ref="U17"  Part="1" 
-AR Path="/23BC884BB7308F" Ref="U17"  Part="1" 
-AR Path="/773F8EB44BB7308F" Ref="U17"  Part="1" 
-AR Path="/94BB7308F" Ref="U"  Part="1" 
-AR Path="/23C9F04BB7308F" Ref="U17"  Part="1" 
-AR Path="/FFFFFFF04BB7308F" Ref="U17"  Part="1" 
-AR Path="/7E4188DA4BB7308F" Ref="U17"  Part="1" 
-AR Path="/8D384BB7308F" Ref="U17"  Part="1" 
-AR Path="/24BB7308F" Ref="U17"  Part="1" 
-AR Path="/773F65F14BB7308F" Ref="U17"  Part="1" 
-AR Path="/23C6504BB7308F" Ref="U17"  Part="1" 
-AR Path="/D1C1E84BB7308F" Ref="U17"  Part="1" 
-AR Path="/D058E04BB7308F" Ref="U17"  Part="1" 
-AR Path="/3C64BB7308F" Ref="U17"  Part="1" 
-AR Path="/23CBC44BB7308F" Ref="U17"  Part="1" 
-AR Path="/2F4A4BB7308F" Ref="U17"  Part="1" 
-AR Path="/23D9004BB7308F" Ref="U17"  Part="1" 
-AR Path="/23CE584BB7308F" Ref="U17"  Part="1" 
-AR Path="/64BB7308F" Ref="U17"  Part="1" 
-AR Path="/6FE934344BB7308F" Ref="U17"  Part="1" 
-AR Path="/6FE934E34BB7308F" Ref="U17"  Part="1" 
-AR Path="/2824BB7308F" Ref="U17"  Part="1" 
-AR Path="/69549BC04BB7308F" Ref="U17"  Part="1" 
-AR Path="/D1C3384BB7308F" Ref="U17"  Part="1" 
-F 0 "U17" H 9950 4950 60  0000 C CNN
-F 1 "74LS273" H 9950 4750 60  0000 C CNN
-F 2 "20dip300" H 9950 4850 60  0001 C CNN
-F 3 "" H 9950 5100 60  0001 C CNN
-	1    9950 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
 L C C49
 U 1 1 4BB6912B
 P 30000 12900
@@ -1899,48 +1808,6 @@ F 1 "0.1 uF" H 32300 12800 50  0000 L CNN
 F 2 "C2" H 32250 12900 60  0001 C CNN
 F 3 "" H 32250 12900 60  0001 C CNN
 	1    32250 12900
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C53
-U 1 1 4BB69127
-P 31800 12900
-AR Path="/4BB69127" Ref="C53"  Part="1" 
-AR Path="/FFFFFFFF4BB69127" Ref="C53"  Part="1" 
-AR Path="/755D912A4BB69127" Ref="C?"  Part="1" 
-AR Path="/73254BB69127" Ref="C?"  Part="1" 
-AR Path="/23D83C4BB69127" Ref="C53"  Part="1" 
-AR Path="/47907FA4BB69127" Ref="C?"  Part="1" 
-AR Path="/23C34C4BB69127" Ref="C53"  Part="1" 
-AR Path="/14BB69127" Ref="C53"  Part="1" 
-AR Path="/23BC884BB69127" Ref="C53"  Part="1" 
-AR Path="/773F8EB44BB69127" Ref="C53"  Part="1" 
-AR Path="/23C9F04BB69127" Ref="C53"  Part="1" 
-AR Path="/94BB69127" Ref="C"  Part="1" 
-AR Path="/FFFFFFF04BB69127" Ref="C53"  Part="1" 
-AR Path="/7E4188DA4BB69127" Ref="C53"  Part="1" 
-AR Path="/8D384BB69127" Ref="C53"  Part="1" 
-AR Path="/24BB69127" Ref="C53"  Part="1" 
-AR Path="/773F65F14BB69127" Ref="C53"  Part="1" 
-AR Path="/23C6504BB69127" Ref="C53"  Part="1" 
-AR Path="/D1C1E84BB69127" Ref="C53"  Part="1" 
-AR Path="/D058E04BB69127" Ref="C53"  Part="1" 
-AR Path="/3C64BB69127" Ref="C53"  Part="1" 
-AR Path="/23CBC44BB69127" Ref="C53"  Part="1" 
-AR Path="/2F4A4BB69127" Ref="C53"  Part="1" 
-AR Path="/23D9004BB69127" Ref="C53"  Part="1" 
-AR Path="/23CE584BB69127" Ref="C53"  Part="1" 
-AR Path="/64BB69127" Ref="C53"  Part="1" 
-AR Path="/6FE934344BB69127" Ref="C53"  Part="1" 
-AR Path="/6FE934E34BB69127" Ref="C53"  Part="1" 
-AR Path="/2824BB69127" Ref="C53"  Part="1" 
-AR Path="/69549BC04BB69127" Ref="C53"  Part="1" 
-AR Path="/D1C3384BB69127" Ref="C53"  Part="1" 
-F 0 "C53" H 31850 13000 50  0000 L CNN
-F 1 "0.1 uF" H 31850 12800 50  0000 L CNN
-F 2 "C2" H 31800 12900 60  0001 C CNN
-F 3 "" H 31800 12900 60  0001 C CNN
-	1    31800 12900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2197,48 +2064,6 @@ F 1 "0.1 uF" H 33200 12800 50  0000 L CNN
 F 2 "C2" H 33150 12900 60  0001 C CNN
 F 3 "" H 33150 12900 60  0001 C CNN
 	1    33150 12900
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C58
-U 1 1 4BB690E8
-P 33150 12300
-AR Path="/4BB690E8" Ref="C58"  Part="1" 
-AR Path="/FFFFFFFF4BB690E8" Ref="C58"  Part="1" 
-AR Path="/755D912A4BB690E8" Ref="C?"  Part="1" 
-AR Path="/73254BB690E8" Ref="C?"  Part="1" 
-AR Path="/23D83C4BB690E8" Ref="C58"  Part="1" 
-AR Path="/47907FA4BB690E8" Ref="C?"  Part="1" 
-AR Path="/23C34C4BB690E8" Ref="C58"  Part="1" 
-AR Path="/14BB690E8" Ref="C58"  Part="1" 
-AR Path="/23BC884BB690E8" Ref="C58"  Part="1" 
-AR Path="/773F8EB44BB690E8" Ref="C58"  Part="1" 
-AR Path="/94BB690E8" Ref="C"  Part="1" 
-AR Path="/23C9F04BB690E8" Ref="C58"  Part="1" 
-AR Path="/FFFFFFF04BB690E8" Ref="C58"  Part="1" 
-AR Path="/7E4188DA4BB690E8" Ref="C58"  Part="1" 
-AR Path="/8D384BB690E8" Ref="C58"  Part="1" 
-AR Path="/24BB690E8" Ref="C58"  Part="1" 
-AR Path="/773F65F14BB690E8" Ref="C58"  Part="1" 
-AR Path="/23C6504BB690E8" Ref="C58"  Part="1" 
-AR Path="/D1C1E84BB690E8" Ref="C58"  Part="1" 
-AR Path="/D058E04BB690E8" Ref="C58"  Part="1" 
-AR Path="/3C64BB690E8" Ref="C58"  Part="1" 
-AR Path="/23CBC44BB690E8" Ref="C58"  Part="1" 
-AR Path="/2F4A4BB690E8" Ref="C58"  Part="1" 
-AR Path="/23D9004BB690E8" Ref="C58"  Part="1" 
-AR Path="/23CE584BB690E8" Ref="C58"  Part="1" 
-AR Path="/64BB690E8" Ref="C58"  Part="1" 
-AR Path="/6FE934344BB690E8" Ref="C58"  Part="1" 
-AR Path="/6FE934E34BB690E8" Ref="C58"  Part="1" 
-AR Path="/2824BB690E8" Ref="C58"  Part="1" 
-AR Path="/69549BC04BB690E8" Ref="C58"  Part="1" 
-AR Path="/D1C3384BB690E8" Ref="C58"  Part="1" 
-F 0 "C58" H 33200 12400 50  0000 L CNN
-F 1 "0.1 uF" H 33200 12200 50  0000 L CNN
-F 2 "C2" H 33150 12300 60  0001 C CNN
-F 3 "" H 33150 12300 60  0001 C CNN
-	1    33150 12300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3157,8 +2982,6 @@ F 3 "" H 18450 12550 60  0001 C CNN
 	3    18450 12550
 	1    0    0    -1  
 $EndComp
-Text Label 12550 25250 0    60   ~ 0
-RESET*
 $Comp
 L CONN_3 K?
 U 1 1 4BB67C89
@@ -4289,8 +4112,6 @@ Text Label 16350 10900 0    60   ~ 0
 BUSAK*
 Text Label 16350 10800 0    60   ~ 0
 BUSRQ*
-Text Label 16350 10600 0    60   ~ 0
-RESET*
 Text Label 16350 10400 0    60   ~ 0
 NMI*
 Text Label 16350 10300 0    60   ~ 0
@@ -4432,8 +4253,6 @@ Text Label 18450 7450 0    60   ~ 0
 DI6
 Text Label 18450 7350 0    60   ~ 0
 DI7
-Text Label 9800 8300 0    60   ~ 0
-IORQ
 NoConn ~ 3750 12900
 NoConn ~ 3750 12700
 Text Label 9250 12600 0    60   ~ 0
@@ -4734,15 +4553,7 @@ F 3 "" H 15350 10200 60  0001 C CNN
 	1    15350 10200
 	-1   0    0    -1  
 $EndComp
-Text Label 8050 10750 0    60   ~ 0
-GND
-Text Label 8050 10250 0    60   ~ 0
-GND
-Text Label 8050 10500 0    60   ~ 0
-GND
-Text Label 8050 10000 0    60   ~ 0
-GND
-Text Label 8050 9750 0    60   ~ 0
+Text Label 8900 11050 0    60   ~ 0
 GND
 $Comp
 L 74LS157 U?
@@ -4817,243 +4628,6 @@ Text Label 1850 10150 0    60   ~ 0
 A9
 Text Label 1850 10250 0    60   ~ 0
 A8
-$Comp
-L 74LS02 U?
-U 4 1 4BB29BC3
-P 9600 8650
-AR Path="/174BB29BC3" Ref="U?"  Part="1" 
-AR Path="/4BB29BC3" Ref="U23"  Part="4" 
-AR Path="/FFFFFFFF4BB29BC3" Ref="U23"  Part="4" 
-AR Path="/23D8044BB29BC3" Ref="U?"  Part="4" 
-AR Path="/2606084BB29BC3" Ref="U23"  Part="4" 
-AR Path="/23D83C4BB29BC3" Ref="U23"  Part="4" 
-AR Path="/47907FA4BB29BC3" Ref="U23"  Part="4" 
-AR Path="/23C34C4BB29BC3" Ref="U23"  Part="4" 
-AR Path="/14BB29BC3" Ref="U23"  Part="4" 
-AR Path="/23BC884BB29BC3" Ref="U23"  Part="4" 
-AR Path="/773F8EB44BB29BC3" Ref="U23"  Part="4" 
-AR Path="/94BB29BC3" Ref="U"  Part="4" 
-AR Path="/23C9F04BB29BC3" Ref="U23"  Part="4" 
-AR Path="/FFFFFFF04BB29BC3" Ref="U23"  Part="4" 
-AR Path="/8D384BB29BC3" Ref="U23"  Part="4" 
-AR Path="/24BB29BC3" Ref="U23"  Part="4" 
-AR Path="/773F65F14BB29BC3" Ref="U23"  Part="4" 
-AR Path="/23C6504BB29BC3" Ref="U23"  Part="4" 
-AR Path="/D058E04BB29BC3" Ref="U23"  Part="4" 
-AR Path="/3C64BB29BC3" Ref="U23"  Part="4" 
-AR Path="/23CBC44BB29BC3" Ref="U23"  Part="4" 
-AR Path="/2F4A4BB29BC3" Ref="U23"  Part="4" 
-AR Path="/23D9004BB29BC3" Ref="U23"  Part="4" 
-AR Path="/64BB29BC3" Ref="U23"  Part="4" 
-AR Path="/6FE934344BB29BC3" Ref="U23"  Part="4" 
-AR Path="/6FE934E34BB29BC3" Ref="U23"  Part="4" 
-AR Path="/2824BB29BC3" Ref="U23"  Part="4" 
-AR Path="/D1C3384BB29BC3" Ref="U23"  Part="4" 
-F 0 "U23" H 9600 8700 60  0000 C CNN
-F 1 "74LS02" H 9650 8600 60  0000 C CNN
-F 2 "14dip300" H 9650 8700 60  0001 C CNN
-F 3 "" H 9600 8650 60  0001 C CNN
-	4    9600 8650
-	-1   0    0    1   
-$EndComp
-$Comp
-L 74LS02 U?
-U 2 1 4BB29BC2
-P 10800 8750
-AR Path="/174BB29BC2" Ref="U?"  Part="1" 
-AR Path="/4BB29BC2" Ref="U23"  Part="2" 
-AR Path="/FFFFFFFF4BB29BC2" Ref="U23"  Part="2" 
-AR Path="/23D8044BB29BC2" Ref="U?"  Part="2" 
-AR Path="/2606084BB29BC2" Ref="U23"  Part="2" 
-AR Path="/23D83C4BB29BC2" Ref="U23"  Part="2" 
-AR Path="/47907FA4BB29BC2" Ref="U23"  Part="2" 
-AR Path="/23C34C4BB29BC2" Ref="U23"  Part="2" 
-AR Path="/14BB29BC2" Ref="U23"  Part="2" 
-AR Path="/23BC884BB29BC2" Ref="U23"  Part="2" 
-AR Path="/773F8EB44BB29BC2" Ref="U23"  Part="2" 
-AR Path="/94BB29BC2" Ref="U"  Part="2" 
-AR Path="/23C9F04BB29BC2" Ref="U23"  Part="2" 
-AR Path="/FFFFFFF04BB29BC2" Ref="U23"  Part="2" 
-AR Path="/8D384BB29BC2" Ref="U23"  Part="2" 
-AR Path="/773F65F14BB29BC2" Ref="U23"  Part="2" 
-AR Path="/23C6504BB29BC2" Ref="U23"  Part="2" 
-AR Path="/D058E04BB29BC2" Ref="U23"  Part="2" 
-AR Path="/3C64BB29BC2" Ref="U23"  Part="2" 
-AR Path="/23CBC44BB29BC2" Ref="U23"  Part="2" 
-AR Path="/2F4A4BB29BC2" Ref="U23"  Part="2" 
-AR Path="/23D9004BB29BC2" Ref="U23"  Part="2" 
-AR Path="/64BB29BC2" Ref="U23"  Part="2" 
-AR Path="/6FE934344BB29BC2" Ref="U23"  Part="2" 
-AR Path="/24BB29BC2" Ref="U23"  Part="2" 
-AR Path="/6FE934E34BB29BC2" Ref="U23"  Part="2" 
-AR Path="/D1C3384BB29BC2" Ref="U23"  Part="2" 
-F 0 "U23" H 10800 8800 60  0000 C CNN
-F 1 "74LS02" H 10850 8700 60  0000 C CNN
-F 2 "14dip300" H 10850 8800 60  0001 C CNN
-F 3 "" H 10800 8750 60  0001 C CNN
-	2    10800 8750
-	-1   0    0    1   
-$EndComp
-$Comp
-L 74LS02 U?
-U 3 1 4BB29BBB
-P 10800 7850
-AR Path="/174BB29BBB" Ref="U?"  Part="1" 
-AR Path="/4BB29BBB" Ref="U23"  Part="3" 
-AR Path="/FFFFFFFF4BB29BBB" Ref="U23"  Part="3" 
-AR Path="/23D8044BB29BBB" Ref="U?"  Part="3" 
-AR Path="/2606084BB29BBB" Ref="U23"  Part="3" 
-AR Path="/23D83C4BB29BBB" Ref="U23"  Part="3" 
-AR Path="/47907FA4BB29BBB" Ref="U23"  Part="3" 
-AR Path="/23C34C4BB29BBB" Ref="U23"  Part="3" 
-AR Path="/14BB29BBB" Ref="U23"  Part="3" 
-AR Path="/23BC884BB29BBB" Ref="U23"  Part="3" 
-AR Path="/773F8EB44BB29BBB" Ref="U23"  Part="3" 
-AR Path="/94BB29BBB" Ref="U"  Part="3" 
-AR Path="/23C9F04BB29BBB" Ref="U23"  Part="3" 
-AR Path="/FFFFFFF04BB29BBB" Ref="U23"  Part="3" 
-AR Path="/8D384BB29BBB" Ref="U23"  Part="3" 
-AR Path="/773F65F14BB29BBB" Ref="U23"  Part="3" 
-AR Path="/23C6504BB29BBB" Ref="U23"  Part="3" 
-AR Path="/D058E04BB29BBB" Ref="U23"  Part="3" 
-AR Path="/3C64BB29BBB" Ref="U23"  Part="3" 
-AR Path="/23CBC44BB29BBB" Ref="U23"  Part="3" 
-AR Path="/2F4A4BB29BBB" Ref="U23"  Part="3" 
-AR Path="/23D9004BB29BBB" Ref="U23"  Part="3" 
-AR Path="/64BB29BBB" Ref="U23"  Part="3" 
-AR Path="/6FE934344BB29BBB" Ref="U23"  Part="3" 
-AR Path="/24BB29BBB" Ref="U23"  Part="3" 
-AR Path="/6FE934E34BB29BBB" Ref="U23"  Part="3" 
-AR Path="/D1C3384BB29BBB" Ref="U23"  Part="3" 
-F 0 "U23" H 10800 7900 60  0000 C CNN
-F 1 "74LS02" H 10850 7800 60  0000 C CNN
-F 2 "14dip300" H 10850 7900 60  0001 C CNN
-F 3 "" H 10800 7850 60  0001 C CNN
-	3    10800 7850
-	-1   0    0    1   
-$EndComp
-$Comp
-L 74LS02 U?
-U 1 1 4BB29BAF
-P 9600 7950
-AR Path="/2300384BB29BAF" Ref="U?"  Part="1" 
-AR Path="/4BB29BAF" Ref="U23"  Part="1" 
-AR Path="/394231364BB29BAF" Ref="U?"  Part="1" 
-AR Path="/29A3084BB29BAF" Ref="U?"  Part="1" 
-AR Path="/FFFFFFFF4BB29BAF" Ref="U23"  Part="1" 
-AR Path="/31324BB29BAF" Ref="U?"  Part="1" 
-AR Path="/2606084BB29BAF" Ref="U23"  Part="1" 
-AR Path="/23D83C4BB29BAF" Ref="U23"  Part="1" 
-AR Path="/47907FA4BB29BAF" Ref="U23"  Part="1" 
-AR Path="/23C34C4BB29BAF" Ref="U23"  Part="1" 
-AR Path="/14BB29BAF" Ref="U23"  Part="1" 
-AR Path="/23BC884BB29BAF" Ref="U23"  Part="1" 
-AR Path="/773F8EB44BB29BAF" Ref="U23"  Part="1" 
-AR Path="/94BB29BAF" Ref="U"  Part="1" 
-AR Path="/23C9F04BB29BAF" Ref="U23"  Part="1" 
-AR Path="/FFFFFFF04BB29BAF" Ref="U23"  Part="1" 
-AR Path="/8D384BB29BAF" Ref="U23"  Part="1" 
-AR Path="/773F65F14BB29BAF" Ref="U23"  Part="1" 
-AR Path="/23C6504BB29BAF" Ref="U23"  Part="1" 
-AR Path="/D058E04BB29BAF" Ref="U23"  Part="1" 
-AR Path="/3C64BB29BAF" Ref="U23"  Part="1" 
-AR Path="/23CBC44BB29BAF" Ref="U23"  Part="1" 
-AR Path="/2F4A4BB29BAF" Ref="U23"  Part="1" 
-AR Path="/23D9004BB29BAF" Ref="U23"  Part="1" 
-AR Path="/64BB29BAF" Ref="U23"  Part="1" 
-AR Path="/6FE934344BB29BAF" Ref="U23"  Part="1" 
-AR Path="/24BB29BAF" Ref="U23"  Part="1" 
-AR Path="/6FE934E34BB29BAF" Ref="U23"  Part="1" 
-AR Path="/D1C3384BB29BAF" Ref="U23"  Part="1" 
-F 0 "U23" H 9600 8000 60  0000 C CNN
-F 1 "74LS02" H 9650 7900 60  0000 C CNN
-F 2 "14dip300" H 9650 8000 60  0001 C CNN
-F 3 "" H 9600 7950 60  0001 C CNN
-	1    9600 7950
-	-1   0    0    1   
-$EndComp
-$Comp
-L 74LS153 U?
-U 1 1 4BB29B89
-P 7200 8450
-AR Path="/2300384BB29B89" Ref="U?"  Part="1" 
-AR Path="/4BB29B89" Ref="U4"  Part="1" 
-AR Path="/394238394BB29B89" Ref="U?"  Part="1" 
-AR Path="/2606084BB29B89" Ref="U4"  Part="1" 
-AR Path="/23D8044BB29B89" Ref="U4"  Part="1" 
-AR Path="/FFFFFFFF4BB29B89" Ref="U4"  Part="1" 
-AR Path="/23D83C4BB29B89" Ref="U4"  Part="1" 
-AR Path="/47907FA4BB29B89" Ref="U4"  Part="1" 
-AR Path="/23C34C4BB29B89" Ref="U4"  Part="1" 
-AR Path="/14BB29B89" Ref="U4"  Part="1" 
-AR Path="/23BC884BB29B89" Ref="U4"  Part="1" 
-AR Path="/773F8EB44BB29B89" Ref="U4"  Part="1" 
-AR Path="/94BB29B89" Ref="U"  Part="1" 
-AR Path="/23C9F04BB29B89" Ref="U4"  Part="1" 
-AR Path="/FFFFFFF04BB29B89" Ref="U4"  Part="1" 
-AR Path="/8D384BB29B89" Ref="U4"  Part="1" 
-AR Path="/24BB29B89" Ref="U4"  Part="1" 
-AR Path="/773F65F14BB29B89" Ref="U4"  Part="1" 
-AR Path="/23C6504BB29B89" Ref="U4"  Part="1" 
-AR Path="/D058E04BB29B89" Ref="U4"  Part="1" 
-AR Path="/3C64BB29B89" Ref="U4"  Part="1" 
-AR Path="/23CBC44BB29B89" Ref="U4"  Part="1" 
-AR Path="/2F4A4BB29B89" Ref="U4"  Part="1" 
-AR Path="/23D9004BB29B89" Ref="U4"  Part="1" 
-AR Path="/64BB29B89" Ref="U4"  Part="1" 
-AR Path="/6FE934344BB29B89" Ref="U4"  Part="1" 
-AR Path="/6FE934E34BB29B89" Ref="U4"  Part="1" 
-AR Path="/D1C3384BB29B89" Ref="U4"  Part="1" 
-F 0 "U4" H 7200 8750 60  0000 C CNN
-F 1 "74LS153" H 7200 8600 60  0000 C CNN
-F 2 "16dip300" H 7200 8700 60  0001 C CNN
-F 3 "" H 7200 8450 60  0001 C CNN
-	1    7200 8450
-	-1   0    0    -1  
-$EndComp
-Text Label 8050 6600 0    60   ~ 0
-GND
-Text Label 8050 5950 0    60   ~ 0
-GND
-$Comp
-L 74LS153 U?
-U 1 1 4BB2957F
-P 7200 6650
-AR Path="/2300384BB2957F" Ref="U?"  Part="1" 
-AR Path="/4BB2957F" Ref="U6"  Part="1" 
-AR Path="/393537464BB2957F" Ref="U?"  Part="1" 
-AR Path="/5ADA11784BB2957F" Ref="U?"  Part="1" 
-AR Path="/2606084BB2957F" Ref="U6"  Part="1" 
-AR Path="/FFFFFFFF4BB2957F" Ref="U6"  Part="1" 
-AR Path="/23D83C4BB2957F" Ref="U6"  Part="1" 
-AR Path="/47907FA4BB2957F" Ref="U6"  Part="1" 
-AR Path="/23C34C4BB2957F" Ref="U6"  Part="1" 
-AR Path="/14BB2957F" Ref="U6"  Part="1" 
-AR Path="/23BC884BB2957F" Ref="U6"  Part="1" 
-AR Path="/773F8EB44BB2957F" Ref="U6"  Part="1" 
-AR Path="/94BB2957F" Ref="U"  Part="1" 
-AR Path="/23C9F04BB2957F" Ref="U6"  Part="1" 
-AR Path="/FFFFFFF04BB2957F" Ref="U6"  Part="1" 
-AR Path="/8D384BB2957F" Ref="U6"  Part="1" 
-AR Path="/24BB2957F" Ref="U6"  Part="1" 
-AR Path="/773F65F14BB2957F" Ref="U6"  Part="1" 
-AR Path="/23C6504BB2957F" Ref="U6"  Part="1" 
-AR Path="/D058E04BB2957F" Ref="U6"  Part="1" 
-AR Path="/3C64BB2957F" Ref="U6"  Part="1" 
-AR Path="/23CBC44BB2957F" Ref="U6"  Part="1" 
-AR Path="/2F4A4BB2957F" Ref="U6"  Part="1" 
-AR Path="/23D9004BB2957F" Ref="U6"  Part="1" 
-AR Path="/64BB2957F" Ref="U6"  Part="1" 
-AR Path="/6FE934344BB2957F" Ref="U6"  Part="1" 
-AR Path="/6FE934E34BB2957F" Ref="U6"  Part="1" 
-AR Path="/D1C3384BB2957F" Ref="U6"  Part="1" 
-F 0 "U6" H 7200 6950 60  0000 C CNN
-F 1 "74LS153" H 7200 6800 60  0000 C CNN
-F 2 "16dip300" H 7200 6900 60  0001 C CNN
-F 3 "" H 7200 6650 60  0001 C CNN
-	1    7200 6650
-	-1   0    0    -1  
-$EndComp
 Text Label 5350 4900 0    60   ~ 0
 GND
 Text Label 5350 4800 0    60   ~ 0
@@ -5123,46 +4697,6 @@ Text Label 1150 4300 0    60   ~ 0
 ADSB*
 Text Label 29550 22650 0    60   ~ 0
 SLAVE_CLR*
-$Comp
-L 74LS04 U?
-U 3 1 4BB28D57
-P 12200 8400
-AR Path="/384BB28D57" Ref="U?"  Part="1" 
-AR Path="/4BB28D57" Ref="U25"  Part="3" 
-AR Path="/2858A04BB28D57" Ref="U?"  Part="1" 
-AR Path="/1B909CA4BB28D57" Ref="U"  Part="3" 
-AR Path="/FFFFFFFF4BB28D57" Ref="U25"  Part="3" 
-AR Path="/23D83C4BB28D57" Ref="U25"  Part="3" 
-AR Path="/47907FA4BB28D57" Ref="U2"  Part="3" 
-AR Path="/23C34C4BB28D57" Ref="U25"  Part="3" 
-AR Path="/14BB28D57" Ref="U2"  Part="3" 
-AR Path="/23BC884BB28D57" Ref="U25"  Part="3" 
-AR Path="/773F8EB44BB28D57" Ref="U25"  Part="3" 
-AR Path="/94BB28D57" Ref="U"  Part="3" 
-AR Path="/23C9F04BB28D57" Ref="U25"  Part="3" 
-AR Path="/FFFFFFF04BB28D57" Ref="U25"  Part="3" 
-AR Path="/23D8044BB28D57" Ref="U2"  Part="3" 
-AR Path="/2606084BB28D57" Ref="U25"  Part="3" 
-AR Path="/8D384BB28D57" Ref="U25"  Part="3" 
-AR Path="/24BB28D57" Ref="U25"  Part="3" 
-AR Path="/773F65F14BB28D57" Ref="U25"  Part="3" 
-AR Path="/23C6504BB28D57" Ref="U25"  Part="3" 
-AR Path="/D058E04BB28D57" Ref="U25"  Part="3" 
-AR Path="/3C64BB28D57" Ref="U25"  Part="3" 
-AR Path="/23CBC44BB28D57" Ref="U25"  Part="3" 
-AR Path="/2F4A4BB28D57" Ref="U25"  Part="3" 
-AR Path="/23D9004BB28D57" Ref="U25"  Part="3" 
-AR Path="/64BB28D57" Ref="U25"  Part="3" 
-AR Path="/6FE934344BB28D57" Ref="U25"  Part="3" 
-AR Path="/6FE934E34BB28D57" Ref="U25"  Part="3" 
-AR Path="/D1C3384BB28D57" Ref="U25"  Part="3" 
-F 0 "U25" H 12395 8515 60  0000 C CNN
-F 1 "74LS04" H 12390 8275 60  0000 C CNN
-F 2 "14dip300" H 12390 8375 60  0001 C CNN
-F 3 "" H 12200 8400 60  0001 C CNN
-	3    12200 8400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L 74LS04 U?
 U 2 1 4BB28D08
@@ -6015,84 +5549,6 @@ F 3 "" H 31350 11100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C29
-U 1 1 4B366280
-P 32700 11100
-AR Path="/4B366280" Ref="C29"  Part="1" 
-AR Path="/94B366280" Ref="C29"  Part="1" 
-AR Path="/5AD7153D4B366280" Ref="C29"  Part="1" 
-AR Path="/23D9304B366280" Ref="C29"  Part="1" 
-AR Path="/6FE901F74B366280" Ref="C29"  Part="1" 
-AR Path="/3FE224DD4B366280" Ref="C29"  Part="1" 
-AR Path="/3FEFFFFF4B366280" Ref="C29"  Part="1" 
-AR Path="/23D8D44B366280" Ref="C29"  Part="1" 
-AR Path="/14B366280" Ref="C29"  Part="1" 
-AR Path="/6FF0DD404B366280" Ref="C29"  Part="1" 
-AR Path="/FFFFFFF04B366280" Ref="C29"  Part="1" 
-AR Path="/402955814B366280" Ref="C29"  Part="1" 
-AR Path="/DCBAABCD4B366280" Ref="C29"  Part="1" 
-AR Path="/A84B366280" Ref="C29"  Part="1" 
-AR Path="/A4B366280" Ref="C29"  Part="1" 
-AR Path="/402C08B44B366280" Ref="C29"  Part="1" 
-AR Path="/23D2034B366280" Ref="C29"  Part="1" 
-AR Path="/4E4B366280" Ref="C29"  Part="1" 
-AR Path="/402BEF1A4B366280" Ref="C29"  Part="1" 
-AR Path="/54B366280" Ref="C29"  Part="1" 
-AR Path="/40293BE74B366280" Ref="C29"  Part="1" 
-AR Path="/402C55814B366280" Ref="C29"  Part="1" 
-AR Path="/40273BE74B366280" Ref="C29"  Part="1" 
-AR Path="/2600004B366280" Ref="C29"  Part="1" 
-AR Path="/3D8EA0004B366280" Ref="C29"  Part="1" 
-AR Path="/402908B44B366280" Ref="C29"  Part="1" 
-AR Path="/3D6CC0004B366280" Ref="C29"  Part="1" 
-AR Path="/3D5A40004B366280" Ref="C29"  Part="1" 
-AR Path="/402755814B366280" Ref="C29"  Part="1" 
-AR Path="/4030AAC04B366280" Ref="C29"  Part="1" 
-AR Path="/4031DDF34B366280" Ref="C29"  Part="1" 
-AR Path="/3FE88B434B366280" Ref="C29"  Part="1" 
-AR Path="/4032778D4B366280" Ref="C29"  Part="1" 
-AR Path="/403091264B366280" Ref="C29"  Part="1" 
-AR Path="/403051264B366280" Ref="C29"  Part="1" 
-AR Path="/4032F78D4B366280" Ref="C29"  Part="1" 
-AR Path="/403251264B366280" Ref="C29"  Part="1" 
-AR Path="/4032AAC04B366280" Ref="C29"  Part="1" 
-AR Path="/4030D1264B366280" Ref="C29"  Part="1" 
-AR Path="/4031778D4B366280" Ref="C29"  Part="1" 
-AR Path="/3FEA24DD4B366280" Ref="C29"  Part="1" 
-AR Path="/6FE934E34B366280" Ref="C29"  Part="1" 
-AR Path="/773F65F14B366280" Ref="C29"  Part="1" 
-AR Path="/773F8EB44B366280" Ref="C29"  Part="1" 
-AR Path="/23C9F04B366280" Ref="C29"  Part="1" 
-AR Path="/24B366280" Ref="C29"  Part="1" 
-AR Path="/23BC884B366280" Ref="C29"  Part="1" 
-AR Path="/DC0C124B366280" Ref="C29"  Part="1" 
-AR Path="/23C34C4B366280" Ref="C29"  Part="1" 
-AR Path="/23CBC44B366280" Ref="C29"  Part="1" 
-AR Path="/23C6504B366280" Ref="C29"  Part="1" 
-AR Path="/39803EA4B366280" Ref="C29"  Part="1" 
-AR Path="/FFFFFFFF4B366280" Ref="C29"  Part="1" 
-AR Path="/6FE934344B366280" Ref="C29"  Part="1" 
-AR Path="/7E0073254B366280" Ref="C29"  Part="1" 
-AR Path="/73254B366280" Ref="C29"  Part="1" 
-AR Path="/8CEE4B366280" Ref="C29"  Part="1" 
-AR Path="/23D9004B366280" Ref="C29"  Part="1" 
-AR Path="/91964B366280" Ref="C29"  Part="1" 
-AR Path="/77F16B254B366280" Ref="C29"  Part="1" 
-AR Path="/23D83C4B366280" Ref="C29"  Part="1" 
-AR Path="/47907FA4B366280" Ref="C29"  Part="1" 
-AR Path="/8D384B366280" Ref="C29"  Part="1" 
-AR Path="/D058E04B366280" Ref="C29"  Part="1" 
-AR Path="/3C64B366280" Ref="C29"  Part="1" 
-AR Path="/2F4A4B366280" Ref="C29"  Part="1" 
-AR Path="/D1C3384B366280" Ref="C29"  Part="1" 
-F 0 "C29" H 32750 11200 50  0000 L CNN
-F 1 "0.1 uF" H 32750 11000 50  0000 L CNN
-F 2 "C2" H 32700 11100 60  0001 C CNN
-F 3 "" H 32700 11100 60  0001 C CNN
-	1    32700 11100
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C27
 U 1 1 4B36627F
 P 32250 11100
@@ -6324,84 +5780,6 @@ F 1 "0.1 uF" H 32300 11600 50  0000 L CNN
 F 2 "C2" H 32250 11700 60  0001 C CNN
 F 3 "" H 32250 11700 60  0001 C CNN
 	1    32250 11700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C24
-U 1 1 4B36626B
-P 31350 11700
-AR Path="/4B36626B" Ref="C24"  Part="1" 
-AR Path="/94B36626B" Ref="C24"  Part="1" 
-AR Path="/5AD7153D4B36626B" Ref="C24"  Part="1" 
-AR Path="/23D9304B36626B" Ref="C24"  Part="1" 
-AR Path="/6FE901F74B36626B" Ref="C24"  Part="1" 
-AR Path="/3FE224DD4B36626B" Ref="C24"  Part="1" 
-AR Path="/3FEFFFFF4B36626B" Ref="C24"  Part="1" 
-AR Path="/23D8D44B36626B" Ref="C24"  Part="1" 
-AR Path="/14B36626B" Ref="C24"  Part="1" 
-AR Path="/6FF0DD404B36626B" Ref="C24"  Part="1" 
-AR Path="/FFFFFFF04B36626B" Ref="C24"  Part="1" 
-AR Path="/402955814B36626B" Ref="C24"  Part="1" 
-AR Path="/DCBAABCD4B36626B" Ref="C24"  Part="1" 
-AR Path="/A84B36626B" Ref="C24"  Part="1" 
-AR Path="/A4B36626B" Ref="C24"  Part="1" 
-AR Path="/402C08B44B36626B" Ref="C24"  Part="1" 
-AR Path="/23D2034B36626B" Ref="C24"  Part="1" 
-AR Path="/4E4B36626B" Ref="C24"  Part="1" 
-AR Path="/402BEF1A4B36626B" Ref="C24"  Part="1" 
-AR Path="/54B36626B" Ref="C24"  Part="1" 
-AR Path="/40293BE74B36626B" Ref="C24"  Part="1" 
-AR Path="/402C55814B36626B" Ref="C24"  Part="1" 
-AR Path="/40273BE74B36626B" Ref="C24"  Part="1" 
-AR Path="/2600004B36626B" Ref="C24"  Part="1" 
-AR Path="/3D8EA0004B36626B" Ref="C24"  Part="1" 
-AR Path="/402908B44B36626B" Ref="C24"  Part="1" 
-AR Path="/3D6CC0004B36626B" Ref="C24"  Part="1" 
-AR Path="/3D5A40004B36626B" Ref="C24"  Part="1" 
-AR Path="/402755814B36626B" Ref="C24"  Part="1" 
-AR Path="/4030AAC04B36626B" Ref="C24"  Part="1" 
-AR Path="/4031DDF34B36626B" Ref="C24"  Part="1" 
-AR Path="/3FE88B434B36626B" Ref="C24"  Part="1" 
-AR Path="/4032778D4B36626B" Ref="C24"  Part="1" 
-AR Path="/403091264B36626B" Ref="C24"  Part="1" 
-AR Path="/403051264B36626B" Ref="C24"  Part="1" 
-AR Path="/4032F78D4B36626B" Ref="C24"  Part="1" 
-AR Path="/403251264B36626B" Ref="C24"  Part="1" 
-AR Path="/4032AAC04B36626B" Ref="C24"  Part="1" 
-AR Path="/4030D1264B36626B" Ref="C24"  Part="1" 
-AR Path="/4031778D4B36626B" Ref="C24"  Part="1" 
-AR Path="/3FEA24DD4B36626B" Ref="C24"  Part="1" 
-AR Path="/6FE934E34B36626B" Ref="C24"  Part="1" 
-AR Path="/773F65F14B36626B" Ref="C24"  Part="1" 
-AR Path="/773F8EB44B36626B" Ref="C24"  Part="1" 
-AR Path="/23C9F04B36626B" Ref="C24"  Part="1" 
-AR Path="/24B36626B" Ref="C24"  Part="1" 
-AR Path="/23BC884B36626B" Ref="C24"  Part="1" 
-AR Path="/DC0C124B36626B" Ref="C24"  Part="1" 
-AR Path="/23C34C4B36626B" Ref="C24"  Part="1" 
-AR Path="/23CBC44B36626B" Ref="C24"  Part="1" 
-AR Path="/23C6504B36626B" Ref="C24"  Part="1" 
-AR Path="/39803EA4B36626B" Ref="C24"  Part="1" 
-AR Path="/FFFFFFFF4B36626B" Ref="C24"  Part="1" 
-AR Path="/6FE934344B36626B" Ref="C24"  Part="1" 
-AR Path="/7E0073254B36626B" Ref="C24"  Part="1" 
-AR Path="/73254B36626B" Ref="C24"  Part="1" 
-AR Path="/8CEE4B36626B" Ref="C24"  Part="1" 
-AR Path="/23D9004B36626B" Ref="C24"  Part="1" 
-AR Path="/91964B36626B" Ref="C24"  Part="1" 
-AR Path="/77F16B254B36626B" Ref="C24"  Part="1" 
-AR Path="/23D83C4B36626B" Ref="C24"  Part="1" 
-AR Path="/47907FA4B36626B" Ref="C24"  Part="1" 
-AR Path="/8D384B36626B" Ref="C24"  Part="1" 
-AR Path="/D058E04B36626B" Ref="C24"  Part="1" 
-AR Path="/3C64B36626B" Ref="C24"  Part="1" 
-AR Path="/2F4A4B36626B" Ref="C24"  Part="1" 
-AR Path="/D1C3384B36626B" Ref="C24"  Part="1" 
-F 0 "C24" H 31400 11800 50  0000 L CNN
-F 1 "0.1 uF" H 31400 11600 50  0000 L CNN
-F 2 "C2" H 31350 11700 60  0001 C CNN
-F 3 "" H 31350 11700 60  0001 C CNN
-	1    31350 11700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -9146,56 +8524,6 @@ Text Label 11650 13500 0    60   ~ 0
 GND
 Text Label 14950 4000 0    60   ~ 0
 GND
-$Comp
-L R R7
-U 1 1 5391DE97
-P 40700 2000
-F 0 "R7" V 40780 2000 50  0000 C CNN
-F 1 "330" V 40700 2000 50  0000 C CNN
-F 2 "" H 40700 2000 60  0001 C CNN
-F 3 "" H 40700 2000 60  0001 C CNN
-	1    40700 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L LED D3
-U 1 1 5391DE9D
-P 41450 2250
-F 0 "D3" H 41450 2350 50  0000 C CNN
-F 1 "DONE" H 41450 2150 50  0000 C CNN
-F 2 "" H 41450 2250 60  0001 C CNN
-F 3 "" H 41450 2250 60  0001 C CNN
-	1    41450 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L R R8
-U 1 1 5391DEA3
-P 40700 2750
-F 0 "R8" V 40780 2750 50  0000 C CNN
-F 1 "470" V 40700 2750 50  0000 C CNN
-F 2 "" H 40700 2750 60  0001 C CNN
-F 3 "" H 40700 2750 60  0001 C CNN
-	1    40700 2750
-	0    1    1    0   
-$EndComp
-Text Label 41550 3100 0    60   ~ 0
-GND
-Text Label 40450 1850 0    60   ~ 0
-V5.0
-Text Notes 41700 2700 0    60   ~ 0
-A16
-$Comp
-L ^^NPN-SOT23 Q4
-U 1 1 5391DEB7
-P 41350 2750
-F 0 "Q4" H 41350 2600 50  0000 R CNN
-F 1 "^^NPN-SOT23" H 41350 2900 50  0000 R CNN
-F 2 "~" H 41350 2750 60  0000 C CNN
-F 3 "~" H 41350 2750 60  0000 C CNN
-	1    41350 2750
-	1    0    0    -1  
-$EndComp
 NoConn ~ 33650 30150
 NoConn ~ 33650 30250
 NoConn ~ 33650 30450
@@ -9357,14 +8685,6 @@ Text Label 5350 5100 0    60   ~ 0
 bA18
 Text Label 5350 5000 0    60   ~ 0
 bA19
-Text Label 40050 2750 0    60   ~ 0
-bA16
-Text Label 40050 4000 0    60   ~ 0
-bA17
-Text Label 40050 5200 0    60   ~ 0
-bA18
-Text Label 40050 6450 0    60   ~ 0
-bA19
 Text Label 13200 25600 0    60   ~ 0
 Z80_ACTIVE
 Text Label 40000 8300 0    60   ~ 0
@@ -9373,156 +8693,6 @@ Text Notes 15150 30400 0    60   ~ 0
 PROM WAIT
 Text Label 40000 9550 0    60   ~ 0
 ROM_SELECT
-$Comp
-L R R9
-U 1 1 5392C362
-P 40700 3250
-F 0 "R9" V 40780 3250 50  0000 C CNN
-F 1 "330" V 40700 3250 50  0000 C CNN
-F 2 "" H 40700 3250 60  0001 C CNN
-F 3 "" H 40700 3250 60  0001 C CNN
-	1    40700 3250
-	0    1    1    0   
-$EndComp
-$Comp
-L LED D4
-U 1 1 5392C368
-P 41450 3500
-F 0 "D4" H 41450 3600 50  0000 C CNN
-F 1 "DONE" H 41450 3400 50  0000 C CNN
-F 2 "" H 41450 3500 60  0001 C CNN
-F 3 "" H 41450 3500 60  0001 C CNN
-	1    41450 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L R R10
-U 1 1 5392C36E
-P 40700 4000
-F 0 "R10" V 40780 4000 50  0000 C CNN
-F 1 "470" V 40700 4000 50  0000 C CNN
-F 2 "" H 40700 4000 60  0001 C CNN
-F 3 "" H 40700 4000 60  0001 C CNN
-	1    40700 4000
-	0    1    1    0   
-$EndComp
-Text Label 41550 4350 0    60   ~ 0
-GND
-Text Label 40450 3100 0    60   ~ 0
-V5.0
-Text Notes 41700 3950 0    60   ~ 0
-A17
-$Comp
-L ^^NPN-SOT23 Q5
-U 1 1 5392C381
-P 41350 4000
-F 0 "Q5" H 41350 3850 50  0000 R CNN
-F 1 "^^NPN-SOT23" H 41350 4150 50  0000 R CNN
-F 2 "~" H 41350 4000 60  0000 C CNN
-F 3 "~" H 41350 4000 60  0000 C CNN
-	1    41350 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R12
-U 1 1 5392C387
-P 40700 4450
-F 0 "R12" V 40780 4450 50  0000 C CNN
-F 1 "330" V 40700 4450 50  0000 C CNN
-F 2 "" H 40700 4450 60  0001 C CNN
-F 3 "" H 40700 4450 60  0001 C CNN
-	1    40700 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L LED D5
-U 1 1 5392C38D
-P 41450 4700
-F 0 "D5" H 41450 4800 50  0000 C CNN
-F 1 "DONE" H 41450 4600 50  0000 C CNN
-F 2 "" H 41450 4700 60  0001 C CNN
-F 3 "" H 41450 4700 60  0001 C CNN
-	1    41450 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L R R13
-U 1 1 5392C393
-P 40700 5200
-F 0 "R13" V 40780 5200 50  0000 C CNN
-F 1 "470" V 40700 5200 50  0000 C CNN
-F 2 "" H 40700 5200 60  0001 C CNN
-F 3 "" H 40700 5200 60  0001 C CNN
-	1    40700 5200
-	0    1    1    0   
-$EndComp
-Text Label 41550 5550 0    60   ~ 0
-GND
-Text Label 40450 4300 0    60   ~ 0
-V5.0
-Text Notes 41700 5150 0    60   ~ 0
-A18
-$Comp
-L ^^NPN-SOT23 Q6
-U 1 1 5392C3A6
-P 41350 5200
-F 0 "Q6" H 41350 5050 50  0000 R CNN
-F 1 "^^NPN-SOT23" H 41350 5350 50  0000 R CNN
-F 2 "~" H 41350 5200 60  0000 C CNN
-F 3 "~" H 41350 5200 60  0000 C CNN
-	1    41350 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R14
-U 1 1 5392C3AC
-P 40700 5700
-F 0 "R14" V 40780 5700 50  0000 C CNN
-F 1 "330" V 40700 5700 50  0000 C CNN
-F 2 "" H 40700 5700 60  0001 C CNN
-F 3 "" H 40700 5700 60  0001 C CNN
-	1    40700 5700
-	0    1    1    0   
-$EndComp
-$Comp
-L LED D7
-U 1 1 5392C3B2
-P 41450 5950
-F 0 "D7" H 41450 6050 50  0000 C CNN
-F 1 "DONE" H 41450 5850 50  0000 C CNN
-F 2 "" H 41450 5950 60  0001 C CNN
-F 3 "" H 41450 5950 60  0001 C CNN
-	1    41450 5950
-	0    1    1    0   
-$EndComp
-$Comp
-L R R15
-U 1 1 5392C3B8
-P 40700 6450
-F 0 "R15" V 40780 6450 50  0000 C CNN
-F 1 "470" V 40700 6450 50  0000 C CNN
-F 2 "" H 40700 6450 60  0001 C CNN
-F 3 "" H 40700 6450 60  0001 C CNN
-	1    40700 6450
-	0    1    1    0   
-$EndComp
-Text Label 41550 6800 0    60   ~ 0
-GND
-Text Label 40450 5550 0    60   ~ 0
-V5.0
-Text Notes 41700 6400 0    60   ~ 0
-A19
-$Comp
-L ^^NPN-SOT23 Q7
-U 1 1 5392C3CB
-P 41350 6450
-F 0 "Q7" H 41350 6300 50  0000 R CNN
-F 1 "^^NPN-SOT23" H 41350 6600 50  0000 R CNN
-F 2 "~" H 41350 6450 60  0000 C CNN
-F 3 "~" H 41350 6450 60  0000 C CNN
-	1    41350 6450
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R1
 U 1 1 5392C3D1
@@ -9560,17 +8730,6 @@ Text Label 41500 8650 0    60   ~ 0
 GND
 Text Label 40400 7400 0    60   ~ 0
 V5.0
-$Comp
-L ^^NPN-SOT23 Q2
-U 1 1 5392C3F0
-P 41300 8300
-F 0 "Q2" H 41300 8150 50  0000 R CNN
-F 1 "^^NPN-SOT23" H 41300 8450 50  0000 R CNN
-F 2 "~" H 41300 8300 60  0000 C CNN
-F 3 "~" H 41300 8300 60  0000 C CNN
-	1    41300 8300
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R3
 U 1 1 5392C3F6
@@ -9611,17 +8770,6 @@ V5.0
 Text Notes 41650 9500 0    60   ~ 0
 ROM Select LED
 $Comp
-L ^^NPN-SOT23 Q3
-U 1 1 5392C415
-P 41300 9550
-F 0 "Q3" H 41300 9400 50  0000 R CNN
-F 1 "^^NPN-SOT23" H 41300 9700 50  0000 R CNN
-F 2 "~" H 41300 9550 60  0000 C CNN
-F 3 "~" H 41300 9550 60  0000 C CNN
-	1    41300 9550
-	1    0    0    -1  
-$EndComp
-$Comp
 L LDO_REG_7805 U48
 U 1 1 53934AD9
 P 27650 1550
@@ -9632,21 +8780,10 @@ F 3 "~" H 27650 1550 60  0000 C CNN
 	1    27650 1550
 	1    0    0    -1  
 $EndComp
-Connection ~ 12200 8850
-Wire Wire Line
-	10650 4800 13250 4800
 Wire Wire Line
 	13350 4900 13350 11100
 Wire Wire Line
-	10650 5000 13450 5000
-Wire Wire Line
-	10650 5100 13550 5100
-Wire Wire Line
-	10650 4700 13150 4700
-Wire Wire Line
 	13150 4700 13150 11300
-Wire Wire Line
-	10650 4600 13050 4600
 Wire Wire Line
 	13700 27550 10900 27550
 Wire Wire Line
@@ -9680,9 +8817,6 @@ Connection ~ 10000 13500
 Connection ~ 10000 13400
 Connection ~ 10000 13300
 Connection ~ 10000 13200
-Connection ~ 8100 8650
-Wire Wire Line
-	9000 8650 8100 8650
 Wire Wire Line
 	19350 18250 18800 18250
 Wire Wire Line
@@ -10008,42 +9142,10 @@ Wire Wire Line
 	18400 7450 18850 7450
 Wire Wire Line
 	18400 7350 18850 7350
-Connection ~ 8450 8400
-Wire Wire Line
-	8450 8400 7950 8400
-Connection ~ 7950 8700
-Connection ~ 7950 8500
-Connection ~ 7950 8600
-Wire Wire Line
-	7950 8500 7950 8700
-Connection ~ 7950 8050
-Connection ~ 7950 7850
-Connection ~ 7950 7950
-Wire Wire Line
-	7950 7850 7950 8050
 Wire Wire Line
 	3750 13100 3700 13100
 Wire Wire Line
 	3700 13100 3700 14350
-Wire Wire Line
-	3700 14350 10150 14350
-Wire Wire Line
-	10150 14350 10150 11000
-Wire Wire Line
-	10150 11000 11700 11000
-Wire Wire Line
-	11700 11000 11700 7100
-Wire Wire Line
-	11700 7100 10650 7100
-Connection ~ 10750 5600
-Wire Wire Line
-	10750 7200 10650 7200
-Wire Wire Line
-	12650 5750 12650 11150
-Wire Wire Line
-	12650 5750 9250 5750
-Wire Wire Line
-	9250 5750 9250 5300
 Wire Wire Line
 	9200 12200 9550 12200
 Wire Wire Line
@@ -10086,7 +9188,6 @@ Wire Wire Line
 Connection ~ 8450 10000
 Wire Wire Line
 	8450 10000 7950 10000
-Connection ~ 8450 9750
 Wire Wire Line
 	8450 9750 7950 9750
 Wire Wire Line
@@ -10099,72 +9200,6 @@ Wire Wire Line
 	9150 10350 9150 9900
 Wire Wire Line
 	9150 9900 14400 9900
-Connection ~ 10200 8300
-Wire Wire Line
-	10200 8300 8900 8300
-Wire Wire Line
-	8900 8300 8900 10650
-Wire Wire Line
-	8900 10650 7950 10650
-Wire Wire Line
-	7950 7950 8000 7950
-Wire Wire Line
-	8000 7950 8000 7900
-Wire Wire Line
-	8000 7900 8850 7900
-Wire Wire Line
-	8850 7900 8850 10200
-Wire Wire Line
-	8850 10200 14400 10200
-Connection ~ 8550 6250
-Wire Wire Line
-	7950 6250 8750 6250
-Wire Wire Line
-	8750 6250 8750 7200
-Wire Wire Line
-	8750 7200 8650 7200
-Wire Wire Line
-	8650 7200 8650 10400
-Wire Wire Line
-	8550 10500 14400 10500
-Wire Wire Line
-	8550 10500 8550 6900
-Wire Wire Line
-	8550 6900 7950 6900
-Wire Wire Line
-	12200 10400 12200 8850
-Wire Wire Line
-	8200 9050 7950 9050
-Wire Wire Line
-	8200 7250 8200 9050
-Wire Wire Line
-	8200 7250 7950 7250
-Wire Wire Line
-	7950 7350 8100 7350
-Wire Wire Line
-	8100 7350 8100 9150
-Wire Wire Line
-	8100 9150 7950 9150
-Connection ~ 11750 5300
-Wire Wire Line
-	11750 5300 11750 6900
-Wire Wire Line
-	11750 6900 10650 6900
-Connection ~ 11550 5100
-Wire Wire Line
-	11550 5100 11550 6700
-Wire Wire Line
-	11550 6700 10650 6700
-Connection ~ 11350 4900
-Wire Wire Line
-	11350 4900 11350 6500
-Wire Wire Line
-	11350 6500 10650 6500
-Connection ~ 11150 4700
-Wire Wire Line
-	11150 4700 11150 6300
-Wire Wire Line
-	11150 6300 10650 6300
 Wire Wire Line
 	13050 11400 14400 11400
 Wire Wire Line
@@ -10191,33 +9226,6 @@ Wire Wire Line
 	6400 10050 6400 9950
 Wire Wire Line
 	6400 9950 6450 9950
-Wire Wire Line
-	4600 6800 6450 6800
-Connection ~ 8450 8200
-Wire Wire Line
-	8450 8850 7950 8850
-Wire Wire Line
-	7950 7050 8450 7050
-Wire Wire Line
-	7950 6400 8450 6400
-Wire Wire Line
-	9250 6400 9050 6400
-Wire Wire Line
-	9050 6400 9050 5250
-Wire Wire Line
-	9050 5250 7950 5250
-Wire Wire Line
-	9000 6900 9000 6700
-Wire Wire Line
-	9000 6900 8650 6900
-Wire Wire Line
-	8650 6900 8650 6050
-Wire Wire Line
-	9250 6200 9150 6200
-Wire Wire Line
-	9150 6200 9150 4500
-Wire Wire Line
-	9150 4500 7950 4500
 Connection ~ 5000 10550
 Wire Wire Line
 	3350 11600 1800 11600
@@ -10251,32 +9259,6 @@ Wire Wire Line
 	3350 10050 1800 10050
 Wire Wire Line
 	3350 9950 1800 9950
-Wire Wire Line
-	11400 8650 11600 8650
-Wire Wire Line
-	11400 7750 11600 7750
-Wire Wire Line
-	7950 5500 8550 5500
-Wire Wire Line
-	8550 5500 8550 6250
-Wire Wire Line
-	9000 6700 9250 6700
-Wire Wire Line
-	8650 6050 7950 6050
-Wire Wire Line
-	9250 5100 8900 5100
-Wire Wire Line
-	8900 5100 8900 6150
-Wire Wire Line
-	8900 6150 7950 6150
-Wire Wire Line
-	7950 5100 8700 5100
-Wire Wire Line
-	8700 5100 8700 4900
-Wire Wire Line
-	8700 4900 9250 4900
-Wire Wire Line
-	7950 4600 9250 4600
 Wire Wire Line
 	5000 4300 2950 4300
 Wire Wire Line
@@ -10609,72 +9591,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 4800 5700 4800
 Wire Wire Line
-	7950 4850 8450 4850
-Wire Wire Line
-	8450 4850 8450 4700
-Wire Wire Line
-	8450 4700 9250 4700
-Wire Wire Line
-	7950 5350 8600 5350
-Wire Wire Line
-	8600 5350 8600 4800
-Wire Wire Line
-	8600 4800 9250 4800
-Wire Wire Line
-	9250 5000 8800 5000
-Wire Wire Line
-	8800 5000 8800 6800
-Wire Wire Line
-	8800 6800 7950 6800
-Wire Wire Line
-	7950 6700 8900 6700
-Wire Wire Line
-	8900 6700 8900 6600
-Wire Wire Line
-	8900 6600 9250 6600
-Wire Wire Line
-	7950 5950 8350 5950
-Wire Wire Line
-	7950 6600 8350 6600
-Wire Wire Line
 	4750 10550 5200 10550
 Wire Wire Line
-	7950 5600 8600 5600
-Wire Wire Line
-	8600 5600 8600 7500
-Wire Wire Line
-	8600 7500 11400 7500
-Wire Wire Line
-	11400 7500 11400 7750
-Connection ~ 11400 7750
-Wire Wire Line
-	7950 4750 9100 4750
-Wire Wire Line
-	9100 4750 9100 6300
-Wire Wire Line
-	9100 6300 9250 6300
-Wire Wire Line
-	9250 6500 9000 6500
-Wire Wire Line
-	9000 6500 9000 5400
-Wire Wire Line
-	9000 5400 8500 5400
-Wire Wire Line
-	8500 5400 8500 5000
-Wire Wire Line
-	8500 5000 7950 5000
-Wire Wire Line
-	10200 8050 10200 8550
-Wire Wire Line
-	8450 8200 7950 8200
-Connection ~ 8450 7050
-Wire Wire Line
-	8450 6400 8450 10750
-Connection ~ 8450 8850
-Wire Wire Line
 	8450 10750 7950 10750
-Wire Wire Line
-	5100 6150 6450 6150
 Wire Wire Line
 	4750 9950 6300 9950
 Wire Wire Line
@@ -10699,26 +9618,6 @@ Wire Wire Line
 	13350 11100 14400 11100
 Wire Wire Line
 	13150 11300 14400 11300
-Wire Wire Line
-	10650 6200 11050 6200
-Wire Wire Line
-	11050 6200 11050 4600
-Connection ~ 11050 4600
-Wire Wire Line
-	11250 4800 11250 6400
-Wire Wire Line
-	11250 6400 10650 6400
-Connection ~ 11250 4800
-Wire Wire Line
-	11450 5000 11450 6600
-Wire Wire Line
-	11450 6600 10650 6600
-Connection ~ 11450 5000
-Wire Wire Line
-	11650 5200 11650 6800
-Wire Wire Line
-	11650 6800 10650 6800
-Connection ~ 11650 5200
 Wire Wire Line
 	4750 11200 5100 11200
 Wire Wire Line
@@ -10747,21 +9646,6 @@ Wire Wire Line
 	14050 9600 14400 9600
 Wire Wire Line
 	14050 9700 14400 9700
-Wire Wire Line
-	12200 8850 11400 8850
-Wire Wire Line
-	11600 7750 11600 10500
-Connection ~ 11600 10500
-Connection ~ 11600 8650
-Wire Wire Line
-	8650 10400 14400 10400
-Connection ~ 12200 10400
-Wire Wire Line
-	8750 10300 14400 10300
-Wire Wire Line
-	8750 10300 8750 8600
-Wire Wire Line
-	8750 8600 7950 8600
 Wire Wire Line
 	14400 10100 8950 10100
 Wire Wire Line
@@ -10799,26 +9683,7 @@ Connection ~ 9700 13000
 Wire Wire Line
 	9200 12000 9700 12000
 Wire Wire Line
-	10750 5600 10650 5600
-Wire Wire Line
 	3750 13300 3750 14400
-Wire Wire Line
-	3750 14400 10200 14400
-Wire Wire Line
-	10200 14400 10200 11050
-Wire Wire Line
-	10200 11050 11750 11050
-Wire Wire Line
-	11750 11050 11750 7550
-Wire Wire Line
-	11750 7550 11900 7550
-Wire Wire Line
-	11900 7550 11900 5500
-Wire Wire Line
-	11900 5500 10650 5500
-Wire Wire Line
-	8450 7750 7950 7750
-Connection ~ 8450 7750
 Wire Wire Line
 	13050 5450 16950 5450
 Connection ~ 13050 5450
@@ -10876,8 +9741,6 @@ Wire Wire Line
 	19400 24500 19800 24500
 Wire Wire Line
 	20700 25600 21150 25600
-Wire Wire Line
-	12450 25250 12950 25250
 Wire Wire Line
 	11850 25600 11850 25100
 Wire Wire Line
@@ -11090,9 +9953,6 @@ Wire Wire Line
 	16650 18450 17100 18450
 Connection ~ 16650 18550
 Wire Wire Line
-	9000 7950 8200 7950
-Connection ~ 8200 7950
-Wire Wire Line
 	20750 17800 20750 18000
 Wire Wire Line
 	20750 18350 20750 18500
@@ -11109,19 +9969,7 @@ Connection ~ 10900 27550
 Wire Wire Line
 	22400 24400 22000 24400
 Wire Wire Line
-	10650 5300 13750 5300
-Wire Wire Line
-	10650 5200 13650 5200
-Wire Wire Line
 	13250 4800 13250 11200
-Wire Wire Line
-	10650 4900 13350 4900
-Wire Wire Line
-	11400 7950 12200 7950
-Wire Wire Line
-	9200 5200 9250 5200
-Wire Wire Line
-	9200 2550 9200 5200
 Wire Wire Line
 	21200 24300 22600 24300
 Connection ~ 27250 1500
@@ -11158,31 +10006,21 @@ Wire Wire Line
 Wire Wire Line
 	11100 13250 11100 13850
 Wire Wire Line
-	12650 11150 10450 11150
-Wire Wire Line
-	10450 11150 10450 12950
-Wire Wire Line
-	10450 12950 11600 12950
-Wire Wire Line
 	11600 12700 10600 12700
 Wire Wire Line
 	10600 12700 10600 10500
-Connection ~ 10600 10500
 Wire Wire Line
 	11600 12500 10650 12500
 Wire Wire Line
 	10650 12500 10650 10400
-Connection ~ 10650 10400
 Wire Wire Line
 	11600 12250 10700 12250
 Wire Wire Line
 	10700 12250 10700 10300
-Connection ~ 10700 10300
 Wire Wire Line
 	11600 12050 10750 12050
 Wire Wire Line
 	10750 12050 10750 10200
-Connection ~ 10750 10200
 Wire Wire Line
 	12800 13050 12850 13050
 Wire Wire Line
@@ -11209,26 +10047,6 @@ Wire Wire Line
 	14150 12800 15450 12800
 Wire Wire Line
 	15450 12800 15450 12900
-Wire Wire Line
-	40050 2750 40450 2750
-Wire Wire Line
-	41450 3100 41450 2950
-Wire Wire Line
-	41550 3100 41450 3100
-Wire Wire Line
-	41450 2450 41450 2550
-Wire Wire Line
-	40350 2000 40450 2000
-Wire Wire Line
-	40350 1850 40350 2000
-Wire Wire Line
-	40450 1850 40350 1850
-Wire Wire Line
-	41450 2000 40950 2000
-Wire Wire Line
-	41450 2050 41450 2000
-Wire Wire Line
-	41150 2750 40950 2750
 Connection ~ 34350 29750
 Wire Wire Line
 	34350 30050 34350 29750
@@ -11335,66 +10153,6 @@ Connection ~ 20950 13000
 Wire Wire Line
 	13200 25600 13050 25600
 Wire Wire Line
-	40050 4000 40450 4000
-Wire Wire Line
-	41450 4350 41450 4200
-Wire Wire Line
-	41550 4350 41450 4350
-Wire Wire Line
-	41450 3700 41450 3800
-Wire Wire Line
-	40350 3250 40450 3250
-Wire Wire Line
-	40350 3100 40350 3250
-Wire Wire Line
-	40450 3100 40350 3100
-Wire Wire Line
-	41450 3250 40950 3250
-Wire Wire Line
-	41450 3300 41450 3250
-Wire Wire Line
-	41150 4000 40950 4000
-Wire Wire Line
-	40050 5200 40450 5200
-Wire Wire Line
-	41450 5550 41450 5400
-Wire Wire Line
-	41550 5550 41450 5550
-Wire Wire Line
-	41450 4900 41450 5000
-Wire Wire Line
-	40350 4450 40450 4450
-Wire Wire Line
-	40350 4300 40350 4450
-Wire Wire Line
-	40450 4300 40350 4300
-Wire Wire Line
-	41450 4450 40950 4450
-Wire Wire Line
-	41450 4500 41450 4450
-Wire Wire Line
-	41150 5200 40950 5200
-Wire Wire Line
-	40050 6450 40450 6450
-Wire Wire Line
-	41450 6800 41450 6650
-Wire Wire Line
-	41550 6800 41450 6800
-Wire Wire Line
-	41450 6150 41450 6250
-Wire Wire Line
-	40350 5700 40450 5700
-Wire Wire Line
-	40350 5550 40350 5700
-Wire Wire Line
-	40450 5550 40350 5550
-Wire Wire Line
-	41450 5700 40950 5700
-Wire Wire Line
-	41450 5750 41450 5700
-Wire Wire Line
-	41150 6450 40950 6450
-Wire Wire Line
 	40000 8300 40400 8300
 Wire Wire Line
 	41400 8650 41400 8500
@@ -11438,109 +10196,6 @@ Wire Wire Line
 	32950 30250 32950 30300
 Wire Wire Line
 	34700 30250 34700 30300
-$Comp
-L C C?
-U 1 1 4AD0EE1B
-P 29100 11100
-AR Path="/7A4AD0EE1B" Ref="C?"  Part="1" 
-AR Path="/23D1104AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/314433324AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/5AD7153D4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/DCBAABCD4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/6FE901F74AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402988B44AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/94AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/755D912A4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/A4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3D6CC0004AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/6FF0DD404AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/14AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/FFFFFFF04AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3FEFFFFF4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/23C2344AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3D7E00004AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3D8EA0004AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/5AD746F64AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4027EF1A4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402A6F1A4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4029BBE74AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402A224D4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/23D8D44AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402A55814AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4026224D4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3D6220004AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3D9720004AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/2600004AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402C3BE74AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402955814AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/40293BE74AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402555814AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3FE88B434AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/23D2034AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3FED58104AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402688B44AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3FE441894AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/B84AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3DA360004AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4029D5814AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/40256F1A4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/40286F1A4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402A08B44AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402588B44AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/A84AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3FE224DD4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402C08B44AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402BEF1A4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402C55814AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/40273BE74AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402908B44AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3D5A40004AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/402755814AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4030AAC04AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4031DDF34AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4032778D4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/403091264AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/403051264AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4032F78D4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/403251264AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4032AAC04AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4030D1264AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/4031778D4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3FEA24DD4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/6FE934E34AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/773F65F14AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/773F8EB44AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/23C9F04AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/24AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/23BC884AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/DC0C124AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/23C34C4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/23CBC44AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/23C6504AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/39803EA4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/FFFFFFFF4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/6FE934344AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/7E0073254AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/73254AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/8CEE4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/23D9004AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/91964AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/77F16B254AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/23D83C4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/47907FA4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/8D384AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/D058E04AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/3C64AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/2F4A4AD0EE1B" Ref="C16"  Part="1" 
-AR Path="/D1C3384AD0EE1B" Ref="C16"  Part="1" 
-F 0 "C16" H 29150 11200 50  0000 L CNN
-F 1 "0.1 uF" H 29150 11000 50  0000 L CNN
-F 2 "C2" H 29100 11100 60  0001 C CNN
-F 3 "" H 29100 11100 60  0001 C CNN
-	1    29100 11100
-	1    0    0    -1  
-$EndComp
 $Comp
 L ^^74LS541 U12
 U 1 1 53BF271D
@@ -12253,63 +10908,14 @@ Text Label 19450 7450 0    60   ~ 0
 WR+
 Wire Wire Line
 	19700 7450 19450 7450
-Text Label 7150 31200 0    60   ~ 0
-RR4p10
 Wire Wire Line
 	14300 30100 14400 30100
 Wire Wire Line
 	14400 30100 14400 30650
 Wire Wire Line
 	14400 30650 14700 30650
-Text Label 11250 13850 0    60   ~ 0
-RR4p10
 Wire Wire Line
 	11100 13850 11250 13850
-$Comp
-L R R42
-U 1 1 53C2B9FA
-P 9750 2550
-F 0 "R42" V 9830 2550 50  0000 C CNN
-F 1 "330" V 9750 2550 50  0000 C CNN
-F 2 "" H 9750 2550 60  0001 C CNN
-F 3 "" H 9750 2550 60  0001 C CNN
-	1    9750 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L LED D9
-U 1 1 53C2BA00
-P 10500 2800
-F 0 "D9" H 10500 2900 50  0000 C CNN
-F 1 "D2-1" H 10500 2700 50  0000 C CNN
-F 2 "" H 10500 2800 60  0001 C CNN
-F 3 "" H 10500 2800 60  0001 C CNN
-	1    10500 2800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9200 2550 9500 2550
-Wire Wire Line
-	10500 2550 10000 2550
-Wire Wire Line
-	10500 2600 10500 2550
-Text Label 10650 3100 0    60   ~ 0
-GND
-Wire Wire Line
-	10500 3000 10500 3100
-Wire Wire Line
-	10500 3100 10650 3100
-$Comp
-L CP C6
-U 1 1 53C2C54A
-P 29150 1700
-F 0 "C6" H 29200 1800 50  0000 L CNN
-F 1 "0.022 uF" H 29200 1600 50  0000 L CNN
-F 2 "C1V7" H 29150 1700 60  0001 C CNN
-F 3 "" H 29150 1700 60  0001 C CNN
-	1    29150 1700
-	1    0    0    -1  
-$EndComp
 Connection ~ 28650 1500
 $Comp
 L C C21
@@ -12644,22 +11250,13 @@ Wire Wire Line
 Text Label 14900 22400 0    60   ~ 0
 pWR*b
 Wire Wire Line
-	10750 3650 10750 7200
-Wire Wire Line
-	10750 3650 10950 3650
-Wire Wire Line
-	10950 4000 10750 4000
-Connection ~ 10750 4000
-Wire Wire Line
 	11850 18750 11650 18750
 Wire Wire Line
 	11450 18450 11850 18450
-Text Label 13300 18450 0    60   ~ 0
+Text Label 13500 18450 0    60   ~ 0
 RESET*b
 Wire Wire Line
-	13300 18450 13250 18450
-Text Label 10950 3650 0    60   ~ 0
-RESET*b
+	13250 18450 13500 18450
 Wire Wire Line
 	4900 5500 4750 5500
 Wire Wire Line
@@ -12889,53 +11486,13 @@ Wire Wire Line
 	2150 24950 2600 24950
 Wire Wire Line
 	8700 19200 8700 18350
-$Comp
-L 74LS157 U?
-U 1 1 4BB29211
-P 7200 5050
-AR Path="/2300384BB29211" Ref="U?"  Part="1" 
-AR Path="/4BB29211" Ref="U5"  Part="1" 
-AR Path="/393231314BB29211" Ref="U?"  Part="1" 
-AR Path="/280C204BB29211" Ref="U?"  Part="1" 
-AR Path="/2D409E24BB29211" Ref="U"  Part="1" 
-AR Path="/6FF13D144BB29211" Ref="U5"  Part="1" 
-AR Path="/FFFFFFFF4BB29211" Ref="U5"  Part="1" 
-AR Path="/23D83C4BB29211" Ref="U5"  Part="1" 
-AR Path="/47907FA4BB29211" Ref="U5"  Part="1" 
-AR Path="/23C34C4BB29211" Ref="U5"  Part="1" 
-AR Path="/14BB29211" Ref="U5"  Part="1" 
-AR Path="/23BC884BB29211" Ref="U5"  Part="1" 
-AR Path="/773F8EB44BB29211" Ref="U5"  Part="1" 
-AR Path="/94BB29211" Ref="U"  Part="1" 
-AR Path="/23C9F04BB29211" Ref="U5"  Part="1" 
-AR Path="/FFFFFFF04BB29211" Ref="U5"  Part="1" 
-AR Path="/8D384BB29211" Ref="U5"  Part="1" 
-AR Path="/24BB29211" Ref="U5"  Part="1" 
-AR Path="/773F65F14BB29211" Ref="U5"  Part="1" 
-AR Path="/23C6504BB29211" Ref="U5"  Part="1" 
-AR Path="/D058E04BB29211" Ref="U5"  Part="1" 
-AR Path="/3C64BB29211" Ref="U5"  Part="1" 
-AR Path="/23CBC44BB29211" Ref="U5"  Part="1" 
-AR Path="/2F4A4BB29211" Ref="U5"  Part="1" 
-AR Path="/23D9004BB29211" Ref="U5"  Part="1" 
-AR Path="/64BB29211" Ref="U5"  Part="1" 
-AR Path="/6FE934344BB29211" Ref="U5"  Part="1" 
-AR Path="/6FE934E34BB29211" Ref="U5"  Part="1" 
-AR Path="/D1C3384BB29211" Ref="U5"  Part="1" 
-F 0 "U5" H 7250 5200 60  0000 C CNN
-F 1 "74LS157" H 7250 4900 60  0000 C CNN
-F 2 "16dip300" H 7250 5000 60  0001 C CNN
-F 3 "" H 7200 5050 60  0001 C CNN
-	1    7200 5050
-	-1   0    0    -1  
-$EndComp
-Text Label 6350 3250 0    60   ~ 0
+Text Label 7400 7800 0    60   ~ 0
 bA16
-Text Label 6350 3600 0    60   ~ 0
+Text Label 7400 8150 0    60   ~ 0
 bA17
-Text Label 6350 2900 0    60   ~ 0
+Text Label 7400 7450 0    60   ~ 0
 bA18
-Text Label 6350 2550 0    60   ~ 0
+Text Label 7400 7100 0    60   ~ 0
 bA19
 Wire Wire Line
 	5350 5000 4750 5000
@@ -12948,108 +11505,70 @@ Wire Wire Line
 $Comp
 L CONN_3 K13
 U 1 1 53C8D663
-P 5800 2550
-F 0 "K13" V 5750 2550 50  0000 C CNN
-F 1 "bA19" V 5850 2550 40  0000 C CNN
-F 2 "SIL-3" V 5950 2550 40  0001 C CNN
-F 3 "" H 5800 2550 60  0001 C CNN
-	1    5800 2550
+P 6850 7100
+F 0 "K13" V 6800 7100 50  0000 C CNN
+F 1 "bA19" V 6900 7100 40  0000 C CNN
+F 2 "SIL-3" V 7000 7100 40  0001 C CNN
+F 3 "" H 6850 7100 60  0001 C CNN
+	1    6850 7100
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_3 K14
 U 1 1 53C8D66E
-P 5800 2900
-F 0 "K14" V 5750 2900 50  0000 C CNN
-F 1 "bA18" V 5850 2900 40  0000 C CNN
-F 2 "SIL-3" V 5950 2900 40  0001 C CNN
-F 3 "" H 5800 2900 60  0001 C CNN
-	1    5800 2900
+P 6850 7450
+F 0 "K14" V 6800 7450 50  0000 C CNN
+F 1 "bA18" V 6900 7450 40  0000 C CNN
+F 2 "SIL-3" V 7000 7450 40  0001 C CNN
+F 3 "" H 6850 7450 60  0001 C CNN
+	1    6850 7450
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_3 K15
 U 1 1 53C8D674
-P 5800 3250
-F 0 "K15" V 5750 3250 50  0000 C CNN
-F 1 "bA16" V 5850 3250 40  0000 C CNN
-F 2 "SIL-3" V 5950 3250 40  0001 C CNN
-F 3 "" H 5800 3250 60  0001 C CNN
-	1    5800 3250
+P 6850 7800
+F 0 "K15" V 6800 7800 50  0000 C CNN
+F 1 "bA16" V 6900 7800 40  0000 C CNN
+F 2 "SIL-3" V 7000 7800 40  0001 C CNN
+F 3 "" H 6850 7800 60  0001 C CNN
+	1    6850 7800
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_3 K16
 U 1 1 53C8D67A
-P 5800 3600
-F 0 "K16" V 5750 3600 50  0000 C CNN
-F 1 "bA17" V 5850 3600 40  0000 C CNN
-F 2 "SIL-3" V 5950 3600 40  0001 C CNN
-F 3 "" H 5800 3600 60  0001 C CNN
-	1    5800 3600
+P 6850 8150
+F 0 "K16" V 6800 8150 50  0000 C CNN
+F 1 "bA17" V 6900 8150 40  0000 C CNN
+F 2 "SIL-3" V 7000 8150 40  0001 C CNN
+F 3 "" H 6850 8150 60  0001 C CNN
+	1    6850 8150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6450 4550 6450 4100
+	7200 7100 7400 7100
 Wire Wire Line
-	6450 4100 7300 4100
+	7400 7450 7200 7450
 Wire Wire Line
-	7300 4100 7300 2450
+	7400 7800 7200 7800
 Wire Wire Line
-	7300 2450 6150 2450
-Wire Wire Line
-	6450 4800 6350 4800
-Wire Wire Line
-	6350 4800 6350 4150
-Wire Wire Line
-	6350 4150 7350 4150
-Wire Wire Line
-	7350 4150 7350 2800
-Wire Wire Line
-	7350 2800 6150 2800
-Wire Wire Line
-	6150 3150 7400 3150
-Wire Wire Line
-	7400 3150 7400 4200
-Wire Wire Line
-	7400 4200 6250 4200
-Wire Wire Line
-	6250 4200 6250 5050
-Wire Wire Line
-	6250 5050 6450 5050
-Wire Wire Line
-	6450 5300 6150 5300
-Wire Wire Line
-	6150 5300 6150 4250
-Wire Wire Line
-	6150 4250 7450 4250
-Wire Wire Line
-	7450 4250 7450 3500
-Wire Wire Line
-	7450 3500 6150 3500
-Wire Wire Line
-	6150 2550 6350 2550
-Wire Wire Line
-	6350 2900 6150 2900
-Wire Wire Line
-	6350 3250 6150 3250
-Wire Wire Line
-	6150 3600 6350 3600
-Text Label 6650 2650 0    60   ~ 0
+	7200 8150 7400 8150
+Text Label 7700 7200 0    60   ~ 0
 GND
 Wire Wire Line
-	6150 2650 6650 2650
+	7200 7200 7700 7200
 Wire Wire Line
-	6250 2650 6250 3700
+	7300 7200 7300 8250
 Wire Wire Line
-	6250 3000 6150 3000
-Connection ~ 6250 2650
+	7300 7550 7200 7550
+Connection ~ 7300 7200
 Wire Wire Line
-	6250 3350 6150 3350
-Connection ~ 6250 3000
+	7300 7900 7200 7900
+Connection ~ 7300 7550
 Wire Wire Line
-	6250 3700 6150 3700
-Connection ~ 6250 3350
+	7300 8250 7200 8250
+Connection ~ 7300 7900
 $Comp
 L CONN_3 K6
 U 1 1 53C92464
@@ -13095,13 +11614,9 @@ F 3 "" H 3100 8150 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4600 7000 3450 7000
+	3450 7000 5550 7000
 Wire Wire Line
-	3450 7350 5100 7350
-Wire Wire Line
-	3450 7700 6150 7700
-Wire Wire Line
-	3450 8050 6450 8050
+	3450 7350 5550 7350
 Wire Wire Line
 	3450 7100 5350 7100
 Wire Wire Line
@@ -13116,34 +11631,18 @@ Wire Wire Line
 	3450 8250 3650 8250
 Wire Wire Line
 	5200 9850 4750 9850
-Text Label 8800 7900 0    60   ~ 0
-bA12
 Text Label 3650 8250 0    60   ~ 0
 bA12
-Wire Wire Line
-	6450 8050 6450 7950
 Wire Wire Line
 	4750 9750 5250 9750
 Wire Wire Line
 	5250 9750 5250 7800
-Wire Wire Line
-	6450 8600 6150 8600
-Wire Wire Line
-	6150 8600 6150 7700
-Text Label 7950 8500 0    60   ~ 0
-bA13
 Text Label 3650 7900 0    60   ~ 0
 bA13
-Text Label 8150 6250 0    60   ~ 0
-bA14
-Text Label 8150 6900 0    60   ~ 0
-bA15
 Text Label 3600 7200 0    60   ~ 0
 bA15
 Text Label 3650 7550 0    60   ~ 0
 bA14
-Wire Wire Line
-	4600 6800 4600 7000
 Wire Wire Line
 	3450 7200 3600 7200
 Wire Wire Line
@@ -13154,8 +11653,6 @@ Wire Wire Line
 	4750 9650 5300 9650
 Wire Wire Line
 	5300 9650 5300 7450
-Wire Wire Line
-	5100 7350 5100 6150
 Wire Wire Line
 	5200 8150 5200 9850
 Wire Wire Line
@@ -13201,20 +11698,8 @@ Wire Wire Line
 	26050 25800 25450 25800
 Wire Wire Line
 	25450 25900 26050 25900
-Text Label 8500 14200 0    60   ~ 0
+Text Label 3850 14050 0    60   ~ 0
 PU1K-cp1
-Text Label 8500 14550 0    60   ~ 0
-PU1K-cp2
-Wire Wire Line
-	8500 14200 9150 14200
-Wire Wire Line
-	9150 14200 9150 14350
-Connection ~ 9150 14350
-Wire Wire Line
-	8500 14550 9050 14550
-Wire Wire Line
-	9050 14550 9050 14400
-Connection ~ 9050 14400
 $Comp
 L LED D8
 U 1 1 53C70D9E
@@ -13340,13 +11825,8 @@ F 3 "" H 15800 4100 60  0001 C CNN
 	1    15800 4100
 	1    0    0    -1  
 $EndComp
-Text Label 11750 11350 0    60   ~ 0
+Text Label 11100 12950 0    60   ~ 0
 ROM_E-
-Wire Wire Line
-	11650 11150 11650 11350
-Wire Wire Line
-	11650 11350 11750 11350
-Connection ~ 11650 11150
 Text Label 14950 4200 0    60   ~ 0
 ROM_E-
 Wire Wire Line
@@ -13566,17 +12046,6 @@ Wire Wire Line
 Wire Wire Line
 	15150 3400 15250 3400
 Connection ~ 15150 3300
-$Comp
-L C C5
-U 1 1 53CBD196
-P 29100 12300
-F 0 "C5" H 29150 12400 50  0000 L CNN
-F 1 "0.1 uF" H 29150 12200 50  0000 L CNN
-F 2 "C2" H 29100 12300 60  0001 C CNN
-F 3 "" H 29100 12300 60  0001 C CNN
-	1    29100 12300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 30100 7100 30050
 Wire Wire Line
@@ -13589,4 +12058,219 @@ Wire Wire Line
 	7000 30700 7000 31200
 Wire Wire Line
 	7000 31200 7150 31200
+Text Label 5550 7700 0    60   ~ 0
+U4p9
+Text Label 5550 8050 0    60   ~ 0
+U4p7
+Wire Wire Line
+	3750 13750 3850 13750
+Connection ~ 3750 13750
+Wire Wire Line
+	3700 13950 3850 13950
+Connection ~ 3700 13950
+Text Label 3850 13750 0    60   ~ 0
+clkU17
+Text Label 3850 13950 0    60   ~ 0
+clkU16
+Text Label 3850 13850 0    60   ~ 0
+PU1K-cp2
+Wire Wire Line
+	3850 13850 3750 13850
+Connection ~ 3750 13850
+Wire Wire Line
+	3850 14050 3700 14050
+Connection ~ 3700 14050
+Wire Wire Line
+	11600 12950 11100 12950
+Text Label 5550 7350 0    60   ~ 0
+U6p7
+Text Label 5550 7000 0    60   ~ 0
+U6p9
+Wire Wire Line
+	5550 7700 3450 7700
+Wire Wire Line
+	3450 8050 5550 8050
+Text Label 7850 7000 0    60   ~ 0
+U5p4
+Text Label 7850 7350 0    60   ~ 0
+U5p7
+Text Label 7850 7700 0    60   ~ 0
+U5p12
+Text Label 7850 8050 0    60   ~ 0
+U5p9
+Wire Wire Line
+	7200 8050 7850 8050
+Wire Wire Line
+	7850 7700 7200 7700
+Wire Wire Line
+	7200 7350 7850 7350
+Wire Wire Line
+	7850 7000 7200 7000
+Text Label -2600 1650 0    60   ~ 0
+U5p4
+Text Label -2600 1750 0    60   ~ 0
+U5p7
+Text Label -2600 1850 0    60   ~ 0
+U5p12
+Text Label -2600 1950 0    60   ~ 0
+U5p9
+Text Label -2600 2250 0    60   ~ 0
+U4p9
+Text Label -2600 2350 0    60   ~ 0
+U4p7
+Text Label -2600 2150 0    60   ~ 0
+U6p7
+Text Label -2600 2050 0    60   ~ 0
+U6p9
+Text Label -4300 3150 0    60   ~ 0
+clkU17
+Text Label -4300 3250 0    60   ~ 0
+clkU16
+Wire Wire Line
+	13750 5300 12650 5300
+Wire Wire Line
+	12650 5200 13650 5200
+Wire Wire Line
+	13550 5100 12650 5100
+Wire Wire Line
+	12650 5000 13450 5000
+Wire Wire Line
+	13350 4900 12650 4900
+Wire Wire Line
+	13250 4800 12650 4800
+Wire Wire Line
+	12650 4700 13150 4700
+Wire Wire Line
+	13050 4600 12650 4600
+Text Label 16350 10600 0    60   ~ 0
+RESET*b
+Text Label 12600 25200 0    60   ~ 0
+RESET*b
+Wire Wire Line
+	12600 25200 12450 25200
+Wire Wire Line
+	12450 25200 12450 25250
+Wire Wire Line
+	13400 18450 13400 18550
+Wire Wire Line
+	13400 18550 13500 18550
+Connection ~ 13400 18450
+Text Label -4300 2950 0    60   ~ 0
+RESET*b
+Text Label -4300 2750 0    60   ~ 0
+bA14
+Text Label -4300 2850 0    60   ~ 0
+bA15
+Text Label -4300 2550 0    60   ~ 0
+bA12
+Text Label -4300 2650 0    60   ~ 0
+bA13
+Text Label 8900 10850 0    60   ~ 0
+IORQ+
+Wire Wire Line
+	7950 10650 8600 10650
+Wire Wire Line
+	8600 10650 8600 10850
+Wire Wire Line
+	8600 10850 8900 10850
+Text Label -4300 3050 0    60   ~ 0
+IORQ+
+Wire Wire Line
+	10750 10200 14400 10200
+Wire Wire Line
+	10700 10300 14400 10300
+Wire Wire Line
+	10650 10400 14400 10400
+Wire Wire Line
+	10600 10500 14400 10500
+Wire Wire Line
+	8450 9750 8450 11050
+Wire Wire Line
+	8450 11050 8900 11050
+Connection ~ 8450 10750
+Text Label -2600 3550 0    60   ~ 0
+VCC
+Text Label -4300 2350 0    60   ~ 0
+D0
+Text Label -4300 2250 0    60   ~ 0
+D1
+Text Label -4300 2150 0    60   ~ 0
+D2
+Text Label -4300 2050 0    60   ~ 0
+D3
+Text Label -4300 1950 0    60   ~ 0
+D4
+Text Label -4300 1850 0    60   ~ 0
+D5
+Text Label -4300 1750 0    60   ~ 0
+D6
+Text Label -4300 1650 0    60   ~ 0
+D7
+Text Label -2600 3250 0    60   ~ 0
+GND
+$Comp
+L CONN_20 P8
+U 1 1 53CF2468
+P -4650 2600
+F 0 "P8" V -4700 2600 60  0000 C CNN
+F 1 "CONN_20" V -4600 2600 60  0000 C CNN
+F 2 "" H -4650 2600 60  0000 C CNN
+F 3 "" H -4650 2600 60  0000 C CNN
+	1    -4650 2600
+	-1   0    0    -1  
+$EndComp
+Text Label -2600 3450 0    60   ~ 0
+VCC
+Text Label -2600 3350 0    60   ~ 0
+GND
+$Comp
+L CONN_20 P9
+U 1 1 53CF2827
+P -2950 2600
+F 0 "P9" V -3000 2600 60  0000 C CNN
+F 1 "CONN_20" V -2900 2600 60  0000 C CNN
+F 2 "" H -2950 2600 60  0000 C CNN
+F 3 "" H -2950 2600 60  0000 C CNN
+	1    -2950 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 53CF2C57
+P 11500 13850
+F 0 "R7" V 11580 13850 50  0000 C CNN
+F 1 "1K" V 11500 13850 50  0000 C CNN
+F 2 "" H 11500 13850 60  0001 C CNN
+F 3 "" H 11500 13850 60  0001 C CNN
+	1    11500 13850
+	0    1    1    0   
+$EndComp
+Text Label 11850 13850 0    60   ~ 0
+VCC
+Wire Wire Line
+	11850 13850 11750 13850
+Text Label -4300 2450 0    60   ~ 0
+GND
+$Comp
+L NPN Q2
+U 1 1 53CF445C
+P 41300 8300
+F 0 "Q2" H 41300 8150 50  0000 R CNN
+F 1 "NPN" H 41300 8450 50  0000 R CNN
+F 2 "" H 41300 8300 60  0000 C CNN
+F 3 "" H 41300 8300 60  0000 C CNN
+	1    41300 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q3
+U 1 1 53CF4475
+P 41300 9550
+F 0 "Q3" H 41300 9400 50  0000 R CNN
+F 1 "NPN" H 41300 9700 50  0000 R CNN
+F 2 "" H 41300 9550 60  0000 C CNN
+F 3 "" H 41300 9550 60  0000 C CNN
+	1    41300 9550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

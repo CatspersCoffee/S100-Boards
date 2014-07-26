@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 23-07-14 2:24 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 26-07-14 9:38 AM
 
 BeginCmp
 TimeStamp = /4A074934;
@@ -24,13 +24,6 @@ EndCmp
 BeginCmp
 TimeStamp = /53920679;
 Reference = C4;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /53CBD196;
-Reference = C5;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
 EndCmp
@@ -92,13 +85,6 @@ IdModule  = C2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4AD0EE1B;
-Reference = C16;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
 TimeStamp = /53C2DB3C;
 Reference = C17;
 ValeurCmp = 0.1 uF;
@@ -141,13 +127,6 @@ IdModule  = C2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B36626B;
-Reference = C24;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
 TimeStamp = /4B366286;
 Reference = C25;
 ValeurCmp = 0.1 uF;
@@ -171,13 +150,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4B36626C;
 Reference = C28;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4B366280;
-Reference = C29;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
 EndCmp
@@ -274,22 +246,8 @@ IdModule  = C2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BB69127;
-Reference = C53;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
 TimeStamp = /4BB69128;
 Reference = C54;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4BB690E8;
-Reference = C58;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
 EndCmp
@@ -326,6 +284,13 @@ BeginCmp
 TimeStamp = /5392C3FC;
 Reference = D2;
 ValeurCmp = DONE;
+IdModule  = ^^LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D30326;
+Reference = D3;
+ValeurCmp = WAIT;
 IdModule  = ^^LED-0805;
 EndCmp
 
@@ -547,6 +512,13 @@ IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
+TimeStamp = /53D30341;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = ^^TO92-inline;
+EndCmp
+
+BeginCmp
 TimeStamp = /53CF445C;
 Reference = Q2;
 ValeurCmp = NPN;
@@ -606,6 +578,20 @@ BeginCmp
 TimeStamp = /53CF2C57;
 Reference = R7;
 ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D30320;
+Reference = R8;
+ValeurCmp = 330;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D3032C;
+Reference = R9;
+ValeurCmp = 470;
 IdModule  = R3;
 EndCmp
 

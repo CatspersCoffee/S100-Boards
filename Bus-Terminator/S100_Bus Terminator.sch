@@ -36,7 +36,7 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "2 aug 2014"
+Date "3 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1807,8 +1807,6 @@ F 3 "" H 2850 12300 60  0001 C CNN
 	1    2850 12300
 	1    0    0    -1  
 $EndComp
-Text Label 950  11850 0    60   ~ 0
-+8V
 $Comp
 L CP C10
 U 1 1 53DD7D48
@@ -1829,17 +1827,6 @@ F 1 "47 uF" H 1500 11950 50  0000 L CNN
 F 2 "C1V7" H 1450 12050 60  0001 C CNN
 F 3 "" H 1450 12050 60  0001 C CNN
 	1    1450 12050
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG06
-U 1 1 53DD7D5A
-P 900 11850
-F 0 "#FLG06" H 900 12120 30  0001 C CNN
-F 1 "PWR_FLAG" H 900 12080 30  0000 C CNN
-F 2 "" H 900 11850 60  0001 C CNN
-F 3 "" H 900 11850 60  0001 C CNN
-	1    900  11850
 	1    0    0    -1  
 $EndComp
 Text Label 2750 12500 0    60   ~ 0
@@ -2144,4 +2131,11 @@ Wire Wire Line
 	5200 10800 5350 10800
 Connection ~ 5200 10700
 NoConn ~ 5350 10600
+Wire Wire Line
+	900  11850 900  5250
+Wire Wire Line
+	900  5250 2900 5250
+Wire Wire Line
+	2900 5250 2900 5000
+Connection ~ 2900 5000
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 03-08-14 11:53 AM
+PCBNEW-BOARD Version 2 date 03-08-14 12:02 PM
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -7,21 +7,21 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-Links 217
-NoConn 217
+Links 218
+NoConn 218
 Di -5.878285 2.61874 298.788561 200.862451
 Ndraw 32
 Ntrack 0
 Nzone 0
 BoardThickness 1.6002
 Nmodule 70
-Nnets 121
+Nnets 120
 $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11693 8268
 Title ""
-Date "2 aug 2014"
+Date "3 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -35,6 +35,9 @@ Layers 2
 Layer[0] Bottom signal
 Layer[15] Top signal
 TrackWidth 0.35
+TrackWidthList 0.35
+TrackWidthList 0.6096
+TrackWidthList 1.3
 TrackClearence 0.24
 ZoneClearence 0.254
 Zone_45_Only 0
@@ -69,431 +72,431 @@ Na 0 ""
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 1 "/+8V"
+Na 1 "/+8_V"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 2 "/+8_V"
+Na 2 "/---(/PHANT)"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 3 "/---(/PHANT)"
+Na 3 "//ADDDSB"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 4 "//ADDDSB"
+Na 4 "//CCDSB"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 5 "//CCDSB"
+Na 5 "//CLOCK"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 6 "//CLOCK"
+Na 6 "//DODSB"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 7 "//DODSB"
+Na 7 "//EXTCLR"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 8 "//EXTCLR"
+Na 8 "//PHOLD"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 9 "//PHOLD"
+Na 9 "//PINT"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 10 "//PINT"
+Na 10 "//POC"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 11 "//POC"
+Na 11 "//PRESET"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 12 "//PRESET"
+Na 12 "//PS(---)"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 13 "//PS(---)"
+Na 13 "//PWR"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 14 "//PWR"
+Na 14 "//SSW_DSBL"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 15 "//SSW_DSBL"
+Na 15 "//STADSB"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 16 "//STADSB"
+Na 16 "//STSTB(---)"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 17 "//STSTB(---)"
+Na 17 "//SWO"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 18 "//SWO"
+Na 18 "/0_V1"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 19 "/0_V1"
+Na 19 "/0_V4"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 20 "/0_V4"
+Na 20 "/A0"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 21 "/A0"
+Na 21 "/A1"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 22 "/A1"
+Na 22 "/A10"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 23 "/A10"
+Na 23 "/A11"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 24 "/A11"
+Na 24 "/A12"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 25 "/A12"
+Na 25 "/A13"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 26 "/A13"
+Na 26 "/A14"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 27 "/A14"
+Na 27 "/A15"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 28 "/A15"
+Na 28 "/A2"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 29 "/A2"
+Na 29 "/A3"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 30 "/A3"
+Na 30 "/A4"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 31 "/A4"
+Na 31 "/A5"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 32 "/A5"
+Na 32 "/A6"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 33 "/A6"
+Na 33 "/A7"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 34 "/A7"
+Na 34 "/A8"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 35 "/A8"
+Na 35 "/A9"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 36 "/A9"
+Na 36 "/DI0"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 37 "/DI0"
+Na 37 "/DI1"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 38 "/DI1"
+Na 38 "/DI2"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 39 "/DI2"
+Na 39 "/DI3"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 40 "/DI3"
+Na 40 "/DI4"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 41 "/DI4"
+Na 41 "/DI5"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 42 "/DI5"
+Na 42 "/DI6"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 43 "/DI6"
+Na 43 "/DI7"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 44 "/DI7"
+Na 44 "/DIG1(---)"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 45 "/DIG1(---)"
+Na 45 "/DO0"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 46 "/DO0"
+Na 46 "/DO1"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 47 "/DO1"
+Na 47 "/DO2"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 48 "/DO2"
+Na 48 "/DO3"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 49 "/DO3"
+Na 49 "/DO4"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 50 "/DO4"
+Na 50 "/DO5"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 51 "/DO5"
+Na 51 "/DO6"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 52 "/DO6"
+Na 52 "/DO7"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 53 "/DO7"
+Na 53 "/FRDY(---)"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 54 "/FRDY(---)"
+Na 54 "/MWRT"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 55 "/MWRT"
+Na 55 "/PDBIN"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 56 "/PDBIN"
+Na 56 "/PHLDA"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 57 "/PHLDA"
+Na 57 "/PINTE"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 58 "/PINTE"
+Na 58 "/PRDY"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 59 "/PRDY"
+Na 59 "/PSYNC"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 60 "/PSYNC"
+Na 60 "/PWAIT"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 61 "/PWAIT"
+Na 61 "/RTC(---)"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 62 "/RTC(---)"
+Na 62 "/RUN"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 63 "/RUN"
+Na 63 "/SHLTA"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 64 "/SHLTA"
+Na 64 "/SINP"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 65 "/SINP"
+Na 65 "/SINTA"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 66 "/SINTA"
+Na 66 "/SM1"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 67 "/SM1"
+Na 67 "/SMEMR"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 68 "/SMEMR"
+Na 68 "/SOUT"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 69 "/SOUT"
+Na 69 "/SS"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 70 "/SS"
+Na 70 "/SSTACK"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 71 "/SSTACK"
+Na 71 "/V5.0B"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 72 "/V5.0B"
+Na 72 "/VI_0"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 73 "/VI_0"
+Na 73 "/VI_1"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 74 "/VI_1"
+Na 74 "/VI_2"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 75 "/VI_2"
+Na 75 "/VI_3"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 76 "/VI_3"
+Na 76 "/VI_4"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 77 "/VI_4"
+Na 77 "/VI_5"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 78 "/VI_5"
+Na 78 "/VI_6"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 79 "/VI_6"
+Na 79 "/VI_7"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 80 "/VI_7"
+Na 80 "/Vacc"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 81 "/Vacc"
+Na 81 "/XRDY"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 82 "/XRDY"
+Na 82 "/phi1"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 83 "/phi1"
+Na 83 "/phi2"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 84 "/phi2"
+Na 84 "/pin_12"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 85 "/pin_12"
+Na 85 "/pin_13"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 86 "/pin_13"
+Na 86 "/pin_14"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 87 "/pin_14"
+Na 87 "/pin_15"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 88 "/pin_15"
+Na 88 "/pin_16"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 89 "/pin_16"
+Na 89 "/pin_17"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 90 "/pin_17"
+Na 90 "/pin_59"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 91 "/pin_59"
+Na 91 "/pin_60"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 92 "/pin_60"
+Na 92 "/pin_61"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 93 "/pin_61"
+Na 93 "/pin_62"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 94 "/pin_62"
+Na 94 "/pin_63"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 95 "/pin_63"
+Na 95 "/pin_64"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 96 "/pin_64"
+Na 96 "/pin_65"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 97 "/pin_65"
+Na 97 "/pin_66"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 98 "/pin_66"
+Na 98 "GND"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 99 "GND"
+Na 99 "N-00000106"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 100 "N-00000106"
+Na 100 "N-00000107"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 101 "N-00000107"
+Na 101 "N-00000109"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 102 "N-00000109"
+Na 102 "N-00000113"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 103 "N-00000114"
+Na 103 "N-00000115"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 104 "N-00000117"
+Na 104 "N-00000116"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 105 "N-00000119"
+Na 105 "N-00000117"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 106 "N-00000120"
+Na 106 "N-00000118"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 107 "N-00000121"
+Na 107 "N-00000122"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -505,7 +508,7 @@ Na 109 "N-00000124"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 110 "N-00000125"
+Na 110 "N-0000029"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -513,7 +516,7 @@ Na 111 "N-0000030"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 112 "N-0000031"
+Na 112 "N-0000032"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -525,7 +528,7 @@ Na 114 "N-0000034"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 115 "N-0000035"
+Na 115 "N-0000043"
 St ~
 $EndEQUIPOT
 $EQUIPOT
@@ -533,19 +536,15 @@ Na 116 "N-0000044"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 117 "N-0000046"
+Na 117 "N-0000047"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 118 "N-0000047"
+Na 118 "N-0000048"
 St ~
 $EndEQUIPOT
 $EQUIPOT
-Na 119 "N-0000048"
-St ~
-$EndEQUIPOT
-$EQUIPOT
-Na 120 "VCC"
+Na 119 "VCC"
 St ~
 $EndEQUIPOT
 $NCLASS
@@ -558,7 +557,6 @@ ViaDrill 0.5588
 uViaDia 0.508
 uViaDrill 0.127
 AddNet ""
-AddNet "/+8_V"
 AddNet "/---(/PHANT)"
 AddNet "//ADDDSB"
 AddNet "//CCDSB"
@@ -654,21 +652,21 @@ AddNet "GND"
 AddNet "N-00000106"
 AddNet "N-00000107"
 AddNet "N-00000109"
-AddNet "N-00000114"
+AddNet "N-00000113"
+AddNet "N-00000115"
+AddNet "N-00000116"
 AddNet "N-00000117"
-AddNet "N-00000119"
-AddNet "N-00000120"
-AddNet "N-00000121"
+AddNet "N-00000118"
+AddNet "N-00000122"
 AddNet "N-00000123"
 AddNet "N-00000124"
-AddNet "N-00000125"
+AddNet "N-0000029"
 AddNet "N-0000030"
-AddNet "N-0000031"
+AddNet "N-0000032"
 AddNet "N-0000033"
 AddNet "N-0000034"
-AddNet "N-0000035"
+AddNet "N-0000043"
 AddNet "N-0000044"
-AddNet "N-0000046"
 AddNet "N-0000047"
 AddNet "N-0000048"
 AddNet "VCC"
@@ -682,7 +680,7 @@ ViaDia 0.889
 ViaDrill 0.5588
 uViaDia 0.508
 uViaDrill 0.127
-AddNet "/+8V"
+AddNet "/+8_V"
 AddNet "/V5.0B"
 $EndNCLASS
 $NCLASS
@@ -722,28 +720,28 @@ $PAD
 Sh "VO" R 1.778 1.778 0 0 900
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 120 "VCC"
+Ne 119 "VCC"
 Po 0 2.54
 $EndPAD
 $PAD
 Sh "VI" C 1.778 1.778 0 0 900
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 2 "/+8_V"
+Ne 1 "/+8_V"
 Po 0 -2.54
 $EndPAD
 $PAD
 Sh "GND" C 1.778 1.778 0 0 900
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 0 0
 $EndPAD
 $PAD
 Sh "GND" R 8.89 8.89 0 0 900
 Dr 3.048 0 0
 At STD N 00F0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 16.51 0
 $EndPAD
 $SHAPE3D
@@ -768,7 +766,7 @@ $PAD
 Sh "1" C 4.064 4.064 0 0 0
 Dr 3.048 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 0 0
 $EndPAD
 $EndMODULE 1pin
@@ -787,7 +785,7 @@ $PAD
 Sh "1" C 4.064 4.064 0 0 0
 Dr 3.048 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 0 0
 $EndPAD
 $EndMODULE 1pin
@@ -809,7 +807,7 @@ $PAD
 Sh "1" R 2.794 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 2 "/+8_V"
+Ne 1 "/+8_V"
 Po 2.667 -4.699
 $EndPAD
 $PAD
@@ -823,343 +821,343 @@ $PAD
 Sh "3" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 82 "/XRDY"
+Ne 81 "/XRDY"
 Po 9.525 -4.699
 $EndPAD
 $PAD
 Sh "4" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 73 "/VI_0"
+Ne 72 "/VI_0"
 Po 12.7 -4.699
 $EndPAD
 $PAD
 Sh "5" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 74 "/VI_1"
+Ne 73 "/VI_1"
 Po 15.875 -4.699
 $EndPAD
 $PAD
 Sh "6" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 75 "/VI_2"
+Ne 74 "/VI_2"
 Po 19.05 -4.699
 $EndPAD
 $PAD
 Sh "7" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 76 "/VI_3"
+Ne 75 "/VI_3"
 Po 22.225 -4.699
 $EndPAD
 $PAD
 Sh "8" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 77 "/VI_4"
+Ne 76 "/VI_4"
 Po 25.4 -4.699
 $EndPAD
 $PAD
 Sh "9" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 78 "/VI_5"
+Ne 77 "/VI_5"
 Po 28.575 -4.699
 $EndPAD
 $PAD
 Sh "10" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 79 "/VI_6"
+Ne 78 "/VI_6"
 Po 31.75 -4.699
 $EndPAD
 $PAD
 Sh "11" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 80 "/VI_7"
+Ne 79 "/VI_7"
 Po 34.925 -4.699
 $EndPAD
 $PAD
 Sh "12" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 85 "/pin_12"
+Ne 84 "/pin_12"
 Po 38.1 -4.699
 $EndPAD
 $PAD
 Sh "13" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 86 "/pin_13"
+Ne 85 "/pin_13"
 Po 41.275 -4.699
 $EndPAD
 $PAD
 Sh "14" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 87 "/pin_14"
+Ne 86 "/pin_14"
 Po 44.45 -4.699
 $EndPAD
 $PAD
 Sh "15" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 88 "/pin_15"
+Ne 87 "/pin_15"
 Po 47.625 -4.699
 $EndPAD
 $PAD
 Sh "16" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 89 "/pin_16"
+Ne 88 "/pin_16"
 Po 50.8 -4.699
 $EndPAD
 $PAD
 Sh "17" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 90 "/pin_17"
+Ne 89 "/pin_17"
 Po 53.975 -4.699
 $EndPAD
 $PAD
 Sh "18" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 16 "//STADSB"
+Ne 15 "//STADSB"
 Po 57.15 -4.699
 $EndPAD
 $PAD
 Sh "19" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 5 "//CCDSB"
+Ne 4 "//CCDSB"
 Po 60.325 -4.699
 $EndPAD
 $PAD
 Sh "20" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 19 "/0_V1"
+Ne 18 "/0_V1"
 Po 63.5 -4.699
 $EndPAD
 $PAD
 Sh "21" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 70 "/SS"
+Ne 69 "/SS"
 Po 66.675 -4.699
 $EndPAD
 $PAD
 Sh "22" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 4 "//ADDDSB"
+Ne 3 "//ADDDSB"
 Po 69.85 -4.699
 $EndPAD
 $PAD
 Sh "23" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 7 "//DODSB"
+Ne 6 "//DODSB"
 Po 73.025 -4.699
 $EndPAD
 $PAD
 Sh "24" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 84 "/phi2"
+Ne 83 "/phi2"
 Po 76.2 -4.699
 $EndPAD
 $PAD
 Sh "25" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 83 "/phi1"
+Ne 82 "/phi1"
 Po 79.375 -4.699
 $EndPAD
 $PAD
 Sh "26" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 57 "/PHLDA"
+Ne 56 "/PHLDA"
 Po 82.55 -4.699
 $EndPAD
 $PAD
 Sh "27" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 61 "/PWAIT"
+Ne 60 "/PWAIT"
 Po 85.725 -4.699
 $EndPAD
 $PAD
 Sh "28" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 58 "/PINTE"
+Ne 57 "/PINTE"
 Po 88.9 -4.699
 $EndPAD
 $PAD
 Sh "29" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 32 "/A5"
+Ne 31 "/A5"
 Po 92.075 -4.699
 $EndPAD
 $PAD
 Sh "30" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 31 "/A4"
+Ne 30 "/A4"
 Po 95.25 -4.699
 $EndPAD
 $PAD
 Sh "31" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 30 "/A3"
+Ne 29 "/A3"
 Po 98.425 -4.699
 $EndPAD
 $PAD
 Sh "32" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 28 "/A15"
+Ne 27 "/A15"
 Po 101.6 -4.699
 $EndPAD
 $PAD
 Sh "33" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 25 "/A12"
+Ne 24 "/A12"
 Po 104.775 -4.699
 $EndPAD
 $PAD
 Sh "34" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 36 "/A9"
+Ne 35 "/A9"
 Po 107.95 -4.699
 $EndPAD
 $PAD
 Sh "35" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 47 "/DO1"
+Ne 46 "/DO1"
 Po 111.125 -4.699
 $EndPAD
 $PAD
 Sh "36" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 46 "/DO0"
+Ne 45 "/DO0"
 Po 114.3 -4.699
 $EndPAD
 $PAD
 Sh "37" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 23 "/A10"
+Ne 22 "/A10"
 Po 117.475 -4.699
 $EndPAD
 $PAD
 Sh "38" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 50 "/DO4"
+Ne 49 "/DO4"
 Po 120.65 -4.699
 $EndPAD
 $PAD
 Sh "39" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 51 "/DO5"
+Ne 50 "/DO5"
 Po 123.825 -4.699
 $EndPAD
 $PAD
 Sh "40" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 52 "/DO6"
+Ne 51 "/DO6"
 Po 127 -4.699
 $EndPAD
 $PAD
 Sh "41" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 39 "/DI2"
+Ne 38 "/DI2"
 Po 130.175 -4.699
 $EndPAD
 $PAD
 Sh "42" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 40 "/DI3"
+Ne 39 "/DI3"
 Po 133.35 -4.699
 $EndPAD
 $PAD
 Sh "43" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 44 "/DI7"
+Ne 43 "/DI7"
 Po 136.525 -4.699
 $EndPAD
 $PAD
 Sh "44" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 67 "/SM1"
+Ne 66 "/SM1"
 Po 139.7 -4.699
 $EndPAD
 $PAD
 Sh "45" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 69 "/SOUT"
+Ne 68 "/SOUT"
 Po 142.875 -4.699
 $EndPAD
 $PAD
 Sh "46" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 65 "/SINP"
+Ne 64 "/SINP"
 Po 146.05 -4.699
 $EndPAD
 $PAD
 Sh "47" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 68 "/SMEMR"
+Ne 67 "/SMEMR"
 Po 149.225 -4.699
 $EndPAD
 $PAD
 Sh "48" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 64 "/SHLTA"
+Ne 63 "/SHLTA"
 Po 152.4 -4.699
 $EndPAD
 $PAD
 Sh "49" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 6 "//CLOCK"
+Ne 5 "//CLOCK"
 Po 155.575 -4.699
 $EndPAD
 $PAD
 Sh "50" R 2.794 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00808000
-Ne 99 "GND"
+Ne 98 "GND"
 Po 159.258 -4.699
 $EndPAD
 $PAD
 Sh "51" R 2.794 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 2 "/+8_V"
+Ne 1 "/+8_V"
 Po 2.667 -4.699
 $EndPAD
 $PAD
@@ -1173,336 +1171,336 @@ $PAD
 Sh "53" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 15 "//SSW_DSBL"
+Ne 14 "//SSW_DSBL"
 Po 9.525 -4.699
 $EndPAD
 $PAD
 Sh "54" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 8 "//EXTCLR"
+Ne 7 "//EXTCLR"
 Po 12.7 -4.699
 $EndPAD
 $PAD
 Sh "55" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 62 "/RTC(---)"
+Ne 61 "/RTC(---)"
 Po 15.875 -4.699
 $EndPAD
 $PAD
 Sh "56" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 17 "//STSTB(---)"
+Ne 16 "//STSTB(---)"
 Po 19.05 -4.699
 $EndPAD
 $PAD
 Sh "57" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 45 "/DIG1(---)"
+Ne 44 "/DIG1(---)"
 Po 22.225 -4.699
 $EndPAD
 $PAD
 Sh "58" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 54 "/FRDY(---)"
+Ne 53 "/FRDY(---)"
 Po 25.4 -4.699
 $EndPAD
 $PAD
 Sh "59" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 91 "/pin_59"
+Ne 90 "/pin_59"
 Po 28.575 -4.699
 $EndPAD
 $PAD
 Sh "60" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 92 "/pin_60"
+Ne 91 "/pin_60"
 Po 31.75 -4.699
 $EndPAD
 $PAD
 Sh "61" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 93 "/pin_61"
+Ne 92 "/pin_61"
 Po 34.925 -4.699
 $EndPAD
 $PAD
 Sh "62" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 94 "/pin_62"
+Ne 93 "/pin_62"
 Po 38.1 -4.699
 $EndPAD
 $PAD
 Sh "63" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 95 "/pin_63"
+Ne 94 "/pin_63"
 Po 41.275 -4.699
 $EndPAD
 $PAD
 Sh "64" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 96 "/pin_64"
+Ne 95 "/pin_64"
 Po 44.45 -4.699
 $EndPAD
 $PAD
 Sh "65" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 97 "/pin_65"
+Ne 96 "/pin_65"
 Po 47.625 -4.699
 $EndPAD
 $PAD
 Sh "66" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 98 "/pin_66"
+Ne 97 "/pin_66"
 Po 50.8 -4.699
 $EndPAD
 $PAD
 Sh "67" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 3 "/---(/PHANT)"
+Ne 2 "/---(/PHANT)"
 Po 53.975 -4.699
 $EndPAD
 $PAD
 Sh "68" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 55 "/MWRT"
+Ne 54 "/MWRT"
 Po 57.15 -4.699
 $EndPAD
 $PAD
 Sh "69" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 13 "//PS(---)"
+Ne 12 "//PS(---)"
 Po 60.325 -4.699
 $EndPAD
 $PAD
 Sh "70" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 20 "/0_V4"
+Ne 19 "/0_V4"
 Po 63.5 -4.699
 $EndPAD
 $PAD
 Sh "71" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 63 "/RUN"
+Ne 62 "/RUN"
 Po 66.675 -4.699
 $EndPAD
 $PAD
 Sh "72" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 59 "/PRDY"
+Ne 58 "/PRDY"
 Po 69.85 -4.699
 $EndPAD
 $PAD
 Sh "73" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 10 "//PINT"
+Ne 9 "//PINT"
 Po 73.025 -4.699
 $EndPAD
 $PAD
 Sh "74" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 9 "//PHOLD"
+Ne 8 "//PHOLD"
 Po 76.2 -4.699
 $EndPAD
 $PAD
 Sh "75" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 12 "//PRESET"
+Ne 11 "//PRESET"
 Po 79.375 -4.699
 $EndPAD
 $PAD
 Sh "76" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 60 "/PSYNC"
+Ne 59 "/PSYNC"
 Po 82.55 -4.699
 $EndPAD
 $PAD
 Sh "77" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 14 "//PWR"
+Ne 13 "//PWR"
 Po 85.725 -4.699
 $EndPAD
 $PAD
 Sh "78" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 56 "/PDBIN"
+Ne 55 "/PDBIN"
 Po 88.9 -4.699
 $EndPAD
 $PAD
 Sh "79" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 21 "/A0"
+Ne 20 "/A0"
 Po 92.075 -4.699
 $EndPAD
 $PAD
 Sh "80" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 22 "/A1"
+Ne 21 "/A1"
 Po 95.25 -4.699
 $EndPAD
 $PAD
 Sh "81" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 29 "/A2"
+Ne 28 "/A2"
 Po 98.425 -4.699
 $EndPAD
 $PAD
 Sh "82" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 33 "/A6"
+Ne 32 "/A6"
 Po 101.6 -4.699
 $EndPAD
 $PAD
 Sh "83" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 34 "/A7"
+Ne 33 "/A7"
 Po 104.775 -4.699
 $EndPAD
 $PAD
 Sh "84" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 35 "/A8"
+Ne 34 "/A8"
 Po 107.95 -4.699
 $EndPAD
 $PAD
 Sh "85" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 26 "/A13"
+Ne 25 "/A13"
 Po 111.125 -4.699
 $EndPAD
 $PAD
 Sh "86" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 27 "/A14"
+Ne 26 "/A14"
 Po 114.3 -4.699
 $EndPAD
 $PAD
 Sh "87" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 24 "/A11"
+Ne 23 "/A11"
 Po 117.475 -4.699
 $EndPAD
 $PAD
 Sh "88" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 48 "/DO2"
+Ne 47 "/DO2"
 Po 120.65 -4.699
 $EndPAD
 $PAD
 Sh "89" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 49 "/DO3"
+Ne 48 "/DO3"
 Po 123.825 -4.699
 $EndPAD
 $PAD
 Sh "90" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 53 "/DO7"
+Ne 52 "/DO7"
 Po 127 -4.699
 $EndPAD
 $PAD
 Sh "91" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 41 "/DI4"
+Ne 40 "/DI4"
 Po 130.175 -4.699
 $EndPAD
 $PAD
 Sh "92" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 42 "/DI5"
+Ne 41 "/DI5"
 Po 133.35 -4.699
 $EndPAD
 $PAD
 Sh "93" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 43 "/DI6"
+Ne 42 "/DI6"
 Po 136.525 -4.699
 $EndPAD
 $PAD
 Sh "94" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 38 "/DI1"
+Ne 37 "/DI1"
 Po 139.7 -4.699
 $EndPAD
 $PAD
 Sh "95" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 37 "/DI0"
+Ne 36 "/DI0"
 Po 142.875 -4.699
 $EndPAD
 $PAD
 Sh "96" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 66 "/SINTA"
+Ne 65 "/SINTA"
 Po 146.05 -4.699
 $EndPAD
 $PAD
 Sh "97" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 18 "//SWO"
+Ne 17 "//SWO"
 Po 149.225 -4.699
 $EndPAD
 $PAD
 Sh "98" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 71 "/SSTACK"
+Ne 70 "/SSTACK"
 Po 152.4 -4.699
 $EndPAD
 $PAD
 Sh "99" R 1.778 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 11 "//POC"
+Ne 10 "//POC"
 Po 155.575 -4.699
 $EndPAD
 $PAD
 Sh "100" R 2.794 7.62 0 0 0
 Dr 0 0 0
 At CONN N 00400001
-Ne 99 "GND"
+Ne 98 "GND"
 Po 159.258 -4.699
 $EndPAD
 $EndMODULE S100_MALE
@@ -1529,21 +1527,21 @@ $PAD
 Sh "1" R 1.778 1.778 0 0 900
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po 0 2.54
 $EndPAD
 $PAD
 Sh "2" C 1.778 1.778 0 0 900
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 117 "N-0000046"
+Ne 115 "N-0000043"
 Po 0 -2.54
 $EndPAD
 $PAD
 Sh "3" C 1.778 1.778 0 0 900
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 2 "/+8_V"
+Ne 1 "/+8_V"
 Po 0 0
 $EndPAD
 $PAD
@@ -1583,7 +1581,7 @@ $PAD
 Sh "1" R 1.778 1.778 0 0 900
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po 0 2.54
 $EndPAD
 $PAD
@@ -1597,7 +1595,7 @@ $PAD
 Sh "3" C 1.778 1.778 0 0 900
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 0 0
 $EndPAD
 $PAD
@@ -1632,14 +1630,14 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 20 "/0_V4"
+Ne 19 "/0_V4"
 Po 1.27 0
 $EndPAD
 $EndMODULE SIL-2
@@ -1661,14 +1659,14 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 15 "//SSW_DSBL"
+Ne 14 "//SSW_DSBL"
 Po 1.27 0
 $EndPAD
 $EndMODULE SIL-2
@@ -1690,14 +1688,14 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 19 "/0_V1"
+Ne 18 "/0_V1"
 Po 1.27 0
 $EndPAD
 $EndMODULE SIL-2
@@ -1720,70 +1718,70 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -11.43 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 31 "/A4"
+Ne 30 "/A4"
 Po -8.89 0
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 30 "/A3"
+Ne 29 "/A3"
 Po -6.35 0
 $EndPAD
 $PAD
 Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 28 "/A15"
+Ne 27 "/A15"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "5" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 25 "/A12"
+Ne 24 "/A12"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 36 "/A9"
+Ne 35 "/A9"
 Po 1.27 0
 $EndPAD
 $PAD
 Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 47 "/DO1"
+Ne 46 "/DO1"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 46 "/DO0"
+Ne 45 "/DO0"
 Po 6.35 0
 $EndPAD
 $PAD
 Sh "9" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 23 "/A10"
+Ne 22 "/A10"
 Po 8.89 0
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 50 "/DO4"
+Ne 49 "/DO4"
 Po 11.43 0
 $EndPAD
 $SHAPE3D
@@ -1812,70 +1810,70 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -11.43 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 82 "/XRDY"
+Ne 81 "/XRDY"
 Po -8.89 0
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 73 "/VI_0"
+Ne 72 "/VI_0"
 Po -6.35 0
 $EndPAD
 $PAD
 Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 74 "/VI_1"
+Ne 73 "/VI_1"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "5" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 75 "/VI_2"
+Ne 74 "/VI_2"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 76 "/VI_3"
+Ne 75 "/VI_3"
 Po 1.27 0
 $EndPAD
 $PAD
 Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 77 "/VI_4"
+Ne 76 "/VI_4"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 78 "/VI_5"
+Ne 77 "/VI_5"
 Po 6.35 0
 $EndPAD
 $PAD
 Sh "9" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 79 "/VI_6"
+Ne 78 "/VI_6"
 Po 8.89 0
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 80 "/VI_7"
+Ne 79 "/VI_7"
 Po 11.43 0
 $EndPAD
 $SHAPE3D
@@ -1904,70 +1902,70 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -11.43 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 85 "/pin_12"
+Ne 84 "/pin_12"
 Po -8.89 0
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 86 "/pin_13"
+Ne 85 "/pin_13"
 Po -6.35 0
 $EndPAD
 $PAD
 Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 87 "/pin_14"
+Ne 86 "/pin_14"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "5" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 88 "/pin_15"
+Ne 87 "/pin_15"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 89 "/pin_16"
+Ne 88 "/pin_16"
 Po 1.27 0
 $EndPAD
 $PAD
 Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 90 "/pin_17"
+Ne 89 "/pin_17"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 16 "//STADSB"
+Ne 15 "//STADSB"
 Po 6.35 0
 $EndPAD
 $PAD
 Sh "9" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 5 "//CCDSB"
+Ne 4 "//CCDSB"
 Po 8.89 0
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 19 "/0_V1"
+Ne 18 "/0_V1"
 Po 11.43 0
 $EndPAD
 $SHAPE3D
@@ -1996,70 +1994,70 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -11.43 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 70 "/SS"
+Ne 69 "/SS"
 Po -8.89 0
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 4 "//ADDDSB"
+Ne 3 "//ADDDSB"
 Po -6.35 0
 $EndPAD
 $PAD
 Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 7 "//DODSB"
+Ne 6 "//DODSB"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "5" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 84 "/phi2"
+Ne 83 "/phi2"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 83 "/phi1"
+Ne 82 "/phi1"
 Po 1.27 0
 $EndPAD
 $PAD
 Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 57 "/PHLDA"
+Ne 56 "/PHLDA"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 61 "/PWAIT"
+Ne 60 "/PWAIT"
 Po 6.35 0
 $EndPAD
 $PAD
 Sh "9" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 58 "/PINTE"
+Ne 57 "/PINTE"
 Po 8.89 0
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 32 "/A5"
+Ne 31 "/A5"
 Po 11.43 0
 $EndPAD
 $SHAPE3D
@@ -2088,70 +2086,70 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -11.43 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 51 "/DO5"
+Ne 50 "/DO5"
 Po -8.89 0
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 52 "/DO6"
+Ne 51 "/DO6"
 Po -6.35 0
 $EndPAD
 $PAD
 Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 39 "/DI2"
+Ne 38 "/DI2"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "5" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 40 "/DI3"
+Ne 39 "/DI3"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 44 "/DI7"
+Ne 43 "/DI7"
 Po 1.27 0
 $EndPAD
 $PAD
 Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 67 "/SM1"
+Ne 66 "/SM1"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 69 "/SOUT"
+Ne 68 "/SOUT"
 Po 6.35 0
 $EndPAD
 $PAD
 Sh "9" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 65 "/SINP"
+Ne 64 "/SINP"
 Po 8.89 0
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 68 "/SMEMR"
+Ne 67 "/SMEMR"
 Po 11.43 0
 $EndPAD
 $SHAPE3D
@@ -2180,70 +2178,70 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -11.43 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 15 "//SSW_DSBL"
+Ne 14 "//SSW_DSBL"
 Po -8.89 0
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 8 "//EXTCLR"
+Ne 7 "//EXTCLR"
 Po -6.35 0
 $EndPAD
 $PAD
 Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 62 "/RTC(---)"
+Ne 61 "/RTC(---)"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "5" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 17 "//STSTB(---)"
+Ne 16 "//STSTB(---)"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 45 "/DIG1(---)"
+Ne 44 "/DIG1(---)"
 Po 1.27 0
 $EndPAD
 $PAD
 Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 54 "/FRDY(---)"
+Ne 53 "/FRDY(---)"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 91 "/pin_59"
+Ne 90 "/pin_59"
 Po 6.35 0
 $EndPAD
 $PAD
 Sh "9" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 92 "/pin_60"
+Ne 91 "/pin_60"
 Po 8.89 0
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 93 "/pin_61"
+Ne 92 "/pin_61"
 Po 11.43 0
 $EndPAD
 $SHAPE3D
@@ -2272,70 +2270,70 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -11.43 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 94 "/pin_62"
+Ne 93 "/pin_62"
 Po -8.89 0
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 95 "/pin_63"
+Ne 94 "/pin_63"
 Po -6.35 0
 $EndPAD
 $PAD
 Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 96 "/pin_64"
+Ne 95 "/pin_64"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "5" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 97 "/pin_65"
+Ne 96 "/pin_65"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 98 "/pin_66"
+Ne 97 "/pin_66"
 Po 1.27 0
 $EndPAD
 $PAD
 Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 3 "/---(/PHANT)"
+Ne 2 "/---(/PHANT)"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 55 "/MWRT"
+Ne 54 "/MWRT"
 Po 6.35 0
 $EndPAD
 $PAD
 Sh "9" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 13 "//PS(---)"
+Ne 12 "//PS(---)"
 Po 8.89 0
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 20 "/0_V4"
+Ne 19 "/0_V4"
 Po 11.43 0
 $EndPAD
 $SHAPE3D
@@ -2364,70 +2362,70 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -11.43 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 63 "/RUN"
+Ne 62 "/RUN"
 Po -8.89 0
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 59 "/PRDY"
+Ne 58 "/PRDY"
 Po -6.35 0
 $EndPAD
 $PAD
 Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 10 "//PINT"
+Ne 9 "//PINT"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "5" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 9 "//PHOLD"
+Ne 8 "//PHOLD"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 12 "//PRESET"
+Ne 11 "//PRESET"
 Po 1.27 0
 $EndPAD
 $PAD
 Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 60 "/PSYNC"
+Ne 59 "/PSYNC"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 14 "//PWR"
+Ne 13 "//PWR"
 Po 6.35 0
 $EndPAD
 $PAD
 Sh "9" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 56 "/PDBIN"
+Ne 55 "/PDBIN"
 Po 8.89 0
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 21 "/A0"
+Ne 20 "/A0"
 Po 11.43 0
 $EndPAD
 $SHAPE3D
@@ -2456,70 +2454,70 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -11.43 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 22 "/A1"
+Ne 21 "/A1"
 Po -8.89 0
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 29 "/A2"
+Ne 28 "/A2"
 Po -6.35 0
 $EndPAD
 $PAD
 Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 33 "/A6"
+Ne 32 "/A6"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "5" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 34 "/A7"
+Ne 33 "/A7"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 35 "/A8"
+Ne 34 "/A8"
 Po 1.27 0
 $EndPAD
 $PAD
 Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 26 "/A13"
+Ne 25 "/A13"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 27 "/A14"
+Ne 26 "/A14"
 Po 6.35 0
 $EndPAD
 $PAD
 Sh "9" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 24 "/A11"
+Ne 23 "/A11"
 Po 8.89 0
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 48 "/DO2"
+Ne 47 "/DO2"
 Po 11.43 0
 $EndPAD
 $SHAPE3D
@@ -2548,70 +2546,70 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -11.43 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 49 "/DO3"
+Ne 48 "/DO3"
 Po -8.89 0
 $EndPAD
 $PAD
 Sh "3" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 53 "/DO7"
+Ne 52 "/DO7"
 Po -6.35 0
 $EndPAD
 $PAD
 Sh "4" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 41 "/DI4"
+Ne 40 "/DI4"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "5" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 42 "/DI5"
+Ne 41 "/DI5"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "6" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 43 "/DI6"
+Ne 42 "/DI6"
 Po 1.27 0
 $EndPAD
 $PAD
 Sh "7" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 38 "/DI1"
+Ne 37 "/DI1"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "8" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 37 "/DI0"
+Ne 36 "/DI0"
 Po 6.35 0
 $EndPAD
 $PAD
 Sh "9" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 66 "/SINTA"
+Ne 65 "/SINTA"
 Po 8.89 0
 $EndPAD
 $PAD
 Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 18 "//SWO"
+Ne 17 "//SWO"
 Po 11.43 0
 $EndPAD
 $SHAPE3D
@@ -2643,14 +2641,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 112 "N-0000031"
+Ne 111 "N-0000030"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -2682,14 +2680,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 113 "N-0000033"
+Ne 112 "N-0000032"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -2721,14 +2719,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 2 "/+8_V"
+Ne 1 "/+8_V"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 118 "N-0000047"
+Ne 117 "N-0000047"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -2760,14 +2758,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 119 "N-0000048"
+Ne 118 "N-0000048"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -2799,14 +2797,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 114 "N-0000034"
+Ne 113 "N-0000033"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -2838,14 +2836,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 115 "N-0000035"
+Ne 114 "N-0000034"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 120 "VCC"
+Ne 119 "VCC"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -2877,7 +2875,7 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -3.81 0
 $EndPAD
 $PAD
@@ -2916,14 +2914,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 117 "N-0000046"
+Ne 115 "N-0000043"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -2955,14 +2953,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -2987,21 +2985,21 @@ $PAD
 Sh "1" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 115 "N-0000035"
+Ne 114 "N-0000034"
 Po -2.54 1.27
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 111 "N-0000030"
+Ne 110 "N-0000029"
 Po 0 -1.27
 $EndPAD
 $PAD
 Sh "3" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 114 "N-0000034"
+Ne 113 "N-0000033"
 Po 2.54 1.27
 $EndPAD
 $SHAPE3D
@@ -3025,14 +3023,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3056,14 +3054,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3087,14 +3085,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 111 "N-0000030"
+Ne 110 "N-0000029"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3118,14 +3116,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3149,14 +3147,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3180,14 +3178,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3211,14 +3209,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 2 "/+8_V"
+Ne 1 "/+8_V"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3242,14 +3240,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 2 "/+8_V"
+Ne 1 "/+8_V"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3276,28 +3274,28 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 3.81 -2.54
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 104 "N-00000117"
+Ne 103 "N-00000115"
 Po 3.81 2.54
 $EndPAD
 $PAD
 Sh "1" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po -3.81 -2.54
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 104 "N-00000117"
+Ne 103 "N-00000115"
 Po -3.81 2.54
 $EndPAD
 $EndMODULE SW_PUSH_SMALL
@@ -3319,14 +3317,14 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 109 "N-00000124"
+Ne 108 "N-00000123"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 101 "N-00000107"
+Ne 100 "N-00000107"
 Po 1.27 0
 $EndPAD
 $EndMODULE SIL-2
@@ -3348,14 +3346,14 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 109 "N-00000124"
+Ne 108 "N-00000123"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 103 "N-00000114"
+Ne 102 "N-00000113"
 Po 1.27 0
 $EndPAD
 $EndMODULE SIL-2
@@ -3381,14 +3379,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 8 "//EXTCLR"
+Ne 7 "//EXTCLR"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 120 "VCC"
+Ne 119 "VCC"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -3420,14 +3418,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 106 "N-00000120"
+Ne 104 "N-00000116"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 120 "VCC"
+Ne 119 "VCC"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -3459,14 +3457,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 107 "N-00000121"
+Ne 106 "N-00000118"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 120 "VCC"
+Ne 119 "VCC"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -3498,14 +3496,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 120 "VCC"
+Ne 119 "VCC"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 110 "N-00000125"
+Ne 109 "N-00000124"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -3537,14 +3535,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 102 "N-00000109"
+Ne 101 "N-00000109"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 103 "N-00000114"
+Ne 102 "N-00000113"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -3576,14 +3574,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 110 "N-00000125"
+Ne 109 "N-00000124"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 104 "N-00000117"
+Ne 103 "N-00000115"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -3615,14 +3613,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 12 "//PRESET"
+Ne 11 "//PRESET"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 120 "VCC"
+Ne 119 "VCC"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -3654,14 +3652,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 100 "N-00000106"
+Ne 99 "N-00000106"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 101 "N-00000107"
+Ne 100 "N-00000107"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -3692,28 +3690,28 @@ $PAD
 Sh "1" R 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 110 "N-00000125"
+Ne 109 "N-00000124"
 Po -7.62 3.81
 $EndPAD
 $PAD
 Sh "2" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 108 "N-00000123"
+Ne 107 "N-00000122"
 Po -5.08 3.81
 $EndPAD
 $PAD
 Sh "3" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 108 "N-00000123"
+Ne 107 "N-00000122"
 Po -2.54 3.81
 $EndPAD
 $PAD
 Sh "4" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 109 "N-00000124"
+Ne 108 "N-00000123"
 Po 0 3.81
 $EndPAD
 $PAD
@@ -3734,7 +3732,7 @@ $PAD
 Sh "7" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 7.62 3.81
 $EndPAD
 $PAD
@@ -3783,7 +3781,7 @@ $PAD
 Sh "14" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 120 "VCC"
+Ne 119 "VCC"
 Po -7.62 -3.81
 $EndPAD
 $SHAPE3D
@@ -3817,14 +3815,14 @@ $PAD
 Sh "2" R 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 120 "VCC"
+Ne 119 "VCC"
 Po 3.81 0
 $EndPAD
 $PAD
 Sh "1" C 1.397 1.397 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 110 "N-00000125"
+Ne 109 "N-00000124"
 Po -3.81 0
 $EndPAD
 $SHAPE3D
@@ -3848,14 +3846,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 72 "/V5.0B"
+Ne 71 "/V5.0B"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3879,14 +3877,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 1 "/+8V"
+Ne 1 "/+8_V"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3910,14 +3908,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 72 "/V5.0B"
+Ne 71 "/V5.0B"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3941,14 +3939,14 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 110 "N-00000125"
+Ne 109 "N-00000124"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -3981,21 +3979,21 @@ $PAD
 Sh "3" C 1.3208 1.3208 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 12 "//PRESET"
+Ne 11 "//PRESET"
 Po 2.54 0
 $EndPAD
 $PAD
 Sh "2" C 1.3208 1.3208 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 100 "N-00000106"
+Ne 99 "N-00000106"
 Po 0 0
 $EndPAD
 $PAD
 Sh "1" C 1.3208 1.3208 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po -2.54 0
 $EndPAD
 $EndMODULE ^^TO92-inline
@@ -4022,21 +4020,21 @@ $PAD
 Sh "3" C 1.3208 1.3208 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 8 "//EXTCLR"
+Ne 7 "//EXTCLR"
 Po 2.54 0
 $EndPAD
 $PAD
 Sh "2" C 1.3208 1.3208 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 102 "N-00000109"
+Ne 101 "N-00000109"
 Po 0 0
 $EndPAD
 $PAD
 Sh "1" C 1.3208 1.3208 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po -2.54 0
 $EndPAD
 $EndMODULE ^^TO92-inline
@@ -4063,21 +4061,21 @@ $PAD
 Sh "3" C 1.3208 1.3208 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 105 "N-00000119"
+Ne 105 "N-00000117"
 Po 2.54 0
 $EndPAD
 $PAD
 Sh "2" C 1.3208 1.3208 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 106 "N-00000120"
+Ne 104 "N-00000116"
 Po 0 0
 $EndPAD
 $PAD
 Sh "1" C 1.3208 1.3208 0 0 900
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po -2.54 0
 $EndPAD
 $EndMODULE ^^TO92-inline
@@ -4104,21 +4102,21 @@ $PAD
 Sh "3" C 1.778 1.778 0 0 1800
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 72 "/V5.0B"
+Ne 71 "/V5.0B"
 Po 0 2.54
 $EndPAD
 $PAD
 Sh "1" R 1.778 1.778 0 0 1800
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 1 "/+8V"
+Ne 1 "/+8_V"
 Po 0 -2.54
 $EndPAD
 $PAD
 Sh "2" C 1.778 1.778 0 0 1800
 Dr 1.143 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 0 0
 $EndPAD
 $PAD
@@ -4151,14 +4149,14 @@ $PAD
 Sh "1" C 1.6764 1.6764 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 107 "N-00000121"
+Ne 106 "N-00000118"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.6764 1.6764 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 105 "N-00000119"
+Ne 105 "N-00000117"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
@@ -4198,14 +4196,14 @@ $PAD
 Sh "2" C 1.3208 1.3208 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 112 "N-0000031"
+Ne 111 "N-0000030"
 Po 0 0
 $EndPAD
 $PAD
 Sh "1" C 1.3208 1.3208 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po -2.54 0
 $EndPAD
 $EndMODULE ^^TO92-inline
@@ -4232,21 +4230,21 @@ $PAD
 Sh "3" C 1.3208 1.3208 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 117 "N-0000046"
+Ne 115 "N-0000043"
 Po 2.54 0
 $EndPAD
 $PAD
 Sh "2" C 1.3208 1.3208 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 118 "N-0000047"
+Ne 117 "N-0000047"
 Po 0 0
 $EndPAD
 $PAD
 Sh "1" C 1.3208 1.3208 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 2 "/+8_V"
+Ne 1 "/+8_V"
 Po -2.54 0
 $EndPAD
 $EndMODULE ^^TO92-inline
@@ -4278,21 +4276,21 @@ $PAD
 Sh "2" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 119 "N-0000048"
+Ne 118 "N-0000048"
 Po -1.27 3.81
 $EndPAD
 $PAD
 Sh "3" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 111 "N-0000030"
+Ne 110 "N-0000029"
 Po 1.27 3.81
 $EndPAD
 $PAD
 Sh "4" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 112 "N-0000031"
+Ne 111 "N-0000030"
 Po 3.81 3.81
 $EndPAD
 $PAD
@@ -4306,21 +4304,21 @@ $PAD
 Sh "6" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po 1.27 -3.81
 $EndPAD
 $PAD
 Sh "7" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 118 "N-0000047"
+Ne 117 "N-0000047"
 Po -1.27 -3.81
 $EndPAD
 $PAD
 Sh "8" O 1.5748 2.286 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 113 "N-0000033"
+Ne 112 "N-0000032"
 Po -3.81 -3.81
 $EndPAD
 $SHAPE3D
@@ -4348,14 +4346,14 @@ $PAD
 Sh "1" R 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 104 "N-00000117"
+Ne 103 "N-00000115"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 1800
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 1.27 0
 $EndPAD
 $EndMODULE SIL-2
@@ -4381,14 +4379,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 64 "/SHLTA"
+Ne 63 "/SHLTA"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -4420,14 +4418,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 6 "//CLOCK"
+Ne 5 "//CLOCK"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -4459,14 +4457,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 71 "/SSTACK"
+Ne 70 "/SSTACK"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -4498,14 +4496,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 81 "/Vacc"
+Ne 80 "/Vacc"
 Po -3.81 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 11 "//POC"
+Ne 10 "//POC"
 Po 3.81 0
 $EndPAD
 $SHAPE3D
@@ -4534,14 +4532,14 @@ $PAD
 Sh "1" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 120 "VCC"
+Ne 119 "VCC"
 Po -2.54 0
 $EndPAD
 $PAD
 Sh "2" C 1.397 1.397 0 0 2700
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 2.54 0
 $EndPAD
 $SHAPE3D
@@ -4574,21 +4572,21 @@ $PAD
 Sh "3" C 3.81 3.81 0 0 0
 Dr 1.778 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po -2.54 0
 $EndPAD
 $PAD
 Sh "2" C 3.81 3.81 0 0 0
 Dr 1.778 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 2.54 0
 $EndPAD
 $PAD
 Sh "4" C 3.81 3.81 0 0 0
 Dr 1.778 0 0
 At STD N 00E0FFFF
-Ne 72 "/V5.0B"
+Ne 71 "/V5.0B"
 Po -7.62 0
 $EndPAD
 $PAD
@@ -4628,21 +4626,21 @@ $PAD
 Sh "3" C 3.81 3.81 0 0 0
 Dr 1.778 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po -2.54 0
 $EndPAD
 $PAD
 Sh "2" C 3.81 3.81 0 0 0
 Dr 1.778 0 0
 At STD N 00E0FFFF
-Ne 99 "GND"
+Ne 98 "GND"
 Po 2.54 0
 $EndPAD
 $PAD
 Sh "4" C 3.81 3.81 0 0 0
 Dr 1.778 0 0
 At STD N 00E0FFFF
-Ne 72 "/V5.0B"
+Ne 71 "/V5.0B"
 Po -7.62 0
 $EndPAD
 $PAD

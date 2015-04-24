@@ -1,4 +1,4 @@
-update=4/23/2015 8:47:07 PM
+update=4/24/2015 6:06:11 PM
 last_client=pcbnew
 [general]
 version=1
@@ -373,3 +373,6 @@ LibName121=N8VEM-KiCAD-005/N8VEM-KiCAD/supports
 LibName122=N8VEM-KiCAD-005/N8VEM-KiCAD/transistor-power
 LibName123=N8VEM-KiCAD-005/N8VEM-KiCAD/Vocanson_display
 LibName124=numato/numato_kicad_lib
+LibName125=ALL other libs apart from ANTS_MOD1/con-molex
+LibName126=ALL other libs apart from ANTS_MOD1/con-molex-2
+LibName127=ALL other libs apart from ANTS_MOD1/uc-dimm

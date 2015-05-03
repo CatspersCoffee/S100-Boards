@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/3/2015 1:10:11 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/3/2015 2:09:39 PM
 
 BeginCmp
 TimeStamp = /55464F51;
@@ -25,21 +25,21 @@ BeginCmp
 TimeStamp = /50CE5F51;
 Reference = C4;
 ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CE5F14;
 Reference = C6;
 ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CE5F76;
 Reference = C14;
 ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /55370971;
 Reference = C27;
 ValeurCmp = 0.1 uF;
-IdModule  = ^^SMD_Resistor-0805;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp

@@ -3,7 +3,7 @@
   (general
     (links 340)
     (no_connects 340)
-    (area 44.435788 41.72155 288.6116 191.51375)
+    (area 44.435788 51.382217 288.6116 178.655)
     (thickness 1.6002)
     (drawings 52)
     (tracks 0)
@@ -15,10 +15,10 @@
   (page B)
   (layers
     (15 Top signal)
-    (4 GND signal)
+    (4 GND power)
     (3 Sig1 signal)
     (2 Sig2 signal)
-    (1 POWER signal)
+    (1 POWER power)
     (0 Bottom signal)
     (20 B.SilkS user)
     (21 F.SilkS user)

@@ -160,7 +160,7 @@ $Descr A0 46811 33110
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "9 may 2015"
+Date "17 may 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -813,10 +813,6 @@ Text Label 2550 5300 2    60   ~ 0
 mmCPLD_P2
 Text Label 4650 5700 0    60   ~ 0
 mmCPLD_P8
-Text Notes 15950 -4150 0    60   ~ 0
-OUTPUT FROM CPLD
-Text Notes 8850 -4050 0    60   ~ 0
-INPUT to CPLD
 Wire Notes Line
 	40300 1350 40300 6550
 Wire Notes Line
@@ -1006,134 +1002,34 @@ Text Label 2400 7950 3    60   ~ 0
 FPGA_TDI
 Text Label 2650 7950 3    60   ~ 0
 FPGA_TDO
-Text Label 8900 -3450 2    60   ~ 0
-mmMW*
-Text Label 8900 -3350 2    60   ~ 0
-mmbBE0*
-Text Label 8900 -3550 2    60   ~ 0
-mmMR*
-Text Label 8900 -3250 2    60   ~ 0
-mmbBE1*
-Text Label 8900 -3150 2    60   ~ 0
-mmbBE2*
-Text Label 8900 -3050 2    60   ~ 0
-mmbBE3*
-Text Label 12300 -3250 2    60   ~ 0
+Text Label 7350 7250 2    60   ~ 0
 mmCPLD_P8
-Text Label 12300 -3350 2    60   ~ 0
+Text Label 7350 7150 2    60   ~ 0
 mmCPLD_P7
-Text Label 12300 -3450 2    60   ~ 0
+Text Label 7350 7050 2    60   ~ 0
 mmCPLD_P6
-Text Label 12300 -3550 2    60   ~ 0
+Text Label 7350 6950 2    60   ~ 0
 mmCPLD_P5
-Text Label 12300 -3650 2    60   ~ 0
+Text Label 7350 6850 2    60   ~ 0
 mmCPLD_P3
-Text Label 12300 -3750 2    60   ~ 0
+Text Label 7350 6750 2    60   ~ 0
 mmCPLD_P2
-Text Notes 11650 -4150 0    60   ~ 0
+Text Notes 6700 6350 0    60   ~ 0
 I/O from connector to/from CPLD
-Text Label 8900 -2750 2    60   ~ 0
-mA19
-Text Label 8900 -2650 2    60   ~ 0
-mA20
-Text Label 8900 -2550 2    60   ~ 0
-mA21
-Text Label 8900 -2450 2    60   ~ 0
-mA22
-Text Label 8900 -2350 2    60   ~ 0
-mA23
-Text Label 8900 -2250 2    60   ~ 0
-mA24
-Text Label 8900 -2150 2    60   ~ 0
-mA25
-Text Label 8900 -2050 2    60   ~ 0
-mA26
-Text Label 8900 -1850 2    60   ~ 0
-mA28
-Text Label 8900 -1950 2    60   ~ 0
-mA27
-Text Label 8900 -1750 2    60   ~ 0
-mA29
-Text Label 8900 -1550 2    60   ~ 0
-mA31
-Text Label 8900 -1650 2    60   ~ 0
-mA30
-Text Label 16650 -3750 0    60   ~ 0
-B0_WE*
-Text Label 16650 -3650 0    60   ~ 0
-B1_WE*
-Text Label 16650 -3550 0    60   ~ 0
-B2_WE*
-Text Label 16650 -3450 0    60   ~ 0
-B3_WE*
-Text Label 16650 -3200 0    60   ~ 0
-B0_CE*
-Text Label 16650 -3100 0    60   ~ 0
-B1_CE*
-Text Label 16650 -3000 0    60   ~ 0
-B2_CE*
-Text Label 16650 -2900 0    60   ~ 0
-B3_CE*
 Text Label 3150 19400 0    60   ~ 0
 V3.3
 Wire Wire Line
-	16650 -3750 16400 -3750
+	7350 6750 7700 6750
 Wire Wire Line
-	16400 -3650 16650 -3650
+	7700 6850 7350 6850
 Wire Wire Line
-	16650 -3550 16400 -3550
+	7350 6950 7700 6950
 Wire Wire Line
-	16400 -3450 16650 -3450
+	7700 7050 7350 7050
 Wire Wire Line
-	16650 -3200 16400 -3200
+	7350 7150 7700 7150
 Wire Wire Line
-	16400 -3100 16650 -3100
-Wire Wire Line
-	16650 -3000 16400 -3000
-Wire Wire Line
-	16400 -2900 16650 -2900
-Wire Wire Line
-	12300 -3750 12650 -3750
-Wire Wire Line
-	12650 -3650 12300 -3650
-Wire Wire Line
-	12300 -3550 12650 -3550
-Wire Wire Line
-	12650 -3450 12300 -3450
-Wire Wire Line
-	12300 -3350 12650 -3350
-Wire Wire Line
-	12650 -3250 12300 -3250
-Wire Wire Line
-	8900 -3550 9150 -3550
-Wire Wire Line
-	9150 -3450 8900 -3450
-Wire Wire Line
-	8900 -3350 9150 -3350
-Wire Wire Line
-	9150 -3250 8900 -3250
-Wire Wire Line
-	8900 -3150 9150 -3150
-Wire Wire Line
-	9150 -3050 8900 -3050
-Wire Wire Line
-	9200 -2350 8900 -2350
-Wire Wire Line
-	8900 -2250 9200 -2250
-Wire Wire Line
-	9200 -2150 8900 -2150
-Wire Wire Line
-	8900 -2050 9200 -2050
-Wire Wire Line
-	9200 -1950 8900 -1950
-Wire Wire Line
-	8900 -1850 9200 -1850
-Wire Wire Line
-	9200 -1750 8900 -1750
-Wire Wire Line
-	8900 -1650 9200 -1650
-Wire Wire Line
-	9200 -1550 8900 -1550
+	7700 7250 7350 7250
 $Comp
 L XC6SLX45-2FGG484C U1
 U 1 1 554488C6
@@ -2902,75 +2798,75 @@ Connection ~ 42700 25350
 Connection ~ 42850 27400
 Connection ~ 45050 25700
 Connection ~ 44950 25750
-Text Label 25800 1850 0    60   ~ 0
+Text Label 7000 2050 0    60   ~ 0
 IO_001
-Text Label 25800 1950 0    60   ~ 0
+Text Label 7000 2150 0    60   ~ 0
 IO_002
-Text Label 25800 2050 0    60   ~ 0
+Text Label 7000 2250 0    60   ~ 0
 IO_003
-Text Label 25800 2150 0    60   ~ 0
+Text Label 7000 2350 0    60   ~ 0
 IO_004
-Text Label 25800 2250 0    60   ~ 0
+Text Label 7000 2450 0    60   ~ 0
 IO_005
-Text Label 25800 2350 0    60   ~ 0
+Text Label 7000 2550 0    60   ~ 0
 IO_006
-Text Label 25800 2450 0    60   ~ 0
+Text Label 7000 2650 0    60   ~ 0
 IO_007
-Text Label 25800 2550 0    60   ~ 0
+Text Label 7000 2750 0    60   ~ 0
 IO_008
-Text Label 25800 2650 0    60   ~ 0
+Text Label 7000 2850 0    60   ~ 0
 IO_009
-Text Label 25800 1750 0    60   ~ 0
+Text Label 7000 1950 0    60   ~ 0
 IO_000
-Text Label 25800 2850 0    60   ~ 0
+Text Label 7000 3050 0    60   ~ 0
 IO_011
-Text Label 25800 2950 0    60   ~ 0
+Text Label 7000 3150 0    60   ~ 0
 IO_012
-Text Label 25800 3050 0    60   ~ 0
+Text Label 7000 3250 0    60   ~ 0
 IO_013
-Text Label 25800 3150 0    60   ~ 0
+Text Label 7000 3350 0    60   ~ 0
 IO_014
-Text Label 25800 3250 0    60   ~ 0
+Text Label 7000 3450 0    60   ~ 0
 IO_015
-Text Label 25800 3350 0    60   ~ 0
+Text Label 7000 3550 0    60   ~ 0
 IO_016
-Text Label 25800 3450 0    60   ~ 0
+Text Label 7000 3650 0    60   ~ 0
 IO_017
-Text Label 25800 3550 0    60   ~ 0
+Text Label 7000 3750 0    60   ~ 0
 IO_018
-Text Label 25800 3650 0    60   ~ 0
+Text Label 7000 3850 0    60   ~ 0
 IO_019
-Text Label 25800 2750 0    60   ~ 0
+Text Label 7000 2950 0    60   ~ 0
 IO_010
-Text Label 25800 3850 0    60   ~ 0
+Text Label 7000 4050 0    60   ~ 0
 IO_021
-Text Label 25800 3950 0    60   ~ 0
+Text Label 7000 4150 0    60   ~ 0
 IO_022
-Text Label 25800 4050 0    60   ~ 0
+Text Label 7000 4250 0    60   ~ 0
 IO_023
-Text Label 25800 4150 0    60   ~ 0
+Text Label 7000 4350 0    60   ~ 0
 IO_024
-Text Label 25800 4250 0    60   ~ 0
+Text Label 7000 4450 0    60   ~ 0
 IO_025
-Text Label 25800 4350 0    60   ~ 0
+Text Label 7000 4550 0    60   ~ 0
 IO_026
-Text Label 25800 4450 0    60   ~ 0
+Text Label 7000 4650 0    60   ~ 0
 IO_027
-Text Label 25800 4550 0    60   ~ 0
+Text Label 7000 4750 0    60   ~ 0
 IO_028
-Text Label 25800 4650 0    60   ~ 0
+Text Label 7000 4850 0    60   ~ 0
 IO_029
-Text Label 25800 3750 0    60   ~ 0
+Text Label 7000 3950 0    60   ~ 0
 IO_020
-Text Label 25800 4850 0    60   ~ 0
+Text Label 7000 5050 0    60   ~ 0
 IO_031
-Text Label 25800 4950 0    60   ~ 0
+Text Label 7000 5150 0    60   ~ 0
 IO_032
-Text Label 25800 5050 0    60   ~ 0
+Text Label 8800 4950 0    60   ~ 0
 IO_033
-Text Label 25800 5150 0    60   ~ 0
+Text Label 8800 5050 0    60   ~ 0
 IO_034
-Text Label 25800 5250 0    60   ~ 0
+Text Label 8800 5150 0    60   ~ 0
 IO_035
 Text Label 25800 5350 0    60   ~ 0
 IO_036
@@ -2980,7 +2876,7 @@ Text Label 25800 5550 0    60   ~ 0
 IO_038
 Text Label 25800 5650 0    60   ~ 0
 IO_039
-Text Label 25800 4750 0    60   ~ 0
+Text Label 7000 4950 0    60   ~ 0
 IO_030
 Text Label 25800 5850 0    60   ~ 0
 IO_041
@@ -3044,21 +2940,21 @@ Text Label 25800 7750 0    60   ~ 0
 IO_060
 Text Label 25800 8850 0    60   ~ 0
 IO_071
-Text Label 25800 8950 0    60   ~ 0
+Text Label 13450 16500 2    60   ~ 0
 IO_072
-Text Label 25800 9050 0    60   ~ 0
+Text Label 13450 16600 2    60   ~ 0
 IO_073
-Text Label 25800 9150 0    60   ~ 0
+Text Label 16950 15900 0    60   ~ 0
 IO_074
-Text Label 25800 9250 0    60   ~ 0
+Text Label 16950 16000 0    60   ~ 0
 IO_075
-Text Label 25800 9350 0    60   ~ 0
+Text Label 13450 17700 2    60   ~ 0
 IO_076
-Text Label 25800 9450 0    60   ~ 0
+Text Label 13450 17800 2    60   ~ 0
 IO_077
-Text Label 25800 9550 0    60   ~ 0
+Text Label 13450 17900 2    60   ~ 0
 IO_078
-Text Label 25800 9650 0    60   ~ 0
+Text Label 13450 18000 2    60   ~ 0
 IO_079
 Text Label 25800 8750 0    60   ~ 0
 IO_070
@@ -3230,7 +3126,7 @@ Text Label 26300 1850 0    60   ~ 0
 IO_001
 Text Label 26300 1750 0    60   ~ 0
 IO_000
-Text Notes 17750 2500 0    63   ~ 0
+Text Notes 22800 1650 0    63   ~ 0
 D11\nC12\nA3\nA4\nD7\nD8\nB8\nA8\nD6\nC6\nC5\nA5\nB6\nA6\nC7\nA7
 $Comp
 L XCF08P-VO48/TSOP48 U3
@@ -3427,35 +3323,35 @@ Text Label 6700 4850 2    60   ~ 0
 mmCPLD_P3
 Text Label 6700 4750 2    60   ~ 0
 mmCPLD_P2
-Text Label 25000 2650 0    60   ~ 0
+Text Label 13250 2600 2    60   ~ 0
 IO_009
-Text Label 25000 2850 0    60   ~ 0
+Text Label 13250 2800 2    60   ~ 0
 IO_011
-Text Label 25000 2950 0    60   ~ 0
+Text Label 13250 2900 2    60   ~ 0
 IO_012
-Text Label 25000 3050 0    60   ~ 0
+Text Label 13250 3000 2    60   ~ 0
 IO_013
-Text Label 25000 3150 0    60   ~ 0
+Text Label 13250 3900 2    60   ~ 0
 IO_014
-Text Label 25000 2750 0    60   ~ 0
+Text Label 13250 2700 2    60   ~ 0
 IO_010
-Text Label 25000 1950 0    60   ~ 0
+Text Label 16850 3600 0    60   ~ 0
 IO_002
-Text Label 25000 2050 0    60   ~ 0
+Text Label 16850 3700 0    60   ~ 0
 IO_003
-Text Label 25000 2150 0    60   ~ 0
+Text Label 16850 3400 0    60   ~ 0
 IO_004
-Text Label 25000 2250 0    60   ~ 0
+Text Label 16850 3500 0    60   ~ 0
 IO_005
-Text Label 25000 2350 0    60   ~ 0
+Text Label 16850 3200 0    60   ~ 0
 IO_006
-Text Label 25000 2450 0    60   ~ 0
+Text Label 16850 3300 0    60   ~ 0
 IO_007
-Text Label 25000 2550 0    60   ~ 0
+Text Label 13250 2500 2    60   ~ 0
 IO_008
-Text Label 25000 1850 0    60   ~ 0
+Text Label 16850 2800 0    60   ~ 0
 IO_001
-Text Label 25000 1750 0    60   ~ 0
+Text Label 16850 2700 0    60   ~ 0
 IO_000
 Text Notes 550  6150 0    60   ~ 0
 output from PF -> into Adapter board\nfrom Adapter board -> input to FPGA
@@ -3527,11 +3423,11 @@ Text Label 26300 12650 0    60   ~ 0
 IO_109
 Text Label 26300 11750 0    60   ~ 0
 IO_100
-Text Label 25800 9850 0    60   ~ 0
+Text Label 16950 18800 0    60   ~ 0
 IO_081
-Text Label 25800 9950 0    60   ~ 0
+Text Label 8800 4750 0    60   ~ 0
 IO_082
-Text Label 25800 10050 0    60   ~ 0
+Text Label 8800 4850 0    60   ~ 0
 IO_083
 Text Label 16950 15500 0    60   ~ 0
 IO_084
@@ -3545,7 +3441,7 @@ Text Label 16950 15700 0    60   ~ 0
 IO_088
 Text Label 16950 15800 0    60   ~ 0
 IO_089
-Text Label 25800 9750 0    60   ~ 0
+Text Label 16950 18700 0    60   ~ 0
 IO_080
 Text Label 16950 18200 0    60   ~ 0
 IO_091
@@ -3587,7 +3483,7 @@ Text Label 16950 17400 0    60   ~ 0
 IO_109
 Text Label 13450 14700 2    60   ~ 0
 IO_100
-Text Notes 24750 15450 0    67   ~ 0
+Text Notes 23150 1700 0    67   ~ 0
 W12\nY12\nAA14\nAB14\nAA21\nAB21\nY19\nAB19\nU15\nV15\nY21\nAA22\nT6\nT5\nAA20\nAB20\n
 Wire Wire Line
 	13450 14800 13750 14800
@@ -3781,8 +3677,6 @@ Wire Wire Line
 	8500 3950 8800 3950
 Wire Wire Line
 	8800 4050 8500 4050
-Text Label 36500 26200 0    60   ~ 0
-V3.3b
 Text Label 43400 24800 0    60   ~ 0
 V3.3c
 $Comp
@@ -4277,7 +4171,7 @@ Connection ~ 13650 19900
 Wire Wire Line
 	13650 20100 13750 20100
 Connection ~ 13650 20000
-Text Label 25450 26600 0    60   ~ 0
+Text Label 25800 26550 0    60   ~ 0
 V3.3
 Wire Wire Line
 	25250 26600 25450 26600
@@ -4292,7 +4186,7 @@ Connection ~ 25350 26800
 Wire Wire Line
 	25250 26700 25350 26700
 Connection ~ 25350 26700
-Text Label 25450 27050 0    60   ~ 0
+Text Label 25800 27150 0    60   ~ 0
 V3.3
 Wire Wire Line
 	25250 27050 25450 27050
@@ -4516,9 +4410,9 @@ Wire Wire Line
 	22400 29900 22400 30500
 Wire Wire Line
 	22400 30500 22550 30500
-Text Label 23600 29100 0    60   ~ 0
+Text Label 23050 28900 0    60   ~ 0
 V3.3
-Text Label 21650 28950 0    60   ~ 0
+Text Label 21750 28650 0    60   ~ 0
 V3.3
 Wire Wire Line
 	23950 25950 23750 25950
@@ -4561,7 +4455,7 @@ F 3 "" H 22900 24850 60  0001 C CNN
 	1    22900 24850
 	1    0    0    -1  
 $EndComp
-Text Label 22950 24350 0    60   ~ 0
+Text Label 22900 23950 0    60   ~ 0
 V3.3
 Wire Wire Line
 	22900 24500 22900 24600
@@ -4595,7 +4489,7 @@ F 3 "" H 23600 30550 60  0001 C CNN
 	1    23600 30550
 	1    0    0    -1  
 $EndComp
-Text Label 23600 30200 0    60   ~ 0
+Text Label 24000 30550 0    60   ~ 0
 V3.3
 Wire Wire Line
 	23600 30200 23600 30300
@@ -5066,4 +4960,486 @@ Wire Wire Line
 Wire Wire Line
 	40900 29800 41000 29800
 Connection ~ 41000 29800
+Text Label 36500 26200 0    60   ~ 0
+V3.3temp
+Text Label 25450 26600 0    60   ~ 0
+V3.3temp2
+Text Label 25450 27050 0    60   ~ 0
+V3.3temp2
+Text Label 22950 24350 0    60   ~ 0
+V3.3temp2
+Text Label 21650 28950 0    60   ~ 0
+V3.3temp
+Text Label 23600 29100 0    60   ~ 0
+V3.3temp
+Text Label 16950 18500 0    60   ~ 0
+IO_082
+Text Label 16950 18600 0    60   ~ 0
+IO_083
+Wire Wire Line
+	16650 18500 16950 18500
+Wire Wire Line
+	16950 18600 16650 18600
+Text Label 8800 4650 0    60   ~ 0
+IO_081
+Text Label 8800 4550 0    60   ~ 0
+IO_080
+Wire Wire Line
+	16650 18700 16950 18700
+Wire Wire Line
+	16950 18800 16650 18800
+Text Label 8800 4350 0    60   ~ 0
+IO_078
+Text Label 8800 4450 0    60   ~ 0
+IO_079
+Wire Wire Line
+	13750 17900 13450 17900
+Wire Wire Line
+	13450 18000 13750 18000
+Text Label 8800 4150 0    60   ~ 0
+IO_076
+Text Label 8800 4250 0    60   ~ 0
+IO_077
+Wire Wire Line
+	13750 17700 13450 17700
+Wire Wire Line
+	13450 17800 13750 17800
+Wire Wire Line
+	8800 4150 8500 4150
+Wire Wire Line
+	8500 4250 8800 4250
+Wire Wire Line
+	8800 4350 8500 4350
+Wire Wire Line
+	8500 4450 8800 4450
+Wire Wire Line
+	8800 4550 8500 4550
+Wire Wire Line
+	8500 4650 8800 4650
+Wire Wire Line
+	8800 4750 8500 4750
+Wire Wire Line
+	8500 4850 8800 4850
+Text Label 7000 1750 0    60   ~ 0
+IO_074
+Text Label 7000 1850 0    60   ~ 0
+IO_075
+Text Label 7000 1550 0    60   ~ 0
+IO_072
+Text Label 7000 1650 0    60   ~ 0
+IO_073
+Wire Wire Line
+	13750 16500 13450 16500
+Wire Wire Line
+	13450 16600 13750 16600
+Wire Wire Line
+	16950 15900 16650 15900
+Wire Wire Line
+	16650 16000 16950 16000
+Text Label 13250 4000 2    60   ~ 0
+IO_015
+Wire Wire Line
+	13550 4000 13250 4000
+Wire Wire Line
+	13250 3900 13550 3900
+Wire Wire Line
+	13550 2500 13250 2500
+Wire Wire Line
+	13250 2600 13550 2600
+Wire Wire Line
+	13550 2700 13250 2700
+Wire Wire Line
+	13250 2800 13550 2800
+Wire Wire Line
+	13550 2900 13250 2900
+Wire Wire Line
+	13250 3000 13550 3000
+Wire Wire Line
+	16850 2700 16550 2700
+Wire Wire Line
+	16550 2800 16850 2800
+Wire Wire Line
+	16850 3200 16550 3200
+Wire Wire Line
+	16550 3300 16850 3300
+Wire Wire Line
+	16850 3400 16550 3400
+Wire Wire Line
+	16550 3500 16850 3500
+Wire Wire Line
+	16850 3600 16550 3600
+Wire Wire Line
+	16550 3700 16850 3700
+Text Label 16950 17700 0    60   ~ 0
+IO_016
+Text Label 16950 17800 0    60   ~ 0
+IO_017
+Text Label 16950 17500 0    60   ~ 0
+IO_018
+Text Label 16950 17600 0    60   ~ 0
+IO_019
+Text Label 13450 17200 2    60   ~ 0
+IO_021
+Text Label 16850 2100 0    60   ~ 0
+IO_022
+Text Label 16850 2200 0    60   ~ 0
+IO_023
+Text Label 16850 2300 0    60   ~ 0
+IO_024
+Text Label 16850 2400 0    60   ~ 0
+IO_025
+Text Label 16850 2500 0    60   ~ 0
+IO_026
+Text Label 16850 2600 0    60   ~ 0
+IO_027
+Text Label 13450 15400 2    60   ~ 0
+IO_028
+Text Label 13450 15300 2    60   ~ 0
+IO_029
+Text Label 13450 17100 2    60   ~ 0
+IO_020
+Text Label 16950 16900 0    60   ~ 0
+IO_031
+Text Label 13250 2400 2    60   ~ 0
+IO_032
+Text Label 13250 2300 2    60   ~ 0
+IO_033
+Text Label 13250 2200 2    60   ~ 0
+IO_034
+Text Label 13250 2100 2    60   ~ 0
+IO_035
+Text Label 16950 17200 0    60   ~ 0
+IO_030
+Wire Wire Line
+	16650 17700 16950 17700
+Wire Wire Line
+	16650 17800 16950 17800
+Wire Wire Line
+	16650 17500 16950 17500
+Wire Wire Line
+	16650 17600 16950 17600
+Wire Wire Line
+	13750 17100 13450 17100
+Wire Wire Line
+	13450 17200 13750 17200
+Wire Wire Line
+	16550 2500 16850 2500
+Wire Wire Line
+	16850 2600 16550 2600
+Wire Wire Line
+	16550 2400 16850 2400
+Wire Wire Line
+	16850 2300 16550 2300
+Wire Wire Line
+	16550 2200 16850 2200
+Wire Wire Line
+	16850 2100 16550 2100
+Wire Wire Line
+	13250 2100 13550 2100
+Wire Wire Line
+	13550 2200 13250 2200
+Wire Wire Line
+	13250 2300 13550 2300
+Wire Wire Line
+	13550 2400 13250 2400
+Wire Wire Line
+	13750 15300 13450 15300
+Wire Wire Line
+	13450 15400 13750 15400
+Wire Wire Line
+	16950 17200 16650 17200
+Wire Wire Line
+	16950 16900 16650 16900
+Wire Wire Line
+	8800 4950 8500 4950
+Wire Wire Line
+	8500 5050 8800 5050
+Wire Wire Line
+	8800 5150 8500 5150
+Wire Wire Line
+	7000 5150 6700 5150
+Wire Wire Line
+	6700 5050 7000 5050
+Wire Wire Line
+	7000 4950 6700 4950
+Wire Wire Line
+	6700 4850 7000 4850
+Wire Wire Line
+	7000 4750 6700 4750
+Wire Wire Line
+	6700 4650 7000 4650
+Wire Wire Line
+	7000 4550 6700 4550
+Wire Wire Line
+	6700 4450 7000 4450
+Wire Wire Line
+	7000 4350 6700 4350
+Wire Wire Line
+	6700 4250 7000 4250
+Wire Wire Line
+	7000 4150 6700 4150
+Wire Wire Line
+	6700 4050 7000 4050
+Wire Wire Line
+	7000 3950 6700 3950
+Wire Wire Line
+	6700 3850 7000 3850
+Wire Wire Line
+	7000 3750 6700 3750
+Wire Wire Line
+	6700 3650 7000 3650
+Wire Wire Line
+	7000 3550 6700 3550
+Wire Wire Line
+	6700 3450 7000 3450
+Wire Wire Line
+	6700 3350 7000 3350
+Wire Wire Line
+	7000 3250 6700 3250
+Wire Wire Line
+	6700 3150 7000 3150
+Wire Wire Line
+	7000 3050 6700 3050
+Wire Wire Line
+	6700 2950 7000 2950
+Wire Wire Line
+	7000 2850 6700 2850
+Wire Wire Line
+	6700 2750 7000 2750
+Wire Wire Line
+	7000 2650 6700 2650
+Wire Wire Line
+	6700 2550 7000 2550
+Wire Wire Line
+	7000 2450 6700 2450
+Wire Wire Line
+	6700 2350 7000 2350
+Wire Wire Line
+	6700 2250 7000 2250
+Wire Wire Line
+	7000 2150 6700 2150
+Wire Wire Line
+	6700 2050 7000 2050
+Wire Wire Line
+	7000 1950 6700 1950
+Wire Wire Line
+	6700 1850 7000 1850
+Wire Wire Line
+	7000 1750 6700 1750
+Wire Wire Line
+	6700 1650 7000 1650
+Wire Wire Line
+	7000 1550 6700 1550
+$Comp
+L C C40
+U 1 1 5559495D
+P 36950 28450
+F 0 "C40" H 37000 28550 50  0000 L CNN
+F 1 "0.1 uF" H 37000 28350 50  0000 L CNN
+F 2 "C2" H 36950 28450 60  0001 C CNN
+F 3 "" H 36950 28450 60  0001 C CNN
+	1    36950 28450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C41
+U 1 1 55594963
+P 37300 28450
+F 0 "C41" H 37350 28550 50  0000 L CNN
+F 1 "0.1 uF" H 37350 28350 50  0000 L CNN
+F 2 "C2" H 37300 28450 60  0001 C CNN
+F 3 "" H 37300 28450 60  0001 C CNN
+	1    37300 28450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C33
+U 1 1 55594969
+P 36200 28450
+F 0 "C33" H 36250 28550 50  0000 L CNN
+F 1 "0.1 uF" H 36250 28350 50  0000 L CNN
+F 2 "C2" H 36200 28450 60  0001 C CNN
+F 3 "" H 36200 28450 60  0001 C CNN
+	1    36200 28450
+	1    0    0    -1  
+$EndComp
+Text Label 35100 28600 0    60   ~ 0
+GND
+$Comp
+L C C2
+U 1 1 55594970
+P 35600 28450
+F 0 "C2" H 35650 28550 50  0000 L CNN
+F 1 "0.1 uF" H 35650 28350 50  0000 L CNN
+F 2 "" H 35600 28450 60  0001 C CNN
+F 3 "" H 35600 28450 60  0001 C CNN
+	1    35600 28450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	34900 28350 34900 28200
+Wire Wire Line
+	34900 28350 35100 28350
+Connection ~ 37100 28200
+Wire Wire Line
+	37100 28200 37100 28250
+Connection ~ 36800 28700
+Wire Wire Line
+	36800 28700 36800 28650
+Connection ~ 36500 28200
+Wire Wire Line
+	36500 28200 36500 28250
+Connection ~ 35900 28700
+Wire Wire Line
+	35900 28700 35900 28650
+Connection ~ 35900 28200
+Wire Wire Line
+	35900 28200 35900 28250
+Wire Wire Line
+	34900 28200 38150 28200
+Wire Wire Line
+	35600 28700 35600 28650
+Wire Wire Line
+	35600 28200 35600 28250
+Connection ~ 35600 28200
+Wire Wire Line
+	36200 28200 36200 28250
+Connection ~ 36200 28200
+Wire Wire Line
+	36200 28700 36200 28650
+Connection ~ 36200 28700
+Wire Wire Line
+	36500 28700 36500 28650
+Connection ~ 36500 28700
+Wire Wire Line
+	37100 28700 37100 28650
+Connection ~ 37100 28700
+Wire Wire Line
+	36800 28200 36800 28250
+Connection ~ 36800 28200
+Wire Wire Line
+	35100 28600 34900 28600
+Wire Wire Line
+	34900 28600 34900 28700
+Wire Wire Line
+	34900 28700 38150 28700
+Connection ~ 35600 28700
+Wire Wire Line
+	36550 28000 36400 28000
+Wire Wire Line
+	36400 28000 36400 28200
+Connection ~ 36400 28200
+Wire Wire Line
+	36600 28250 36600 28200
+Connection ~ 36600 28200
+Wire Wire Line
+	36600 28650 36600 28700
+Connection ~ 36600 28700
+Wire Wire Line
+	36950 28650 36950 28700
+Connection ~ 36950 28700
+Wire Wire Line
+	36950 28250 36950 28200
+Connection ~ 36950 28200
+Wire Wire Line
+	37300 28250 37300 28200
+Connection ~ 37300 28200
+Wire Wire Line
+	37300 28650 37300 28700
+Connection ~ 37300 28700
+Wire Wire Line
+	37650 28650 37650 28700
+Connection ~ 37650 28700
+Wire Wire Line
+	37650 28250 37650 28200
+Connection ~ 37650 28200
+Text Label 37100 27700 0    60   ~ 0
+V1.2
+Text Label 36550 28000 0    60   ~ 0
+V1.2temp
+$Comp
+L C C42
+U 1 1 555949AC
+P 37600 26650
+F 0 "C42" H 37650 26750 50  0000 L CNN
+F 1 "0.1 uF" H 37650 26550 50  0000 L CNN
+F 2 "C2" H 37600 26650 60  0001 C CNN
+F 3 "" H 37600 26650 60  0001 C CNN
+	1    37600 26650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 555949B2
+P 35300 26650
+F 0 "C1" H 35350 26750 50  0000 L CNN
+F 1 "0.1 uF" H 35350 26550 50  0000 L CNN
+F 2 "C2" H 35300 26650 60  0001 C CNN
+F 3 "" H 35300 26650 60  0001 C CNN
+	1    35300 26650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C32
+U 1 1 555949B8
+P 35850 26650
+F 0 "C32" H 35900 26750 50  0000 L CNN
+F 1 "0.1 uF" H 35900 26550 50  0000 L CNN
+F 2 "C2" H 35850 26650 60  0001 C CNN
+F 3 "" H 35850 26650 60  0001 C CNN
+	1    35850 26650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C35
+U 1 1 555949BE
+P 36450 26650
+F 0 "C35" H 36500 26750 50  0000 L CNN
+F 1 "0.1 uF" H 36500 26550 50  0000 L CNN
+F 2 "C2" H 36450 26650 60  0001 C CNN
+F 3 "" H 36450 26650 60  0001 C CNN
+	1    36450 26650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C39
+U 1 1 555949C4
+P 36750 26650
+F 0 "C39" H 36800 26750 50  0000 L CNN
+F 1 "0.1 uF" H 36800 26550 50  0000 L CNN
+F 2 "C2" H 36750 26650 60  0001 C CNN
+F 3 "" H 36750 26650 60  0001 C CNN
+	1    36750 26650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	35300 26450 35300 26400
+Connection ~ 35300 26400
+Wire Wire Line
+	35300 26850 35300 26900
+Connection ~ 35300 26900
+$Comp
+L C C37
+U 1 1 555954B4
+P 36600 28450
+F 0 "C37" H 36650 28550 50  0000 L CNN
+F 1 "0.1 uF" H 36650 28350 50  0000 L CNN
+F 2 "C2" H 36600 28450 60  0001 C CNN
+F 3 "" H 36600 28450 60  0001 C CNN
+	1    36600 28450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C43
+U 1 1 555954BA
+P 37650 28450
+F 0 "C43" H 37700 28550 50  0000 L CNN
+F 1 "0.1 uF" H 37700 28350 50  0000 L CNN
+F 2 "C2" H 37650 28450 60  0001 C CNN
+F 3 "" H 37650 28450 60  0001 C CNN
+	1    37650 28450
+	1    0    0    -1  
+$EndComp
+Text Label 23600 30200 0    60   ~ 0
+V3.3temp
 $EndSCHEMATC

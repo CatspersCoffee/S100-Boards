@@ -1,4 +1,18 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/9/2015 2:14:52 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/17/2015 5:29:49 PM
+
+BeginCmp
+TimeStamp = /555949B2;
+Reference = C1;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /55594970;
+Reference = C2;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
+EndCmp
 
 BeginCmp
 TimeStamp = /554D6C99;
@@ -53,7 +67,7 @@ BeginCmp
 TimeStamp = /554D4DD6;
 Reference = C10;
 ValeurCmp = 10 uF;
-IdModule  = SM1206_Opendous;
+IdModule  = ^^153CLV-0605;
 EndCmp
 
 BeginCmp
@@ -67,7 +81,7 @@ BeginCmp
 TimeStamp = /554B214C;
 Reference = C12;
 ValeurCmp = 10 uF;
-IdModule  = SM1206_Opendous;
+IdModule  = ^^153CLV-0605;
 EndCmp
 
 BeginCmp
@@ -130,7 +144,7 @@ BeginCmp
 TimeStamp = /554D4DF4;
 Reference = C21;
 ValeurCmp = 10 uF;
-IdModule  = SM1206_Opendous;
+IdModule  = ^^153CLV-0605;
 EndCmp
 
 BeginCmp
@@ -151,7 +165,7 @@ BeginCmp
 TimeStamp = /5537187B;
 Reference = C24;
 ValeurCmp = 10 uF;
-IdModule  = SM1206_Opendous;
+IdModule  = ^^153CLV-0605;
 EndCmp
 
 BeginCmp
@@ -204,10 +218,31 @@ IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /555949B8;
+Reference = C32;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /55594969;
+Reference = C33;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
 TimeStamp = /5539F8C2;
 Reference = C34;
 ValeurCmp = 10 uF;
 IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /555949BE;
+Reference = C35;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
@@ -218,10 +253,52 @@ IdModule  = SM1206_Opendous;
 EndCmp
 
 BeginCmp
+TimeStamp = /555954B4;
+Reference = C37;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
 TimeStamp = /5539D68D;
 Reference = C38;
 ValeurCmp = 10 uF;
 IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /555949C4;
+Reference = C39;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /5559495D;
+Reference = C40;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /55594963;
+Reference = C41;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /555949AC;
+Reference = C42;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /555954BA;
+Reference = C43;
+ValeurCmp = 0.1 uF;
+IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp

@@ -1,8 +1,15 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/25/2015 12:57:14 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/21/2015 3:31:08 PM
 
 BeginCmp
 TimeStamp = /50CE5F64;
 Reference = C1;
+ValeurCmp = 0.1 uF;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55869AD9;
+Reference = C2;
 ValeurCmp = 0.1 uF;
 IdModule  = ^^SMD_Resistor-0805;
 EndCmp
@@ -246,6 +253,13 @@ IdModule  = ^^LED-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /55861865;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = ^^LED-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52AE5B21;
 Reference = D5;
 ValeurCmp = LED;
@@ -386,6 +400,20 @@ IdModule  = PIN_ARRAY_6X2;
 EndCmp
 
 BeginCmp
+TimeStamp = /55861C55;
+Reference = P14;
+ValeurCmp = GenIO_1;
+IdModule  = PIN_ARRAY_6X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55861C62;
+Reference = P15;
+ValeurCmp = GenIO_2;
+IdModule  = PIN_ARRAY_6X2;
+EndCmp
+
+BeginCmp
 TimeStamp = /51338EE2;
 Reference = P20;
 ValeurCmp = S100_MALE;
@@ -456,16 +484,16 @@ IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /553A0DDD;
+TimeStamp = /5586186F;
 Reference = R8;
-ValeurCmp = 3v;
+ValeurCmp = 330;
 IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /553A1441;
+TimeStamp = /55869AE1;
 Reference = R9;
-ValeurCmp = 3v;
+ValeurCmp = 10K;
 IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
@@ -529,6 +557,41 @@ BeginCmp
 TimeStamp = /553C0902;
 Reference = R18;
 ValeurCmp = 300;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55869AE7;
+Reference = R19;
+ValeurCmp = 10k;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55869AD1;
+Reference = R20;
+ValeurCmp = 1K;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55869B80;
+Reference = R21;
+ValeurCmp = 10K;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55869AEE;
+Reference = R22;
+ValeurCmp = 10K;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558749D9;
+Reference = R23;
+ValeurCmp = 10K;
 IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
@@ -631,6 +694,20 @@ IdModule  = XILINX-VQ44;
 EndCmp
 
 BeginCmp
+TimeStamp = /5586896A;
+Reference = U15;
+ValeurCmp = ZZZZ1;
+IdModule  = ^^ZZZZZZ1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55869AAB;
+Reference = U16;
+ValeurCmp = ^^74LV244;
+IdModule  = ^^SO-20wide;
+EndCmp
+
+BeginCmp
 TimeStamp = /50CE4600;
 Reference = U17;
 ValeurCmp = 74F04;
@@ -638,9 +715,16 @@ IdModule  = ^^SO14_wide;
 EndCmp
 
 BeginCmp
+TimeStamp = /5586A599;
+Reference = U18;
+ValeurCmp = 23LC1024;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
 TimeStamp = /553B6651;
 Reference = U20;
-ValeurCmp = LT3081-TSSOP16;
+ValeurCmp = LT3081;
 IdModule  = ^^LT3081_TSSOP16;
 EndCmp
 

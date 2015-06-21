@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/17/2015 5:29:49 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/1/2015 5:16:24 PM
 
 BeginCmp
 TimeStamp = /555949B2;
@@ -302,6 +302,41 @@ IdModule  = SM0402_c;
 EndCmp
 
 BeginCmp
+TimeStamp = /556A6157;
+Reference = C44;
+ValeurCmp = 10 uF;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /556C4F9E;
+Reference = C45;
+ValeurCmp = 0.1 uF;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A612E;
+Reference = C46;
+ValeurCmp = 10 uF;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A6141;
+Reference = C47;
+ValeurCmp = 10 uF;
+IdModule  = SM1206_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A6147;
+Reference = C48;
+ValeurCmp = 10 uF;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5537184A;
 Reference = D1;
 ValeurCmp = POWER;
@@ -355,6 +390,13 @@ TimeStamp = /553718E5;
 Reference = P4;
 ValeurCmp = CONN_1;
 IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /556C8FB5;
+Reference = P5;
+ValeurCmp = CONN_6X2;
+IdModule  = PIN_ARRAY_6x2;
 EndCmp
 
 BeginCmp
@@ -463,6 +505,20 @@ IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /556C5B18;
+Reference = R12;
+ValeurCmp = 10K;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556C5B1E;
+Reference = R13;
+ValeurCmp = 10K;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /554E8FF3;
 Reference = SW1;
 ValeurCmp = PROG_B;
@@ -523,6 +579,27 @@ TimeStamp = /55500352;
 Reference = U8;
 ValeurCmp = RT9026_MSOP-10;
 IdModule  = ^^RT9026_MSOP10;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A5890;
+Reference = U9;
+ValeurCmp = FPGA_CLK_0;
+IdModule  = ^^SMD_HCMOS_TTL_Clock_Oscillator;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A616C;
+Reference = U10;
+ValeurCmp = LM1117MP-2.5;
+IdModule  = ^^SOT223v1;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B053C;
+Reference = U12;
+ValeurCmp = PIC18F2520-28QFN;
+IdModule  = ^^QFN28;
 EndCmp
 
 EndListe

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/28/2015 7:36:02 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/28/2015 1:41:36 PM
 
 BeginCmp
 TimeStamp = /4A074934;
@@ -31,6 +31,13 @@ EndCmp
 BeginCmp
 TimeStamp = /55901861;
 Reference = C5;
+ValeurCmp = 0.1 uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55943206;
+Reference = C6;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
 EndCmp
@@ -358,10 +365,10 @@ IdModule  = ^^LED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /558F4131;
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
+TimeStamp = /55927D9B;
+Reference = IC1;
+ValeurCmp = XC9572PC84;
+IdModule  = XILINX-PLCC-S84;
 EndCmp
 
 BeginCmp
@@ -435,10 +442,17 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /55922661;
+TimeStamp = /5592EEE1;
 Reference = P8;
 ValeurCmp = CPLD Pins;
 IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55944619;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -743,7 +757,7 @@ IdModule  = DIP-20__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /558E88D0;
+TimeStamp = /4BB74C4D;
 Reference = U4;
 ValeurCmp = 74LS04;
 IdModule  = 14DIP-ELL300;
@@ -809,7 +823,7 @@ BeginCmp
 TimeStamp = /558E8982;
 Reference = U13;
 ValeurCmp = 2732;
-IdModule  = ^^DIP-24-ZIF;
+IdModule  = -DIL24-6;
 EndCmp
 
 BeginCmp
@@ -834,17 +848,10 @@ IdModule  = 16DIP-ELL300;
 EndCmp
 
 BeginCmp
-TimeStamp = /558F4125;
-Reference = U17;
-ValeurCmp = XC9572XL-TQ100;
-IdModule  = XILINX-TQ100;
-EndCmp
-
-BeginCmp
 TimeStamp = /558E87EC;
 Reference = U18;
 ValeurCmp = 74LS32;
-IdModule  = DIP-16__300_ELL;
+IdModule  = DIP-14__300_ELL;
 EndCmp
 
 BeginCmp
@@ -879,13 +886,6 @@ BeginCmp
 TimeStamp = /558E8891;
 Reference = U23;
 ValeurCmp = 74LS02;
-IdModule  = 14DIP-ELL300;
-EndCmp
-
-BeginCmp
-TimeStamp = /4BB74C4D;
-Reference = U24;
-ValeurCmp = 74LS04;
 IdModule  = DIP-14__300_ELL;
 EndCmp
 
@@ -999,13 +999,6 @@ TimeStamp = /53934AD9;
 Reference = U48;
 ValeurCmp = LDO_REG_7805;
 IdModule  = ^^TO220;
-EndCmp
-
-BeginCmp
-TimeStamp = /558F41BF;
-Reference = Ux1;
-ValeurCmp = ^^3.3VREG_SOT223;
-IdModule  = ^^SOT223v1;
 EndCmp
 
 EndListe

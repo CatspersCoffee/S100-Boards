@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/29/2015 12:42:47 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/30/2015 8:13:02 AM
 
 BeginCmp
 TimeStamp = /4A074934;
@@ -449,10 +449,10 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5592EEE1;
+TimeStamp = /559529E8;
 Reference = P8;
 ValeurCmp = CPLD Pins;
-IdModule  = PIN_ARRAY_5x2;
+IdModule  = PIN_ARRAY_6x2;
 EndCmp
 
 BeginCmp
@@ -859,6 +859,13 @@ TimeStamp = /558E88A9;
 Reference = U16;
 ValeurCmp = 74LS153;
 IdModule  = 16DIP-ELL300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5594B4D5;
+Reference = U17;
+ValeurCmp = 74LVC1G125;
+IdModule  = -SOT353;
 EndCmp
 
 BeginCmp

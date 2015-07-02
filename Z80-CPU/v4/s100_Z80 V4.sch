@@ -125,7 +125,7 @@ $Descr E 44000 34000
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "29 jun 2015"
+Date "2 jul 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -150,8 +150,6 @@ NoConn ~ 26800 30800
 NoConn ~ 23200 30800
 NoConn ~ 19600 30800
 NoConn ~ 21550 31850
-Text Label 30100 25450 0    60   ~ 0
-READ_STROBE
 Text Label 39950 21000 0    60   ~ 0
 ERROR*
 Text Label 39950 20800 0    60   ~ 0
@@ -6871,7 +6869,7 @@ Text Notes 32200 20600 0    60   ~ 0
 Data Output Buffer Disable
 Text Label 28550 2150 0    60   ~ 0
 GND
-Text Label 15100 31400 2    60   ~ 0
+Text Label 15950 29800 0    60   ~ 0
 CLK_CPU
 NoConn ~ 13200 30900
 NoConn ~ 13200 31000
@@ -8802,8 +8800,6 @@ F 3 "" H 8400 1350 60  0001 C CNN
 	1    8400 1350
 	1    0    0    -1  
 $EndComp
-Text Label 16900 12450 0    60   ~ 0
-CLK
 Text Label 16900 12250 0    60   ~ 0
 BUSAK*
 Text Label 16900 12150 0    60   ~ 0
@@ -8845,8 +8841,6 @@ F 3 "" H 18100 8200 60  0001 C CNN
 	1    18100 8200
 	-1   0    0    1   
 $EndComp
-Text Label 20500 10650 0    60   ~ 0
-READ_STROBE
 $Comp
 L 74LS00 U28
 U 3 1 558E8809
@@ -9539,7 +9533,7 @@ Wire Wire Line
 Wire Wire Line
 	11300 1350 11300 8550
 Wire Wire Line
-	13200 7100 13200 12500
+	13200 7100 13200 12750
 Wire Wire Line
 	13200 7100 9800 7100
 Wire Wire Line
@@ -10159,9 +10153,9 @@ Wire Wire Line
 Wire Wire Line
 	12200 15200 12150 15200
 Wire Wire Line
-	13200 12500 11000 12500
+	13200 12750 11000 12750
 Wire Wire Line
-	11000 12500 11000 14300
+	11000 12750 11000 14300
 Wire Wire Line
 	11000 14300 12150 14300
 Wire Wire Line
@@ -10551,11 +10545,11 @@ Wire Wire Line
 Wire Wire Line
 	12550 9000 12400 9000
 Wire Wire Line
-	12400 9000 12400 12550
+	12400 9000 12400 12500
 Wire Wire Line
-	12400 12550 10850 12550
+	12400 12500 10850 12500
 Wire Wire Line
-	10850 12550 10850 15850
+	10850 12500 10850 15850
 Wire Wire Line
 	10850 15850 4150 15850
 Wire Wire Line
@@ -10819,13 +10813,6 @@ Wire Wire Line
 	30150 25750 30650 25750
 Wire Wire Line
 	30650 25650 30150 25650
-Wire Wire Line
-	30100 25450 30100 25550
-Wire Wire Line
-	30100 25550 30200 25550
-Wire Wire Line
-	30200 25550 30200 25650
-Connection ~ 30200 25650
 Wire Wire Line
 	29050 20850 28350 20850
 Wire Wire Line
@@ -11203,7 +11190,7 @@ CPLD_P25
 Text Label 15400 22300 2    60   ~ 0
 CPLD_P17
 Text Label 15400 21150 2    60   ~ 0
-CPLD_P16
+CPLD_P48
 Text Label 15400 21250 2    60   ~ 0
 CPLD_P13
 Text Label 15400 20650 2    60   ~ 0
@@ -11284,8 +11271,8 @@ Wire Wire Line
 	17300 19950 17450 19950
 Text Notes 14450 20000 0    60   ~ 12
 would come from\nSlave clear via CPLD
-Text Notes 16050 24650 0    60   ~ 0
-input into CPLD
+Text Notes 13600 24650 0    60   ~ 0
+SLAVE_CLR* input to CPLD\nfrom S100 Bus
 $Comp
 L 74LS32 U18
 U 3 1 55913086
@@ -11307,7 +11294,7 @@ Connection ~ 17750 21600
 Wire Wire Line
 	19050 21600 19350 21600
 Wire Wire Line
-	19350 21400 19200 21400
+	19200 21400 19350 21400
 Text Label 19250 21250 0    60   ~ 0
 PU1K-M
 $Comp
@@ -11570,7 +11557,7 @@ Wire Wire Line
 	9650 3250 9650 4550
 Wire Wire Line
 	9650 4550 9800 4550
-Text Notes 8200 3050 2    60   ~ 0
+Text Notes 9550 2900 2    60   ~ 0
 to CPLD and then to LEDs
 Wire Notes Line
 	11450 25900 15900 25900
@@ -12255,7 +12242,7 @@ Text Label 6550 22500 0    60   ~ 0
 CPLD_P75
 Text Label 5750 29000 2    60   ~ 0
 CPLD_P71
-Text Label 12450 22700 0    60   ~ 0
+Text Label 10250 22750 2    60   ~ 0
 CPLD_P75
 Wire Wire Line
 	6550 22300 6400 22300
@@ -12275,7 +12262,7 @@ Wire Wire Line
 	6550 21600 6400 21600
 Text Label 18950 22900 0    60   ~ 0
 CPLD_P76
-Text Label 13200 18600 0    60   ~ 0
+Text Label 10250 23050 2    60   ~ 0
 CPLD_P77
 Text Label 13200 18700 0    60   ~ 0
 CPLD_P74
@@ -12332,15 +12319,348 @@ Wire Wire Line
 Wire Wire Line
 	6050 29000 5750 29000
 Wire Wire Line
-	12450 18450 12950 18450
-Wire Wire Line
-	12950 18450 12950 18600
-Wire Wire Line
-	12950 18600 13200 18600
+	12450 18450 13050 18450
 Wire Wire Line
 	11650 18450 11550 18450
 Wire Wire Line
 	11550 18450 11550 18700
 Wire Wire Line
 	11550 18700 13200 18700
+Text Notes 16750 22300 0    60   ~ 0
+RESET*b - input
+Text Notes 3450 23500 0    60   ~ 0
+RESET*b - input
+Text Notes 19500 22900 0    60   ~ 0
+Clave clear button - input
+Text Notes 7100 21400 0    60   ~ 0
+Clave clear button - input
+Text Notes 14350 19900 0    60   ~ 0
+Clave clear from CPLD - output
+Text Notes 2750 23000 0    60   ~ 0
+Clave clear from CPLD - output
+Text Notes 14300 20650 0    60   ~ 0
+CLK - input
+Text Notes 3550 21400 0    60   ~ 0
+CLK - input
+Text Notes 13900 20850 0    60   ~ 0
+partial latch - output
+Text Notes 7100 25000 0    60   ~ 0
+partial latch - output
+Text Notes 14200 21150 0    60   ~ 0
+sOUTb - output
+Text Notes 7100 24100 0    60   ~ 0
+sOUTb - output
+Text Label 6600 24100 0    60   ~ 0
+CPLD_P48
+Wire Wire Line
+	6600 24100 6400 24100
+Text Notes 14200 21250 0    60   ~ 0
+sINPb - output
+Text Notes 3550 22600 0    60   ~ 0
+sINPb - output
+Text Notes 14100 21350 0    60   ~ 0
+sMEMRb - output
+Text Notes 3450 22700 0    60   ~ 0
+sMEMRb - output
+Text Notes 14100 21450 0    60   ~ 0
+sWO*b - output
+Text Notes 3500 22800 0    60   ~ 0
+sWO*b - output
+Text Notes 14150 21650 0    60   ~ 0
+sINTAb - output
+Text Notes 3500 22900 0    60   ~ 0
+sINTAb - output
+Text Notes 14200 22100 0    60   ~ 0
+WAIT+  input
+Text Notes 3650 23400 0    60   ~ 0
+WAIT+  input
+Text Notes 14150 22450 0    60   ~ 0
+pSYNCb - output
+Text Notes 7100 23400 0    60   ~ 0
+pSYNCb - output
+Text Notes 14150 22600 0    60   ~ 0
+pSTVAL* - output
+Text Notes 7100 23500 0    60   ~ 0
+pSTVAL* - output
+Text Notes 14150 22800 0    60   ~ 0
+pWR*b - output
+Text Notes 7100 23600 0    60   ~ 0
+pWR*b - output
+Text Label 21200 10650 0    60   ~ 0
+RD+
+Text Label 19850 8300 0    60   ~ 0
+WR+
+Text Notes 14400 22950 0    60   ~ 0
+WR+ output
+Text Notes 7100 23700 0    60   ~ 0
+WR+ output
+Text Notes 14300 23050 0    60   ~ 0
+MREQ+ output
+Text Notes 7100 23800 0    60   ~ 0
+MREQ+ output
+Text Notes 14300 23150 0    60   ~ 0
+IORQ+ output
+Text Notes 7100 23900 0    60   ~ 0
+IORQ+ output
+Text Notes 14400 23250 0    60   ~ 0
+RD+ output
+Text Notes 7100 24000 0    60   ~ 0
+RD+ output
+Text Notes 14400 23400 0    60   ~ 0
+WR* input
+Text Notes 14300 23500 0    60   ~ 0
+MREQ* input
+Text Notes 14300 23600 0    60   ~ 0
+IORQ* input
+Text Notes 14350 23700 0    60   ~ 0
+RD* input
+Text Notes 14300 23900 0    60   ~ 0
+REFSH*  input
+Text Notes 3600 22400 0    60   ~ 0
+REFSH*  input
+Text Notes 14450 24100 0    60   ~ 0
+M1* input
+Text Notes 7100 23100 0    60   ~ 0
+M1* input
+Text Notes 14400 24200 0    60   ~ 0
+M1+ output
+Text Notes 3700 23800 0    60   ~ 0
+M1+ output
+Text Notes 2300 23100 0    60   ~ 0
+SLAVE_CLR* input to CPLD from S100 Bus
+Text Notes 13800 18700 0    60   ~ 0
+P8_11 I/O
+Text Notes 7100 21600 0    60   ~ 0
+P8_11 I/O
+Text Notes 12750 19700 0    60   ~ 0
+P8_1 I/O
+Text Notes 12750 19800 0    60   ~ 0
+P8_2 I/O
+Text Notes 12750 19900 0    60   ~ 0
+P8_3 I/O
+Text Notes 12750 20000 0    60   ~ 0
+P8_4 I/O
+Text Notes 12750 20100 0    60   ~ 0
+P8_5 I/O
+Text Notes 12750 20200 0    60   ~ 0
+P8_6 I/O
+Text Notes 12750 20300 0    60   ~ 0
+P8_7 I/O
+Text Notes 12750 20400 0    60   ~ 0
+P8_8 I/O
+Text Notes 12750 20500 0    60   ~ 0
+P8_9 I/O
+Text Notes 12750 20600 0    60   ~ 0
+P8_10 I/O
+Text Notes 3000 23900 0    60   ~ 0
+P8_1 I/O
+Text Notes 3000 24000 0    60   ~ 0
+P8_2 I/O
+Text Notes 3000 24100 0    60   ~ 0
+P8_3 I/O
+Text Notes 3000 24200 0    60   ~ 0
+P8_4 I/O
+Text Notes 7800 22100 0    60   ~ 0
+P8_5 I/O
+Text Notes 7800 22200 0    60   ~ 0
+P8_6 I/O
+Text Notes 7900 24300 0    60   ~ 0
+P8_7 I/O
+Text Notes 7900 24400 0    60   ~ 0
+P8_8 I/O
+Text Notes 7900 24500 0    60   ~ 0
+P8_9 I/O
+Text Notes 7900 24600 0    60   ~ 0
+P8_10 I/O
+Text Notes 4750 28100 0    60   ~ 0
+D0 input
+Text Notes 4750 28300 0    60   ~ 0
+A0 input
+Text Notes 4750 28400 0    60   ~ 0
+A1 input
+Text Notes 4750 28500 0    60   ~ 0
+A2 input
+Text Notes 4750 28600 0    60   ~ 0
+A3 input
+Text Notes 4750 28700 0    60   ~ 0
+A4 input
+Text Notes 4750 28800 0    60   ~ 0
+A5 input
+Text Notes 4750 28900 0    60   ~ 0
+A6 input
+Text Notes 4750 29000 0    60   ~ 0
+A7 input
+Text Notes 3850 24400 0    60   ~ 0
+D0 input
+Text Notes 7050 22700 0    60   ~ 0
+A0 input
+Text Notes 7050 22900 0    60   ~ 0
+A1 input
+Text Notes 7050 23000 0    60   ~ 0
+A2 input
+Text Notes 3900 22100 0    60   ~ 0
+A3 input
+Text Notes 3900 22200 0    60   ~ 0
+A4 input
+Text Notes 3850 24600 0    60   ~ 0
+A5 input
+Text Notes 3850 24700 0    60   ~ 0
+A6 input
+Text Notes 7050 22300 0    60   ~ 0
+A7 input
+Text Notes 39600 2550 0    60   ~ 0
+LED D4 output
+Text Notes 39600 2850 0    60   ~ 0
+LED D5 output
+Text Notes 39600 3150 0    60   ~ 0
+LED D6 output
+Text Notes 39600 3450 0    60   ~ 0
+LED D7 output
+Text Notes 39600 3750 0    60   ~ 0
+LED D9 output
+Text Notes 39600 4050 0    60   ~ 0
+LED D10 output
+Text Notes 7050 22800 0    60   ~ 0
+LED D7 output
+Text Notes 7100 24200 0    60   ~ 0
+LED D10 output
+Text Notes 7100 24900 0    60   ~ 0
+LED D9 output
+Text Notes 3600 24500 0    60   ~ 0
+LED D6 output
+Text Notes 3600 24300 0    60   ~ 0
+LED D5 output
+Text Notes 3600 25000 0    60   ~ 0
+LED D4 output
+Text Notes 4000 26750 0    60   ~ 0
+U17 OE output
+Text Notes 3550 23700 0    60   ~ 0
+U17 OE output
+Text Notes 4000 26850 0    60   ~ 0
+U17 A output
+Text Notes 3600 23600 0    60   ~ 0
+U17 A output
+Text Label 10250 22850 2    60   ~ 0
+CPLD_P79
+Text Notes 7400 3000 0    60   ~ 0
+PortD0 bit7  input
+Text Notes 7400 3100 0    60   ~ 0
+PortD1 bit7  input
+Text Notes 7100 24800 0    60   ~ 0
+PortD0 bit7  input
+Text Notes 7050 22000 0    60   ~ 0
+PortD1 bit7  input
+Text Label 10250 22950 2    60   ~ 0
+CPLD_P4
+Text Label 10250 23150 2    60   ~ 0
+CPLD_P3
+Text Label 13050 18450 0    60   ~ 0
+GND
+$Comp
+L CONN_6 P11
+U 1 1 559294D0
+P 10750 22900
+F 0 "P11" V 10700 22900 60  0000 C CNN
+F 1 "CONN_6" V 10800 22900 60  0000 C CNN
+F 2 "" H 10750 22900 60  0000 C CNN
+F 3 "" H 10750 22900 60  0000 C CNN
+	1    10750 22900
+	1    0    0    -1  
+$EndComp
+Text Label 10250 22650 2    60   ~ 0
+GND
+Wire Wire Line
+	10400 22650 10250 22650
+Wire Wire Line
+	10250 22750 10400 22750
+Wire Wire Line
+	10400 22850 10250 22850
+Wire Wire Line
+	10250 22950 10400 22950
+Wire Wire Line
+	10400 23050 10250 23050
+Wire Wire Line
+	10250 23150 10400 23150
+Text Notes 9250 22750 0    60   ~ 0
+P11_2 I/O
+Text Notes 9250 22850 0    60   ~ 0
+P11_3 I/O
+Text Notes 9250 22950 0    60   ~ 0
+P11_4 I/O
+Text Notes 9250 23050 0    60   ~ 0
+P11_5 I/O
+Text Notes 9250 23150 0    60   ~ 0
+P11_6 I/O
+Text Notes 7050 22500 0    60   ~ 0
+P11_2 I/O
+Text Notes 7050 22600 0    60   ~ 0
+P11_3 I/O
+Text Notes 3800 21800 0    60   ~ 0
+P11_4 I/O
+Text Notes 7100 21500 0    60   ~ 0
+P11_5 I/O
+Text Notes 3800 22300 0    60   ~ 0
+P11_6 I/O
+Text Notes 3850 21900 0    60   ~ 0
+WR* input
+Text Notes 3750 22000 0    60   ~ 0
+MREQ* input
+Text Notes 7050 21800 0    60   ~ 0
+IORQ* input
+Text Notes 7050 22400 0    60   ~ 0
+RD* input
+Text Label 15550 24400 0    60   ~ 0
+MWRTb
+Text Label 6550 21900 0    60   ~ 0
+CPLD_P69
+Wire Wire Line
+	6550 21900 6400 21900
+Text Label 15400 24400 2    60   ~ 0
+CPLD_P69
+Wire Wire Line
+	15550 24400 15400 24400
+Text Notes 14300 24400 0    60   ~ 0
+MWRTb output
+Text Notes 7050 21900 0    60   ~ 0
+MWRTb output
+Text Label 17350 12450 0    60   ~ 0
+CLK_CPU
+$Comp
+L 74LS04 U25
+U 4 1 55930324
+P 15400 29800
+F 0 "U25" H 15595 29915 60  0000 C CNN
+F 1 "74LS04" H 15590 29675 60  0000 C CNN
+F 2 "14dip300" H 15590 29775 60  0001 C CNN
+F 3 "" H 15400 29800 60  0001 C CNN
+	4    15400 29800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS04 U25
+U 5 1 5593032C
+P 14350 29800
+F 0 "U25" H 14545 29915 60  0000 C CNN
+F 1 "74LS04" H 14540 29675 60  0000 C CNN
+F 2 "14dip300" H 14540 29775 60  0001 C CNN
+F 3 "" H 14350 29800 60  0001 C CNN
+	5    14350 29800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 29800 14950 29800
+Wire Wire Line
+	15950 29800 15850 29800
+Wire Wire Line
+	13900 29800 13700 29800
+Wire Wire Line
+	13700 29800 13700 30150
+Wire Wire Line
+	13700 30150 15100 30150
+Wire Wire Line
+	15100 30150 15100 31400
+Text Notes 14850 19650 0    60   ~ 12
+from S100 bus
+Text Notes 20300 19850 0    60   ~ 12
+to CPU and other devices on board
 $EndSCHEMATC

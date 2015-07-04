@@ -1,0 +1,90 @@
+#PIN MAP OF IC1 on Z80 Board V4
+#Date: 30-06-2015
+# Target XC9572 PC84
+
+#24+22+16=62
+
+#29+33
+
+#------ OUTPUTS ------------------------------------------------------;24
+
+
+NET "SINPb"    	LOC =  "P13";   #active high - I/O RD (s100 Pin 46)
+NET "sMEMRb"    	LOC =  "P18";   #active high - MEM RD (s100 Pin 47)
+NET "sWOb"    		LOC =  "P20";   # Write Output (s100 Pin 97)
+NET "sINTAb"    	LOC =  "P14";   # interrupt ack (s100 Pin 96)
+
+NET "CPLDResetout"    LOC =  "P23";   #CPLD reset output- made from button and/or slave clr . i.e via button on board
+
+NET "U17OE"    LOC =  "P32";   #U17 OE
+NET "U17A"    	LOC =  "P31";   #Data input to bufffer (data 0).
+
+NET "M1pos"    	LOC =  "P19"; 	# negated M1* from CPU
+NET "pSYNCb"   LOC =  "P46";   # (s100 Pin 76)
+NET "pSTVALneg"    	LOC =  "P44";   #(s100 Pin 25)
+NET "pWRb"    		LOC =  "P51";   #active low - when processor Writes to I/O or MEM (s100 Pin 77)
+NET "WRpos"    	LOC =  "P52"; 	# negated WR* from CPU
+NET "MREQpos"    LOC =  "P47"; 	# negated MREQ* from CPU
+NET "IORQpos"    LOC =  "P54"; 	# negated IORQ* from CPU
+NET "RDpos"    	LOC =  "P55"; 	# negated RD* from CPU
+NET "SOUTb"    LOC =  "P48";   #active high - I/O WR (s100 Pin 45)
+NET "PartialLatch"    		LOC =  "P66"; 	# partial latch output 
+NET "MWRTb"    	LOC =  "P69";   #active high - MEM WR (s100 Pin 68)
+
+NET "LED_D4"    	LOC =  "P39";   # LED D4
+NET "LED_D5"    	LOC =  "P40";   # LED D5
+NET "LED_D6"    	LOC =  "P41";   # LED D6
+NET "LED_D7"    	LOC =  "P81";   # LED D7
+NET "LED_D9"    	LOC =  "P62";   # LED D9
+NET "LED_D10"    	LOC =  "P50";   # LED D10
+
+#------ INPUTS -------------------------------------------------------;22
+
+NET "CLKin"    LOC =  "P9"; 	# MASTER CPU clock input
+
+NET "WRneg"    	LOC =  "P1"; 	# WR* from CPU
+NET "MREQneg"    LOC =  "P6"; 	# MREQ* from CPU
+NET "REFSHneg"   LOC =  "P11"; 	# REFSH* from CPU
+NET "slaveCLRneg"    LOC =  "P15";   #Slave CLEAR (pin54 S100)
+NET "WAITpos"    LOC =  "P25";   # WAIT+ signal from wait generators
+NET "RESETb"    LOC =  "P17";   # Reset into CPU from onboard logic
+NET "slaveCLRbutton"    LOC =  "P76";   #Slave clear button on board
+NET "IORQneg"    LOC =  "P63"; 	# IORQ* from CPU
+NET "PortD1b7"    LOC =  "P67"; 	# from PortD1 bit 7 on board.
+NET "RDneg"    	LOC =  "P72"; 	# RD* from CPU
+NET "M1neg"    	LOC =  "P84"; 	# M1* from CPU
+NET "PortD0b7"    LOC =  "P65"; 	# from PortD0 bit 7 on board.
+
+NET "A0"    	LOC =  "P80";   	#Address Line 
+NET "A1"    	LOC =  "P83";   	#Address Line 
+NET "A2"    	LOC =  "P82";   	#Address Line 
+NET "A3"    	LOC =  "P7";   	#Address Line 
+NET "A4"    	LOC =  "P2";   	#Address Line 
+NET "A5"    	LOC =  "P43";   	#Address Line 
+NET "A6"    	LOC =  "P36";   	#Address Line 
+NET "A7"    	LOC =  "P71";   	#Address Line 
+
+NET "D0in"    	LOC =  "P33";   #Data Line 
+
+
+#------ I/O -------------------------------------------------------;16
+
+NET "P8_1"    	LOC =  "P34"; 	# 
+NET "P8_2"    	LOC =  "P35"; 	# 
+NET "P8_3"    	LOC =  "P21"; 	# 
+NET "P8_4"    	LOC =  "P26"; 	# 
+NET "P8_5"    	LOC =  "P68"; 	# 
+NET "P8_6"    	LOC =  "P70"; 	# 
+NET "P8_7"    	LOC =  "P57"; 	# 
+NET "P8_8"    	LOC =  "P53"; 	# 
+NET "P8_9"    	LOC =  "P58"; 	# 
+NET "P8_10"    LOC =  "P61"; 	# 
+NET "P8_11"    LOC =  "P74"; 	# 
+
+NET "P11_2"    LOC =  "P75"; 	# 
+NET "P11_3"    LOC =  "P79"; 	# 
+NET "P11_4"    LOC =  "P4"; 	#
+NET "P11_5"    LOC =  "P77"; 	#  
+NET "P11_6"    LOC =  "P3"; 	# 
+
+

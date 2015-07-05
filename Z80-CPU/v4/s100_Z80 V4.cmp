@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/30/2015 7:43:26 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/5/2015 12:15:00 PM
 
 BeginCmp
 TimeStamp = /4A074934;
@@ -375,7 +375,7 @@ BeginCmp
 TimeStamp = /55927D9B;
 Reference = IC1;
 ValeurCmp = XC9572PC84;
-IdModule  = XILINX-PLCC-S84;
+IdModule  = ^^XILINX-PLCC-S84;
 EndCmp
 
 BeginCmp
@@ -453,20 +453,6 @@ TimeStamp = /559529E8;
 Reference = P8;
 ValeurCmp = CPLD Pins;
 IdModule  = PIN_ARRAY_6x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /55944619;
-Reference = P9;
-ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /55949444;
-Reference = P10;
-ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -844,7 +830,7 @@ BeginCmp
 TimeStamp = /558E8982;
 Reference = U13;
 ValeurCmp = 2732;
-IdModule  = -DIL24-6;
+IdModule  = ^^DIL24-6;
 EndCmp
 
 BeginCmp

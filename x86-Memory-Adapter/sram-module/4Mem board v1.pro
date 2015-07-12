@@ -1,6 +1,6 @@
-update=4/29/2015 2:51:50 PM
+update=5/2/2015 8:02:14 PM
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -150,6 +150,11 @@ LibName126=ANTS1/ANTS1
 LibDir=../Ants Librarys
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=../Ants Librarys
@@ -375,8 +380,4 @@ LibName213=KiCAD Libraries/xilinx
 LibName214=KiCAD Libraries/xxx
 LibName215=numato/numato_kicad_lib
 LibName216=ANTS_MOD1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName217=xilinx spartan/xc6slx45-2fgg484c

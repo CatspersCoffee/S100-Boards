@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/21/2015 3:31:08 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 6/21/2015 7:41:39 PM
 
 BeginCmp
 TimeStamp = /50CE5F64;
@@ -260,6 +260,13 @@ IdModule  = ^^LED-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /55877BDC;
+Reference = D3;
+ValeurCmp = SMALL_DIODE_SCHOTTKY;
+IdModule  = DO-214AA(SMB);
+EndCmp
+
+BeginCmp
 TimeStamp = /52AE5B21;
 Reference = D5;
 ValeurCmp = LED;
@@ -306,6 +313,13 @@ TimeStamp = /553BBAD0;
 Reference = K2;
 ValeurCmp = 5V;
 IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55877336;
+Reference = L1;
+ValeurCmp = SMALL_INDUCTANCE;
+IdModule  = Inductor_CDRH6D28;
 EndCmp
 
 BeginCmp
@@ -596,6 +610,13 @@ IdModule  = ^^SMD_Resistor-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /558663D9;
+Reference = R24;
+ValeurCmp = 470;
+IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /553718A0;
 Reference = U1;
 ValeurCmp = LDO_REG_7805;
@@ -722,10 +743,24 @@ IdModule  = DIP-8__300_ELL;
 EndCmp
 
 BeginCmp
+TimeStamp = /5587703D;
+Reference = U19;
+ValeurCmp = LM2596;
+IdModule  = ^^TO263-51;
+EndCmp
+
+BeginCmp
 TimeStamp = /553B6651;
 Reference = U20;
 ValeurCmp = LT3081;
 IdModule  = ^^LT3081_TSSOP16;
+EndCmp
+
+BeginCmp
+TimeStamp = /55865F71;
+Reference = VR1;
+ValeurCmp = VR1;
+IdModule  = ^^Variable_Resistor;
 EndCmp
 
 EndListe

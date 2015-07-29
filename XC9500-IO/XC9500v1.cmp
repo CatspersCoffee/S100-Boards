@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/26/2015 11:52:51 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/29/2015 4:10:30 PM
 
 BeginCmp
 TimeStamp = /55A073B2;
@@ -572,6 +572,13 @@ TimeStamp = /55B48879;
 Reference = P20;
 ValeurCmp = CONN_3;
 IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B8D131;
+Reference = P21;
+ValeurCmp = ETRN SPI 11/12;
+IdModule  = PIN_ARRAY_7X2;
 EndCmp
 
 BeginCmp

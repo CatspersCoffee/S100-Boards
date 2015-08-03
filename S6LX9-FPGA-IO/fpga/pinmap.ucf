@@ -1,0 +1,60 @@
+#PIN MAP OF U30 S6LX9 i/o board Verison 1
+
+
+#------ OUTPUTS ------------------------------------------------------
+
+NET "DBUSOUT"    		LOC =  "P5"; 	#Data bus out enable to U20 - 7HC541 
+NET "DBUSIN"    		LOC =  "P2"; 	#Data bus in enable to U18 - 7HC541
+NET "U8DIR"    		LOC =  "P74";   #U8 DIR pin, DATA buffer 74HC245
+
+NET "DiodeP6"    		LOC =  "P6"; 	# LED 
+NET "DiodeP7"    		LOC =  "P7" ; 	# LED 
+NET "DiodeP8"    		LOC =  "P8"; 	# LED 
+#NET "DiodeP1"    LOC =  "P1"| IOSTANDARD = LVTTL | PULLDOWN ; 	# LED 
+NET "DiodeP1"    		LOC =  "P1"; 	# LED 
+NET "DiodeP119"    	LOC =  "P119"; 	# LED 
+NET "DiodeP118"    	LOC =  "P118"; 	# LED 
+
+NET "P144"    		LOC =  "P144"; 	# pin 144 
+NET "P117"    		LOC =  "P117"; 	# pin 117 
+NET "P116"    		LOC =  "P116"; 	# pin 116 
+NET "P92"    		LOC =  "P92"; 		# pin 92 
+NET "P75"    		LOC =  "P75"; 		# pin 75 
+NET "P88"    		LOC =  "P88"; 		# pin 88 
+NET "P66"    		LOC =  "P66"; 		# pin 66 
+
+
+#------ INPUTS -------------------------------------------------------
+
+NET "CLK1"    LOC =  "P85"; 	# from onboard clock DIP selector
+
+NET "SOUTb"    	LOC =  "P104";   #active high - I/O WR (s100 Pin 45)
+NET "SINPb"    	LOC =  "P102";   #active high - I/O RD (s100 Pin 46)
+NET "pDBINb"    	LOC =  "P94";   #active high - when processor Reads from I/O or MEM (s100 Pin 78)
+NET "pWRb"    		LOC =  "P95";   #active low - when processor Writes to I/O or MEM (s100 Pin 77)
+NET "sMEMRb"    	LOC =  "P101";   #active high - MEM RD (s100 Pin 47)
+NET "MWRTb"    	LOC =  "P99";   #active high - MEM WR (s100 Pin 68)
+
+NET "A0"    	LOC =  "P133";   #Address Line 
+NET "A1"    	LOC =  "P134";   #Address Line 
+NET "A2"    	LOC =  "P137";   #Address Line 
+NET "A3"    	LOC =  "P138";   #Address Line 
+NET "A4"    	LOC =  "P139";   #Address Line 
+NET "A5"    	LOC =  "P140";   #Address Line 
+NET "A6"    	LOC =  "P141";   #Address Line 
+NET "A7"    	LOC =  "P142";   #Address Line 
+
+NET "D0"    	LOC =  "P87";   #Data Line 
+NET "D1"    	LOC =  "P84";   #Data Line 
+NET "D2"    	LOC =  "P83";   #Data Line 
+NET "D3"    	LOC =  "P82";   #Data Line 
+NET "D4"    	LOC =  "P81";   #Data Line 
+NET "D5"    	LOC =  "P80";   #Data Line 
+NET "D6"    	LOC =  "P79";   #Data Line 
+NET "D7"    	LOC =  "P78";   #Data Line 
+
+NET "RTCDQ"    	LOC =  "P62";   #RTC DQ
+NET "RTCCLK"    	LOC =  "P64";   #RTC CLK
+NET "RTCRST"    	LOC =  "P61";   #RTC RST
+
+NET "slaveCLR"    LOC =  "P97";   #Slave CLEAR (pin54 S100) - connected in hardware to Pin75 on S100 bus for this board.

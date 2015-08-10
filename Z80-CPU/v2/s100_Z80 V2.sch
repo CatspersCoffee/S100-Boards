@@ -143,7 +143,7 @@ $Descr E 44000 34000
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "6 jun 2014"
+Date "10 aug 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -12288,8 +12288,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 21300 5500 21700
 Wire Wire Line
-	10200 20850 10200 21550
-Wire Wire Line
 	3250 21550 3250 18500
 Wire Wire Line
 	3250 21550 3100 21550
@@ -12462,7 +12460,7 @@ Wire Wire Line
 	16050 22150 15950 22150
 Connection ~ 15950 22150
 Wire Wire Line
-	10200 21550 15950 21550
+	10200 21550 17850 21550
 Connection ~ 18950 31050
 Connection ~ 19200 25950
 Wire Wire Line
@@ -12789,11 +12787,9 @@ Wire Wire Line
 Wire Wire Line
 	20850 20450 20850 22700
 Wire Wire Line
-	19800 23900 17850 23900
+	17850 23900 19800 23900
 Wire Wire Line
-	17850 23900 17850 22150
-Wire Wire Line
-	17850 22150 17250 22150
+	17850 21550 17850 23900
 Connection ~ 11400 24000
 Wire Wire Line
 	11400 22450 11400 27000
@@ -12805,8 +12801,6 @@ Connection ~ 17650 19850
 Wire Wire Line
 	17650 17450 17650 24300
 Connection ~ 8050 24100
-Wire Wire Line
-	7600 24100 8450 24100
 Connection ~ 4800 23900
 Wire Wire Line
 	4800 23900 4800 25600
@@ -13991,8 +13985,6 @@ Wire Wire Line
 Wire Wire Line
 	18150 6950 19300 6950
 Wire Wire Line
-	19300 6950 19300 8250
-Wire Wire Line
 	19300 8250 18400 8250
 Connection ~ 18150 6750
 Wire Wire Line
@@ -14121,7 +14113,7 @@ Connection ~ 4800 25600
 Wire Wire Line
 	3100 25150 8450 25150
 Wire Wire Line
-	8450 25150 8450 24300
+	8450 25150 8450 24100
 Connection ~ 11400 22450
 Wire Wire Line
 	13500 24100 19800 24100
@@ -14322,8 +14314,6 @@ Wire Wire Line
 Wire Wire Line
 	16000 11500 16000 11650
 Connection ~ 17950 20350
-Wire Wire Line
-	15950 21550 15950 22900
 Wire Wire Line
 	2850 20300 2850 21800
 Connection ~ 30000 13300
@@ -15109,4 +15099,120 @@ F 3 "" H 29100 11100 60  0001 C CNN
 	1    29100 11100
 	1    0    0    -1  
 $EndComp
+Text Notes 19500 7050 0    60   ~ 0
+WR+
+Text Notes 20100 9450 0    60   ~ 0
+RD+
+Wire Wire Line
+	8450 24100 8500 24100
+Connection ~ 8450 24300
+Wire Wire Line
+	10200 21000 10450 21000
+Wire Wire Line
+	10450 21000 10450 20550
+Wire Wire Line
+	10450 20550 9400 20550
+Wire Wire Line
+	9400 20550 9400 20400
+Wire Wire Line
+	9400 20400 4850 20400
+Wire Wire Line
+	4850 20400 4850 19500
+Connection ~ 4850 19500
+Wire Wire Line
+	10200 21000 10200 21550
+Wire Wire Line
+	15950 22150 15950 22850
+Text Notes 7850 6250 0    60   ~ 0
+A14
+Text Notes 7900 6900 0    60   ~ 0
+A15
+Text Notes 7900 6700 0    60   ~ 0
+port 0 Q4 - bit3
+Text Notes 7850 6050 0    60   ~ 0
+port 0 Q5 - bit2
+Text Notes 7850 6150 0    60   ~ 0
+port 1 Q5 - bit2
+Text Notes 9800 6100 0    60   ~ 0
+port D2
+Text Notes 9800 5750 0    60   ~ 0
+port D3
+Text Notes 6250 6800 0    60   ~ 0
+A15
+Text Notes 6250 6150 0    60   ~ 0
+A14
+Text Label 8050 7050 0    60   ~ 0
+GND
+Text Label 7950 7750 0    60   ~ 0
+GND
+Text Label 7950 8200 0    60   ~ 0
+GND
+Text Label 7950 8400 0    60   ~ 0
+GND
+Text Label 7950 8850 0    60   ~ 0
+GND
+Text Notes 9150 6200 0    60   ~ 0
+A19
+Text Notes 9150 6300 0    60   ~ 0
+A18
+Text Notes 9150 6400 0    60   ~ 0
+A17
+Text Notes 9150 6500 0    60   ~ 0
+A16
+Text Notes 8050 5600 0    60   ~ 0
+A15
+Text Notes 8050 5500 0    60   ~ 0
+A14
+Text Notes 10850 6900 0    60   ~ 0
+b0
+Text Notes 10850 6800 0    60   ~ 0
+b1
+Text Notes 10850 6700 0    60   ~ 0
+b2
+Text Notes 10850 6600 0    60   ~ 0
+b3
+Text Notes 10850 6500 0    60   ~ 0
+b4
+Text Notes 10850 6400 0    60   ~ 0
+b5
+Text Notes 10850 6300 0    60   ~ 0
+b6
+Text Notes 10850 6200 0    60   ~ 0
+b7
+Text Notes 10850 5300 0    60   ~ 0
+b0
+Text Notes 10850 5200 0    60   ~ 0
+b1
+Text Notes 10850 5100 0    60   ~ 0
+b2
+Text Notes 10850 5000 0    60   ~ 0
+b3
+Text Notes 10850 4900 0    60   ~ 0
+b4
+Text Notes 10850 4800 0    60   ~ 0
+b5
+Text Notes 10850 4700 0    60   ~ 0
+b6
+Text Notes 10850 4600 0    60   ~ 0
+b7
+Text Notes 7900 6800 0    60   ~ 0
+port 1 Q4 - bit3
+Text Notes 8050 5100 0    60   ~ 0
+A16
+Text Notes 8050 5000 0    60   ~ 0
+A16
+Text Notes 8050 5250 0    60   ~ 0
+A17
+Text Notes 8050 5350 0    60   ~ 0
+A17
+Text Notes 8050 4850 0    60   ~ 0
+A18
+Text Notes 8050 4750 0    60   ~ 0
+A18
+Text Notes 8050 4500 0    60   ~ 0
+A19
+Text Notes 8050 4600 0    60   ~ 0
+A19
+Wire Wire Line
+	7600 24100 8050 24100
 $EndSCHEMATC

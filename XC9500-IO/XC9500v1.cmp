@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/29/2015 4:10:30 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/1/2015 12:55:28 AM
 
 BeginCmp
 TimeStamp = /55A073B2;
@@ -225,6 +225,13 @@ IdModule  = C1V7;
 EndCmp
 
 BeginCmp
+TimeStamp = /55BC3B14;
+Reference = C33;
+ValeurCmp = 0.1 uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
 TimeStamp = /52524651;
 Reference = D2;
 ValeurCmp = LED;
@@ -435,24 +442,10 @@ IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /55B2E100;
-Reference = P1;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
-EndCmp
-
-BeginCmp
 TimeStamp = /55BA0129;
 Reference = P2;
 ValeurCmp = EXTRN_SPI_1;
 IdModule  = SIL-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /55B2E10D;
-Reference = P3;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
@@ -491,10 +484,10 @@ IdModule  = ^^PIN_ARRAY_10X2;
 EndCmp
 
 BeginCmp
-TimeStamp = /55B30A13;
+TimeStamp = /55B8BD5E;
 Reference = P9;
-ValeurCmp = CONN_7X2;
-IdModule  = PIN_ARRAY_7X2;
+ValeurCmp = CONN_8X2;
+IdModule  = PIN_ARRAY_8x2;
 EndCmp
 
 BeginCmp
@@ -537,13 +530,6 @@ TimeStamp = /55B514C6;
 Reference = P15;
 ValeurCmp = MCP_11_12;
 IdModule  = ^^PIN_ARRAY_10X2;
-EndCmp
-
-BeginCmp
-TimeStamp = /55BA3051;
-Reference = P16;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
@@ -799,10 +785,10 @@ IdModule  = ^^R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /55B48886;
+TimeStamp = /55BB64EB;
 Reference = SW1;
-ValeurCmp = DIPS_08;
-IdModule  = SWDIP8;
+ValeurCmp = DIPS_12;
+IdModule  = SWITCH_DIP_12;
 EndCmp
 
 BeginCmp
@@ -865,12 +851,19 @@ BeginCmp
 TimeStamp = /531A8B19;
 Reference = U9;
 ValeurCmp = M25P80;
-IdModule  = -SO8;
+IdModule  = DIP-8__300_ELL;
 EndCmp
 
 BeginCmp
 TimeStamp = /55B4888C;
 Reference = U10;
+ValeurCmp = 74LS682N;
+IdModule  = DIP-20__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BB618A;
+Reference = U11;
 ValeurCmp = 74LS682N;
 IdModule  = DIP-20__300_ELL;
 EndCmp

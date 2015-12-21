@@ -125,7 +125,7 @@ $Descr E 44000 34000
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "2 jul 2015"
+Date "21 dec 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -7578,7 +7578,7 @@ Wire Wire Line
 Wire Wire Line
 	26700 21400 27500 21400
 Wire Wire Line
-	29200 25850 30650 25850
+	24400 25850 30650 25850
 Connection ~ 28500 26050
 Wire Wire Line
 	30250 26250 30650 26250
@@ -9216,17 +9216,15 @@ F 3 "" H 19000 13900 60  0001 C CNN
 	3    19000 13900
 	1    0    0    -1  
 $EndComp
-Text Label 16150 14450 0    60   ~ 0
-MEM_RD
 $Comp
 L 74LS00 U40
 U 3 1 558E8944
-P 17950 14350
-F 0 "U40" H 17950 14400 60  0000 C CNN
-F 1 "74LS00" H 17950 14300 60  0000 C CNN
-F 2 "14dip300" H 17950 14400 60  0001 C CNN
-F 3 "" H 17950 14350 60  0001 C CNN
-	3    17950 14350
+P 17400 15300
+F 0 "U40" H 17400 15350 60  0000 C CNN
+F 1 "74LS00" H 17400 15250 60  0000 C CNN
+F 2 "14dip300" H 17400 15350 60  0001 C CNN
+F 3 "" H 17400 15300 60  0001 C CNN
+	3    17400 15300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -9372,7 +9370,7 @@ Text Label 14300 4450 2    60   ~ 0
 bA9
 Text Label 14300 4350 2    60   ~ 0
 bA8
-Text Notes 18850 14500 0    60   ~ 0
+Text Notes 21250 14300 0    60   ~ 0
 Active LOW when addressing Onboard ROM
 Text Label 14300 4850 2    60   ~ 0
 27_ROM_OE
@@ -10125,11 +10123,7 @@ Wire Wire Line
 Wire Wire Line
 	19450 13900 20150 13900
 Wire Wire Line
-	18550 14350 22500 14350
-Wire Wire Line
-	16000 14250 17350 14250
-Wire Wire Line
-	17350 14450 16100 14450
+	17900 14350 22500 14350
 Wire Wire Line
 	18550 14350 18550 13900
 Connection ~ 18550 14350
@@ -10201,10 +10195,6 @@ Wire Wire Line
 Wire Wire Line
 	14800 13700 14700 13700
 Wire Wire Line
-	14700 14150 16000 14150
-Wire Wire Line
-	16000 14150 16000 14250
-Wire Wire Line
 	14500 3550 14300 3550
 Wire Wire Line
 	14300 3650 14500 3650
@@ -10273,7 +10263,7 @@ Text Notes 8400 7400 0    60   ~ 0
 port 0 Q5 - bit2
 Text Notes 8400 7500 0    60   ~ 0
 port 1 Q5 - bit2
-Text Notes 10250 8750 0    99   ~ 0
+Text Notes 10200 7150 0    99   ~ 0
 Port D3
 Text Notes 6800 8150 0    60   ~ 0
 A15
@@ -10530,7 +10520,7 @@ Wire Wire Line
 	11200 4100 13450 4100
 Wire Wire Line
 	7250 1350 7800 1350
-Text Notes 10200 7150 0    99   ~ 0
+Text Notes 10200 8750 0    99   ~ 0
 Port D2
 Text Notes 10200 5750 0    99   ~ 0
 Port D1
@@ -10659,7 +10649,7 @@ Wire Notes Line
 	39750 28500 39750 26800
 Text Notes 39850 27050 0    139  ~ 28
 LOGO
-Text Label 29200 25850 2    60   ~ 0
+Text Label 26600 24750 2    60   ~ 0
 pSTVAL*
 Wire Wire Line
 	22150 26050 22150 27550
@@ -10801,14 +10791,11 @@ Text Label 15550 20850 0    60   ~ 0
 PARTIAL_LATCH
 Text Label 15550 22450 0    60   ~ 0
 pSYNCb
-Text Label 15550 22600 0    60   ~ 0
+Text Label 25750 24800 0    60   ~ 0
 pSTVAL*
 Text Label 15550 20650 0    60   ~ 0
 CLK_CPU
-Wire Wire Line
-	29550 28750 29550 25850
 Connection ~ 29300 28750
-Connection ~ 29550 25850
 Wire Wire Line
 	30150 25750 30650 25750
 Wire Wire Line
@@ -12078,17 +12065,6 @@ Wire Wire Line
 	8200 1650 8200 1550
 Text Label 24950 2900 0    60   ~ 0
 V5.0
-$Comp
-L CONN_2 P9
-U 1 1 55944619
-P 7450 17900
-F 0 "P9" V 7400 17900 40  0000 C CNN
-F 1 "CONN_2" V 7500 17900 40  0000 C CNN
-F 2 "~" H 7450 17900 60  0000 C CNN
-F 3 "~" H 7450 17900 60  0000 C CNN
-	1    7450 17900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 17650 7000 17800
 Wire Wire Line
@@ -12114,7 +12090,7 @@ F 3 "" H 6900 18500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 17800 6300 18450
+	6300 17600 6300 18450
 Wire Wire Line
 	6300 18000 7100 18000
 Wire Wire Line
@@ -12132,17 +12108,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 18700 6900 18850
 Connection ~ 6900 18850
-$Comp
-L CONN_2 P10
-U 1 1 55949444
-P 6650 17700
-F 0 "P10" V 6600 17700 40  0000 C CNN
-F 1 "CONN_2" V 6700 17700 40  0000 C CNN
-F 2 "~" H 6650 17700 60  0000 C CNN
-F 3 "~" H 6650 17700 60  0000 C CNN
-	1    6650 17700
-	1    0    0    -1  
-$EndComp
 Text Label 6250 17450 0    60   ~ 0
 V5.0
 Connection ~ 6300 18000
@@ -12663,4 +12628,98 @@ Text Notes 14850 19650 0    60   ~ 12
 from S100 bus
 Text Notes 20300 19850 0    60   ~ 12
 to CPU and other devices on board
+Wire Wire Line
+	7100 18000 7100 17800
+Text Notes 18000 14550 0    60   ~ 0
+Modification: tied to CPLD P37 (output from CPLD)\nactive LOW
+Text Notes 32650 23850 0    40   ~ 0
+Pin 45 (I/O WR) output when high indicates I/O write
+Text Notes 32650 23950 0    40   ~ 0
+Pin 46 (I/O RD) output high when input device read
+Text Notes 32650 24050 0    40   ~ 0
+Pin 47 (MEM RD) Output high when memory read
+Text Notes 33150 25900 0    40   ~ 0
+Pin 77 (active low when processor write to I/O or MEM) Output 
+Text Notes 33300 26250 0    40   ~ 0
+Pin 68 (MEM WR) Output high indicates Memory write
+Text Notes 46700 20750 0    40   ~ 0
+Pin 65 (MEM REQUEST) Output 
+Text Notes 33300 25300 0    40   ~ 0
+Pin 78 (active high when processor reads  I/O or MEM) Output 
+Text Notes 32650 24150 0    40   ~ 0
+Pin 97 (active low when processor is in Write status) Output 
+Text Notes 46400 17550 0    40   ~ 0
+Pin 44 (processor Instruction Fetch Cycle M1) output\nhigh when op-code fetch
+Text Notes 15150 14150 0    60   ~ 0
+Modification: tied to CPLD P45 (input to CPLD)\nactive HIGH
+Wire Wire Line
+	14700 14150 15150 14150
+Text Notes -650 24950 0    60   ~ 0
+Modification: onboard Rom address tied to U45p13 (input to CPLD) active HIGH 
+Wire Notes Line
+	4900 24900 3050 24900
+Wire Notes Line
+	4900 24800 3050 24800
+Wire Notes Line
+	3050 24800 3050 24550
+Wire Notes Line
+	3050 24550 2850 24550
+Text Notes -850 24600 0    60   ~ 0
+Modification: onboard Rom Enable tied to U36p5 (input to CPLD) active LOW 
+Wire Wire Line
+	17900 14350 17900 14550
+Wire Wire Line
+	17900 14550 17950 14550
+Wire Notes Line
+	16550 14900 19150 14900
+Wire Notes Line
+	19150 14900 19150 16050
+Wire Notes Line
+	19150 16050 16550 16050
+Wire Notes Line
+	16550 16050 16550 14900
+Text Notes 16700 15700 0    60   ~ 0
+Modification: Removed from circuit - tied to GND
+Wire Notes Line
+	8350 14850 8350 16550
+Text Notes 7650 15250 0    296  ~ 0
+FIX
+Text Notes 30550 25050 0    60   ~ 0
+Modification: wired to P75 on CPLD same as "partial latch"\n
+Wire Notes Line
+	30700 24600 30500 24600
+Wire Notes Line
+	30500 24600 30500 25000
+Wire Notes Line
+	30500 25000 30550 25000
+Wire Wire Line
+	29550 28750 29550 28500
+Wire Wire Line
+	29550 28500 30050 28500
+Text Notes 30100 28550 0    60   ~ 0
+Modification: wired to P44 on CPLD (Active HIGH)\n
+Text Notes 24650 25350 0    60   ~ 0
+Modification: NOT CONNECTED anymore (traces cut onboard)\n
+Text Notes 15600 22600 0    60   ~ 0
+Modification: wired U31Bp4, U31Cp9, U31Dp12\n
+Wire Wire Line
+	24400 25850 24400 25300
+Wire Wire Line
+	24400 25300 24600 25300
+Text Notes 3650 14700 0    60   ~ 0
+D3
+Wire Notes Line
+	4100 14650 3800 14650
+Wire Notes Line
+	3800 14450 4100 14450
+Text Notes 3650 14500 0    60   ~ 0
+D2
+Text Notes 3650 14100 0    60   ~ 0
+D0
+Wire Notes Line
+	4100 14050 3800 14050
+Wire Notes Line
+	3800 14250 4100 14250
+Text Notes 3650 14300 0    60   ~ 0
+D1
 $EndSCHEMATC

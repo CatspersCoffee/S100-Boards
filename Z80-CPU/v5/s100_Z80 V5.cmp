@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/20/2015 4:23:35 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/25/2015 9:54:45 PM
 
 BeginCmp
 TimeStamp = /4A074934;
@@ -73,13 +73,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4AC79AA4;
 Reference = C11;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4AC79AA3;
-Reference = C12;
 ValeurCmp = 0.1 uF;
 IdModule  = C2;
 EndCmp
@@ -232,20 +225,6 @@ IdModule  = C2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4BB6912B;
-Reference = C49;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4BB69129;
-Reference = C50;
-ValeurCmp = 0.1 uF;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
 TimeStamp = /4BB6912A;
 Reference = C51;
 ValeurCmp = 0.1 uF;
@@ -297,14 +276,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5392C3D7;
 Reference = D1;
-ValeurCmp = DONE;
+ValeurCmp = ACTIVE;
 IdModule  = ^^LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5392C3FC;
 Reference = D2;
-ValeurCmp = DONE;
+ValeurCmp = ROM;
 IdModule  = ^^LED-0805;
 EndCmp
 
@@ -435,10 +414,10 @@ IdModule  = PIN_ARRAY_5X2;
 EndCmp
 
 BeginCmp
-TimeStamp = /55C81807;
+TimeStamp = /567D03C6;
 Reference = P6;
-ValeurCmp = MASTER_OSC;
-IdModule  = PIN_ARRAY_3X2;
+ValeurCmp = CLK SEL;
+IdModule  = PIN_ARRAY_2X2;
 EndCmp
 
 BeginCmp
@@ -463,10 +442,10 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /559294D0;
+TimeStamp = /567D0379;
 Reference = P11;
-ValeurCmp = CONN_6;
-IdModule  = PIN_ARRAY_6X1;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5X2;
 EndCmp
 
 BeginCmp
@@ -633,13 +612,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5591DD52;
 Reference = R19;
-ValeurCmp = 10k;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /55C77F2C;
-Reference = R20;
 ValeurCmp = 10k;
 IdModule  = R3;
 EndCmp

@@ -125,7 +125,7 @@ $Descr E 44000 34000
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "20 dec 2015"
+Date "27 dec 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1864,7 +1864,7 @@ F 3 "" H 7650 14500 60  0001 C CNN
 	2    7650 14500
 	-1   0    0    1   
 $EndComp
-Text Label 16250 21400 2    60   ~ 0
+Text Label 21150 24150 2    60   ~ 0
 NMI*s100
 Text Label 10200 31650 0    60   ~ 0
 PWRFAIL*
@@ -2887,7 +2887,7 @@ Text Label 28950 23400 0    60   ~ 0
 HALT*
 Text Label 20900 16850 0    60   ~ 0
 WAIT*
-Text Label 19200 21400 2    60   ~ 0
+Text Label 24100 24150 2    60   ~ 0
 NMI*
 Text Label 24250 17500 0    60   ~ 0
 BUSRQ*
@@ -6586,7 +6586,7 @@ L LED D1
 U 1 1 5392C3D7
 P 41400 7800
 F 0 "D1" H 41400 7900 50  0000 C CNN
-F 1 "DONE" H 41400 7700 50  0000 C CNN
+F 1 "ACTIVE" H 41400 7700 50  0000 C CNN
 F 2 "" H 41400 7800 60  0001 C CNN
 F 3 "" H 41400 7800 60  0001 C CNN
 	1    41400 7800
@@ -6623,7 +6623,7 @@ L LED D2
 U 1 1 5392C3FC
 P 41400 9050
 F 0 "D2" H 41400 9150 50  0000 C CNN
-F 1 "DONE" H 41400 8950 50  0000 C CNN
+F 1 "ROM" H 41400 8950 50  0000 C CNN
 F 2 "" H 41400 9050 60  0001 C CNN
 F 3 "" H 41400 9050 60  0001 C CNN
 	1    41400 9050
@@ -7219,7 +7219,6 @@ Wire Wire Line
 	26700 20300 26700 21400
 Wire Wire Line
 	26700 21400 27500 21400
-Connection ~ 28500 26050
 Wire Wire Line
 	30250 26250 30650 26250
 Wire Wire Line
@@ -7446,11 +7445,6 @@ Wire Wire Line
 Wire Wire Line
 	28400 2150 28550 2150
 Connection ~ 28400 1900
-Wire Wire Line
-	4450 31050 4350 31050
-Wire Wire Line
-	4350 30950 4450 30950
-Connection ~ 4450 30950
 Connection ~ 3050 29800
 Wire Wire Line
 	3050 30100 3050 29800
@@ -7529,10 +7523,6 @@ Wire Wire Line
 	41100 9550 40900 9550
 Wire Wire Line
 	3400 30300 3400 30350
-Text Label 16250 23250 0    60   ~ 0
-RD+
-Text Label 16200 23250 2    60   ~ 0
-RD+
 Wire Wire Line
 	30550 24650 30550 25200
 Wire Wire Line
@@ -7880,12 +7870,8 @@ Wire Wire Line
 	25150 31650 25150 30450
 Wire Wire Line
 	17950 30250 17950 31650
-Wire Wire Line
-	4450 30700 4450 31150
 Text Notes 2150 29600 0    60   ~ 0
 MASTER TTL OSCILLATOR
-Wire Wire Line
-	22150 26050 30650 26050
 Wire Wire Line
 	20500 27550 22700 27550
 Text Notes 26850 20800 0    60   ~ 0
@@ -9618,7 +9604,7 @@ Text Notes 8400 7400 0    60   ~ 0
 port 0 Q5 - bit2
 Text Notes 8400 7500 0    60   ~ 0
 port 1 Q5 - bit2
-Text Notes 10250 8750 0    99   ~ 0
+Text Notes 10200 7150 0    99   ~ 0
 Port D3
 Text Notes 6800 8150 0    60   ~ 0
 A15
@@ -9875,7 +9861,7 @@ Wire Wire Line
 	11200 4100 13450 4100
 Wire Wire Line
 	7250 1350 7800 1350
-Text Notes 10200 7150 0    99   ~ 0
+Text Notes 10200 8750 0    99   ~ 0
 Port D2
 Text Notes 10200 5750 0    99   ~ 0
 Port D1
@@ -10396,12 +10382,12 @@ $EndComp
 $Comp
 L 74LS04 U4
 U 5 1 559038C8
-P 18050 21400
-F 0 "U4" H 18245 21515 60  0000 C CNN
-F 1 "74LS04" H 18240 21275 60  0000 C CNN
-F 2 "14dip300" H 18240 21375 60  0001 C CNN
-F 3 "" H 18050 21400 60  0001 C CNN
-	5    18050 21400
+P 22950 24150
+F 0 "U4" H 23145 24265 60  0000 C CNN
+F 1 "74LS04" H 23140 24025 60  0000 C CNN
+F 2 "14dip300" H 23140 24125 60  0001 C CNN
+F 3 "" H 22950 24150 60  0001 C CNN
+	5    22950 24150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -10448,7 +10434,7 @@ Text Label 15300 27000 2    60   ~ 0
 CPLD_P20
 Text Label 15300 27200 2    60   ~ 0
 CPLD_P14
-Text Label 13100 23550 2    60   ~ 0
+Text Label 11100 26200 0    60   ~ 0
 CPLD_P15
 Text Label 15400 22100 2    60   ~ 0
 CPLD_P25
@@ -10460,10 +10446,10 @@ Text Label 15300 26800 2    60   ~ 0
 CPLD_P13
 Text Label 15300 26500 2    60   ~ 0
 CPLD_CLKin
-Text Label 13100 22650 2    60   ~ 0
+Text Label 11100 26300 0    60   ~ 0
 CPLD_P23
 Wire Wire Line
-	16250 21400 16550 21400
+	21150 24150 21450 24150
 Wire Wire Line
 	10200 31650 10050 31650
 Wire Wire Line
@@ -10489,20 +10475,14 @@ Wire Wire Line
 $Comp
 L 74LS04 U4
 U 4 1 55910C2B
-P 17000 21400
-F 0 "U4" H 17195 21515 60  0000 C CNN
-F 1 "74LS04" H 17190 21275 60  0000 C CNN
-F 2 "14dip300" H 17190 21375 60  0001 C CNN
-F 3 "" H 17000 21400 60  0001 C CNN
-	4    17000 21400
+P 21900 24150
+F 0 "U4" H 22095 24265 60  0000 C CNN
+F 1 "74LS04" H 22090 24025 60  0000 C CNN
+F 2 "14dip300" H 22090 24125 60  0001 C CNN
+F 3 "" H 21900 24150 60  0001 C CNN
+	4    21900 24150
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	16150 19300 16150 20900
-Wire Notes Line
-	16150 19300 22200 19300
-Text Notes 17500 19400 0    60   ~ 12
-2 input AND
 Wire Wire Line
 	17300 19750 18150 19750
 Wire Wire Line
@@ -10511,28 +10491,26 @@ Wire Wire Line
 	17300 20050 17300 19950
 Wire Wire Line
 	17300 19950 18150 19950
-Text Notes 20450 23000 0    60   ~ 12
-would come from\nSlave clear via CPLD
 Wire Wire Line
-	18650 21600 19350 21600
+	23550 24350 24250 24350
 Wire Wire Line
-	19200 21400 19350 21400
-Text Label 19250 21250 0    60   ~ 0
+	24100 24150 24250 24150
+Text Label 24150 24000 0    60   ~ 0
 PU1K-M
 $Comp
 L CONN_2 P7
 U 1 1 5591506F
-P 19700 21500
-F 0 "P7" V 19650 21500 40  0000 C CNN
-F 1 "NMI" V 19750 21500 40  0000 C CNN
-F 2 "~" H 19700 21500 60  0000 C CNN
-F 3 "~" H 19700 21500 60  0000 C CNN
-	1    19700 21500
+P 24600 24250
+F 0 "P7" V 24550 24250 40  0000 C CNN
+F 1 "NMI" V 24650 24250 40  0000 C CNN
+F 2 "~" H 24600 24250 60  0000 C CNN
+F 3 "~" H 24600 24250 60  0000 C CNN
+	1    24600 24250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19250 21250 19250 21400
-Connection ~ 19250 21400
+	24150 24000 24150 24150
+Connection ~ 24150 24150
 Text Notes 15950 22300 0    60   ~ 0
 input into CPLD
 $Comp
@@ -10921,8 +10899,6 @@ Text Label 4750 23800 2    60   ~ 0
 CPLD_P19
 Text Label 6600 23600 0    60   ~ 0
 CPLD_P51
-Text Label 6600 23700 0    60   ~ 0
-CPLD_P52
 Text Label 6600 23800 0    60   ~ 0
 CPLD_P47
 Text Label 6600 23900 0    60   ~ 0
@@ -11019,7 +10995,7 @@ Wire Wire Line
 	4900 24300 4750 24300
 Text Label 15400 22800 2    60   ~ 0
 CPLD_P51
-Text Label 13000 23050 2    60   ~ 0
+Text Label 11100 26400 0    60   ~ 0
 CPLD_P52
 Text Label 15400 23050 2    60   ~ 0
 CPLD_P47
@@ -11272,7 +11248,7 @@ Text Label 6550 22500 0    60   ~ 0
 CPLD_P75
 Text Label 6850 27700 2    60   ~ 0
 CPLD_P71
-Text Label 10250 22750 2    60   ~ 0
+Text Label 10000 26100 2    60   ~ 0
 CPLD_P75
 Wire Wire Line
 	6550 22300 6400 22300
@@ -11292,7 +11268,7 @@ Wire Wire Line
 	6550 21600 6400 21600
 Text Label 15300 25150 2    60   ~ 0
 CPLD_P76
-Text Label 10250 23050 2    60   ~ 0
+Text Label 10000 26400 2    60   ~ 0
 CPLD_P77
 Text Label 15300 25600 2    60   ~ 0
 CPLD_P74
@@ -11336,8 +11312,6 @@ Text Notes 16750 22300 0    60   ~ 0
 RESET*b - input
 Text Notes 3450 23500 0    60   ~ 0
 RESET*b - input
-Text Notes 20350 22900 0    60   ~ 0
-Clave clear from CPLD - output
 Text Notes 14200 26500 0    60   ~ 0
 CLK - input
 Text Notes 3000 21400 0    60   ~ 0
@@ -11386,8 +11360,6 @@ Text Notes 14150 22800 0    60   ~ 0
 pWR*b - output
 Text Notes 7100 23600 0    60   ~ 0
 pWR*b - output
-Text Notes 7100 23700 0    60   ~ 0
-WR+ output
 Text Notes 14300 23050 0    60   ~ 0
 MREQ+ output
 Text Notes 7100 23800 0    60   ~ 0
@@ -11482,7 +11454,7 @@ Text Notes 3600 25000 0    60   ~ 0
 LED D4 output
 Text Notes 3850 23700 0    60   ~ 0
 D1 input
-Text Label 10250 22850 2    60   ~ 0
+Text Label 10000 26200 2    60   ~ 0
 CPLD_P79
 Text Notes 7400 3000 0    60   ~ 0
 PortD0 bit7  input
@@ -11492,44 +11464,31 @@ Text Notes 7100 24800 0    60   ~ 0
 PortD0 bit7  input
 Text Notes 7050 22000 0    60   ~ 0
 PortD1 bit7  input
-Text Label 10250 22950 2    60   ~ 0
+Text Label 10000 26300 2    60   ~ 0
 CPLD_P4
-Text Label 10250 23150 2    60   ~ 0
+Text Label 10000 26500 2    60   ~ 0
 CPLD_P3
-$Comp
-L CONN_6 P11
-U 1 1 559294D0
-P 10750 22900
-F 0 "P11" V 10700 22900 60  0000 C CNN
-F 1 "CONN_6" V 10800 22900 60  0000 C CNN
-F 2 "" H 10750 22900 60  0000 C CNN
-F 3 "" H 10750 22900 60  0000 C CNN
-	1    10750 22900
-	1    0    0    -1  
-$EndComp
-Text Label 10250 22650 2    60   ~ 0
+Text Label 11100 26100 0    60   ~ 0
 GND
 Wire Wire Line
-	10400 22650 10250 22650
+	10000 26100 10150 26100
 Wire Wire Line
-	10250 22750 10400 22750
+	10150 26200 10000 26200
 Wire Wire Line
-	10400 22850 10250 22850
+	10000 26300 10150 26300
 Wire Wire Line
-	10250 22950 10400 22950
+	10150 26400 10000 26400
 Wire Wire Line
-	10400 23050 10250 23050
-Wire Wire Line
-	10250 23150 10400 23150
-Text Notes 9250 22750 0    60   ~ 0
+	10000 26500 10150 26500
+Text Notes 9000 26100 0    60   ~ 0
 P11_2 I/O
-Text Notes 9250 22850 0    60   ~ 0
+Text Notes 9000 26200 0    60   ~ 0
 P11_3 I/O
-Text Notes 9250 22950 0    60   ~ 0
+Text Notes 9000 26300 0    60   ~ 0
 P11_4 I/O
-Text Notes 9250 23050 0    60   ~ 0
+Text Notes 9000 26400 0    60   ~ 0
 P11_5 I/O
-Text Notes 9250 23150 0    60   ~ 0
+Text Notes 9000 26500 0    60   ~ 0
 P11_6 I/O
 Text Notes 7050 22500 0    60   ~ 0
 P11_2 I/O
@@ -11710,28 +11669,6 @@ CPLD_P37
 Wire Wire Line
 	4900 24800 4750 24800
 $Comp
-L R R20
-U 1 1 55C77F2C
-P 6000 15050
-F 0 "R20" V 6080 15050 50  0000 C CNN
-F 1 "10k" V 6000 15050 50  0000 C CNN
-F 2 "" H 6000 15050 60  0001 C CNN
-F 3 "" H 6000 15050 60  0001 C CNN
-	1    6000 15050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6000 14600 6000 14800
-Connection ~ 6000 14600
-Text Label 6200 15250 0    60   ~ 0
-V5.0
-Wire Wire Line
-	6200 15250 6200 15400
-Wire Wire Line
-	6200 15400 6000 15400
-Wire Wire Line
-	6000 15400 6000 15300
-$Comp
 L CONN_2 P10
 U 1 1 55C78CFA
 P 5900 18000
@@ -11801,26 +11738,6 @@ Wire Wire Line
 	6850 26600 7150 26600
 Wire Wire Line
 	7150 26700 6850 26700
-$Comp
-L CONN_3X2 P6
-U 1 1 55C81807
-P 3950 31100
-F 0 "P6" H 3950 31350 50  0000 C CNN
-F 1 "MASTER_OSC" H 3950 30950 40  0000 C CNN
-F 2 "~" H 3950 31100 60  0000 C CNN
-F 3 "~" H 3950 31100 60  0000 C CNN
-	1    3950 31100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 31150 4350 31150
-Connection ~ 4450 31050
-Text Label 3300 31300 2    60   ~ 0
-CPLD_CLKout2
-Wire Wire Line
-	3550 31150 3550 31300
-Wire Wire Line
-	3550 31300 3300 31300
 Text Label 3400 30850 0    60   ~ 0
 CLK_OSC
 Wire Wire Line
@@ -11958,10 +11875,6 @@ Text Notes 7100 21400 0    60   ~ 0
 Partial latch2 to U22 latch - output
 Wire Wire Line
 	16350 20050 16350 20400
-Wire Notes Line
-	16150 20900 22200 20900
-Wire Notes Line
-	22200 20900 22200 19300
 Text Label 19800 19650 0    60   ~ 0
 PU5K-C
 Wire Wire Line
@@ -12041,16 +11954,14 @@ Wire Wire Line
 	6400 22200 8000 22200
 Text Label 20500 27550 0    60   ~ 0
 CLK_CPUneg
-Wire Wire Line
-	4450 30700 4650 30700
-Text Label 4650 30700 0    60   ~ 0
+Text Label 4650 30800 0    60   ~ 0
 CPLD_CLKin
 Wire Wire Line
-	18500 21400 18650 21400
+	23400 24150 23550 24150
 Wire Wire Line
-	18650 21400 18650 21600
+	23550 24150 23550 24350
 Wire Wire Line
-	17450 21400 17600 21400
+	22350 24150 22500 24150
 Text Label 4750 23900 2    60   ~ 0
 CPLD_P34
 Text Label 4750 24000 2    60   ~ 0
@@ -12125,4 +12036,143 @@ Wire Wire Line
 	10350 10450 10500 10450
 Wire Wire Line
 	10500 10450 10500 10400
+Text Label 4700 21500 2    60   ~ 0
+CPLD_CLKout1
+Wire Wire Line
+	4900 21500 4700 21500
+Text Notes 15950 23250 0    60   ~ 0
+(aka RD+)
+Text Label 6600 23700 0    60   ~ 0
+CPLD_P52
+Text Label 6850 26100 2    60   ~ 0
+CPLD_P57
+Text Label 6850 26200 2    60   ~ 0
+CPLD_P53
+Text Notes 7100 24300 0    60   ~ 0
+D7 input
+Text Label 6600 24300 0    60   ~ 0
+CPLD_P57
+Text Label 6600 24400 0    60   ~ 0
+CPLD_P53
+Wire Wire Line
+	6600 24300 6400 24300
+Wire Wire Line
+	6400 24400 6600 24400
+Text Notes 7100 24400 0    60   ~ 0
+D6 input
+Text Notes 5850 26100 0    60   ~ 0
+D7 input
+Text Notes 5850 26200 0    60   ~ 0
+D6 input
+Text Label 6600 24700 0    60   ~ 0
+CPLD_P56
+Wire Wire Line
+	6600 24700 6400 24700
+Text Label 6850 26300 2    60   ~ 0
+CPLD_P56
+Text Notes 5850 26300 0    60   ~ 0
+D5 input
+Text Notes 7100 24700 0    60   ~ 0
+D5 input
+Text Label 4750 24900 2    60   ~ 0
+CPLD_P45
+Wire Wire Line
+	4900 24900 4750 24900
+Text Notes 3850 24900 0    60   ~ 0
+D4 input
+Text Label 6850 26400 2    60   ~ 0
+CPLD_P45
+Text Notes 5850 26400 0    60   ~ 0
+D4 input
+Text Label 7150 26400 0    60   ~ 0
+D4
+Wire Wire Line
+	6850 26400 7150 26400
+Text Label 7150 26100 0    60   ~ 0
+D7
+Text Label 7150 26200 0    60   ~ 0
+D6
+Text Label 7150 26300 0    60   ~ 0
+D5
+Wire Wire Line
+	7150 26100 6850 26100
+Wire Wire Line
+	6850 26200 7150 26200
+Wire Wire Line
+	7150 26300 6850 26300
+Text Notes 18350 19300 0    60   ~ 12
+Board Reset Logic
+Text Notes 3600 14100 0    60   ~ 0
+Port D0
+Text Notes 3600 14300 0    60   ~ 0
+Port D1
+Text Notes 3600 14500 0    60   ~ 0
+Port D2
+Text Notes 3600 14700 0    60   ~ 0
+Port D3
+Wire Notes Line
+	4100 14050 4000 14050
+Wire Notes Line
+	4100 14250 4000 14250
+Wire Notes Line
+	4100 14450 4000 14450
+Wire Notes Line
+	4100 14650 4000 14650
+$Comp
+L CONN_5X2 P11
+U 1 1 567D0379
+P 10550 26300
+F 0 "P11" H 10550 26600 60  0000 C CNN
+F 1 "CONN_5X2" V 10550 26300 50  0000 C CNN
+F 2 "" H 10550 26300 60  0000 C CNN
+F 3 "" H 10550 26300 60  0000 C CNN
+	1    10550 26300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2X2 P6
+U 1 1 567D03C6
+P 3950 31000
+F 0 "P6" H 3950 31150 50  0000 C CNN
+F 1 "CLK SEL" H 3960 30870 40  0000 C CNN
+F 2 "" H 3950 31000 60  0000 C CNN
+F 3 "" H 3950 31000 60  0000 C CNN
+	1    3950 31000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 30800 4650 31050
+Wire Wire Line
+	4650 31050 4350 31050
+Wire Wire Line
+	4350 30950 4450 30950
+Wire Wire Line
+	4450 30950 4450 31050
+Connection ~ 4450 31050
+Text Label 11100 26500 0    60   ~ 0
+V5.0
+Wire Wire Line
+	10950 26100 11100 26100
+Wire Wire Line
+	11100 26200 10950 26200
+Wire Wire Line
+	10950 26300 11100 26300
+Wire Wire Line
+	11100 26400 10950 26400
+Wire Wire Line
+	10950 26500 11100 26500
+Text Label 37000 19800 2    60   ~ 0
+PU1K-waits
+Wire Wire Line
+	37200 19800 37000 19800
+Wire Wire Line
+	28500 26050 22150 26050
+Wire Wire Line
+	30650 26050 30150 26050
+Text Label 30150 26050 2    60   ~ 0
+CPLD_CLKout2
+Text Label 4700 21600 2    60   ~ 0
+CPLD_CLKout2
+Wire Wire Line
+	4900 21600 4700 21600
 $EndSCHEMATC

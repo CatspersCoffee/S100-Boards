@@ -155,7 +155,7 @@ $Descr A0 46811 33110
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "7 jan 2016"
+Date "9 jan 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -3045,38 +3045,6 @@ F 3 "" H 34400 22000 60  0001 C CNN
 	1    34400 22000
 	1    0    0    -1  
 $EndComp
-Text Label 30600 26550 3    60   ~ 0
-A0
-Text Label 30700 26550 3    60   ~ 0
-A1
-Text Label 30800 26550 3    60   ~ 0
-A2
-Text Label 30900 26550 3    60   ~ 0
-A3
-Text Label 31000 26550 3    60   ~ 0
-A4
-Text Label 31100 26550 3    60   ~ 0
-A5
-Text Label 31200 26550 3    60   ~ 0
-A6
-Text Label 31300 26550 3    60   ~ 0
-A7
-Text Label 31400 26550 3    60   ~ 0
-A8
-Text Label 31500 26550 3    60   ~ 0
-A9
-Text Label 28900 26550 3    60   ~ 0
-A10
-Text Label 29000 26550 3    60   ~ 0
-A11
-Text Label 29100 26550 3    60   ~ 0
-A12
-Text Label 29200 26550 3    60   ~ 0
-A13
-Text Label 29300 26550 3    60   ~ 0
-A14
-Text Label 27350 26550 3    60   ~ 0
-A15
 Text Label 33200 22350 0    60   ~ 0
 GND
 $Comp
@@ -3268,22 +3236,6 @@ Text Label 26250 20850 2    60   ~ 0
 DBUSIN_EN
 Text Label 26250 20750 2    60   ~ 0
 DBUSOUT_EN
-Text Label 27650 26550 3    60   ~ 0
-A18
-Text Label 27550 26550 3    60   ~ 0
-A17
-Text Label 27450 26550 3    60   ~ 0
-A16
-Text Label 27750 26550 3    60   ~ 0
-A19
-Text Label 27850 26550 3    60   ~ 0
-A20
-Text Label 27950 26550 3    60   ~ 0
-A21
-Text Label 28050 26550 3    60   ~ 0
-A22
-Text Label 33150 24350 0    60   ~ 0
-A23
 Wire Wire Line
 	27450 26550 27450 26350
 Text Label 26400 23050 2    60   ~ 0
@@ -6620,4 +6572,52 @@ Wire Wire Line
 	33300 25700 32950 25700
 Wire Wire Line
 	32950 25800 33300 25800
+Text Label 27550 26550 3    60   ~ 0
+A17b
+Text Label 27450 26550 3    60   ~ 0
+A16b
+Text Label 27650 26550 3    60   ~ 0
+A18b
+Text Label 28900 26550 3    60   ~ 0
+A10b
+Text Label 31500 26550 3    60   ~ 0
+A9b
+Text Label 29100 26550 3    60   ~ 0
+A12b
+Text Label 27350 26550 3    60   ~ 0
+A15b
+Text Label 30900 26550 3    60   ~ 0
+A3b
+Text Label 31000 26550 3    60   ~ 0
+A4b
+Text Label 31100 26550 3    60   ~ 0
+A5b
+Text Label 29000 26550 3    60   ~ 0
+A11b
+Text Label 29300 26550 3    60   ~ 0
+A14b
+Text Label 29200 26550 3    60   ~ 0
+A13b
+Text Label 31400 26550 3    60   ~ 0
+A8b
+Text Label 31300 26550 3    60   ~ 0
+A7b
+Text Label 31200 26550 3    60   ~ 0
+A6b
+Text Label 30800 26550 3    60   ~ 0
+A2b
+Text Label 30700 26550 3    60   ~ 0
+A1b
+Text Label 30600 26550 3    60   ~ 0
+A0b
+Text Label 27750 26550 3    60   ~ 0
+A19b
+Text Label 27850 26550 3    60   ~ 0
+A20b
+Text Label 27950 26550 3    60   ~ 0
+A21b
+Text Label 28050 26550 3    60   ~ 0
+A22b
+Text Label 33150 24350 0    60   ~ 0
+A23b
 $EndSCHEMATC

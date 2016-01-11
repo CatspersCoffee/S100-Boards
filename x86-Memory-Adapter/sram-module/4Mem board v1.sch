@@ -152,6 +152,7 @@ LIBS:video
 LIBS:xxx
 LIBS:numato_kicad_lib
 LIBS:ANTS_MOD1
+LIBS:xc6slx45-2fgg484c
 LIBS:4Mem board v1-cache
 EELAYER 27 0
 EELAYER END
@@ -159,7 +160,7 @@ $Descr D 34000 22000
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "29 apr 2015"
+Date "11 jan 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2119,6 +2120,17 @@ F 1 "XC9536XL-VQ44" H 20100 16800 60  0000 C CNN
 F 2 "~" H 20100 16800 60  0000 C CNN
 F 3 "~" H 20100 16800 60  0000 C CNN
 	1    20100 16800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SRAM_512KB U?
+U 1 1 56937325
+P 12800 -2650
+F 0 "U?" H 12800 -2550 60  0000 C CNN
+F 1 "SRAM_512KB" H 12850 -3450 60  0000 C CNN
+F 2 "~" H 12800 -2650 60  0000 C CNN
+F 3 "~" H 12800 -2650 60  0000 C CNN
+	1    12800 -2650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

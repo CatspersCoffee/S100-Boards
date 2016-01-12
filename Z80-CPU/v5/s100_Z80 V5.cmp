@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/25/2015 9:54:45 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/8/2016 10:55:46 PM
 
 BeginCmp
 TimeStamp = /4A074934;
@@ -428,15 +428,8 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /55C7A1AA;
-Reference = P9;
-ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /55C78CFA;
-Reference = P10;
+TimeStamp = /568F8754;
+Reference = P8;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
@@ -516,6 +509,13 @@ TimeStamp = /53C70DB3;
 Reference = R4;
 ValeurCmp = 330;
 IdModule  = ^^SMD_Resistor-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /568F92BE;
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
@@ -799,10 +799,10 @@ IdModule  = DIP-20__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /558E8982;
+TimeStamp = /568F84BD;
 Reference = U13;
-ValeurCmp = 2732;
-IdModule  = ^^DIL24-6;
+ValeurCmp = 2764;
+IdModule  = DIP-28__600_ELL;
 EndCmp
 
 BeginCmp

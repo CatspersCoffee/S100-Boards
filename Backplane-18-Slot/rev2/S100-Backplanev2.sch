@@ -125,10 +125,10 @@ EELAYER END
 $Descr A0 46811 33110
 encoding utf-8
 Sheet 1 1
-Title "S-100 Backplance 18 Slot AT & ATX PSU sub board"
+Title "S-100 Backplance 18-Slot"
 Date "26 oct 2015"
-Rev ""
-Comp ""
+Rev "2.00"
+Comp "Drawn By: A Burrows"
 Comment1 ""
 Comment2 ""
 Comment3 ""

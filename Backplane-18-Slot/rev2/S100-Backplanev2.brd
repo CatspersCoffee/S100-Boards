@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 10/5/2016 9:08:07 PM
+PCBNEW-BOARD Version 2 date 12/11/2016 3:28:17 PM
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -21,14 +21,14 @@ $EndGENERAL
 
 $SHEETDESCR
 Sheet A2 23386 16535
-Title "S-100 Backplane 18 Slot & ATX PSU board"
-Date "5 oct 2016"
+Title "S-100 Backplane 18 Slot REV 2"
+Date "11 dec 2016"
 Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Drawn By: A Burrows"
 $EndSHEETDESCR
 
 $SETUP
@@ -70,7 +70,7 @@ Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements 7FFFFFFF
-PcbPlotParams (pcbplotparams (layerselection 32768) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory Gerbers/))
+PcbPlotParams (pcbplotparams (layerselection 32768) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory svg/))
 $EndSETUP
 
 $EQUIPOT
@@ -158184,13 +158184,13 @@ De 15 0 74 0 0
 Po 0 138.4554 123.546 155.1561 123.546 0.4318 -1
 De 15 0 74 0 0
 Po 0 155.1565 123.546 156.33192 124.72142 0.4318 -1
-De 15 0 74 57F4AAC3 800000
+De 15 0 74 57F4AAC3 0
 Po 0 159.345 123.583 158.9158 123.583 0.4318 -1
 De 15 0 74 0 0
 Po 0 158.9158 123.583 157.77738 124.72142 0.4318 -1
 De 15 0 74 57F4AAB5 0
 Po 0 157.77738 124.72142 156.33192 124.72142 0.4318 -1
-De 15 0 74 57F4AAB6 800000
+De 15 0 74 57F4AAB6 0
 Po 0 175.3819 124.7209 174.244 123.583 0.4318 -1
 De 15 0 74 0 0
 Po 0 159.345 123.583 174.244 123.583 0.4318 -1

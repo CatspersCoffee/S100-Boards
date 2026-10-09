@@ -1,0 +1,35 @@
+Third-party origins and credits
+===============================
+
+The licenses in LICENSE apply only to the original work of Antony Burrows.
+The designs below are derived from, or contain parts of, other people's
+work. Those parts remain the property of their authors and are NOT
+relicensed by this repository. They are shared here, with credit, as a
+non-commercial hobby archive.
+
+John Monahan, S100Computers.com (http://www.s100computers.com)
+  80386-CPU/          Mostly John Monahan's "S-100 80386 CPU Board" V3;
+                      small V3.1 changes by Antony Burrows. Full credit to him.
+  Z80-CPU/            All revisions descend from his S-100 Z80 CPU Board V2
+                      KiCad files.
+  SRAM-8MB/rev1/      Bus interface logic follows his S-100 16MB SRAM board.
+  x86-Memory-Adapter/ The P5/P6 interface and starting files come from his
+                      80386 SRAM board (V6).
+  SX6-MEM/            Daughterboard header signal names follow his 80386
+                      SRAM daughterboard.
+
+Andrew Lynch and the N8VEM project
+  Z80-FPGA-SBC/       The schematic started from the N8VEM SBC V2.
+  Flash-UART/         The UART section follows the N8VEM ECB SBC V2.
+  Backplane-18-Slot/  Rev 1.0 started from the N8VEM S-100 backplane (V02).
+  (various)           KiCad symbols and footprints from the N8VEM KiCad
+                      libraries, including the S-100 edge connector.
+
+Godbout Electronics / CompuPro
+  Backplane-18-Slot/, Bus-Terminator/
+                      The active bus termination circuit follows the
+                      CompuPro (Godbout) S-100 Active Terminator.
+
+Not included: original third-party KiCad projects, manuals, datasheets and
+software (for example S100Computers monitor and PIC/RTC programs) that were
+kept alongside these projects for reference.

@@ -1,0 +1,12 @@
+S100-Boards is distributed under more than one license.
+
+  Board designs (KiCad files, gerbers, BOMs)   CERN-OHL-S-2.0   see LICENSES/CERN-OHL-S-2.0.txt
+  CPLD/FPGA designs (ISE schematics, UCF, JED) CERN-OHL-S-2.0   see LICENSES/CERN-OHL-S-2.0.txt
+  Documentation and images (README files,      CC-BY-4.0        https://creativecommons.org/licenses/by/4.0/
+  */images/)
+
+These licenses cover the original work of the author only. Several boards
+started from, or include parts of, designs by other people; see NOTICE.
+Their authors' rights are not relicensed here.
+
+Copyright (C) 2013-2016 Antony Burrows

@@ -1,0 +1,16 @@
+# KiCad and ISE working files
+*.bak
+*-bak
+*.kicad_prl
+_autosave-*
+*.lck
+fp-info-cache
+*.dsn
+*.ses
+\$savepcb.*
+# Xilinx ISE build output
+_xmsgs/
+_ngo/
+xst/
+iseconfig/
+*.gise
